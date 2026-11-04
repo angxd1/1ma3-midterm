@@ -153,6 +153,61 @@ for (const q of mcqs) {
   q.siblings = [pool[i >= 0 ? i : 0], pool[(i >= 0 ? i : 0) + 1]].filter(Boolean).map((o) => o!.id);
 }
 
+/* ---------------- explanation enrichment ----------------
+ * Hand-written option explanations are often terse ("No.", "Correct.", "Listed.").
+ * Expand them using definitions that already exist in the slide-grounded concept
+ * data, so every option says WHY it is right or wrong. Nothing new is invented:
+ * text comes from concept key terms / explanations and the options themselves.
+ */
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const firstSentence = (s: string) => (s.match(/^.*?[.!?](\s|$)/)?.[0] ?? s).trim();
+interface TermRef { name: string; key: string; def: string; conceptId: string }
+const termIndex: TermRef[] = [];
+for (const c of concepts) {
+  for (const t of c.terms) termIndex.push({ name: t.term, key: norm(t.term.replace(/\(.*?\)/g, '')), def: t.def, conceptId: c.id });
+}
+const findTerm = (text: string): TermRef | undefined => {
+  const o = norm(text.replace(/^[^a-z0-9]+/i, ''));
+  if (o.length < 4) return undefined;
+  let best: TermRef | undefined;
+  for (const t of termIndex) {
+    if (t.key.length < 4) continue;
+    const hit = o === t.key || (t.key.length >= 5 && ` ${o} `.includes(` ${t.key} `)) || (o.length >= 5 && ` ${t.key} `.includes(` ${o} `));
+    if (hit && (!best || t.key.length > best.key.length)) best = t;
+  }
+  return best;
+};
+const isTerse = (e: string) => e.replace(/[^a-z]/gi, '').length < 14 || /^(no|correct|unrelated|not stated|not the issue|the opposite|too narrow)\.?$/i.test(e.trim());
+const LISTED = /^(listed|reason|valid|part|criterion|component|source|step|role|benefit|v|assessed|recommended|true|correct statement|macro|micro|qualitative|quantitative)\.?/i;
+let enriched = 0;
+for (const q of mcqs) {
+  const negative = /\b(not|except|least)\b/i.test(q.q);
+  const primary = conceptById(q.concepts[0]);
+  const correctText = q.options[q.answer];
+  const correctTerm = findTerm(correctText);
+  const why = correctTerm ? `${correctTerm.name}: ${correctTerm.def}` : primary ? firstSentence(primary.explain) : '';
+  q.explanations = q.explanations.map((e, i) => {
+    if (!isTerse(e)) return e;
+    enriched++;
+    const opt = q.options[i];
+    const base = e.trim().replace(/\.$/, '');
+    if (i === q.answer) {
+      if (negative) return `Correct — "${opt}" is the one that doesn't belong.${why ? ` ${why}` : ''}`;
+      return `Correct — ${why || `"${opt}" matches what's described.`}`;
+    }
+    const label = /^(no|unrelated|not stated|not the issue)$/i.test(base) ? '' : ` (${base})`;
+    if (negative && LISTED.test(e.trim())) return `"${opt}" is genuinely part of this concept in the slides, so it isn't the exception.`;
+    if (negative && /^(no|the opposite|unrelated)$/i.test(base)) return `Not this — "${opt}" is not the exception the question asks for. The answer is "${correctText}".`;
+    if (negative) return `"${opt}" does belong here${label}, so it isn't the exception.`;
+    const t = findTerm(opt);
+    if (t && t.key !== correctTerm?.key) return `Not this${label} — "${opt}" refers to ${t.name.toLowerCase()}: ${t.def}`;
+    return `Not this${label} — "${opt}" doesn't match what the question describes. The answer is "${correctText}".`;
+  });
+}
+function conceptById(id: string | undefined) {
+  return concepts.find((c) => c.id === id);
+}
+
 /* ---------------- validation ---------------- */
 const conceptIds = new Set(concepts.map((c) => c.id));
 const seen = new Set<string>();
@@ -215,6 +270,7 @@ const bundle: ContentBundle = {
 };
 
 const count = (k: McqKind) => mcqs.filter((q) => q.kind === k).length;
+console.log(`enriched ${enriched} terse explanations`);
 console.log(
   `concepts ${concepts.length} | recall ${count('recall')} | practice ${practiceTotal} | example ${count('example')} | ` +
   `official ${count('official')} | confusable ${count('confusable')} | short ${shortAnswers.length} | matching ${matching.length} | fill ${fillBlanks.length}`,
