@@ -1,0 +1,652 @@
+chapter: 4
+title: Consumer Behaviour
+concepts:
+  - id: ch4-decision-process
+    title: The consumer decision process
+    src: "Ch. 4 slides, slide 4"
+    explain: >-
+      The consumer decision process is the series of steps consumers go through before, during and after a purchase:
+      (1) need recognition, (2) information search, (3) alternative evaluation, (4) purchase decision, and
+      (5) postpurchase. Marketers break buying into these steps because it is hard to see how consumers decide as a whole;
+      studying each step separately shows where marketing can influence the outcome.
+    alt: >-
+      Think of it like planning a trip: you realise you need a break (need), look up destinations (search), compare a
+      few options (evaluate), book one (purchase), then decide whether the trip was worth it (postpurchase).
+    terms:
+      Consumer decision process: "The steps consumers go through before, during and after making purchases."
+    example: "Illustrative (from slides): a meal-kit service like HelloFresh responds to a need busy households recognise — a good dinner without the shopping and prep."
+    recall:
+      - q: "Which step comes immediately after need recognition in the consumer decision process?"
+        o: ["Alternative evaluation", "Information search", "Purchase decision", "Postpurchase"]
+        a: B
+        e: ["Evaluation comes after searching for information.", "Correct — after recognising a need, consumers search for information.", "The purchase decision is step 4.", "Postpurchase is the final step."]
+      - q: "What is the final step of the consumer decision process?"
+        o: ["Purchase decision", "Alternative evaluation", "Postpurchase", "Need recognition"]
+        a: C
+        e: ["Purchase is step 4, not the last step.", "Evaluation is step 3.", "Correct — postpurchase is step 5.", "Need recognition is the first step."]
+    practice:
+      - q: "Which ordering of the consumer decision process is correct?"
+        o: ["Information search → need recognition → purchase → alternative evaluation → postpurchase", "Need recognition → information search → alternative evaluation → purchase decision → postpurchase", "Need recognition → alternative evaluation → information search → postpurchase → purchase decision", "Alternative evaluation → need recognition → information search → purchase decision → postpurchase"]
+        a: B
+        e: ["Search cannot come before a need is recognised.", "Correct — this is the five-step sequence from the slides.", "Search precedes evaluation, and purchase precedes postpurchase.", "Evaluation cannot happen before the need and search."]
+      - q: "Why do marketers break consumer decision making into separate steps?"
+        o: ["Because consumers always complete every step in exactly the same amount of time", "Because it is difficult to see how consumers decide, so examining each step separately is useful", "Because law requires firms to document each step", "Because only the purchase step matters to marketers"]
+        a: B
+        e: ["The time spent varies a lot (e.g., by involvement).", "Correct — the notes say determining how consumers decide is difficult, so the process is broken into steps.", "No legal requirement is mentioned.", "Marketers care about every step, especially postpurchase."]
+      - q: "Amira notices her phone battery dies by noon, reads reviews of three phones, compares them on battery life and price, buys one, then tells friends whether she's happy with it. Telling friends happens in which step?"
+        t: app
+        o: ["Information search", "Purchase decision", "Alternative evaluation", "Postpurchase"]
+        a: D
+        e: ["She searched when she read reviews.", "Buying the phone is the purchase step.", "Comparing on battery and price is evaluation.", "Correct — sharing her experience after buying is postpurchase behaviour."]
+      - q: "Which statement about the consumer decision process is accurate?"
+        o: ["Alternative evaluation often happens while consumers are still searching for information", "The process ends at the purchase decision", "Need recognition happens after alternative evaluation", "Postpurchase behaviour is not of interest to marketers"]
+        a: A
+        e: ["Correct — the notes say evaluation often occurs during the information search.", "Postpurchase follows the purchase.", "Need recognition is always first.", "Marketers are particularly interested in postpurchase because it involves actual customers."]
+      - q: "A marketer wants to influence consumers at the very beginning of the decision process. Which tactic fits that step?"
+        t: app
+        o: ["Sending a follow-up thank-you email after the sale", "Running a campaign that reminds people of an unmet need", "Offering several checkout payment options", "Providing a money-back guarantee"]
+        a: B
+        e: ["That supports postpurchase satisfaction.", "Correct — reminding consumers of a need targets need recognition, the first step.", "Payment options reduce friction at the purchase step.", "Guarantees reduce risk during search/postpurchase."]
+
+  - id: ch4-need-recognition
+    title: Need recognition (functional vs psychological needs)
+    src: "Ch. 4 slides, slide 5"
+    explain: >-
+      Need recognition starts when a consumer notices a gap between their current state and a desired state (e.g., hungry →
+      wanting food). Needs can be functional — about the performance or utility of a product — or psychological — about
+      personal gratification such as status, emotions or self-image. Most products satisfy both, but one usually dominates.
+      Marketers trigger needs through reminders, awareness campaigns, image appeals and product placement.
+    alt: >-
+      A functional need asks "Will it do the job?"; a psychological need asks "How will it make me feel or look?" Plain bleach
+      cleans clothes (functional); insisting on a particular brand because it feels better is psychological.
+    terms:
+      Need recognition: "Noticing a gap between your current state and a desired state."
+      Functional needs: "Needs that pertain to the performance or utility of a product or service."
+      Psychological needs: "Needs that pertain to personal gratification — status, emotions, self-image."
+    example: "Illustrative (from slides): a Dior Minaudière clutch can satisfy a functional need (carrying items) but mostly satisfies psychological needs like prestige."
+    recall:
+      - q: "Need recognition begins when a consumer notices a gap between:"
+        o: ["Price and quality", "Their current state and a desired state", "Two competing brands", "Internal and external information"]
+        a: B
+        e: ["Price–quality relates to value, not need recognition.", "Correct — the gap between current and desired state triggers need recognition.", "Comparing brands is alternative evaluation.", "Internal/external refers to information search."]
+      - q: "A need related to the personal gratification a product provides is a:"
+        o: ["Functional need", "Psychological need", "Physiological risk", "Determinant attribute"]
+        a: B
+        e: ["Functional needs concern performance.", "Correct — psychological needs pertain to personal gratification.", "Physiological risk is fear of physical harm.", "Determinant attributes help compare brands."]
+    practice:
+      - q: "Sam buys hiking boots mainly because they are waterproof and give ankle support. Sam is primarily satisfying a:"
+        t: app
+        o: ["Psychological need", "Functional need", "Social risk", "Temporal state"]
+        a: B
+        e: ["Nothing suggests status or image is the driver.", "Correct — waterproofing and support are about performance.", "Social risk is a fear of others' disapproval.", "Temporal state is a situational factor (time/mood)."]
+      - q: "Which statement about functional and psychological needs is supported by the slides?"
+        o: ["Products satisfy either a functional or a psychological need, never both", "Most products satisfy both, though one type often dominates", "Psychological needs only apply to luxury goods", "Functional needs cannot be triggered by marketing"]
+        a: B
+        e: ["The slides say most products satisfy both.", "Correct — most products satisfy both, but one often dominates.", "Even basic items like bleach can carry psychological needs.", "Marketers trigger needs through reminders and campaigns."]
+      - q: "Jordan pays extra for a designer watch to signal success to colleagues, even though a cheap watch tells time just as well. This mainly reflects:"
+        t: app
+        o: ["A functional need", "A psychological need", "Limited problem solving", "An external locus of control"]
+        a: B
+        e: ["Telling time is the functional part; that's not why he paid extra.", "Correct — signalling status is personal gratification.", "Problem-solving type isn't the focus here.", "Locus of control relates to search effort."]
+      - q: "Which is NOT listed as a way marketers trigger need recognition?"
+        o: ["Reminders", "Awareness campaigns", "Strategic product placement", "Postpurchase warranties"]
+        a: D
+        e: ["Reminders are listed.", "Awareness campaigns are listed.", "Product placement is listed.", "Correct — warranties support postpurchase satisfaction, not need recognition."]
+      - q: "A sports-drink ad shows exhausted athletes and asks 'Running on empty?' The ad is trying to:"
+        t: app
+        o: ["Reduce postpurchase dissonance", "Trigger need recognition", "Move the brand into the evoked set by price cues", "Create a dissociative reference group"]
+        a: B
+        e: ["Dissonance occurs after purchase.", "Correct — it highlights a gap between current (tired) and desired (energised) state.", "There is no price cue.", "Dissociative groups are groups people avoid."]
+
+  - id: ch4-info-search
+    title: Information search (internal vs external)
+    src: "Ch. 4 slides, slide 6"
+    explain: >-
+      After recognising a need, consumers search for information to evaluate options and reduce uncertainty. An internal search
+      uses the buyer's own memory and past experiences. An external search looks outside personal knowledge — friends, reviews,
+      influencers and online sources. Search effort rises with the importance, cost or perceived risk of the purchase (a car
+      versus a small everyday item). Marketers support search with information, reviews, guarantees and risk-reducing signals.
+    alt: >-
+      Internal search is checking your own "mental notes"; external search is asking the world. Remembering that your last
+      pair of Nikes lasted two years is internal; reading Reddit threads about running shoes is external.
+    terms:
+      Internal search for information: "The buyer examines their own memory and knowledge about the product or service."
+      External search for information: "The buyer seeks information outside their personal knowledge base (friends, reviews, online)."
+    example: "Illustrative (from slides): consumers see an outfit on a celebrity, then look it up on social media and search engines to decide where to buy it."
+    recall:
+      - q: "Searching your own memory and past experience for product information is:"
+        o: ["External search", "Internal search", "Alternative evaluation", "Need recognition"]
+        a: B
+        e: ["External search looks outside personal knowledge.", "Correct — internal search uses memory and past experience.", "Evaluation compares options after/during search.", "Need recognition comes before search."]
+      - q: "Search effort generally increases when a purchase is:"
+        o: ["Cheap and routine", "Important, costly or risky", "Habitual", "An impulse buy"]
+        a: B
+        e: ["Cheap, routine items need little search.", "Correct — importance, cost and perceived risk increase search.", "Habitual purchases need almost no search.", "Impulse buys involve little thought."]
+    practice:
+      - q: "You need a laptop for exams. You recall your old laptop's problems, ask friends, then search online. This is (from the practice set wording):"
+        t: app
+        o: ["Internal search only", "External search only", "Both internal and external search", "Alternative evaluation only"]
+        a: C
+        e: ["Asking friends and searching online are external.", "Recalling past experience is internal.", "Correct — memory (internal) plus friends and online (external).", "Search is happening here, not just evaluation."]
+      - q: "Which is an example of external information search?"
+        o: ["Remembering which pizza place was good last time", "Reading online reviews of a restaurant", "Recalling a brand's jingle", "Relying on your own past experience with a product"]
+        a: B
+        e: ["Memory = internal.", "Correct — reviews are an outside source.", "Recall is internal.", "Past experience is internal."]
+      - q: "Why does a consumer spend more time searching for a car than for gum?"
+        o: ["Cars have fewer brands", "Cars are higher in cost and perceived risk", "Gum is always a psychological need", "Search effort is the same for all products"]
+        a: B
+        e: ["The number of brands isn't the reason given.", "Correct — search effort rises with importance, cost and perceived risk.", "Gum's need type doesn't explain search effort.", "Search effort varies by purchase."]
+      - q: "A mattress brand offers a 100-night trial and posts thousands of verified reviews. At the information-search step this mainly:"
+        t: app
+        o: ["Builds trust by reducing uncertainty and risk", "Triggers need recognition", "Creates postpurchase dissonance", "Moves the purchase into habitual decision making"]
+        a: A
+        e: ["Correct — reviews and guarantees are risk-reducing signals that support search.", "The need already exists at this step.", "These tactics reduce, not create, dissonance.", "A mattress is not a habitual purchase."]
+      - q: "The main purpose of information search is to:"
+        o: ["Evaluate options and reduce uncertainty", "Create a new need", "Reduce the number of payment options", "Generate negative word-of-mouth"]
+        a: A
+        e: ["Correct — consumers search to evaluate options and reduce uncertainty.", "Needs come before search.", "Unrelated to search.", "Unrelated to search."]
+
+  - id: ch4-search-factors
+    title: Factors affecting search — benefits vs costs, locus of control
+    src: "Ch. 4 slides, slide 7"
+    explain: >-
+      How much consumers search depends on several factors. First, the perceived benefits of making a good decision versus
+      the perceived costs of searching (is it worth the time and effort?). Second, locus of control: people with an internal
+      locus of control believe they are in charge of their own outcomes, so they spend significantly more time and effort
+      searching; people with an external locus of control believe fate or a higher power decides, so they search less. A third
+      factor — perceived risk — is covered separately.
+    alt: >-
+      Internal locus = "If I do my homework, I'll get the best deal." External locus = "Whatever happens, happens." The first
+      person shops around; the second buys the first decent option.
+    terms:
+      Perceived benefits vs perceived costs of search: "Whether the benefit of a good decision is worth the time/effort of searching."
+      Internal locus of control: "Belief that you control outcomes — leads to more search effort."
+      External locus of control: "Belief that fate/a higher power controls outcomes — leads to less search effort."
+    example: "Illustrative: a student who compares ten student-bank accounts before choosing one shows an internal locus of control."
+    recall:
+      - q: "Consumers with an internal locus of control tend to:"
+        o: ["Search less because outcomes depend on fate", "Search more because they believe they control outcomes", "Only use internal search", "Avoid all external information"]
+        a: B
+        e: ["That describes an external locus.", "Correct — they believe they are in charge, so they spend more effort searching.", "Locus of control isn't about internal vs external search.", "They actively seek information."]
+      - q: "Which is a factor affecting consumers' search process?"
+        o: ["Perceived benefits versus perceived costs of search", "The firm's product line depth", "The brand's slogan", "Market saturation"]
+        a: A
+        e: ["Correct — listed on the slides.", "Product line depth is Ch 9.", "Slogans are a brand element (Ch 9).", "Saturation is a Ch 8 reason to innovate."]
+    practice:
+      - q: "Brian believes that if he searches extensively and uses the information to negotiate, he will definitely get a better deal on his bike. This is an example of:"
+        t: app
+        o: ["An external locus of control", "Limited problem solving", "An internal locus of control", "A decision heuristic"]
+        a: C
+        e: ["External locus means believing fate decides.", "He is putting in a lot of effort — not limited.", "Correct — he believes his own effort controls the outcome.", "A heuristic is a shortcut; he is doing the opposite."]
+      - q: "Priyanka says, 'Whatever phone I pick, it's luck whether it breaks.' She spends little time comparing. This reflects:"
+        t: app
+        o: ["Internal locus of control", "External locus of control", "High perceived benefits of search", "Extended problem solving"]
+        a: B
+        e: ["Internal locus would lead to more searching.", "Correct — attributing outcomes to luck/fate means less search.", "She sees little benefit in searching.", "Extended problem solving involves heavy research."]
+      - q: "A consumer decides not to compare prices on a $2 pen because the time isn't worth it. Which factor explains this?"
+        t: app
+        o: ["Perceived benefits versus perceived costs of search", "Dissociative reference group", "Compatibility", "Temporal state"]
+        a: A
+        e: ["Correct — the cost of searching outweighs the benefit of a better decision.", "Reference groups aren't involved.", "Compatibility is a diffusion factor (Ch 8).", "Temporal state relates to time pressure/mood at purchase."]
+      - q: "Which pairing is correct?"
+        o: ["External locus — more search", "Internal locus — more search", "Internal locus — relies on fate", "External locus — believes they control outcomes"]
+        a: B
+        e: ["External locus leads to less search.", "Correct.", "Reliance on fate is external locus.", "That describes internal locus."]
+      - q: "Which is NOT one of the factors affecting consumers' search processes covered in the slides?"
+        o: ["Perceived benefits vs perceived costs", "Locus of control", "Actual or perceived risk", "The firm's distribution intensity"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed (risk slide).", "Correct — distribution intensity isn't a search factor on the slides."]
+
+  - id: ch4-perceived-risk
+    title: Perceived risk in purchase decisions
+    src: "Ch. 4 slides, slide 8 (notes)"
+    explain: >-
+      Risk and risk perceptions affect how much consumers search, and can delay or discourage a purchase. Five types:
+      performance risk (the product performs poorly), financial risk (the money spent, including costs of using it),
+      psychological risk (how you'll feel if it doesn't convey the right image), social risk (fear others won't regard the
+      purchase positively), and physiological risk (fear of actual physical harm if it doesn't perform properly).
+    alt: >-
+      Ask five worried questions: Will it work? (performance) Will I waste money? (financial) Will I feel bad about myself?
+      (psychological) Will others judge me? (social) Could it hurt me? (physiological)
+    terms:
+      Performance risk: "Perceived danger that the product or service performs poorly."
+      Financial risk: "Risk tied to the monetary outlay, including initial cost and cost of use."
+      Psychological risk: "Risk about how you'll feel if the product doesn't convey the right image."
+      Social risk: "Fear that others won't regard the purchase positively."
+      Physiological risk: "Fear of actual physical harm if the product doesn't perform properly."
+    example: "Illustrative (from slide notes): choosing a gift for an office grab bag, your mother, or your future mother-in-law involves increasing psychological risk."
+    recall:
+      - q: "Fear that a product could cause physical harm if it fails is:"
+        o: ["Social risk", "Financial risk", "Physiological risk", "Psychological risk"]
+        a: C
+        e: ["Social risk is about others' opinions.", "Financial risk is about money.", "Correct.", "Psychological risk is about self-image/feelings."]
+      - q: "Worrying that friends will think your new jacket looks bad is:"
+        o: ["Social risk", "Performance risk", "Physiological risk", "Financial risk"]
+        a: A
+        e: ["Correct — fear others won't regard the purchase positively.", "Performance is about the product working.", "Physiological is physical harm.", "Financial is about money."]
+    practice:
+      - q: "Which type of risk is LEAST likely to be an influential factor when buying an expensive suit?"
+        o: ["Performance risk", "Financial risk", "Social risk", "Physiological risk"]
+        a: D
+        e: ["A suit could fit or wear poorly.", "It is expensive.", "Others will see and judge it.", "Correct — a suit is unlikely to cause physical harm."]
+      - q: "A buyer hesitates over a $2,000 laptop because the cost includes software subscriptions for years. The main risk is:"
+        t: app
+        o: ["Financial risk", "Social risk", "Physiological risk", "Psychological risk"]
+        a: A
+        e: ["Correct — financial risk includes initial cost and the cost of using the item.", "No concern about others' views.", "No physical harm involved.", "Not about self-image."]
+      - q: "Leila worries a new e-bike's battery might overheat and injure her. Which risk is this?"
+        t: app
+        o: ["Performance risk only", "Physiological risk", "Social risk", "Financial risk"]
+        a: B
+        e: ["Overheating is a performance failure, but the worry is injury.", "Correct — fear of actual physical harm.", "Not about others' opinions.", "Not about the money."]
+      - q: "According to the slides, how does perceived risk relate to search?"
+        o: ["Higher perceived risk generally leads to more search", "Risk has no effect on search", "Higher risk leads to habitual buying", "Risk only matters after purchase"]
+        a: A
+        e: ["Correct — risk plays a crucial role in determining the extent of search.", "The slides say it plays a crucial role.", "Habitual buying is for low-risk items.", "Risk affects search before purchase."]
+      - q: "Buying a gift for your future mother-in-law feels riskier than buying one for an office grab bag. The slide notes say this is mainly an increase in:"
+        t: app
+        o: ["Physiological risk", "Psychological risk", "Financial risk", "Performance risk"]
+        a: B
+        e: ["No physical harm.", "Correct — the notes say these involve increasing degrees of psychological risk.", "The cost may be similar.", "It's about how you'll feel, not product function."]
+
+  - id: ch4-alt-evaluation
+    title: Alternative evaluation — retrieval & evoked sets
+    src: "Ch. 4 slides, slide 11"
+    explain: >-
+      In alternative evaluation consumers compare options, often while still searching. They don't consider every brand: the
+      retrieval set is all the brands they can recall from memory, and the evoked set is the smaller group they seriously
+      consider. Remembering a brand doesn't mean you'll consider it. Evaluations focus on evaluative criteria — important
+      attributes such as price, quality, fit, features and brand reputation. Determinant attributes are features that matter
+      to the buyer and on which competing brands are perceived to differ.
+    alt: >-
+      The retrieval set is every restaurant you can name; the evoked set is the three you'd actually suggest for dinner tonight.
+    terms:
+      Retrieval set: "Brands a consumer can readily bring forth from memory."
+      Evoked set: "The brands a consumer seriously considers when making a purchase decision."
+      Evaluative criteria: "Important attributes used to compare alternative products."
+      Determinant attributes: "Features important to the buyer on which competing brands are perceived to differ."
+    example: "Illustrative (from slides): Macy's is in women's retrieval set for business apparel, but Banana Republic is in the evoked set for young women seeking business apparel."
+    recall:
+      - q: "The group of brands a consumer seriously considers is the:"
+        o: ["Retrieval set", "Evoked set", "Product mix", "Reference group"]
+        a: B
+        e: ["Retrieval = brands recalled from memory.", "Correct.", "Product mix is all products a firm sells.", "Reference groups are people used as benchmarks."]
+      - q: "A set of important attributes used to compare alternative products is called:"
+        o: ["Evaluative criteria", "Decision heuristics", "Psychographics", "Brand associations"]
+        a: A
+        e: ["Correct.", "Heuristics are mental shortcuts.", "Psychographics is a segmentation base.", "Brand associations are mental links to a brand."]
+    practice:
+      - q: "Kai can name ten coffee chains but would only actually go to Tim Hortons or Starbucks. Those two form Kai's:"
+        t: app
+        o: ["Retrieval set", "Evoked set", "Membership group", "Product line"]
+        a: B
+        e: ["The ten recalled chains are the retrieval set.", "Correct — the brands seriously considered.", "Not a reference group.", "Not a firm's product line."]
+      - q: "Which statement reflects the slides' point about retrieval and evoked sets?"
+        o: ["Every brand you remember will be considered", "Remembering a brand doesn't necessarily mean you'll consider it", "The evoked set is always larger than the retrieval set", "Consumers evaluate every possible choice"]
+        a: B
+        e: ["The slides say the opposite.", "Correct.", "The evoked set is the smaller group.", "Consumers usually consider only a small group of familiar brands."]
+      - q: "When buying a TV, Maya cares most about screen size, and the brands differ noticeably on it. Screen size is a:"
+        t: app
+        o: ["Determinant attribute", "Psychological need", "Temporal state", "Brand element"]
+        a: A
+        e: ["Correct — important to her and brands differ on it.", "Not a need type.", "Not a situational factor.", "Brand elements are names, logos, etc."]
+      - q: "Alternative evaluation typically focuses on:"
+        o: ["Important attributes such as price, quality, fit, features and brand reputation", "Only the cheapest option", "The firm's internal R&D", "Census data"]
+        a: A
+        e: ["Correct — these are the evaluative criteria listed.", "Price is one criterion among several.", "R&D is a Ch 8 idea source.", "Census data is secondary research data."]
+      - q: "A new snack brand wants to move from being merely recognised to being seriously considered by shoppers. It is trying to enter consumers':"
+        t: app
+        o: ["Retrieval set", "Evoked set", "Dissociative group", "Product category"]
+        a: B
+        e: ["Being recognised already puts it in the retrieval set.", "Correct — serious consideration = evoked set.", "Dissociative groups are people consumers avoid.", "Product category is a Ch 9 term."]
+
+  - id: ch4-decision-rules
+    title: Compensatory vs non-compensatory decision rules
+    src: "Ch. 4 slides, slide 12"
+    explain: >-
+      Consumer decision rules are criteria consumers use, consciously or not, to choose quickly among alternatives. A
+      compensatory rule trades attributes off against each other, so good characteristics compensate for bad ones — e.g.,
+      weighting mileage, style, price and accessories and picking the highest overall score. A non-compensatory rule chooses on
+      a subset of characteristics regardless of the others — one factor prevails and is non-negotiable (e.g., rejecting a car
+      with great mileage simply because the price is too high).
+    alt: >-
+      Compensatory is a weighted report card — a weak grade in one subject can be offset by strong grades elsewhere.
+      Non-compensatory is a "must pass" rule — fail one required subject and you're out, no matter the rest.
+    terms:
+      Compensatory decision rule: "Consumer trades off characteristics so good ones compensate for bad ones (weighted scores)."
+      Non-compensatory decision rule: "Choice based on a subset of characteristics regardless of others; one factor prevails."
+    example: "Illustrative (from slides): in the weighted car table Toyota scores highest (8.2) overall, but using price alone (non-compensatory) Nissan wins."
+    recall:
+      - q: "A rule where good characteristics can make up for bad ones is:"
+        o: ["Non-compensatory", "Compensatory", "Habitual", "Heuristic"]
+        a: B
+        e: ["Non-compensatory lets one factor prevail.", "Correct.", "Habitual is a buying-decision type.", "Heuristics are shortcuts like price cues."]
+      - q: "In the slides' car example, which brand wins under a non-compensatory rule based on price?"
+        o: ["Toyota", "Honda", "Nissan", "They tie"]
+        a: C
+        e: ["Toyota wins on the weighted (compensatory) score.", "Honda scored 8 on price.", "Correct — Nissan scored 10 on price.", "There is a clear winner."]
+    practice:
+      - q: "Using the slide weights (mileage .4, style .1, price .3, accessories .2), Toyota scores 8.2, Honda 7.1 and Nissan 7.2. Under a compensatory rule the consumer buys:"
+        t: app
+        o: ["Toyota", "Honda", "Nissan", "None — compensatory rules use only one attribute"]
+        a: A
+        e: ["Correct — highest weighted overall score.", "Lowest overall score.", "Nissan wins only if price alone decides.", "Compensatory rules use multiple weighted attributes."]
+      - q: "Dev will not consider any apartment over $1,500/month no matter how nice it is. Dev is using a:"
+        t: app
+        o: ["Compensatory rule", "Non-compensatory rule", "Retrieval set", "Psychological need"]
+        a: B
+        e: ["A compensatory rule would let other features offset the price.", "Correct — price is non-negotiable.", "Retrieval set is brands recalled.", "Not a need type."]
+      - q: "Which best describes a compensatory decision rule?"
+        o: ["One factor is non-negotiable", "The consumer weighs multiple criteria and trades them off", "The consumer always buys the cheapest", "The consumer repurchases automatically"]
+        a: B
+        e: ["That's non-compensatory.", "Correct.", "That's a single-criterion (non-compensatory) rule.", "That's habitual decision making."]
+      - q: "Consumer decision rules are best described as:"
+        o: ["Criteria used consciously or subconsciously to select quickly among alternatives", "Laws that govern advertising", "Steps of the research process", "Rules for naming brands"]
+        a: A
+        e: ["Correct — from the slide notes.", "That's the political/legal environment.", "That's Ch 7.", "That's Ch 9."]
+      - q: "A car buyer accepts a slightly higher price because the car's superb mileage offsets it. This is:"
+        t: app
+        o: ["Non-compensatory", "Compensatory", "Impulse buying", "Postpurchase dissonance"]
+        a: B
+        e: ["Here one attribute compensates for another.", "Correct — mileage compensates for price (notes example).", "Not a spontaneous purchase.", "Dissonance happens after purchase."]
+
+  - id: ch4-decision-heuristics
+    title: Decision heuristics (mental shortcuts)
+    src: "Ch. 4 slides, slide 13"
+    explain: >-
+      Decision heuristics are mental shortcuts that help consumers narrow down choices. Price: buyers may assume a higher price
+      means better quality ("you get what you pay for") or pick the middle-priced option as a safe compromise. Brand: buying
+      familiar brand names reduces uncertainty and feels safer than generics. Product presentation: how a product is presented
+      influences the decision. Marketers support evaluation by highlighting comparisons, unique features, samples or trials.
+    alt: >-
+      Heuristics are like autocomplete for decisions — instead of reasoning through everything, your brain fills in "expensive
+      = good" or "known brand = safe".
+    terms:
+      Decision heuristics: "Mental shortcuts that help consumers narrow down their choices."
+      Price heuristic: "Using price as a cue — higher price = better quality, or choosing the middle option."
+      Brand heuristic: "Choosing familiar/national brands because they feel safer and higher quality."
+      Product presentation: "How a product is presented influences the decision."
+    example: "Illustrative (from slides): Lululemon's distinctive design and premium branding act as quick cues of quality, so shoppers choose without extensive comparison."
+    recall:
+      - q: "Decision heuristics are:"
+        o: ["Mental shortcuts", "Breathing exercises", "Logical steps", "Compensatory decision rules"]
+        a: A
+        e: ["Correct (slide 14–15 answer).", "Distractor.", "Heuristics are shortcuts, not step-by-step logic.", "Compensatory rules weigh many attributes."]
+      - q: "Choosing the middle-priced wine as a 'safe compromise' is an example of a heuristic based on:"
+        o: ["Brand", "Price", "Product presentation", "Locus of control"]
+        a: B
+        e: ["Brand heuristics rely on familiar names.", "Correct.", "Presentation is about how the product is shown.", "Locus of control affects search effort."]
+    practice:
+      - q: "Nia always buys national brands because she feels they must be higher quality. She is using a:"
+        t: app
+        o: ["Brand heuristic", "Compensatory rule", "Dissociative reference group", "Need recognition"]
+        a: A
+        e: ["Correct — brand familiarity as a quality shortcut.", "She isn't weighing many attributes.", "Not about a group.", "Need recognition is step 1."]
+      - q: "Grabbing the familiar brand of soft drink at a convenience store without comparing options is most consistent with:"
+        t: app
+        o: ["Using a decision heuristic", "Extended problem solving", "A compensatory rule with weighted scores", "An internal locus of control"]
+        a: A
+        e: ["Correct — a quick brand shortcut for a low-effort convenience purchase.", "Extended problem solving involves heavy research.", "No weighing of attributes is happening.", "Internal locus leads to more search, not less."]
+        c: [ch9-consumer-product-types]
+      - q: "A shopper assumes the $90 headphones must be better than the $40 pair. This reflects:"
+        t: app
+        o: ["Price as a quality cue", "Physiological risk", "Product line depth", "Selective retention"]
+        a: A
+        e: ["Correct — 'you get what you pay for'.", "No fear of harm.", "Ch 9 term.", "Retention is a perception concept."]
+      - q: "Which is NOT one of the heuristic cues described in the notes?"
+        o: ["Price", "Brand", "Product presentation", "Postpurchase dissonance"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — dissonance is a postpurchase outcome, not a heuristic."]
+      - q: "To help consumers evaluate alternatives, the slides suggest marketers can:"
+        o: ["Hide comparisons with competitors", "Highlight comparisons and unique features, and offer samples or trials", "Raise prices to create dissonance", "Avoid branding"]
+        a: B
+        e: ["The slides say to highlight comparisons.", "Correct.", "Not suggested.", "Brand familiarity helps evaluation."]
+
+  - id: ch4-purchase-decision
+    title: Purchase decision & conversion
+    src: "Ch. 4 slides, slide 16"
+    explain: >-
+      Purchase intentions don't always become purchases — the item may be unavailable or there may be another stumbling block.
+      Retailers therefore track the conversion rate: how well they convert purchase intentions into purchases. Abandoned online
+      carts signal lost sales, so retailers use reminders, low-stock alerts and limited-time offers to close the sale. Reducing
+      friction — easy checkout, multiple payment options, fast delivery, being where the customer shops — plus personalisation
+      and in-store support turns positive evaluations into completed purchases.
+    alt: >-
+      The purchase step is the last metre of a race — lots of runners (shoppers) fall at the finish line if the checkout is slow
+      or confusing. Conversion rate measures how many cross it.
+    terms:
+      Conversion rate: "How well a retailer converts purchase intentions into purchases."
+      Abandoned cart: "An online cart left without purchase — a signal of lost sales."
+    example: "Illustrative: an online store emails 'You left something in your cart — only 2 left!' to recover abandoned carts."
+    recall:
+      - q: "Retailers measure how well they turn purchase intentions into purchases using the:"
+        o: ["Conversion rate", "Evoked set", "Adoption rate", "Profit margin"]
+        a: A
+        e: ["Correct.", "Evoked set is brands considered.", "Adoption relates to diffusion (Ch 8).", "Margin is a profitability measure."]
+      - q: "Which tactic is aimed at reducing abandoned carts?"
+        o: ["Low-stock alerts and limited-time offers", "Building a retrieval set", "Repositioning", "Concept testing"]
+        a: A
+        e: ["Correct — urgency tactics help close the sale.", "Retrieval set is memory.", "Repositioning is Ch 6.", "Concept testing is Ch 8."]
+    practice:
+      - q: "Why don't purchase intentions always lead to purchases?"
+        o: ["The item may be unavailable or there may be another stumbling block", "Consumers never evaluate alternatives", "Purchase intentions only exist for habitual products", "Retailers prevent purchases deliberately"]
+        a: A
+        e: ["Correct — from the slide notes.", "They do evaluate alternatives.", "Not true.", "Not true."]
+      - q: "An online store adds Apple Pay, PayPal and one-click checkout. This mainly:"
+        t: app
+        o: ["Reduces friction to increase purchase likelihood", "Triggers need recognition", "Creates a dissociative group", "Increases perceived risk"]
+        a: A
+        e: ["Correct — multiple payment options and easy checkout reduce friction.", "The need already exists.", "Unrelated.", "It lowers barriers rather than raising risk."]
+      - q: "Abandoned carts are best interpreted as:"
+        o: ["A signal of lost sales", "Evidence of customer loyalty", "Postpurchase dissonance", "A form of observation research"]
+        a: A
+        e: ["Correct.", "The opposite.", "Dissonance happens after buying.", "Not a research method in this context."]
+      - q: "A store notices 70% of shoppers who add items never pay. Which metric is it worried about?"
+        t: app
+        o: ["Conversion rate", "Market saturation", "Brand awareness", "Segment size"]
+        a: A
+        e: ["Correct — intentions aren't converting to purchases.", "Saturation is market-level.", "Awareness isn't the problem — they already chose items.", "Segment size is a targeting issue."]
+      - q: "Which is NOT listed on the slides as a way to turn positive evaluations into purchases?"
+        o: ["Personalisation", "In-store support", "Fast delivery", "Building unrealistic expectations"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — unrealistic expectations hurt postpurchase satisfaction."]
+
+  - id: ch4-postpurchase
+    title: Postpurchase — satisfaction, dissonance, loyalty
+    src: "Ch. 4 slides, slides 17–20"
+    explain: >-
+      Postpurchase is the final step. It has three possible outcomes: customer satisfaction (+), postpurchase dissonance (−) and
+      customer loyalty (+). Satisfaction comes from meeting realistic expectations with consistent performance and service.
+      Postpurchase dissonance (buyer's remorse) is the doubt or regret consumers feel after a high-cost or high-risk purchase.
+      To ensure satisfaction marketers should: build realistic expectations (not too high, not too low); demonstrate correct
+      product use; stand behind the product with money-back guarantees and warranties; encourage customer feedback; and
+      periodically contact customers to thank them. Long-term success depends on turning first-time buyers into loyal customers.
+    alt: >-
+      After buying, the story either ends happily (satisfied → loyal) or with second thoughts (dissonance). Marketers act like a
+      good host after a party — checking in, explaining how things work, and offering to fix problems.
+    terms:
+      Postpurchase dissonance: "Psychological discomfort/regret after a purchase, especially high-cost or high-risk (buyer's remorse)."
+      Customer satisfaction: "Result of meeting realistic expectations with consistent performance and service."
+      Customer loyalty: "Repeat purchasing and attachment that grows from satisfying experiences."
+    example: "Illustrative: a car dealer calls a week after the sale to answer questions and remind the buyer of the warranty to reduce buyer's remorse."
+    recall:
+      - q: "Which is NOT a step marketers use to ensure postpurchase satisfaction?"
+        o: ["Providing money-back guarantees and warranties", "Building unrealistic expectations", "Encouraging customer feedback", "Demonstrating correct product use"]
+        a: B
+        e: ["This is a recommended step.", "Correct — marketers should build REALISTIC expectations (slide 20 notes).", "Recommended.", "Recommended."]
+      - q: "Buyer's remorse after an expensive purchase is called:"
+        o: ["Postpurchase dissonance", "Need recognition", "Selective exposure", "Brand dilution"]
+        a: A
+        e: ["Correct.", "Step 1.", "A perception concept.", "Ch 9 term."]
+    practice:
+      - q: "The three possible postpurchase outcomes shown in the slides are:"
+        o: ["Satisfaction, dissonance and loyalty", "Awareness, interest and trial", "Search, evaluation and purchase", "Exposure, attention and retention"]
+        a: A
+        e: ["Correct.", "These aren't the slide's postpurchase outcomes.", "These are earlier steps.", "These are perception components."]
+      - q: "Omar spends $1,800 on a TV, then sees it on sale elsewhere and keeps questioning his choice. Omar is experiencing:"
+        t: app
+        o: ["Customer loyalty", "Postpurchase dissonance", "Need recognition", "Limited problem solving"]
+        a: B
+        e: ["He's regretting, not repeat-buying.", "Correct — regret after a high-cost purchase.", "His need is already met.", "This was a high-cost purchase."]
+      - q: "A blender company includes a quick-start video and recipe guide in the box. This tactic mainly:"
+        t: app
+        o: ["Demonstrates correct product use to support satisfaction", "Triggers need recognition", "Builds a retrieval set", "Raises financial risk"]
+        a: A
+        e: ["Correct — improper use causes dissatisfaction.", "The purchase already happened.", "Unrelated.", "Unrelated."]
+      - q: "Why are marketers particularly interested in postpurchase behaviour?"
+        o: ["It involves actual, rather than potential, customers", "It is the only step they can influence", "It replaces need recognition", "It determines government regulation"]
+        a: A
+        e: ["Correct — from the slide notes.", "They influence every step.", "It doesn't replace any step.", "Unrelated."]
+      - q: "What does 'build realistic expectations' mean in postpurchase satisfaction?"
+        o: ["Promise as much as possible to win the sale", "Set expectations not too high and not too low, then deliver on them", "Avoid talking about the product", "Lower prices after the sale"]
+        a: B
+        e: ["Over-promising causes dissatisfaction.", "Correct — from slide 20 notes.", "Not recommended.", "Unrelated."]
+
+  - id: ch4-undesirable-behaviour
+    title: Undesirable consumer behaviour & negative word-of-mouth
+    src: "Ch. 4 slides, slide 21"
+    explain: >-
+      Dissatisfied customers can behave in ways that hurt firms. Passive consumers simply stop buying or recommending, quietly
+      reducing repeat sales. Negative word-of-mouth spreads complaints and dissatisfaction, often to many others — unhappy
+      customers share bad experiences more readily than satisfied ones share good ones, and social media amplifies complaints
+      instantly. Proactive customer service and open feedback channels help resolve issues and limit damage.
+    alt: >-
+      A happy customer tells a friend; an unhappy one tells the whole group chat — and now the group chat is the internet.
+    terms:
+      Negative word-of-mouth: "Customers spreading complaints/dissatisfaction to others."
+      Passive consumer: "A dissatisfied customer who quietly stops buying or recommending."
+    example: "Illustrative (from slide notes): Whirlpool keeps negative comments visible on its brand Facebook pages to open discussion and show how it fixes problems."
+    recall:
+      - q: "Compared with satisfied customers, unhappy customers tend to:"
+        o: ["Share their experiences more readily", "Never share their experiences", "Share only with the firm", "Become more loyal"]
+        a: A
+        e: ["Correct — from the slides.", "They share more readily.", "They tell many others.", "Dissatisfaction reduces loyalty."]
+      - q: "A dissatisfied customer who quietly stops buying is described as:"
+        o: ["A passive consumer", "An innovator", "A lead user", "An opinion leader"]
+        a: A
+        e: ["Correct.", "Innovators are early adopters (Ch 8).", "Lead users are innovative customers (Ch 8).", "Not used here."]
+    practice:
+      - q: "Which factor most amplifies negative word-of-mouth today, according to the slides?"
+        o: ["Social media", "Census data", "Product line depth", "Test marketing"]
+        a: A
+        e: ["Correct — social media amplifies complaints instantly.", "Unrelated.", "Unrelated.", "Unrelated."]
+      - q: "Which response best limits the damage from complaints?"
+        o: ["Deleting all negative posts", "Proactive customer service and open feedback channels", "Ignoring complaints", "Raising prices"]
+        a: B
+        e: ["Whirlpool's approach was to keep them and discuss.", "Correct.", "Ignoring increases damage.", "Unrelated."]
+      - q: "A diner has a bad meal, says nothing to staff, and simply never returns. This is:"
+        t: app
+        o: ["A passive consumer response", "Postpurchase loyalty", "Aspirational reference group", "Extended problem solving"]
+        a: A
+        e: ["Correct.", "The opposite of loyalty.", "Unrelated.", "Unrelated."]
+      - q: "Whirlpool allowed negative comments to stay on its Facebook pages because it believed:"
+        t: app
+        o: ["Keeping them opens discussion and shows the proactive steps it takes", "Negative comments improve search rankings", "It was legally required", "They create psychological needs"]
+        a: A
+        e: ["Correct — from the slide notes.", "Not stated.", "Not stated.", "Unrelated."]
+      - q: "Why is undesirable consumer behaviour a concern for marketers?"
+        o: ["It reduces repeat sales and spreads dissatisfaction to others", "It increases conversion rates", "It reduces competition", "It only affects B2B firms"]
+        a: A
+        e: ["Correct.", "It hurts sales.", "Unrelated.", "Not limited to B2B."]
+
+  - id: ch4-influences-overview
+    title: Factors influencing consumer buying decisions
+    src: "Ch. 4 slides, slide 22"
+    explain: >-
+      The decision process doesn't happen in a vacuum. Three groups of factors influence it: psychological factors (internal to
+      the consumer — motives, attitudes, perception, learning, lifestyle), social factors (family, reference groups, culture),
+      and situational factors (purchase situation, shopping situation, temporal state). Involvement also affects how the process
+      plays out.
+    alt: >-
+      Psychological = what's going on inside your head; social = the people around you; situational = the moment you're in.
+    terms:
+      Psychological factors: "Influences internal to the consumer: motives, attitudes, perception, learning, lifestyle."
+      Social factors: "Family, reference groups and culture."
+      Situational factors: "Purchase situation, shopping situation and temporal state."
+    example: "Illustrative: choosing a university can be shaped by your motives (psychological), your parents' opinions (social), and an application deadline (situational)."
+    recall:
+      - q: "Which is a social factor influencing buying decisions?"
+        o: ["Reference groups", "Perception", "Temporal state", "Learning"]
+        a: A
+        e: ["Correct.", "Psychological.", "Situational.", "Psychological."]
+      - q: "Attitudes, perception and learning are examples of:"
+        o: ["Psychological factors", "Social factors", "Situational factors", "Macroenvironmental factors"]
+        a: A
+        e: ["Correct.", "Social = family, reference groups, culture.", "Situational = purchase/shopping/temporal.", "Macro factors are Ch 3 (CDSTEP)."]
+    practice:
+      - q: "Which list contains ONLY situational factors?"
+        o: ["Purchase situation, shopping situation, temporal state", "Family, culture, reference groups", "Motives, attitudes, lifestyle", "Culture, demographics, technology"]
+        a: A
+        e: ["Correct.", "These are social.", "These are psychological.", "These are Ch 3 macro factors."]
+      - q: "Psychological factors are best described as influences that are:"
+        o: ["Internal to the consumer", "Set by government", "Specific to the store environment", "Determined by family members"]
+        a: A
+        e: ["Correct — from the slide notes.", "That's political/legal.", "That's situational.", "That's social."]
+      - q: "Ethan's choice of sneakers is shaped mostly by what his basketball teammates wear. This is mainly a:"
+        t: app
+        o: ["Psychological factor", "Social factor", "Situational factor", "Macro factor"]
+        a: B
+        e: ["Not internal to him.", "Correct — teammates are a reference group.", "Not about the moment/store.", "Not a CDSTEP factor."]
+      - q: "Lina buys an umbrella because it's suddenly pouring as she walks past a shop. The main influence is:"
+        t: app
+        o: ["Situational", "Social", "Psychological — lifestyle", "Cultural"]
+        a: A
+        e: ["Correct — the specific situation drives the purchase.", "No group involved.", "Not about how she lives.", "Not cultural."]
+      - q: "Which statement is accurate?"
+        o: ["Culture is a social factor in consumer behaviour", "Lifestyle is a situational factor", "Temporal state is a psychological factor", "Family is a psychological factor"]
+        a: A
+        e: ["Correct.", "Lifestyle is psychological.", "Temporal state is situational.", "Family is social."]
+
+  - id: ch4-motives-maslow
+    title: Motives & Maslow's hierarchy of needs
+    src: "Ch. 4 slides, slides 23–24"
+    explain: >-
+      A motive is a need or want strong enough to drive behaviour and trigger action. Abraham Maslow's hierarchy explains five
+      levels of needs: physiological (basics like food, drink, rest, shelter), safety (protection, health, secure employment),
+      social/love (belonging, family), esteem (image, confidence, how others see us), and self-actualization (personal growth
+      and values-based choices). Marketers convert these needs into wants by linking products to them.
+    alt: >-
+      Picture a pyramid: you build from the base (food, shelter) up through safety, belonging and respect toward the top
+      (becoming your best self). Ads pick a level and speak to it.
+    terms:
+      Motive: "A need or want strong enough to cause a person to seek satisfaction."
+      Physiological needs: "Basic biological necessities — food, drink, rest, shelter."
+      Safety needs: "Protection and security — health, shelter, secure employment."
+      Social (love) needs: "Belonging and relationships — family, friends."
+      Esteem needs: "Confidence, image and how others see us."
+      Self-actualization: "Personal growth and choices aligned with identity or beliefs."
+    example: "Illustrative (from slides): a Subway ad satisfies the physiological need for food while saying healthy eating can taste good."
+    recall:
+      - q: "A need or want strong enough to drive behaviour is a:"
+        o: ["Motive", "Attitude", "Perception", "Heuristic"]
+        a: A
+        e: ["Correct.", "Attitude is a learned evaluation.", "Perception is how we interpret information.", "A heuristic is a shortcut."]
+      - q: "Food, drink, rest and shelter belong to which level of Maslow's hierarchy?"
+        o: ["Physiological", "Esteem", "Social", "Self-actualization"]
+        a: A
+        e: ["Correct.", "Esteem = confidence/image.", "Social = belonging.", "Top level = personal growth."]
+    practice:
+      - q: "A home-security company advertises 'Protect what matters most.' It mainly appeals to which need?"
+        t: app
+        o: ["Safety", "Esteem", "Physiological", "Self-actualization"]
+        a: A
+        e: ["Correct — protection.", "Not about image.", "Not about food/shelter basics.", "Not about growth."]
+      - q: "Taking a pottery class purely for personal growth reflects which level?"
+        t: app
+        o: ["Self-actualization", "Safety", "Social", "Physiological"]
+        a: A
+        e: ["Correct — personal growth.", "Not protection.", "Not belonging.", "Not a basic need."]
+      - q: "A luxury car ad emphasises that others will admire your success. It targets:"
+        t: app
+        o: ["Esteem needs", "Safety needs", "Physiological needs", "Social needs only"]
+        a: A
+        e: ["Correct — how others see us and confidence.", "Not protection.", "Not basic needs.", "Admiration of success is esteem rather than belonging."]
+      - q: "Which correctly lists Maslow's five levels from the slides?"
+        o: ["Physiological, safety, social, esteem, self-actualization", "Cognitive, affective, behavioural, social, esteem", "Functional, psychological, social, safety, esteem", "Exposure, attention, comprehension, retention, learning"]
+        a: A
+        e: ["Correct.", "These mix in attitude components.", "These mix need types.", "These are perception components."]
+      - q: "Joining a running club mainly to make friends after moving to a new city reflects which need?"
+        t: app
+        o: ["Social (belonging)", "Physiological", "Safety", "Esteem"]
+        a: A
+        e: ["Correct — belonging.", "Not food/shelter.", "Not protection.", "Not mainly about image."]

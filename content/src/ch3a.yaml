@@ -1,0 +1,569 @@
+chapter: 3
+title: Analyzing the Marketing Environment
+concepts:
+  - id: ch3-env-framework
+    title: The marketing environment framework
+    src: "Ch. 3 slides, slides 5–8"
+    explain: >-
+      Firms analyse their marketing environment using a framework with the consumer at the centre — anything that affects
+      consumers affects marketers. Around the consumer is the microenvironment (the company's capabilities, competition and
+      corporate partners) and the macroenvironment (culture, demographics, social trends, technology, economic situation and
+      political/legal environment — CDSTEP). Firms must continuously monitor internal and external environments and be proactive,
+      not reactive, adapting their offerings and marketing mix to new challenges and opportunities.
+    alt: >-
+      Picture rings around a bullseye: the customer is the bullseye, the firm's immediate world (itself, rivals, partners) is the
+      next ring, and the big forces (CDSTEP) are the outer ring pushing on everything inside.
+    terms:
+      Microenvironment: "Factors close to the firm: company capabilities, competition, corporate partners."
+      Macroenvironment: "Broad external factors: culture, demographics, social trends, technology, economy, political/legal (CDSTEP)."
+      Proactive vs reactive: "Anticipating environmental changes rather than responding after they happen."
+    example: "Illustrative (from slides): Huron Canvas had to change its promotion when cotton canvas became scarce — showing why firms must monitor the environment."
+    recall:
+      - q: "In the marketing environment framework, what is at the centre?"
+        o: ["The consumer", "The competition", "The government", "The supplier"]
+        a: A
+        e: ["Correct.", "Part of the microenvironment.", "Part of the macro (political/legal).", "A corporate partner."]
+      - q: "The microenvironment includes company capabilities, competition and:"
+        o: ["Corporate partners", "Culture", "Technology", "Demographics"]
+        a: A
+        e: ["Correct.", "Macro.", "Macro.", "Macro."]
+    practice:
+      - q: "Which is NOT considered part of a company's immediate (micro) environment?"
+        o: ["Corporate partners", "Stockholders", "Competition", "Company capabilities"]
+        a: B
+        e: ["Micro.", "Correct (slide 14) — not one of the three micro factors.", "Micro.", "Micro."]
+      - q: "Why should marketers be 'proactive, not reactive' about the environment?"
+        o: ["So they can adapt offerings to challenges and seize opportunities early", "Because macro factors never change", "Because competitors don't matter", "To avoid using a framework"]
+        a: A
+        e: ["Correct.", "They constantly change.", "They matter.", "The framework is how they analyse it."]
+      - q: "A change in one of the environments most likely requires an adjustment to the firm's:"
+        o: ["Marketing mix", "Mission only", "Patents", "Accounting system"]
+        a: A
+        e: ["Correct — from slide 6 notes.", "Not necessarily.", "No.", "No."]
+      - q: "A company notices rising concern about plastic waste and redesigns packaging before regulations require it. This is:"
+        t: app
+        o: ["Being proactive about the macroenvironment", "Ignoring the environment", "A microenvironment change only", "Reactive marketing"]
+        a: A
+        e: ["Correct.", "No.", "Social trends are macro.", "It acted before being forced to."]
+      - q: "Which pairing correctly classifies factors?"
+        o: ["Competition — micro; demographics — macro", "Culture — micro; competition — macro", "Corporate partners — macro; technology — micro", "Economy — micro; company capabilities — macro"]
+        a: A
+        e: ["Correct.", "Reversed.", "Reversed.", "Reversed."]
+
+  - id: ch3-company-capabilities
+    title: Company capabilities & core competencies
+    src: "Ch. 3 slides, slide 9"
+    explain: >-
+      The first microenvironmental factor is the firm itself. Company capabilities — knowledge, facilities, patents, technology,
+      people, financial resources — form core competencies. Successful firms focus on satisfying customer needs that match their
+      core competencies, and can leverage those competencies into new products.
+    alt: >-
+      Core competencies are a firm's superpowers; good marketing points them at customer needs the firm can actually solve.
+    terms:
+      Company capabilities: "The firm's resources and strengths — knowledge, facilities, patents, technology, people, finances."
+      Core competency: "What the firm does exceptionally well, applied to satisfying customer needs."
+    example: "Illustrative (from slides): Apple's competencies — product design, patents, software engineers, strong brand, supplier relationships and its ecosystem — let it move from Macs into the iPod, iPhone and iPad."
+    recall:
+      - q: "Successful firms focus on satisfying customer needs that match their:"
+        o: ["Core competencies", "Competitors' strengths", "Macro factors", "Generational cohort"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Company capabilities are part of the:"
+        o: ["Microenvironment", "Macroenvironment", "CDSTEP", "Political environment"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Apple used its design and engineering strengths to enter phones and tablets. This illustrates:"
+        t: app
+        o: ["Leveraging core competencies", "Undifferentiated targeting", "Regional subcultures", "Competitive intelligence"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an example of a company capability?"
+        o: ["Patents", "Inflation", "Immigration", "Interest rates"]
+        a: A
+        e: ["Correct.", "Economic (macro).", "Demographic (macro).", "Economic (macro)."]
+      - q: "A bakery famous for its sourdough expertise launches a sourdough-starter kit rather than a smartphone app. It is:"
+        t: app
+        o: ["Matching new offerings to its core competencies", "Using competitive intelligence", "Responding to the political environment", "Targeting a dissociative group"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a company capability listed on the slides?"
+        o: ["Knowledge", "Facilities", "People", "Exchange rates"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — economic macro factor."]
+      - q: "The first factor in a firm's microenvironment that affects the consumer is:"
+        o: ["The firm itself and its capabilities", "The government", "Culture", "Technology"]
+        a: A
+        e: ["Correct — from slide 9 notes.", "No.", "No.", "No."]
+
+  - id: ch3-competition
+    title: Competition — direct vs indirect
+    src: "Ch. 3 slides, slides 10–11"
+    explain: >-
+      Competition significantly affects the microenvironment. Direct competitors offer similar products in the same market (Apple
+      and Samsung). Indirect competitors sell different products but compete for the same share of the customer's wallet
+      (Starbucks vs Booster Juice, McDonald's, at-home coffee, Red Bull). Marketers must know competitors' strengths, weaknesses
+      and likely reactions, and ask: should we compete, where, and how?
+    alt: >-
+      Direct competitors are runners in your lane; indirect competitors are runners in other lanes chasing the same prize — the
+      customer's money.
+    terms:
+      Direct competitors: "Firms offering similar products/services in the same market."
+      Indirect competitors: "Firms selling different products but aiming for the same share of the customer's wallet."
+    example: "Illustrative (from slides): Bulldog Skincare found a niche in natural men's grooming while Gillette and Schick battled each other — and missed start-ups like Dollar Shave Club."
+    recall:
+      - q: "Apple and Samsung are examples of:"
+        o: ["Direct competitors", "Indirect competitors", "Corporate partners", "Regional subcultures"]
+        a: A
+        e: ["Correct.", "They sell similar products.", "No.", "No."]
+      - q: "Starbucks and Red Bull competing for a customer's morning energy spend are:"
+        o: ["Indirect competitors", "Direct competitors", "Corporate partners", "The same firm"]
+        a: A
+        e: ["Correct.", "Different products.", "No.", "No."]
+    practice:
+      - q: "Samsung releases ads showing iPhone users realising Galaxy phones have the same or better features. The microenvironmental factor considered is:"
+        t: app
+        o: ["Corporate partners", "Competition", "Company capabilities", "Technology"]
+        a: B
+        e: ["No partnership.", "Correct — targeting a rival directly.", "Not the focus.", "Technology is macro."]
+      - q: "A movie theatre's indirect competitor would be:"
+        t: app
+        o: ["Netflix", "Another movie theatre chain", "Its popcorn supplier", "Its landlord"]
+        a: A
+        e: ["Correct — different product, same entertainment spend.", "Direct competitor.", "Corporate partner.", "Partner."]
+      - q: "Why did Gillette's share fall below 50 percent according to the notes?"
+        o: ["It focused on rival Schick and underestimated start-ups like Dollar Shave Club", "It stopped making razors", "Government banned razors", "It merged with Schick"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Marketers should understand competitors':"
+        o: ["Strengths, weaknesses and likely reactions", "Personal lives", "Census data", "Packaging colours only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which questions should firms ask when assessing competition?"
+        o: ["Should we compete? In what markets? How should we compete?", "What's our jingle?", "When is the product's decline stage?", "Who is our dissociative group?"]
+        a: A
+        e: ["Correct — from slide 10 notes.", "No.", "No.", "No."]
+
+  - id: ch3-competitive-intelligence
+    title: Competitive intelligence (CI)
+    src: "Ch. 3 slides, slide 10 (incl. notes)"
+    explain: >-
+      Competitive intelligence (CI) is used to collect and synthesise information about a firm's position relative to its rivals.
+      It helps a firm plan how to beat competitors — improve where rivals fail, undercut prices, learn their target markets, or
+      apply what works for others. Sources include strategic plans, the Canadian business database and web analytics. Some CI
+      (like insider information) is a grey area legally, so firms often have employees sign non-disclosure agreements.
+    alt: >-
+      CI is a firm's scouting report on the other team — legal scouting only, which is why employees sign NDAs.
+    terms:
+      Competitive intelligence: "Collecting and synthesising information about the firm's position with respect to its rivals."
+      Non-disclosure agreement (NDA): "A confidentiality agreement limiting what information employees can share."
+    example: "Illustrative: a café tracks a rival chain's menu prices and promotions on social media to decide its own seasonal specials."
+    recall:
+      - q: "When a company collects information about its situation with respect to rivals, this is called:"
+        o: ["Competitive intelligence", "Talent management", "Bid rigging", "Micromanaging"]
+        a: A
+        e: ["Correct.", "No.", "Illegal collusion.", "No."]
+      - q: "Why do firms have employees sign NDAs regarding CI?"
+        o: ["Some information sharing is a legal grey area", "To increase brand awareness", "To reduce inflation", "To create generational cohorts"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A retailer uses web analytics to study a rival's online traffic sources. This is an example of:"
+        t: app
+        o: ["Competitive intelligence", "Corporate partnership", "Regional subculture", "Repositioning"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a purpose of competitive intelligence?"
+        o: ["Creating a plan to improve where competitors are failing", "Setting interest rates", "Defining country culture", "Writing product labels"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Insider information as a CI source is described as:"
+        o: ["A grey area of legality", "Always legal", "Always illegal", "Irrelevant"]
+        a: A
+        e: ["Correct.", "Not always.", "Not always.", "No."]
+      - q: "Which is NOT listed as a CI source on the slide?"
+        o: ["Strategic plans", "Canadian business database", "Web analytics (GA4)", "A rival's stolen passwords"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — illegal, not a CI source."]
+      - q: "A start-up studies which target markets a competitor serves to find an unserved gap. CI here supports:"
+        t: app
+        o: ["Finding opportunities to compete better", "Political lobbying", "Census collection", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-corporate-partners
+    title: Corporate partners
+    src: "Ch. 3 slides, slide 12"
+    explain: >-
+      Few firms work in isolation. Corporate partners — suppliers, other manufacturers, part makers, unions, transport companies,
+      dealerships — work with the focal firm to create a seamless system that delivers goods and services when and where customers
+      want them.
+    alt: >-
+      A firm is one link in a chain; its corporate partners are the other links that get the product into the customer's hands.
+    terms:
+      Corporate partners: "Parties that work with the focal firm (suppliers, manufacturers, distributors, dealers)."
+    example: "Illustrative (from slides): Ford works with partners such as Harman Kardon, Goodyear, Michelin, Shell and its dealerships; Nau partners to make socially responsible apparel; Walmart's success is linked to supplier relationships."
+    recall:
+      - q: "Suppliers and dealerships working with a firm are its:"
+        o: ["Corporate partners", "Competitors", "Generational cohorts", "Regional subcultures"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Corporate partners are part of the:"
+        o: ["Microenvironment", "Macroenvironment", "Political environment", "Economic situation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Why do firms rely on corporate partners?"
+        o: ["To create a seamless system that delivers products when and where customers want", "To set interest rates", "To define culture", "To avoid all suppliers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Ford sourcing tires from Michelin and audio from Harman Kardon is an example of:"
+        t: app
+        o: ["Corporate partners", "Direct competition", "Competitive intelligence", "Undifferentiated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A sound-system maker sells custom systems to car manufacturers. To those carmakers, it is a:"
+        t: app
+        o: ["Corporate partner (supplier)", "Direct competitor", "Macro factor", "Generational cohort"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement about corporate partners is from the slides?"
+        o: ["Firms are part of alliances — few work in isolation", "Partners are always competitors", "Partners are macro factors", "Only small firms need partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Walmart's success is attributed in the notes partly to:"
+        o: ["Close relationships with suppliers", "Ignoring suppliers", "Government subsidies", "Generational cohorts"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-cdstep
+    title: Macroenvironmental factors — CDSTEP
+    src: "Ch. 3 slides, slide 15"
+    explain: >-
+      Marketers must understand macroenvironmental factors in the external environment, remembered by the acronym CDSTEP:
+      Culture, Demographics, Social trends (social/natural trends), Technological advances, Economic situation, and
+      Political/legal environment. These broad forces affect consumers and therefore the firm's marketing strategy.
+    alt: >-
+      CDSTEP is a checklist of the "weather systems" of the market — big forces the firm can't control but must prepare for.
+    terms:
+      CDSTEP: "Culture, Demographics, Social trends, Technological advances, Economic situation, Political/legal environment."
+    example: "Illustrative: an EV maker watches CDSTEP — green social trends, battery technology, interest rates and government rebates all shape demand."
+    recall:
+      - q: "In CDSTEP, the 'E' stands for:"
+        o: ["Economic situation", "Ethnicity", "Education", "Environment"]
+        a: A
+        e: ["Correct.", "Ethnicity is part of demographics.", "Part of demographics.", "No."]
+      - q: "Which is NOT a CDSTEP factor?"
+        o: ["Competition", "Culture", "Technology", "Political/legal"]
+        a: A
+        e: ["Correct — competition is micro.", "Macro.", "Macro.", "Macro."]
+    practice:
+      - q: "Amir owns a fine steakhouse with $65 average meals. The two most influential macro factors for him to monitor are:"
+        t: app
+        o: ["Corporate partners and political environment", "Economic situation and competition", "Culture and legal environment", "Economic situation and social trends"]
+        a: D
+        e: ["Partners are micro.", "Competition is micro.", "Less central for a premium restaurant.", "Correct (official key) — spending power and dining/health trends."]
+        c: [ch3-economic, ch3-social-trends]
+      - q: "Which list is entirely macroenvironmental?"
+        o: ["Culture, demographics, technology", "Competition, culture, partners", "Company capabilities, economy, culture", "Partners, technology, competition"]
+        a: A
+        e: ["Correct.", "Mixed.", "Mixed.", "Mixed."]
+      - q: "The 'S' in CDSTEP refers to:"
+        o: ["Social trends", "Suppliers", "Segmentation", "Satisfaction"]
+        a: A
+        e: ["Correct.", "Micro.", "Ch 6.", "Ch 4."]
+      - q: "A new federal privacy law affects how an app can collect data. Which CDSTEP factor is this?"
+        t: app
+        o: ["Political/legal", "Culture", "Demographics", "Economic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Macroenvironmental factors operate in the:"
+        o: ["External environment", "Firm's own departments", "Firm's supplier contracts only", "Product line"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-culture
+    title: Culture — country culture & regional subcultures
+    src: "Ch. 3 slides, slide 16"
+    explain: >-
+      Culture is the shared meanings, beliefs, morals, values and customs of a group of people, transmitted by words, literature
+      and institutions and passed down over generations. Country culture defines a nation as a whole (Canada vs Japan). Regional
+      subcultures are distinct groups within a nation with their own values and customs (Ontario vs Quebec). Firms may need
+      different approaches for different cultures — or bridge the gap with similar advertising across countries.
+    alt: >-
+      Country culture is the national "personality"; regional subcultures are its local accents.
+    terms:
+      Culture: "Shared meanings, beliefs, morals, values and customs of a group of people."
+      Country culture: "Shared meanings, beliefs, values and customs that define a nation as a whole."
+      Regional subculture: "A distinct group within a nation with its own cultural values and customs."
+    example: "Illustrative (from slides): Coca-Cola uses near-identical ads in English- and Spanish-speaking markets; Quebec residents are less likely than Ontarians to buy hot prepared meals."
+    recall:
+      - q: "Canada vs Japan illustrates differences in:"
+        o: ["Country culture", "Regional subculture", "Generational cohort", "Income class"]
+        a: A
+        e: ["Correct.", "That's within a nation.", "No.", "No."]
+      - q: "Ontario vs Quebec illustrates:"
+        o: ["Regional subcultures", "Country culture", "Direct competition", "Demographic income"]
+        a: A
+        e: ["Correct.", "Within one country.", "No.", "No."]
+    practice:
+      - q: "Poutine, butter tarts, maple syrup, the maple leaf and the beaver as national symbols best exemplify:"
+        t: app
+        o: ["Competitive intelligence", "Country culture", "Generational cohort", "Regional subculture"]
+        a: B
+        e: ["No.", "Correct (official key) — they define the nation as a whole.", "No.", "These are national, not regional."]
+      - q: "Curry-flavoured chips sell well in Vancouver but not Saskatoon. This reflects:"
+        t: app
+        o: ["Regional subcultures", "Country culture", "Technological advances", "Corporate partners"]
+        a: A
+        e: ["Correct — from slide notes.", "Same country.", "No.", "No."]
+      - q: "37% of Canadians say 'soda', 40% say 'pop'. This regional language difference is an example of:"
+        t: app
+        o: ["Regional subculture", "Economic situation", "Demographic income", "Political environment"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Culture is transmitted by:"
+        o: ["Words, literature and institutions", "Interest rates", "Patents", "Scanner data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why can removing a brand with poor national sales backfire?"
+        o: ["It may have strong regional support", "National sales are all that matter", "Culture never affects brands", "Government forbids it"]
+        a: A
+        e: ["Correct — from slide 16 notes.", "No.", "No.", "No."]
+
+  - id: ch3-demographics
+    title: Demographics
+    src: "Ch. 3 slides, slides 17–19"
+    explain: >-
+      Demographics are the characteristics of human populations and segments, especially those used to identify consumer
+      markets — such as age, gender, income, education, race/ethnicity and population density. Demographic segmentation is the
+      most common form because the information is so widely available. Firms use demographics to assess customers' needs and
+      position themselves to deliver better value.
+    alt: >-
+      Demographics are the population's "stats sheet" — the measurable facts marketers can look up.
+    terms:
+      Demographics: "Characteristics of human populations and segments used to identify consumer markets."
+    example: "Illustrative: a retirement-living company targets Canadians aged 65+ using census age data."
+    recall:
+      - q: "Which are examples of typical demographics?"
+        o: ["Age, gender, race", "Behaviour, dress, physical settings", "Temperature, topology, climate", "Conservative, liberal, independent"]
+        a: A
+        e: ["Correct (slide 19).", "No.", "Geographic.", "Political views/psychographic."]
+      - q: "Why is demographic segmentation the most common?"
+        o: ["The information is widely available", "It explains motivations", "It's required by law", "It uses only lifestyle data"]
+        a: A
+        e: ["Correct.", "That's psychographics.", "No.", "No."]
+    practice:
+      - q: "Tony Stark's team suggests targeting well-educated, upper-middle-class Gen X homeowners for a virtual assistant. This focuses on which macro factor?"
+        t: app
+        o: ["Cultural factors", "Demographics", "Technological factors", "Political factors"]
+        a: B
+        e: ["No cultural values described.", "Correct (official key) — education, income class, cohort, home ownership.", "The product is tech, but the segment description is demographic.", "No."]
+      - q: "Demographics are part of which environment?"
+        o: ["Macroenvironment", "Microenvironment", "Company capabilities", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a demographic characteristic?"
+        o: ["Income", "Education", "Personality", "Gender"]
+        a: C
+        e: ["Demographic.", "Demographic.", "Correct — psychographic.", "Demographic."]
+      - q: "According to the notes, using age to identify consumers is most useful when:"
+        o: ["Used together with other consumer characteristics", "Used alone", "Applied only to seniors", "Combined with weather data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A bank designs products for newly arrived immigrants using population data. It is responding to:"
+        t: app
+        o: ["Demographics", "Technology", "Political/legal only", "Competitive intelligence"]
+        a: A
+        e: ["Correct — ethnicity/immigration is demographic.", "No.", "No.", "No."]
+
+  - id: ch3-generational-cohorts
+    title: Generational cohorts
+    src: "Ch. 3 slides, slides 20–21"
+    explain: >-
+      A generational cohort is a group of people of the same generation who have similar purchase behaviours because of shared
+      experiences and stage of life — affecting social media use, fashion, benefits sought, values and views of work. The slide
+      table lists Generation Z (born after 1997), Generation Y/Millennials (1981–1996), Generation X (1965–1980) and Baby Boomers
+      (1946–1964), plus Seniors. Marketers position products differently depending on the cohort they target.
+    alt: >-
+      Cohorts are like graduating classes of society — people who "grew up together" through the same events tend to buy alike.
+    terms:
+      Generational cohort: "A group of the same generation with similar purchase behaviours due to shared experiences and life stage."
+      Generation Z: "Born after 1997 (slide table) — digital natives."
+      Generation Y: "Millennials, born 1981–1996 (slide table)."
+      Generation X: "Born 1965–1980 (slide table)."
+      Baby Boomers: "Born 1946–1964."
+    example: "Illustrative: a streaming service promotes short vertical clips to Gen Z and nostalgic classics to Boomers."
+    recall:
+      - q: "Baby Boomers were born:"
+        o: ["1946–1964", "1965–1980", "1981–1996", "After 1997"]
+        a: A
+        e: ["Correct.", "Gen X.", "Gen Y.", "Gen Z."]
+      - q: "Generation Z is also called:"
+        o: ["Digital natives", "Millennials", "Boomers", "Seniors"]
+        a: A
+        e: ["Correct.", "That's Gen Y.", "No.", "No."]
+    practice:
+      - q: "Why do marketers position products differently for different cohorts?"
+        o: ["Cohorts share experiences and life stages that shape purchase behaviour", "Cohorts are legally defined", "All cohorts want the same benefits", "Cohorts are a micro factor"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Demographics are macro."]
+      - q: "Generational cohorts are part of which CDSTEP factor?"
+        o: ["Demographics", "Culture", "Technology", "Economic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Using the slide table, someone born in 1990 is in:"
+        t: app
+        o: ["Generation Y (Millennials)", "Generation X", "Generation Z", "Baby Boomers"]
+        a: A
+        e: ["Correct — 1981–1996.", "1965–1980.", "After 1997.", "1946–1964."]
+      - q: "A brand advertises retirement travel packages emphasising comfort and leisure. Its most likely target cohort is:"
+        t: app
+        o: ["Baby Boomers / Seniors", "Generation Z", "Generation Y", "No cohort"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT listed as something that differs across cohorts?"
+        o: ["Social media consumption", "Fashion style", "Benefits sought", "Their postal code"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — that's geographic."]
+
+  - id: ch3-income
+    title: Income
+    src: "Ch. 3 slides, slides 22–23, 32–33"
+    explain: >-
+      Purchasing power is tied to income, which Statistics Canada tracks. Many middle-class families have felt a decline in
+      purchasing power because costs like health care, taxes and tuition have risen faster than incomes. The slides cite median
+      after-tax family income of $68,400, and the top 10% earning over $226,000. Canadians are commonly grouped into upper,
+      middle and working/low income classes — income classes, not fixed social classes, because education and income enable
+      mobility. The middle class can afford a good life most of the time but is careful and value-conscious. Consumers are
+      searching for value more than in previous decades.
+    alt: >-
+      Income sets the size of the shopping basket; when costs rise faster than pay, people fill it more carefully — hunting for
+      value.
+    terms:
+      Purchasing power: "The ability to buy, tied to income."
+      Income classes: "Upper, middle and working/low income groups (mobile, not fixed social classes)."
+      Middle class: "Can afford a good life most of the time; careful, value-conscious spenders."
+    example: "Illustrative: discount grocers like No Frills appeal to value-seeking middle- and lower-income shoppers."
+    recall:
+      - q: "Canadians who can afford a good life most of the time but are careful and value-conscious are the ___ class."
+        o: ["Middle", "Upper", "Working", "Lower"]
+        a: A
+        e: ["Correct (slide 33).", "No.", "No.", "No."]
+      - q: "Purchasing power is most directly tied to:"
+        o: ["Income", "Culture", "Climate", "Patents"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Why are consumers searching for value more today, according to the notes?"
+        o: ["Costs like health care, taxes and tuition rose faster than incomes", "Incomes doubled", "Prices fell everywhere", "There are fewer brands"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The slides call groupings like 'upper, middle, working/low' income classes rather than social classes because:"
+        o: ["Education and income enable mobility between them", "They are set at birth", "They're defined by law", "They're psychographic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A luxury car brand focuses only on affluent consumers, while a fast-food chain targets middle and lower earners. Which statement fits the notes?"
+        t: app
+        o: ["Middle/lower earners are a broader base with potentially more customers", "Only affluent consumers buy anything", "Income doesn't affect targeting", "Lower earners can't be targeted"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The slides cite median after-tax family income in Canada as about:"
+        o: ["$68,400", "$226,000", "$41,707", "$100,260"]
+        a: A
+        e: ["Correct.", "Top 10% threshold.", "Lower bound of middle class (notes).", "Upper bound of middle class (notes)."]
+      - q: "Income is part of which macro factor?"
+        o: ["Demographics", "Political/legal", "Technology", "Culture"]
+        a: A
+        e: ["Correct — the slides list income under demographics.", "No.", "No.", "No."]
+
+  - id: ch3-education
+    title: Education
+    src: "Ch. 3 slides, slides 25–26"
+    explain: >-
+      Higher education is strongly linked to better jobs and higher incomes, which determine spending power; degree holders earn
+      significantly more on average, and Canada is highly educated. Marketers combine education with occupation and income to
+      better predict buying behaviour, segmenting beyond income alone and targeting education-based preferences.
+    alt: >-
+      Education is an early clue to future income — and combined with job and pay, it sharpens predictions of what people buy.
+    terms:
+      Education (demographic): "Level of schooling, linked to income and therefore spending power."
+    example: "Illustrative: a premium business-news subscription targets university-educated professionals."
+    recall:
+      - q: "Education is related to income, which determines:"
+        o: ["Spending power", "Country culture", "Patents", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Marketers improve predictions of buying behaviour by combining education with:"
+        o: ["Occupation and income", "Climate and topography", "Jingles and slogans", "Scanner data only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A financial-planning firm targets university graduates in professional jobs with higher incomes. It is combining:"
+        t: app
+        o: ["Education, occupation and income", "Culture and technology", "Corporate partners", "Political factors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why should marketers 'segment beyond income alone'?"
+        o: ["Education and occupation add predictive power", "Income has no effect", "It's illegal to use income", "Education is psychographic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "It's demographic."]
+      - q: "Which statement is supported by the slides?"
+        o: ["Degree holders earn significantly more on average", "Education has no link to jobs", "Canada has low education levels", "Education is a micro factor"]
+        a: A
+        e: ["Correct.", "No.", "Canada is highly educated.", "No."]
+      - q: "The notes say lifelong learning has become key because of:"
+        o: ["The global economy", "Inflation targets", "Corporate partners", "PRIZM"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "An online-course provider targets mid-career workers seeking new skills. This responds to which trend?"
+        t: app
+        o: ["Lifelong learning / education", "Greenwashing", "Recession", "Regional subcultures"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-gender
+    title: Gender
+    src: "Ch. 3 slides, slides 27–29"
+    explain: >-
+      Gender roles are blurring, pushing firms to design and position products beyond traditional male–female boundaries and to
+      focus on inclusivity and shared decision-making. Women are now decision makers, not just influencers: they outperform men in
+      education, head more than 20% of Canadian households, and make the majority of household purchasing decisions.
+    alt: >-
+      The old "pink aisle / blue aisle" map is outdated — marketers now design for whoever is actually deciding, and that's often
+      women.
+    terms:
+      Blurring gender roles: "Traditional male/female roles are less distinct, affecting product design and positioning."
+    example: "Illustrative (from slides): RONA+ redesigned stores with brighter spaces and open floor plans that appeal to female DIYers; Bandai Namco's mixed-gender gaming tournament."
+    recall:
+      - q: "According to the slides, women are now:"
+        o: ["Decision makers, not just influencers", "Only influencers", "Excluded from household purchases", "A dissociative group"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Gender is part of which macro factor?"
+        o: ["Demographics", "Technology", "Economic situation", "Political/legal"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "RONA+ redesigned its stores with brighter spaces and open floor plans mainly to:"
+        t: app
+        o: ["Appeal to female home decorators and DIYers", "Reduce inflation", "Target only contractors", "Comply with privacy law"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Blurring gender roles push firms to:"
+        o: ["Design and position products beyond traditional boundaries", "Use more stereotypes", "Ignore women shoppers", "Avoid inclusivity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A toolmaker launches gender-neutral ads showing a range of people renovating homes. It is responding to:"
+        t: app
+        o: ["Changing gender roles (demographics)", "Exchange rates", "Robotics", "Regional subcultures"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statistic appears in the slide notes?"
+        o: ["Women head more than 20% of Canadian households", "Women make no purchase decisions", "Men make all household decisions", "Women are 5% of the workforce"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Bandai Namco's 'Bonnie-and-Clyde' tournament with mixed-gender teams aimed to:"
+        o: ["Encourage female gamers", "Exclude female gamers", "Lower prices", "Test a prototype"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]

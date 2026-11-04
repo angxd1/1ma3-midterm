@@ -1,0 +1,524 @@
+chapter: 6
+concepts:
+  - id: ch6-positioning
+    title: Step 5 — positioning
+    src: "Ch. 6 slides, slide 39"
+    explain: >-
+      Positioning is the mental picture — the thoughts, feelings and impressions — people have about a company, its products and
+      brands relative to competing products, brands or companies. It is how consumers view a firm's offerings based on important
+      attributes, placing the brand in their minds relative to competitors. Firms can position using value, product attributes,
+      benefits and symbolism, competition, or market leadership.
+    alt: >-
+      Positioning is the "seat" a brand occupies in your head — next to which competitors, and what label is on the seat.
+    terms:
+      Positioning: "The mental picture people have of a company/product/brand relative to competitors."
+      Positioning methods: "Value, product attributes, benefits & symbolism, competition, market leadership."
+    example: "Illustrative: Volvo is positioned in many consumers' minds as the 'safe' car (Ch 4 notes)."
+    recall:
+      - q: "Positioning is best defined as:"
+        o: ["The mental picture people have of a brand relative to competitors", "Dividing a market into groups", "Choosing which segments to pursue", "Testing a product in a city"]
+        a: A
+        e: ["Correct.", "Segmentation.", "Targeting.", "Test marketing (Ch 8)."]
+      - q: "Which is NOT a positioning method from the slides?"
+        o: ["Value", "Market leadership", "Benefits & symbolism", "Geodemographics"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — a segmentation base."]
+    practice:
+      - q: "Positioning is always defined relative to:"
+        o: ["Competing products, brands or companies", "The firm's suppliers", "The government", "The product life cycle"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement is about positioning rather than segmentation or targeting?"
+        t: app
+        o: ["'We want students to see us as the most affordable reliable laptop'", "'We'll divide the market by age and income'", "'We'll focus on the 18–24 segment'", "'The segment is big enough to be profitable'"]
+        a: A
+        e: ["Correct — shaping perception vs competitors.", "Segmentation.", "Targeting.", "Targeting (step 3)."]
+      - q: "Positioning is step ___ of the STP process."
+        o: ["5", "1", "3", "4"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Positioning includes which of the following elements?"
+        o: ["Thoughts, feelings and impressions about a brand", "Only the product's price", "Only legal protection", "Only distribution"]
+        a: A
+        e: ["Correct — from slide 39 notes.", "Too narrow.", "No.", "No."]
+      - q: "Elizabeth is creating an educational product for school children. Which is the FIRST thing she must know before positioning it?"
+        t: app
+        o: ["Her target market and the competing alternatives in their minds", "Her packaging colour", "Her brand jingle", "The PLC decline strategy"]
+        a: A
+        e: ["Correct — positioning is relative to competitors in the target market's mind.", "Comes later.", "Comes later.", "Irrelevant at launch."]
+
+  - id: ch6-pos-value
+    title: Positioning by value
+    src: "Ch. 6 slides, slides 40, 45–46"
+    explain: >-
+      Value positioning is based on the relationship of price to quality — one of the most important considerations for consumers
+      when they decide. Different consumers perceive value differently, so two brands can both offer "good value" to different
+      target markets.
+    alt: >-
+      Value = "what you get for what you pay". It doesn't mean cheapest — it means worth it, to that customer.
+    terms:
+      Value positioning: "Positioning on the relationship of price to quality."
+    example: "Illustrative (from slides): KIND bars (natural, pronounceable ingredients) and PowerBars (performance protein for athletes) both offer good value to different targets."
+    recall:
+      - q: "Positioning based on the relationship of price to quality is:"
+        o: ["Value", "Product attributes", "Benefits and symbolism", "Competition"]
+        a: A
+        e: ["Correct (slides 45–46).", "No.", "No.", "No."]
+      - q: "Why is value a popular positioning method?"
+        o: ["Price-to-quality is among the most important purchase considerations", "It's legally required", "It avoids competition", "It needs no target market"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A grocery chain advertises 'Premium quality at everyday low prices.' This is:"
+        t: app
+        o: ["Value positioning", "Market leadership positioning", "Benefits & symbolism", "Repositioning"]
+        a: A
+        e: ["Correct — price-to-quality.", "No claim of being #1.", "No symbolic meaning.", "No change of focus."]
+      - q: "KIND and PowerBar both offer 'good value' because:"
+        o: ["Different consumers perceive value differently", "They charge the same price", "They target the same segment", "They are the market leaders"]
+        a: A
+        e: ["Correct.", "Not stated.", "They target different segments.", "Not stated."]
+      - q: "Value positioning does NOT necessarily mean:"
+        o: ["The lowest price", "Price relative to quality", "A focus on what customers get", "Appealing to price-quality trade-offs"]
+        a: A
+        e: ["Correct — value is the price–quality relationship, not just cheapness.", "That's what it means.", "Part of value.", "Part of value."]
+      - q: "Walmart says customers can 'purchase organic at non-organic prices.' Which positioning element is most emphasised?"
+        t: app
+        o: ["Value (price relative to quality)", "Benefits & symbolism", "Market leadership", "Product attributes only"]
+        a: A
+        e: ["Correct — premium quality at low cost (from slide 43 notes).", "No symbolic meaning.", "No leadership claim here.", "Price is central."]
+      - q: "A budget airline says 'Fly for less without the fees.' Which method is it using?"
+        t: app
+        o: ["Value", "Product attributes", "Symbolism", "Leadership"]
+        a: A
+        e: ["Correct.", "No specific feature.", "No.", "No."]
+
+  - id: ch6-pos-attributes
+    title: Positioning by product attributes
+    src: "Ch. 6 slides, slide 41"
+    explain: >-
+      Product-attribute positioning focuses on the attributes that are most important to the target market — e.g., innovation,
+      quality, performance or reliability. Which attributes matter varies by target market.
+    alt: >-
+      Attribute positioning says "Look at THIS feature" — and picks the feature your target cares about most.
+    terms:
+      Product attributes positioning: "Positioning on the attributes most important to the target market."
+    example: "Illustrative (from slides): Audi positions its all-wheel-drive Quattro on performance and handling on snowy, icy roads."
+    recall:
+      - q: "Audi promoting the Quattro's handling on snowy roads is:"
+        o: ["Product attributes positioning", "Value positioning", "Competition positioning", "Market leadership"]
+        a: A
+        e: ["Correct.", "No price-quality claim.", "No named rival.", "No #1 claim."]
+      - q: "Product-attribute positioning focuses on the attributes that are:"
+        o: ["Most important to the target market", "Cheapest to produce", "Identical to competitors", "Required by law"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A phone ad focuses on '48-hour battery life'. This is:"
+        t: app
+        o: ["Product attributes positioning", "Symbolism", "Market leadership", "Value"]
+        a: A
+        e: ["Correct — a specific attribute.", "No.", "No.", "No price element."]
+      - q: "Why might a university position itself on co-op programs for one segment and on research for another?"
+        o: ["The important attributes vary by target market", "Positioning never changes", "Attributes don't matter", "It's undifferentiated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an example of attribute-based positioning?"
+        t: app
+        o: ["'Our vacuum never loses suction'", "'We're number two, we try harder'", "'The #1 bank in Canada'", "'Luxury you can afford'"]
+        a: A
+        e: ["Correct — a performance attribute.", "Competition.", "Leadership.", "Value."]
+      - q: "The attributes listed in the slide notes for attribute positioning include:"
+        o: ["Innovation, quality, performance and reliability", "Price and discounts only", "Celebrity and symbols", "Market share"]
+        a: A
+        e: ["Correct.", "Value.", "Symbolism.", "Leadership."]
+      - q: "Attribute positioning differs from benefits & symbolism positioning because it emphasises:"
+        o: ["Specific product features rather than psychological meaning", "Psychological meaning rather than features", "Being #1", "A specific competitor"]
+        a: A
+        e: ["Correct.", "That's symbolism.", "Leadership.", "Competition."]
+
+  - id: ch6-pos-benefits-symbolism
+    title: Positioning by benefits & symbolism
+    src: "Ch. 6 slides, slide 42"
+    explain: >-
+      This positioning emphasises the benefits of the brand as well as its psychological meaning to consumers. Well-known
+      commercial symbols (like the Nike swoosh or the Ralph Lauren polo player) carry meaning that helps consumers differentiate a
+      brand from competitors.
+    alt: >-
+      Benefits & symbolism is about what the brand DOES for you and what it MEANS to you — the swoosh says more than "shoe".
+    terms:
+      Benefits and symbolism positioning: "Emphasising the brand's benefits and its psychological meaning to consumers."
+    example: "Illustrative (from slides): SoCIAL LITE Vodka targets Gen Z on functional benefits — great taste, all natural, 80 calories, no sugar."
+    recall:
+      - q: "Positioning that emphasises a brand's benefits and its psychological meaning is:"
+        o: ["Benefits and symbolism", "Value", "Competition", "Market leadership"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an example of a commercial symbol mentioned in the notes?"
+        o: ["The Nike swoosh", "PRIZM", "A UPC code", "The Competition Act"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Nike's swoosh and McDonald's golden arches are well set in consumers' minds and help them differentiate the brands; these brands are also industry leaders. The official key classifies this positioning as:"
+        t: app
+        o: ["Competition", "Leadership", "Consumerism", "Symbolism"]
+        a: D
+        e: ["No named rival.", "Tempting, but the key emphasises the symbols' meaning.", "Not a method.", "Correct — the symbols carry psychological meaning (benefits & symbolism)."]
+      - q: "A water brand's ad stresses 'zero sugar, all natural, only 0 calories.' It is emphasising:"
+        t: app
+        o: ["Benefits", "Market leadership", "Competition", "Repositioning"]
+        a: A
+        e: ["Correct — functional benefits like SoCIAL LITE.", "No.", "No.", "No."]
+      - q: "Which best describes symbolism in positioning?"
+        o: ["The psychological meaning the brand has for consumers", "The brand's market share", "Its price relative to rivals", "Its distribution reach"]
+        a: A
+        e: ["Correct.", "Leadership.", "Value.", "No."]
+      - q: "Ralph Lauren's polo player logo is used to convey prestige. This is:"
+        t: app
+        o: ["Benefits & symbolism positioning", "Value positioning", "Competition positioning", "Product attributes positioning"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "SoCIAL LITE Vodka is positioned on:"
+        o: ["Functional benefits (taste, natural, low calorie, no sugar)", "Being the market leader", "Head-to-head comparison", "Lowest price"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch6-pos-competition
+    title: Positioning against competition
+    src: "Ch. 6 slides, slide 43"
+    explain: >-
+      Firms can position head-to-head against a specific competitor or against an entire product classification, on similar
+      attributes within the target market. Firms that aren't the market leader often position against the leader to show they
+      offer the same or better quality or service.
+    alt: >-
+      Competitive positioning is a side-by-side comparison — "us versus them" — that only works if customers know who "them" is.
+    terms:
+      Competition positioning: "Positioning against a specific competitor or an entire product classification."
+    example: "Illustrative (from slides): Avis — 'We're number two. We try harder.' — turned second place behind Hertz into an advantage."
+    recall:
+      - q: "Avis's 'We're number two. We try harder' is:"
+        o: ["Competition positioning", "Market leadership positioning", "Value positioning", "Symbolism"]
+        a: A
+        e: ["Correct — head-to-head with Hertz.", "Avis is not the leader.", "No price claim.", "No."]
+      - q: "Competition positioning has two options: against a specific competitor or against:"
+        o: ["An entire product classification", "The government", "Its own suppliers", "Its own past"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Samsung ads show iPhone users realising Galaxy phones have the same or better features. This is:"
+        t: app
+        o: ["Positioning against a specific competitor", "Market leadership", "Undifferentiated targeting", "Value positioning"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Not about price-quality."]
+        c: [ch3-competition]
+      - q: "Which firms typically position against the leader?"
+        o: ["Firms that lack market leadership", "Only market leaders", "Monopolies", "Commodity producers"]
+        a: A
+        e: ["Correct — from slide notes.", "No.", "No.", "No."]
+      - q: "A sparkling-water brand advertises 'All the fizz of soda, none of the sugar.' This positions against:"
+        t: app
+        o: ["An entire product classification (soda)", "A specific named rival", "Its own past image", "Its suppliers"]
+        a: A
+        e: ["Correct.", "No brand named.", "No.", "No."]
+      - q: "Competitive positioning compares the firm with rivals on:"
+        o: ["Similar attributes within the target market", "Unrelated attributes", "Legal status", "Supplier lists"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT competition positioning?"
+        t: app
+        o: ["'Canada's most trusted bank for 150 years'", "'Tastes better than Coke in blind tests'", "'Faster than any other courier'", "'All the comfort of a sedan, the space of an SUV'"]
+        a: A
+        e: ["Correct — that's a leadership/credibility claim.", "Head-to-head.", "Against a classification.", "Against classifications."]
+
+  - id: ch6-pos-leadership
+    title: Market leadership positioning
+    src: "Ch. 6 slides, slide 44"
+    explain: >-
+      Market-leader positioning highlights a firm's dominance, scale and credibility rather than competing head-to-head. Customers
+      often assume leaders set industry standards for quality, reliability and innovation, so leadership signals trust and lowers
+      perceived risk. It works best for large, well-established firms with strong recognition and market share.
+    alt: >-
+      Leadership positioning says "We're the standard" — like being the default choice everyone measures against.
+    terms:
+      Market leadership positioning: "Highlighting dominance, scale and credibility as the industry leader."
+    example: "Illustrative (from slides): Royal Bank of Canada, Loblaw, Canadian Tire, Amazon, Intel, Google and eBay."
+    recall:
+      - q: "Market leadership positioning works best for:"
+        o: ["Large, well-established firms with strong recognition", "Start-ups", "Firms in second place", "Commodity niche firms"]
+        a: A
+        e: ["Correct.", "No.", "They use competition positioning.", "No."]
+      - q: "Leadership positioning helps consumers by:"
+        o: ["Signalling trust and lowering perceived risk", "Raising prices", "Increasing complexity", "Reducing choices"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Google promoting itself as the world's most-used search engine is:"
+        t: app
+        o: ["Market leadership positioning", "Competition positioning", "Value positioning", "Micromarketing"]
+        a: A
+        e: ["Correct.", "No named rival.", "No.", "No."]
+      - q: "Customers often assume market leaders:"
+        o: ["Set industry standards for quality, reliability and innovation", "Are the cheapest", "Have the worst service", "Are new entrants"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A small start-up claims to be 'the industry leader' despite tiny market share. The main problem is:"
+        t: app
+        o: ["Leadership positioning requires real dominance and recognition", "It's illegal to make claims", "Leadership is only for commodities", "It should use micromarketing"]
+        a: A
+        e: ["Correct — it works best for large established firms.", "Not stated.", "No.", "Not the point."]
+      - q: "Leadership positioning differs from competition positioning because it:"
+        o: ["Highlights dominance rather than competing head-to-head", "Names a specific rival", "Focuses only on price", "Targets a niche"]
+        a: A
+        e: ["Correct.", "That's competition positioning.", "No.", "No."]
+      - q: "Which firm from the slides exemplifies market leadership positioning?"
+        o: ["Canadian Tire", "Avis", "Newton Running", "SoCIAL LITE"]
+        a: A
+        e: ["Correct.", "Competition.", "Niche targeting.", "Benefits."]
+
+  - id: ch6-perceptual-map
+    title: Perceptual mapping
+    src: "Ch. 6 slides, slides 47–48"
+    explain: >-
+      A perceptual map displays, in two or more dimensions, the position of products or brands in the consumer's mind. Steps:
+      determine consumers' perceptions and evaluations of the product in relation to competitors; identify competitors'
+      positions; determine consumer preferences; select the position; and monitor the positioning strategy. Maps can also show
+      the size of target markets (e.g., bigger ovals for bigger segments) to reveal gaps.
+    alt: >-
+      A perceptual map is a "mind map" of the market — each brand is a pin on a grid of what customers care about.
+    terms:
+      Perceptual map: "A display, in two or more dimensions, of the position of brands in consumers' minds."
+    example: "Illustrative (from slides): a map with sweet-vs-light taste and less-natural-vs-healthy axes places Powerade and Gatorade together (sweet, healthy) and bottled water in the light, healthy quadrant."
+    recall:
+      - q: "A perceptual map displays:"
+        o: ["The position of brands in consumers' minds on two or more dimensions", "A firm's distribution routes", "Census data by region", "A product's life cycle"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Ch 8."]
+      - q: "The last step in developing a perceptual map strategy is to:"
+        o: ["Monitor the positioning strategy", "Determine consumer perceptions", "Identify competitors' positions", "Select the position"]
+        a: A
+        e: ["Correct.", "First step.", "Second step.", "Fourth step."]
+    practice:
+      - q: "Which is the correct order of perceptual-mapping steps?"
+        o: ["Determine perceptions → identify competitors' positions → determine preferences → select position → monitor", "Select position → determine perceptions → monitor → identify competitors → determine preferences", "Monitor → select → identify → determine → evaluate", "Identify competitors → select position → determine perceptions → monitor → preferences"]
+        a: A
+        e: ["Correct — from slide 48 notes.", "No.", "No.", "No."]
+      - q: "On the slide's map, Powerade and Gatorade sit close together in the sweet, healthy quadrant. This suggests they:"
+        t: app
+        o: ["Compete directly for the same customers", "Are in different product categories", "Use undifferentiated targeting", "Are pioneers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "An empty quadrant on a perceptual map (with consumer demand) may indicate:"
+        t: app
+        o: ["A positioning opportunity / gap", "Brand dilution", "Market saturation", "Postpurchase dissonance"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "In Chart B on the slide, oval sizes indicate:"
+        o: ["Target market size", "Price", "Number of competitors", "Profit margin"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Perceptual maps are a tool for which STP step?"
+        o: ["Positioning", "Segmentation bases", "Evaluating attractiveness", "Mission setting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch6-repositioning
+    title: Repositioning
+    src: "Ch. 6 slides, slide 49"
+    explain: >-
+      Repositioning is a strategy in which marketers change a brand's focus to target new markets or realign the brand's core
+      emphasis with changing market preferences. The overriding purpose is to convey that the brand meets consumers' changing needs.
+    alt: >-
+      Repositioning is moving a brand to a new "seat" in consumers' minds — same product, new story or new audience.
+    terms:
+      Repositioning: "Changing a brand's focus to target new markets or realign with changing preferences."
+    example: "Illustrative (from slide notes): baking soda has been repositioned many times — new uses (fridge deodoriser, cleaning) make consumers redefine why they need it."
+    recall:
+      - q: "Repositioning means:"
+        o: ["Changing a brand's focus to target new markets or realign with changing preferences", "Launching a new-to-the-world product", "Lowering price permanently", "Cutting product lines"]
+        a: A
+        e: ["Correct.", "Ch 8 pioneer.", "Not necessarily.", "Ch 9."]
+      - q: "Which product is cited in the notes as repositioned many times?"
+        o: ["Baking soda", "Table salt", "Gasoline", "Greeting cards"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "General Mills relabels Chex as gluten-free to attract health-conscious consumers. This is:"
+        t: app
+        o: ["Repositioning", "Undifferentiated targeting", "Brand licensing", "Test marketing"]
+        a: A
+        e: ["Correct — the Ch 8 slide says it repositioned a long-standing cereal brand.", "No.", "No.", "No."]
+        c: [ch8-market-saturation]
+      - q: "The overriding purpose of repositioning is to convey that the brand:"
+        o: ["Meets consumers' changing needs", "Is the cheapest", "Has a new logo", "Is a pioneer"]
+        a: A
+        e: ["Correct.", "No.", "Not necessarily.", "No."]
+      - q: "A brand once seen as 'for grandparents' launches edgy ads for young adults. This is:"
+        t: app
+        o: ["Repositioning toward a new market", "Concentrated targeting", "Product line depth", "Undifferentiated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Repositioning is closely linked to which PLC extension strategy (Ch 8)?"
+        o: ["Reposition product / develop new uses", "Increase product failure", "Alpha testing", "Concept testing"]
+        a: A
+        e: ["Correct — 'reposition product' is a listed PLC extension strategy.", "No.", "No.", "No."]
+        c: [ch8-plc-extend]
+      - q: "Which is NOT repositioning?"
+        t: app
+        o: ["Launching a completely new brand in a new category", "Promoting baking soda as a fridge deodoriser", "Marketing a vitamin for a new health benefit", "Realigning a brand to changing preferences"]
+        a: A
+        e: ["Correct — that's a new product, not changing an existing brand's focus.", "Repositioning.", "Repositioning.", "Repositioning."]
+
+short_answers:
+  - t: app
+    c: [ch6-positioning, ch6-pos-value, ch6-pos-attributes, ch6-pos-benefits-symbolism, ch6-pos-competition, ch6-perceptual-map]
+    src: "Ch. 6 slides, slides 39–48; Midterm info p.3"
+    q: "Elizabeth is creating a new product focused on educating school children. Explain how Elizabeth should position her product. Be sure to back up your answers with what you have learned in this course."
+    model: |-
+      Positioning is the mental picture — the thoughts, feelings and impressions — that customers have of a product relative to competing products. Before positioning, Elizabeth should complete the earlier STP steps: segment the market (for example demographically by children's age, and by parents' benefits sought such as academic results or fun) and target an attractive segment that is identifiable, reachable, responsive and substantial. Because children use the product but parents and teachers often buy it, she should position to the decision makers as well as the users. To choose a position, she can build a perceptual map: determine how parents perceive existing educational products (e.g., on "fun vs. academic" and "affordable vs. premium"), identify competitors' positions, determine consumer preferences, select an open position, and monitor it over time.
+
+      She could then use one or more positioning methods. Product-attribute positioning would stress the features most important to her target, such as curriculum alignment or adaptive learning. Benefits & symbolism positioning would emphasise the benefit (confident, curious kids) and a friendly character or symbol children recognise. Value positioning would highlight strong learning outcomes relative to price, and competition positioning could compare her product with screen-only games ("all the fun of a game, with real learning"). Her marketing mix — design, packaging, price and distribution through schools — should consistently communicate the chosen position.
+    rubric:
+      - p: "Defines positioning (mental picture relative to competitors)"
+        k: ["position", "mind|mental|perception|perceive", "competitor|competing"]
+      - p: "Links to segmentation and targeting first"
+        k: ["segment|target"]
+      - p: "Recognises parents/teachers as buyers and children as users"
+        k: ["parent|teacher|school"]
+      - p: "Uses perceptual mapping steps"
+        k: ["perceptual map|map"]
+      - p: "Applies at least two positioning methods"
+        k: ["value|attribute|benefit|symbol|competition|leadership"]
+      - p: "Consistent marketing mix supports the position"
+        k: ["marketing mix|4ps|price|packaging|distribution|promotion"]
+    mistakes:
+      - "Describing segmentation only and never stating a position."
+      - "Listing positioning methods without applying them to Elizabeth's product."
+      - "Claiming market-leadership positioning for a brand-new product with no share."
+      - "Ignoring that parents/teachers make the purchase decision."
+  - t: th
+    c: [ch6-stp-process, ch6-step1-strategy, ch6-segmentation-bases, ch6-select-target, ch6-positioning]
+    src: "Ch. 6 slides, slides 3–5, 39"
+    q: "Explain the five steps of the segmentation, targeting and positioning (STP) process."
+    model: |-
+      The STP process has five steps grouped into segmentation, targeting and positioning. In Step 1 the firm establishes its overall strategy or objectives: its mission and a SWOT analysis guide who it should serve and what value it promises, because segmentation must align with strengths the firm can realistically deliver. In Step 2 it uses segmentation bases — geographic, demographic, psychographic and behavioural, often combined (e.g., geodemographics with PRIZM) — to divide the market into segments that are similar within and different from each other.
+
+      Step 3 evaluates segment attractiveness: segments should be identifiable, reachable, responsive, and substantial and profitable, and profitability can be estimated with the formula (size × adoption % × purchase behaviour × margin) − fixed costs. In Step 4 the firm selects its target market and a targeting strategy — undifferentiated, differentiated, concentrated (niche) or micromarketing. Finally, Step 5 identifies and develops a positioning strategy, shaping how the brand is perceived relative to competitors using value, product attributes, benefits and symbolism, competition or market leadership, often with a perceptual map. For example, Wild Lot Farm Distillery segments drinkers, targets health-conscious and local-experience buyers, and positions on real ingredients and natural flavours.
+    rubric:
+      - p: "Step 1 strategy/objectives (mission, SWOT)"
+        k: ["objective|strategy|mission", "swot"]
+      - p: "Step 2 segmentation bases named"
+        k: ["geographic", "demographic", "psychographic", "behavioural|behavioral"]
+      - p: "Step 3 attractiveness criteria"
+        k: ["identifiable|reachable|responsive|substantial|profitable"]
+      - p: "Step 4 targeting strategies"
+        k: ["undifferentiated|differentiated|concentrated|niche|micromarketing"]
+      - p: "Step 5 positioning"
+        k: ["position"]
+    mistakes:
+      - "Listing only three steps (S, T, P) without the five-step detail."
+      - "Confusing segmentation bases with targeting strategies."
+      - "Putting positioning before targeting."
+  - t: th
+    c: [ch6-undifferentiated, ch6-differentiated, ch6-concentrated, ch6-micromarketing]
+    src: "Ch. 6 slides, slides 31–38"
+    q: "Compare the four targeting strategies and give an example of each."
+    model: |-
+      An undifferentiated strategy uses the same product, message and market for everyone. It works when most consumers want similar benefits, such as basic commodities like salt or sugar, and it is cost-efficient through scale — but it is harder to sustain today because consumers expect differentiation. A differentiated strategy offers different products and marketing mixes to several segments with distinct needs, as Condé Nast does with The New Yorker, GQ, Vogue and Wired. It increases market coverage and diversifies risk, but raises costs from multiple products and campaigns.
+
+      A concentrated (niche) strategy focuses on a single, clearly defined segment, like Newton Running targeting only forefoot runners. It builds deep customer understanding and loyalty and suits small firms with limited budgets, but it is risky if that segment declines. Micromarketing tailors products to individual customers, enabled by data, AI and digital tools — for example Reebok Impact's personalised shoes or personalised M&M's. It creates strong relationships but is costly and complex, so firms must balance the value gained against the expense.
+    rubric:
+      - p: "Undifferentiated — same offer to everyone, commodity example"
+        k: ["undifferentiated|mass", "salt|sugar|flour|commodity|same"]
+      - p: "Differentiated — different mixes per segment, example"
+        k: ["differentiated", "segment|cond|gap"]
+      - p: "Concentrated/niche — one segment, example"
+        k: ["concentrated|niche", "one segment|single|newton"]
+      - p: "Micromarketing — individual customisation, example"
+        k: ["micromarketing|one-to-one|individual", "personal|custom"]
+      - p: "Pros/cons discussed"
+        k: ["cost|risk|coverage|loyalty"]
+    mistakes:
+      - "Describing differentiated targeting as 'one niche segment'."
+      - "Calling micromarketing 'targeting a small segment' — it's individuals."
+      - "Giving examples without explaining trade-offs."
+  - t: app
+    c: [ch6-identifiable, ch6-reachable, ch6-responsive, ch6-substantial-profitable, ch6-segment-profitability]
+    src: "Ch. 6 slides, slides 21–29"
+    q: "A campus coffee start-up is deciding whether to target graduate students who study late at night. Explain how it should evaluate the attractiveness of this segment."
+    model: |-
+      Segment attractiveness is evaluated in Step 3 of STP using four criteria. First, the segment must be identifiable: the start-up should confirm who is in it (graduate students who study late) and that they are a distinct group needing a unique marketing mix — for example late-night hours and study-friendly seating. Second, it must be reachable: the firm needs ways to communicate with and serve them, such as grad-student society newsletters, campus social media, and a location near the library.
+
+      Third, the segment must be responsive — grad students must react positively to the start-up's value proposition (cheap, strong coffee and a quiet place to work) and prefer it over alternatives like brewing at home. Fourth, it must be substantial and profitable, including growth potential: if only a few hundred students study late, the segment may be too small. The start-up can estimate profitability with the formula (segment size × adoption % × purchase price × frequency × profit margin %) − fixed costs, while also considering market growth, competitiveness and access. If the segment meets all four criteria, it is worth pursuing.
+    rubric:
+      - p: "Identifiable"
+        k: ["identifiable"]
+      - p: "Reachable"
+        k: ["reachable|reach"]
+      - p: "Responsive"
+        k: ["responsive|value proposition"]
+      - p: "Substantial & profitable incl. growth"
+        k: ["substantial|profitable|size"]
+      - p: "Uses profitability formula or growth/competition/access"
+        k: ["adoption|margin|fixed cost|formula|growth|competit|access"]
+    mistakes:
+      - "Listing criteria without applying them to grad students."
+      - "Confusing reachable (can we get to them?) with responsive (will they like it?)."
+      - "Forgetting to subtract fixed costs in the formula."
+
+matching:
+  - prompt: "Match each segmentation base to a variable."
+    c: [ch6-geographic, ch6-demographic, ch6-psychographic, ch6-behavioural]
+    src: "Ch. 6 slides, slide 7"
+    pairs:
+      - ["Geographic", "Climate"]
+      - ["Demographic", "Family life cycle"]
+      - ["Psychographic", "Personality / self-concept"]
+      - ["Behavioural", "Usage rate"]
+  - prompt: "Match each targeting strategy to its example."
+    c: [ch6-undifferentiated, ch6-differentiated, ch6-concentrated, ch6-micromarketing]
+    src: "Ch. 6 slides, slides 33–36"
+    pairs:
+      - ["Undifferentiated", "Sugar"]
+      - ["Differentiated", "Condé Nast magazines"]
+      - ["Concentrated", "Newton Running"]
+      - ["Micromarketing", "Reebok Impact custom shoes"]
+  - prompt: "Match each positioning method to its example."
+    c: [ch6-pos-value, ch6-pos-attributes, ch6-pos-benefits-symbolism, ch6-pos-competition, ch6-pos-leadership]
+    src: "Ch. 6 slides, slides 40–44"
+    pairs:
+      - ["Value", "KIND vs PowerBar"]
+      - ["Product attributes", "Audi Quattro"]
+      - ["Benefits & symbolism", "SoCIAL LITE Vodka"]
+      - ["Competition", "Avis vs Hertz"]
+      - ["Market leadership", "Royal Bank of Canada"]
+
+fill:
+  - text: "PRIZM groups Canadian neighbourhoods into ___ lifestyle clusters."
+    a: "67"
+    accept: ["sixty-seven"]
+    c: [ch6-geodemographic]
+    src: "Ch. 6 slides, slide 15"
+  - text: "Good segments are homogeneous within and ___ between."
+    a: "heterogeneous"
+    c: [ch6-segmentation-bases]
+    src: "Ch. 6 slides, slide 6"
+  - text: "Segment profitability = (size × adoption % × purchase behaviour × profit margin %) − ___ costs."
+    a: "fixed"
+    c: [ch6-segment-profitability]
+    src: "Ch. 6 slides, slide 26"
+  - text: "A ___ map displays brands' positions in consumers' minds on two or more dimensions."
+    a: "perceptual"
+    c: [ch6-perceptual-map]
+    src: "Ch. 6 slides, slide 48"
+  - text: "Changing a brand's focus to target new markets is called ___."
+    a: "repositioning"
+    c: [ch6-repositioning]
+    src: "Ch. 6 slides, slide 49"
+  - text: "A niche strategy is also called ___ targeting."
+    a: "concentrated"
+    c: [ch6-concentrated]
+    src: "Ch. 6 slides, slide 35"
+  - text: "Positioning on the relationship of price to quality is ___ positioning."
+    a: "value"
+    c: [ch6-pos-value]
+    src: "Ch. 6 slides, slide 40"

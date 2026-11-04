@@ -1,0 +1,724 @@
+chapter: 3
+concepts:
+  - id: ch3-ethnicity
+    title: Ethnicity
+    src: "Ch. 3 slides, slides 30–31"
+    explain: >-
+      Canada's ethnic composition is changing. About 23% of Canadians are foreign-born, and immigration has driven over 75% of
+      population growth since 2016; by 2030 growth will be mainly from immigration. By 2036 visible minorities are expected to
+      total about 15 million (nearly 39% of the population). South Asian and Chinese communities are the fastest-growing and
+      affluent, and Indigenous peoples (5% of the population) grew 9.4% from 2016–2021. This is both a challenge (understanding
+      each group's culture, values and spending) and an opportunity, so brands tailor products, signage and campaigns.
+    alt: >-
+      Canada's customer base is becoming a mosaic; brands that learn each tile's colours can serve the whole picture.
+    terms:
+      Ethnicity (demographic): "Ethnic composition of the population — a fast-changing demographic in Canada."
+    example: "Illustrative (from slides): Sephora used an all-Indigenous cast for National Indigenous History Month; Harley-Davidson created the Tough Turban for Sikh riders."
+    recall:
+      - q: "Immigration has driven over what share of Canada's population growth since 2016?"
+        o: ["75%", "25%", "10%", "50%"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which communities are described as fastest-growing and affluent?"
+        o: ["South Asian and Chinese", "Only European", "Only Indigenous", "None"]
+        a: A
+        e: ["Correct.", "No.", "Indigenous population grew, but the slide names South Asian and Chinese as fastest-growing and affluent.", "No."]
+    practice:
+      - q: "Harley-Davidson's Tough Turban for Sikh riders is a response to:"
+        t: app
+        o: ["Ethnic diversity (demographics)", "Inflation", "IoT", "Regional subcultures only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "It's about an ethnic community, not a region."]
+      - q: "According to the notes, the ethnic shift is both a challenge and an opportunity because:"
+        o: ["Marketers must understand different cultures, while these groups often spend more and like brand names", "It reduces market size", "It ends segmentation", "It's illegal to target ethnic groups"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A grocer adds multilingual signage and flyers in Chinese and Punjabi. This adapts to:"
+        t: app
+        o: ["Ethnicity", "Economic recession", "Robotics", "Gender roles"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "By 2036, visible minorities are expected to be about what share of Canada's population?"
+        o: ["39%", "5%", "75%", "15%"]
+        a: A
+        e: ["Correct (≈15 million people).", "Indigenous share.", "No.", "15 million is the count, not %."]
+      - q: "Ethnicity belongs to which CDSTEP factor?"
+        o: ["Demographics", "Culture", "Technology", "Political"]
+        a: A
+        e: ["Correct — the slides cover it under demographics.", "Related, but slides place it under demographics.", "No.", "No."]
+
+  - id: ch3-technology
+    title: Technological advances
+    src: "Ch. 3 slides, slides 34–35"
+    explain: >-
+      Technology has impacted every aspect of marketing: new products (smartwatches), new forms of communication (Zoom,
+      Instagram) and new retail channels (Amazon, Temu, Shein). Constant mobile connectivity (Wi-Fi, 5G, smartphones, wearables)
+      enables anytime shopping; near-field communication, payment apps and streaming personalise experiences; AI, robotics and the
+      Internet of Things transform how firms collect data and interact with customers; and mobile tools strengthen loyalty
+      through convenience and customisation.
+    alt: >-
+      Technology keeps rewriting the rules of the game board — new pieces (products), new ways to talk (channels) and new places
+      to play (stores).
+    terms:
+      Technological advances: "Macro factor — new technologies creating new products, communication and retail channels."
+    example: "Illustrative (from slides): Netflix uses technology to recommend and even develop content; Coca-Cola Freestyle machines use AI and big data to predict new flavours."
+    recall:
+      - q: "Technology has created new products, new forms of communication and new:"
+        o: ["Retail channels", "Generational cohorts", "Countries", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Apple Pay and Google Pay are examples of:"
+        o: ["Payment technology personalising experiences", "Competitive intelligence", "Regional culture", "Greenwashing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "TikTok Shop and mobile ordering kiosks are enabled by:"
+        t: app
+        o: ["Constant mobile connectivity", "Inflation", "Demographic aging", "Bilingual labelling laws"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Mobile tools strengthen loyalty by adding:"
+        o: ["Convenience, customisation and direct brand engagement", "Higher prices", "Complexity", "Paperwork"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Coca-Cola Freestyle machines tracking drink mixes to predict new flavours illustrates:"
+        t: app
+        o: ["AI and big data in technological advances", "Political/legal change", "Regional subcultures", "Time-poor society"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The notes call which change 'arguably the single most important change in the way we live'?"
+        o: ["New technology", "Inflation", "Immigration", "Gender roles"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Amazon, Temu and Shein are cited as examples of new:"
+        o: ["Retail channels", "Corporate partners", "Generational cohorts", "Regulations"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-ai
+    title: Artificial intelligence
+    src: "Ch. 3 slides, slides 36–37"
+    explain: >-
+      AI enables machines and software to learn from data and perform tasks that once required human decision-making —
+      speech recognition, translation, transcription. Marketers use AI for personalisation, automation, chatbots and faster
+      content creation, and primarily for advanced customer segmentation (CRM and big data), media selection and buying, and
+      customer engagement. AI supports both consumer convenience and business efficiency.
+    alt: >-
+      AI is a tireless assistant that studies everything customers do and suggests the next best move.
+    terms:
+      Artificial intelligence: "Computer systems that learn from data and perform tasks requiring human intelligence."
+    example: "Illustrative (from slides): Wealthsimple's chatbot handles ~70% of customer inquiries; Stitch Fix blends AI with human stylists; The North Face's Expert Personal Shopper asks questions to suggest items."
+    recall:
+      - q: "Marketers embracing AI primarily use it for advanced customer segmentation, media selection and buying, and:"
+        o: ["Customer engagement", "Setting interest rates", "Census taking", "Bilingual labelling"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "AI enables software to:"
+        o: ["Learn from data and perform tasks once requiring human decisions", "Only store data", "Replace all marketing", "Set government policy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Wealthsimple handling ~70% of inquiries via chatbot shows AI used for:"
+        t: app
+        o: ["Cutting costs and improving service", "Raising prices", "Political lobbying", "Greenwashing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Stitch Fix's approach is notable because it:"
+        o: ["Blends AI fit data with human stylists", "Uses no data", "Uses only robots", "Targets only Boomers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The North Face's Expert Personal Shopper asks shoppers questions and suggests items. This is AI used for:"
+        t: app
+        o: ["Customer engagement / personalisation", "Media buying", "Regulation", "Corporate partnering"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a listed AI task?"
+        o: ["Speech recognition", "Translation", "Transcription", "Setting the inflation target"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+      - q: "AI supports which two outcomes, per the slides?"
+        o: ["Consumer convenience and business efficiency", "Higher taxes and lower wages", "Fewer products and less data", "Recession and inflation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-robotics
+    title: Robotics
+    src: "Ch. 3 slides, slide 38"
+    explain: >-
+      Robotics now handle tasks across retail, warehouses, farms and health care, improving speed, safety and labour efficiency.
+      Service robots cut labour costs and increase throughput, and retailers test autonomous drones for faster, cheaper last-mile
+      delivery.
+    alt: >-
+      Robots take over repetitive or dangerous jobs so products move faster and cheaper — the assembly line went mobile.
+    terms:
+      Robotics: "Machines performing tasks in retail, warehouses, farms and health care to improve speed, safety and efficiency."
+    example: "Illustrative (from slides): Amazon uses warehouse robots and FAA-approved delivery drones; some restaurant robots produce up to 80 pizzas per hour."
+    recall:
+      - q: "Robotics primarily improve:"
+        o: ["Speed, safety and labour efficiency", "Brand symbolism", "Cultural values", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Retailers test autonomous drones mainly to:"
+        o: ["Speed last-mile delivery and lower distribution costs", "Advertise", "Collect census data", "Set prices"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A restaurant installs a pizza-making robot that produces 80 pizzas an hour. The main benefit is:"
+        t: app
+        o: ["Lower labour costs and higher throughput", "Better brand awareness", "New cultural values", "Lower interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which industries are named as using robotics?"
+        o: ["Retail, warehouses, farms and health care", "Only automotive", "Only banking", "None"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Disinfection robots reducing bacteria in hospitals illustrate robotics improving:"
+        t: app
+        o: ["Safety", "Brand loyalty", "Price", "Regional culture"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Robotics is part of which macro factor?"
+        o: ["Technological advances", "Demographics", "Political/legal", "Culture"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Robotic vacuums like iRobot's helping with household chores were a precursor to which broader trend?"
+        o: ["Internet of Things", "Greenwashing", "Recession", "Generational cohorts"]
+        a: A
+        e: ["Correct — the slide 42 question's intended answer.", "No.", "No.", "No."]
+        c: [ch3-iot]
+
+  - id: ch3-iot
+    title: Internet of Things
+    src: "Ch. 3 slides, slides 39, 42–43"
+    explain: >-
+      The Internet of Things (IoT) links multiple smart, sensor-enabled devices to collect and share data — for example homes that
+      switch to eco mode during high-consumption times. Smart vehicles and home systems use sensors to predict maintenance needs,
+      and retailers use IoT data to optimise inventory, fix pricing errors and monitor operations. Connected devices automate homes
+      while giving firms insights to improve service, supply and customer experience.
+    alt: >-
+      IoT turns everyday objects into chatty teammates — your fridge, thermostat and car all "talk" and share data.
+    terms:
+      Internet of Things (IoT): "Network of smart, sensor-enabled devices that collect and share data."
+    example: "Illustrative (from slides): iRobot, Samsung and Nest connect appliances to apps for automation and remote control."
+    recall:
+      - q: "Firms like iRobot make robotic machines for chores, and other appliances are joining this trend, producing the notion of the:"
+        o: ["Internet of things", "Robotics", "Artificial intelligence", "Superficial intellect"]
+        a: A
+        e: ["Correct — the slide's printed key says D, but slide 39 supports A (see CONTENT_NOTES #7).", "Robotics is the starting point, not the connected trend.", "AI is broader.", "Distractor."]
+      - q: "IoT devices primarily:"
+        o: ["Collect and share data via sensors", "Replace all humans", "Set exchange rates", "Create regional subcultures"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A smart thermostat automatically switches to eco mode during high-demand periods. This is an example of:"
+        t: app
+        o: ["Internet of Things", "Competitive intelligence", "Greenwashing", "Market leadership"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "How do retailers use IoT data, per the slides?"
+        o: ["Optimise inventory, fix pricing errors and monitor operations", "Set government policy", "Choose brand names", "Write slogans"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A car warns its owner that brakes need service soon based on sensor data. This is:"
+        t: app
+        o: ["IoT predicting maintenance needs", "Robotics in warehouses", "A demographic trend", "Postpurchase dissonance"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The main difference between robotics and IoT on the slides is that IoT focuses on:"
+        o: ["Linking devices to collect and share data", "Physical labour", "Pricing", "Packaging"]
+        a: A
+        e: ["Correct.", "Robotics.", "No.", "No."]
+      - q: "Which brand is NOT listed as connecting home devices to apps?"
+        o: ["iRobot", "Samsung Electronics", "Nest Labs", "Huron Canvas"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+
+  - id: ch3-economic
+    title: Economic situation
+    src: "Ch. 3 slides, slide 40"
+    explain: >-
+      Marketers monitor the economy at home and abroad because it affects how consumers buy and spend. Key factors: inflation
+      (erodes purchasing power; the target is ~2%, and higher inflation pushes consumers toward lower prices and better value),
+      interest rates (the cost of borrowing money, affecting borrowing and spending — high household debt limits discretionary
+      purchases), foreign currency exchange rates (a weak Canadian dollar boosts tourism and exports but raises import costs), and
+      recession (negative economic growth for at least two consecutive quarters, shifting spending toward essentials and low-cost
+      luxuries).
+    alt: >-
+      The economy is the tide — when it goes out (inflation, high rates, recession), every boat (consumer budget) sinks a little
+      and people spend more cautiously.
+    terms:
+      Inflation: "The general rate of price increases; erodes purchasing power."
+      Interest rates: "The cost of borrowing money."
+      Exchange rates: "The value of one currency relative to another."
+      Recession: "A period of negative economic growth for at least two consecutive quarters."
+    example: "Illustrative (from slides): a weaker Canadian dollar attracts foreign shoppers and tourists, boosting Canadian retail."
+    recall:
+      - q: "Interest rates represent:"
+        o: ["The cost of borrowing money", "The price of imports", "The inflation target", "The share of immigrants"]
+        a: A
+        e: ["Correct.", "Exchange rates affect imports.", "No.", "No."]
+      - q: "A recession is negative economic growth for at least:"
+        o: ["Two consecutive quarters", "One month", "Five years", "One week"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A weak Canadian dollar is most likely to:"
+        o: ["Boost tourism and exports but raise import costs", "Lower all prices", "End inflation", "Reduce tourism"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "During a recession, consumers tend to shift spending toward:"
+        o: ["Essentials and low-cost luxuries", "Expensive luxury cars", "More debt", "Imported goods"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Inflation running above target pressures consumers to:"
+        t: app
+        o: ["Seek lower prices and better value", "Spend more freely", "Ignore prices", "Save less"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Household debt at 180% of income (highest in the G7) is cited as limiting:"
+        o: ["Discretionary purchases", "Immigration", "Technology adoption", "Regional subcultures"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A furniture retailer sees sales drop after the Bank of Canada raises rates. Which economic factor is at work?"
+        t: app
+        o: ["Interest rates", "Exchange rates", "Country culture", "Robotics"]
+        a: A
+        e: ["Correct — higher borrowing costs reduce big-ticket spending.", "No.", "No.", "No."]
+
+  - id: ch3-political-legal
+    title: Political/legal environment
+    src: "Ch. 3 slides, slide 41"
+    explain: >-
+      The political/legal environment includes government policies, laws and regulations that shape how firms compete and market
+      products. Competition and fair-trade laws prevent monopolies, misleading advertising and unsafe products to protect
+      consumers. Industry regulations can restrict or enable markets (deregulation, safety mandates, environmental rules, taxes).
+      Compliance raises costs and paperwork but can create opportunities (demand for car seats, hands-free devices, eco-friendly
+      products). Examples of legislation: Competition Act, Consumer Packaging and Labelling Act, PIPEDA, Food and Drugs Act.
+    alt: >-
+      Laws are the rulebook of the game — they can block some plays, but new rules also open new moves (like car-seat laws
+      creating a market).
+    terms:
+      Political/legal environment: "Government policies, laws and regulations that promote or inhibit trade and marketing."
+      Competition Act: "Canadian law protecting fair competition (listed on slide 41)."
+      PIPEDA: "Personal Information Protection and Electronic Documents Act — privacy legislation."
+    example: "Illustrative (from slides): safety mandates created demand for child car seats and hands-free devices."
+    recall:
+      - q: "Competition and fair-trade laws aim to prevent:"
+        o: ["Monopolies, misleading advertising and unsafe products", "All advertising", "Immigration", "Technology"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Government regulation can affect marketers:"
+        o: ["Negatively or positively", "Only negatively", "Only positively", "Never"]
+        a: A
+        e: ["Correct — from slide notes.", "No.", "No.", "No."]
+    practice:
+      - q: "New laws requiring child car seats created demand for car-seat makers. This shows regulations can:"
+        t: app
+        o: ["Create opportunities", "Only raise costs", "Eliminate markets", "Replace culture"]
+        a: A
+        e: ["Correct.", "They also create opportunities.", "No.", "No."]
+      - q: "Which act is listed on the slide?"
+        o: ["Competition Act", "Marketing Freedom Act", "Brand Licensing Act", "Generational Act"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A drink company must add bilingual labels in Canada. This is driven by:"
+        t: app
+        o: ["The political/legal environment", "Technology", "Generational cohorts", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch9-labelling]
+      - q: "Which is a downside of compliance mentioned on the slide?"
+        o: ["Raises costs and paperwork", "Lowers safety", "Increases monopolies", "Ends competition"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Political/legal factors are part of which environment?"
+        o: ["Macroenvironment", "Microenvironment", "Company capabilities", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-social-trends
+    title: Social & natural trends; UN Sustainable Development Goals
+    src: "Ch. 3 slides, slide 44"
+    explain: >-
+      Social and natural trends shape consumer values in Canada and around the world. They change in popularity over time, so
+      marketers work to identify emerging trends and judge whether they are opportunities or threats. A historic agreement of
+      193 world leaders produced the 17 Global Goals of Sustainable Development, highlighting social issues such as food, clean
+      water, health care and sanitation, mainly by eliminating extreme poverty. Trends covered: greener consumers, privacy,
+      time-poor society, efficient food distribution, and health and wellness.
+    alt: >-
+      Social trends are society's changing mood board — marketers watch it to see what customers will care about next.
+    terms:
+      Social and natural trends: "Shifts in values and concerns (e.g., sustainability, privacy, wellness) that shape consumer behaviour."
+      UN Sustainable Development Goals: "17 global goals agreed by 193 world leaders addressing basic needs and poverty."
+    example: "Illustrative: a clothing brand aligns its sustainability report with the UN goals to appeal to socially conscious buyers."
+    recall:
+      - q: "How many UN Global Goals of Sustainable Development are there?"
+        o: ["17", "67", "5", "193"]
+        a: A
+        e: ["Correct.", "PRIZM clusters.", "No.", "Number of world leaders."]
+      - q: "Social trends matter to marketers because they:"
+        o: ["Shape consumer values and can be opportunities or threats", "Never change", "Only affect governments", "Are micro factors"]
+        a: A
+        e: ["Correct.", "They change over time.", "No.", "Macro."]
+    practice:
+      - q: "Which is NOT a social/natural trend covered in the slides?"
+        o: ["Greener consumers", "Privacy concerns", "Time-poor society", "Rising interest rates"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — economic factor."]
+      - q: "Social trends 'tend to change over time in their popularity'. Therefore marketers should:"
+        o: ["Work to identify emerging trends", "Ignore trends", "Wait for regulation", "Focus only on competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A beverage brand funds clean-water projects linked to the UN goals. It is responding to:"
+        t: app
+        o: ["Social and natural trends", "Exchange rates", "Generational cohorts only", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The UN goals mainly highlight issues associated with:"
+        o: ["Meeting basic needs by eliminating extreme poverty", "Brand loyalty", "Online shopping", "Inflation targets"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which CDSTEP letter covers social and natural trends?"
+        o: ["S", "C", "T", "E"]
+        a: A
+        e: ["Correct.", "Culture.", "Technology.", "Economic."]
+
+  - id: ch3-green-consumers
+    title: Greener consumers & green marketing
+    src: "Ch. 3 slides, slides 45–46"
+    explain: >-
+      Green marketing is a strategic effort by firms to supply customers with environmentally friendly merchandise. Over 90% of
+      Canadians believe individuals can reduce pollution, over half of households recycle, and 69% of consumers say they'd pay a
+      premium for products that benefit society or the environment — yet Canadians generate 694 kg of waste per person and only 9%
+      of plastic is recycled. Green demand drives energy-efficient appliances, organic goods and recycled products, but stricter
+      laws now require proof of claims to prevent greenwashing.
+    alt: >-
+      Green marketing sells "doing good" — but customers and regulators now ask for receipts, so empty eco-claims (greenwashing)
+      backfire.
+    terms:
+      Green marketing: "A strategic effort by firms to supply customers with environmentally friendly merchandise."
+      Greenwashing: "Making environmental claims without proof (now restricted by stricter laws)."
+    example: "Illustrative (from slides): Patagonia's 'Don't buy this jacket' and refurbished clothing; LEGO's 'Rebuild the World'; Natasha Tonić's hemp swimwear."
+    recall:
+      - q: "Green marketing is:"
+        o: ["A strategic effort to supply environmentally friendly merchandise", "Advertising only in green colours", "A pricing law", "A segmentation base"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "What share of consumers say they'd pay a premium for products benefiting society or the environment?"
+        o: ["69%", "9%", "90%", "23%"]
+        a: A
+        e: ["Correct.", "Recycling rate.", "Believe individuals can reduce pollution.", "Foreign-born share."]
+    practice:
+      - q: "A company claims its bottles are '100% eco-friendly' but can't prove it. Stricter laws aim to prevent this:"
+        t: app
+        o: ["Greenwashing", "Green marketing", "Micromarketing", "Competitive intelligence"]
+        a: A
+        e: ["Correct.", "Real green marketing supplies genuinely eco-friendly products.", "No.", "No."]
+      - q: "LEGO's 'Rebuild the World' initiative promotes:"
+        o: ["Sustainability through play by repurposing sets", "Lower prices", "Robotics", "Regional culture"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statistic shows a gap between attitudes and behaviour on waste?"
+        o: ["Only 9% of plastic is recycled", "69% would pay a premium", "90%+ believe individuals can help", "Over half of households recycle"]
+        a: A
+        e: ["Correct — despite positive attitudes, little plastic is recycled.", "Attitude.", "Attitude.", "Behaviour, but not the gap."]
+      - q: "Green demand drives growth in:"
+        o: ["Energy-efficient appliances, organic goods and recycled products", "Fast fashion", "Single-use plastics", "Fossil fuels"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Patagonia's 'Don't buy this jacket' campaign and refurbished clothing respond to:"
+        t: app
+        o: ["Greener consumers", "Time-poor consumers", "Recession", "Privacy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-privacy
+    title: Privacy concerns
+    src: "Ch. 3 slides, slide 47"
+    explain: >-
+      Consumers increasingly sense a loss of privacy: 80% globally want more control over how companies use their personal data,
+      while risky habits persist (74% of Canadians sometimes reuse passwords). Tracking backlash and costly data breaches (average
+      Canadian breach ~$6.75M) make privacy a serious issue, and firms must inform consumers how they protect privacy; governments
+      have instituted new privacy rules.
+    alt: >-
+      Data is valuable to firms, but customers want the keys to their own house — overstep, and trust (and lawsuits) follow.
+    terms:
+      Privacy concerns: "Consumers' worry about how firms collect and use their personal data."
+    example: "Illustrative (from slides): the Tim Hortons app collected location data even when not in use, leading to investigations and lawsuits."
+    recall:
+      - q: "What share of people globally want more control over how companies use their data?"
+        o: ["80%", "9%", "39%", "17%"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The Tim Hortons app example illustrates:"
+        o: ["Tracking backlash over privacy", "Green marketing", "Robotics", "Market leadership"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A retailer's app secretly tracks location after it's closed, sparking lawsuits. This is a risk from which trend?"
+        t: app
+        o: ["Privacy concerns", "Time-poor society", "Greener consumers", "Health and wellness"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Smart vending machines collecting real-time purchase data show that:"
+        o: ["Everyday transactions become insights — raising privacy considerations", "Data is never collected", "Vending machines are macro factors", "Privacy no longer matters"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "In response to privacy concerns, firms have had to:"
+        o: ["Inform consumers of steps they take to protect privacy", "Stop all data collection", "Hide their policies", "Ignore regulation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Data breaches at Ticketmaster and AT&T show that breaches are:"
+        o: ["Costly and widespread", "Rare", "Harmless", "Only in small firms"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Privacy concerns are classified under which macro factor in the slides?"
+        o: ["Social trends", "Economic situation", "Culture", "Demographics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-time-poor
+    title: Time-poor society
+    src: "Ch. 3 slides, slide 48"
+    explain: >-
+      With more time spent at work, time for home and leisure has shrunk. Time-poor consumers multitask to cope, and services that
+      do tasks people no longer have time for — housecleaning, errands, cooking — have grown. Marketers must find creative ways to
+      reach these consumers, often relying on technology to make life easier.
+    alt: >-
+      When time is the scarcest resource, convenience becomes the product.
+    terms:
+      Time-poor society: "Consumers with little leisure time who multitask and value convenience."
+    example: "Illustrative: meal-kit and grocery-delivery services save busy households time on shopping and cooking."
+    recall:
+      - q: "Time-poor consumers cope by:"
+        o: ["Multitasking", "Working less", "Avoiding technology", "Shopping more slowly"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which services have grown because of the time-poor trend?"
+        o: ["Housecleaning, errands and cooking services", "Typewriter repair", "Long-form catalogues", "Film photo labs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A company offers 15-minute grocery delivery for busy professionals. Which trend does it serve?"
+        t: app
+        o: ["Time-poor society", "Greenwashing", "Recession", "Regional subculture"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "To reach time-poor consumers, marketers often rely on:"
+        o: ["Technology", "Longer ads", "Fewer channels", "Mail only"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "Why has leisure time shrunk, per the notes?"
+        o: ["More time spent at work", "More vacations", "Lower incomes only", "Immigration"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A laundry pickup-and-delivery app mainly appeals to:"
+        t: app
+        o: ["Time-poor consumers", "Laggards only", "Price-only shoppers", "Dissociative groups"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Time-poor society is a(n):"
+        o: ["Social trend", "Economic factor", "Political factor", "Company capability"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch3-food-health
+    title: Efficient food distribution & health and wellness
+    src: "Ch. 3 slides, slides 49–50"
+    explain: >-
+      Food trends drive major markets — organic products, portion-controlled snacks, calorie-tracking apps and meal kits. Food
+      waste remains significant (Canadians waste about 79 kg per person), so firms use AI, apps and donation programs to reduce
+      waste and link sustainability to marketing. Health and wellness concerns fuel a US$1.8 trillion wellness industry —
+      biomonitoring tech, fitness apps, yoga and wellness services — while regulators push responsible food marketing, especially
+      to children.
+    alt: >-
+      People increasingly want food that's smart (less waste) and lives that are healthy — and they'll pay brands that help with
+      both.
+    terms:
+      Health and wellness trend: "Rising demand for fitness, mindfulness and tech tools to manage well-being."
+      Food waste / efficient distribution: "Trend toward reducing waste across the food value chain."
+    example: "Illustrative (from slides): Hellmann's food-waste initiatives and Unilever's 'Future Foods'; MyFitnessPal and Lose It calorie apps."
+    recall:
+      - q: "The global wellness industry is valued at about:"
+        o: ["US$1.8 trillion", "US$1.8 million", "$68,400", "$6.75M"]
+        a: A
+        e: ["Correct.", "No.", "Median income.", "Breach cost."]
+      - q: "Regulators push responsible food advertising especially to:"
+        o: ["Children", "Seniors only", "Corporate partners", "Competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A yoga studio adds smoothies, acupuncture and massages. This responds to:"
+        t: app
+        o: ["Health and wellness concerns", "Exchange rates", "Privacy concerns", "Robotics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Hellmann's linking its brand to reducing food waste is an example of:"
+        t: app
+        o: ["Linking sustainability to marketing (efficient food distribution)", "Greenwashing by definition", "Interest-rate marketing", "Regional subculture"]
+        a: A
+        e: ["Correct.", "Not unless claims are unproven.", "No.", "No."]
+      - q: "Firms reduce food waste using:"
+        o: ["AI, apps and donation programs", "Only price increases", "Bilingual labels", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Calorie-tracking apps like MyFitnessPal illustrate which food trend?"
+        o: ["Health-focused food trends", "Market leadership", "Recession", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Limits on high-calorie, low-nutrition ads aimed at kids show the interaction of health trends with:"
+        o: ["Regulation (political/legal)", "Technology only", "Exchange rates", "Generational cohorts only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch3-political-legal]
+
+short_answers:
+  - t: th
+    c: [ch3-cdstep, ch3-culture, ch3-demographics, ch3-social-trends, ch3-technology, ch3-economic, ch3-political-legal]
+    src: "Ch. 3 slides, slides 15–50"
+    q: "Explain the macroenvironmental factors (CDSTEP) that influence a firm's marketing strategy and provide an example of each."
+    model: |-
+      Macroenvironmental factors are broad external forces summarised as CDSTEP. Culture is the shared meanings, beliefs, values and customs of a group; firms must consider both country culture (Canada vs. Japan) and regional subcultures (Ontario vs. Quebec) — for example, Quebec residents are less likely to buy hot prepared meals. Demographics are characteristics of populations such as generational cohorts, income, education, gender and ethnicity; Harley-Davidson's Tough Turban for Sikh riders responds to Canada's changing ethnic composition. Social trends include greener consumers, privacy concerns, a time-poor society, food waste and health and wellness — Patagonia's refurbished clothing appeals to green consumers.
+
+      Technological advances create new products, communication methods and retail channels; AI, robotics and the Internet of Things let firms like Stitch Fix personalise offerings. The economic situation — inflation, interest rates, exchange rates and recession — affects spending; a weak Canadian dollar attracts tourists to Canadian retailers, while recessions push consumers toward essentials. Finally, the political/legal environment includes laws such as the Competition Act and labelling rules, which can restrict marketers but also create opportunities, such as demand for child car seats. Firms monitor all six factors proactively and adjust their marketing mix.
+    rubric:
+      - p: "Culture (country vs regional) with example"
+        k: ["culture", "country|regional|subculture"]
+      - p: "Demographics with example"
+        k: ["demographic", "age|cohort|income|education|gender|ethnic"]
+      - p: "Social trends with example"
+        k: ["social trend|social", "green|privacy|time-poor|wellness|health|food"]
+      - p: "Technology with example"
+        k: ["technolog", "ai|artificial|robot|internet of things|iot|mobile"]
+      - p: "Economic situation with example"
+        k: ["economic", "inflation|interest|exchange|recession"]
+      - p: "Political/legal with example"
+        k: ["political|legal|law|regulation"]
+    mistakes:
+      - "Including microenvironment factors (competition, partners) as CDSTEP."
+      - "Defining 'S' as 'suppliers' instead of social trends."
+      - "Naming factors without examples."
+  - t: app
+    c: [ch3-env-framework, ch3-company-capabilities, ch3-competition, ch3-corporate-partners, ch3-competitive-intelligence]
+    src: "Ch. 3 slides, slides 6–12"
+    q: "A new bubble-tea shop is opening near McMaster. Explain how its microenvironment would influence its marketing strategy."
+    model: |-
+      The microenvironment consists of factors close to the firm that directly affect its ability to serve customers: company capabilities, competition and corporate partners, with the consumer at the centre of the framework. First, the shop should assess its company capabilities and core competencies — for example, its recipe know-how, staff, location and finances — and focus on customer needs that match them, such as fast, customisable drinks for students between classes.
+
+      Second, it must analyse competition. Direct competitors are other bubble-tea shops near campus, while indirect competitors (Tim Hortons, Starbucks, energy drinks) compete for the same share of the student's wallet. Using competitive intelligence — visiting rivals, tracking their prices and promotions on social media, reading reviews — the shop can improve where competitors fail, such as offering faster mobile ordering. Third, it depends on corporate partners: tapioca and milk suppliers, delivery apps and possibly the university for campus events. Strong partner relationships create a seamless system so drinks are available when and where students want them. Together these factors shape its product, price, place and promotion decisions.
+    rubric:
+      - p: "Defines microenvironment / consumer at centre"
+        k: ["microenvironment|micro", "consumer|customer"]
+      - p: "Company capabilities / core competencies"
+        k: ["capabilit|competenc"]
+      - p: "Competition — direct vs indirect"
+        k: ["direct", "indirect"]
+      - p: "Competitive intelligence"
+        k: ["competitive intelligence|ci|intelligence"]
+      - p: "Corporate partners"
+        k: ["partner|supplier"]
+    mistakes:
+      - "Writing about CDSTEP macro factors instead of the microenvironment."
+      - "Omitting indirect competitors."
+      - "Not applying factors to the bubble-tea shop."
+  - t: app
+    c: [ch3-economic, ch3-income]
+    src: "Ch. 3 slides, slides 22–23, 40"
+    q: "Inflation and interest rates are high and a recession is possible. Explain how these economic conditions could affect a mid-priced restaurant chain and how it might respond."
+    model: |-
+      The economic situation is a macroenvironmental factor that affects how consumers buy and spend. Inflation is the general rate of price increases; when it stays above the roughly 2% target, it erodes purchasing power, so customers seek lower prices and better value. High interest rates raise the cost of borrowing, and with household debt already high, consumers cut discretionary purchases such as eating out. A recession — negative economic growth for at least two consecutive quarters — shifts spending toward essentials and low-cost luxuries.
+
+      For a mid-priced restaurant chain, this could mean fewer visits and smaller orders, particularly among value-conscious middle-class families whose purchasing power has been squeezed. The chain could respond by emphasising value: introducing smaller-portion or set-price menus, loyalty rewards, and positioning a meal out as an affordable "low-cost luxury". It could also monitor exchange rates, since a weaker dollar may raise imported ingredient costs but bring in more tourists. Being proactive rather than reactive lets it adjust its marketing mix before sales fall.
+    rubric:
+      - p: "Inflation erodes purchasing power / value seeking"
+        k: ["inflation", "purchasing power|value|price"]
+      - p: "Interest rates = cost of borrowing; reduce discretionary spending"
+        k: ["interest", "borrow|debt|discretionary"]
+      - p: "Recession definition / shift to essentials"
+        k: ["recession", "essential|two consecutive quarters|low-cost luxur"]
+      - p: "Concrete restaurant responses"
+        k: ["menu|loyalty|value|promotion|price"]
+    mistakes:
+      - "Confusing interest rates with exchange rates."
+      - "Defining recession vaguely as 'a bad economy'."
+      - "No specific response for the restaurant."
+  - t: th
+    c: [ch3-social-trends, ch3-green-consumers, ch3-privacy, ch3-time-poor, ch3-food-health]
+    src: "Ch. 3 slides, slides 44–50"
+    q: "List and briefly explain the social and natural trends that impact marketing decisions."
+    model: |-
+      Social and natural trends shape consumer values, change over time and can be opportunities or threats. Greener consumers want environmentally friendly products — 69% say they'd pay a premium — so firms use green marketing, while stricter laws require proof of claims to prevent greenwashing. Privacy concerns are growing: 80% of people want more control over their data, and tracking backlash (like the Tim Hortons app) and costly breaches mean firms must protect and explain how they use data.
+
+      A time-poor society spends more time working, so consumers multitask and value services that save time, such as cleaning, errands and meal delivery. Efficient food distribution reflects food trends (organic, portion control, calorie apps) and efforts to reduce food waste through AI, apps and donation programs. Health and wellness concerns fuel a large wellness industry — fitness apps, yoga, wellness services — while regulators push responsible food marketing to children. These trends are also connected to the UN's 17 Sustainable Development Goals.
+    rubric:
+      - p: "Greener consumers / green marketing / greenwashing"
+        k: ["green"]
+      - p: "Privacy concerns"
+        k: ["privacy|data"]
+      - p: "Time-poor society"
+        k: ["time-poor|time poor|time"]
+      - p: "Efficient food distribution / food waste"
+        k: ["food"]
+      - p: "Health and wellness"
+        k: ["health|wellness"]
+    mistakes:
+      - "Listing CDSTEP factors instead of the specific social trends."
+      - "Forgetting to explain each trend's marketing implication."
+
+matching:
+  - prompt: "Match each CDSTEP factor to an example."
+    c: [ch3-culture, ch3-demographics, ch3-social-trends, ch3-technology, ch3-economic, ch3-political-legal]
+    src: "Ch. 3 slides, slides 15–50"
+    pairs:
+      - ["Culture", "Quebec vs Ontario meal habits"]
+      - ["Demographics", "Generational cohorts"]
+      - ["Social trends", "Greener consumers"]
+      - ["Technology", "Internet of Things"]
+      - ["Economic situation", "Interest rates"]
+      - ["Political/legal", "Competition Act"]
+  - prompt: "Match each microenvironment factor to its example."
+    c: [ch3-company-capabilities, ch3-competition, ch3-corporate-partners]
+    src: "Ch. 3 slides, slides 9–12"
+    pairs:
+      - ["Company capabilities", "Apple's design expertise and patents"]
+      - ["Competition", "Apple vs Samsung"]
+      - ["Corporate partners", "Ford and Michelin"]
+  - prompt: "Match each economic term to its definition."
+    c: [ch3-economic]
+    src: "Ch. 3 slides, slide 40"
+    pairs:
+      - ["Inflation", "General rate of price increases"]
+      - ["Interest rate", "Cost of borrowing money"]
+      - ["Exchange rate", "Value of one currency vs another"]
+      - ["Recession", "Negative growth for two consecutive quarters"]
+
+fill:
+  - text: "The acronym for the macroenvironmental factors is ___."
+    a: "CDSTEP"
+    c: [ch3-cdstep]
+    src: "Ch. 3 slides, slide 15"
+  - text: "Firms that sell different products but compete for the same share of wallet are ___ competitors."
+    a: "indirect"
+    c: [ch3-competition]
+    src: "Ch. 3 slides, slide 10"
+  - text: "Collecting information about a firm's position relative to rivals is competitive ___."
+    a: "intelligence"
+    c: [ch3-competitive-intelligence]
+    src: "Ch. 3 slides, slide 10"
+  - text: "Making environmental claims without proof is called ___."
+    a: "greenwashing"
+    c: [ch3-green-consumers]
+    src: "Ch. 3 slides, slide 46"
+  - text: "A recession is negative economic growth for at least two consecutive ___."
+    a: "quarters"
+    c: [ch3-economic]
+    src: "Ch. 3 slides, slide 40"
+  - text: "Distinct groups within a nation with their own values are regional ___."
+    a: "subcultures"
+    accept: ["subculture"]
+    c: [ch3-culture]
+    src: "Ch. 3 slides, slide 16"
+  - text: "A group of people of the same generation with similar purchase behaviours is a generational ___."
+    a: "cohort"
+    c: [ch3-generational-cohorts]
+    src: "Ch. 3 slides, slide 20"

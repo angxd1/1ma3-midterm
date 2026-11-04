@@ -1,0 +1,388 @@
+chapter: 6
+title: Segmentation, Targeting & Positioning
+concepts:
+  - id: ch6-stp-process
+    title: The STP process
+    src: "Ch. 6 slides, slides 3–4"
+    explain: >-
+      Segmentation, targeting and positioning (STP) is a five-step process. Segmentation: Step 1 establish overall strategy or
+      objectives, Step 2 choose segmentation bases. Targeting: Step 3 evaluate segment attractiveness, Step 4 select the target
+      market/targeting strategy. Positioning: Step 5 identify and develop a positioning strategy. Segmentation finds distinct
+      groups with similar needs; targeting focuses resources on the most attractive segments the firm can serve best;
+      positioning shapes how the brand is perceived relative to competitors in customers' minds.
+    alt: >-
+      STP is like throwing a party: decide your goal (1), sort potential guests into groups (2), judge which groups are worth
+      inviting (3), pick who to invite (4), then decide how to describe the party so they want to come (5).
+    terms:
+      Market segmentation: "Dividing a market into distinct groups of customers with similar needs."
+      Targeting: "Evaluating segments and focusing resources on the most attractive ones the firm can serve."
+      Positioning: "How the brand is perceived in customers' minds relative to competitors."
+    example: "Illustrative (from slides): Wild Lot Farm Distillery designs products for health-conscious drinkers, local-experience seekers and social-occasion buyers, positioned on 'real ingredients, natural flavours'."
+    recall:
+      - q: "Which step of STP is 'evaluate segment attractiveness'?"
+        o: ["Step 1", "Step 2", "Step 3", "Step 5"]
+        a: C
+        e: ["Step 1 is strategy/objectives.", "Step 2 is segmentation bases.", "Correct.", "Step 5 is positioning."]
+      - q: "The final step of the STP process is to:"
+        o: ["Identify and develop a positioning strategy", "Choose segmentation bases", "Evaluate segment attractiveness", "Establish objectives"]
+        a: A
+        e: ["Correct — step 5.", "Step 2.", "Step 3.", "Step 1."]
+    practice:
+      - q: "Which correctly matches STP steps to the three stages?"
+        o: ["Steps 1–2 segmentation, steps 3–4 targeting, step 5 positioning", "Step 1 segmentation, steps 2–4 targeting, step 5 positioning", "Steps 1–3 segmentation, step 4 targeting, step 5 positioning", "Step 1 targeting, steps 2–3 segmentation, steps 4–5 positioning"]
+        a: A
+        e: ["Correct — per the STP diagram.", "Step 2 (bases) is segmentation.", "Step 3 (attractiveness) is targeting.", "Wrong order."]
+      - q: "A firm has grouped consumers into segments and is now deciding which segments are worth pursuing. It is at the:"
+        t: app
+        o: ["Targeting stage", "Positioning stage", "Segmentation stage — step 1", "Postpurchase stage"]
+        a: A
+        e: ["Correct — evaluating/selecting segments is targeting.", "Positioning comes after targeting.", "Segments already exist.", "Ch 4 term."]
+      - q: "According to the slides, strong positioning helps a brand:"
+        o: ["Be remembered at the need recognition stage", "Avoid all competitors", "Eliminate segmentation", "Skip targeting"]
+        a: A
+        e: ["Correct — from the Wild Lot case slide.", "Not stated.", "No.", "No."]
+      - q: "Wild Lot doesn't try to sell one drink to everyone; it designs specific products and messages for different groups. This illustrates:"
+        t: app
+        o: ["Using STP rather than a one-size-fits-all approach", "Undifferentiated targeting", "Brand dilution", "Market saturation"]
+        a: A
+        e: ["Correct.", "The opposite.", "Ch 9.", "Ch 8."]
+      - q: "Which activity belongs to positioning?"
+        o: ["Shaping how the brand is perceived relative to competitors", "Choosing demographic variables", "Calculating segment size", "Setting the mission statement"]
+        a: A
+        e: ["Correct.", "Segmentation (step 2).", "Targeting (step 3).", "Step 1."]
+
+  - id: ch6-step1-strategy
+    title: Step 1 — establish overall strategy or objectives
+    src: "Ch. 6 slides, slide 5"
+    explain: >-
+      STP starts with the firm's mission and objectives, which guide who the firm should serve and what value it promises. A SWOT
+      analysis clarifies internal strengths and weaknesses and external opportunities and threats. Segmentation must align with
+      strengths the firm can realistically deliver — a firm won't go after a target market it can't reach or appeal to. Target
+      markets are chosen where the firm's advantages matter most, and positioning highlights unique benefits competitors can't
+      easily copy.
+    alt: >-
+      Before choosing who to sell to, check your map (mission) and your toolkit (SWOT) — you only head where your tools can get
+      you.
+    terms:
+      Mission and objectives: "Guide who the firm should serve and what value it promises."
+      SWOT analysis: "Assessment of internal strengths/weaknesses and external opportunities/threats."
+    example: "Illustrative: a small craft brewery with local roots focuses on nearby tourists rather than competing nationally with mass-market brands."
+    recall:
+      - q: "Which tool clarifies internal strengths and weaknesses and external opportunities and threats in Step 1?"
+        o: ["SWOT analysis", "PRIZM", "Perceptual map", "Conversion rate"]
+        a: A
+        e: ["Correct.", "Geodemographic tool.", "Positioning tool.", "Ch 4 metric."]
+      - q: "Any STP strategy must be consistent with the firm's:"
+        o: ["Mission statement and SWOT", "Competitor's prices", "Product life cycle only", "Census data only"]
+        a: A
+        e: ["Correct — from the slide notes.", "No.", "No.", "No."]
+    practice:
+      - q: "Why shouldn't a firm target a segment it cannot reach or appeal to?"
+        o: ["Segmentation must align with strengths the firm can realistically deliver", "Small segments are illegal", "It would increase brand awareness", "Positioning is unnecessary"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A boutique coffee roaster with expertise in rare beans chooses to target connoisseurs rather than mass-market buyers. This reflects:"
+        t: app
+        o: ["Choosing targets where the firm's advantages matter most", "Undifferentiated targeting", "Ignoring SWOT", "Market leadership positioning"]
+        a: A
+        e: ["Correct.", "The opposite.", "It's using its strengths.", "Not a leader."]
+      - q: "In Step 1, positioning should highlight:"
+        o: ["Unique benefits competitors cannot easily copy", "Features every competitor offers", "Only price", "Government regulations"]
+        a: A
+        e: ["Correct.", "No differentiation.", "Not only price.", "No."]
+      - q: "Which question is answered at Step 1?"
+        o: ["Who should we serve and what value do we promise?", "How large is each segment in dollars?", "What does our perceptual map look like?", "Which adopter category buys first?"]
+        a: A
+        e: ["Correct.", "Step 3.", "Step 5.", "Ch 8."]
+      - q: "A firm's SWOT shows weak distribution in rural areas. For STP this suggests it should:"
+        t: app
+        o: ["Be cautious about targeting rural segments it can't reach", "Target rural segments first", "Skip segmentation", "Use micromarketing everywhere"]
+        a: A
+        e: ["Correct — target where strengths can deliver.", "It can't reach them well.", "No.", "No."]
+
+  - id: ch6-segmentation-bases
+    title: Step 2 — segmentation bases
+    src: "Ch. 6 slides, slides 6–7"
+    explain: >-
+      In Step 2 firms use segmentation bases to divide the market into groups defined by shared needs, wants and
+      characteristics. The goal is similarity within segments (homogeneous) and clear differences between them (heterogeneous).
+      Common bases are geographic, demographic, psychographic and behavioural. Companies often combine multiple bases (e.g.,
+      geodemographics) to build richer, more actionable customer profiles.
+    alt: >-
+      Good segments are like well-sorted laundry piles: everything in a pile is alike, and each pile is clearly different from
+      the others.
+    terms:
+      Segmentation bases: "Geographic, demographic, psychographic and behavioural variables used to group customers."
+      Homogeneous within, heterogeneous between: "Members of a segment are similar; segments differ from one another."
+    example: "Illustrative: a running-shoe company groups customers by benefit sought (speed vs comfort) and by age, combining behavioural and demographic bases."
+    recall:
+      - q: "Good segments should be:"
+        o: ["Homogeneous within and heterogeneous between", "Heterogeneous within and homogeneous between", "Identical to each other", "As large as possible"]
+        a: A
+        e: ["Correct.", "Reversed.", "Segments should differ.", "Size isn't the definition."]
+      - q: "Which is NOT one of the four common segmentation bases?"
+        o: ["Geographic", "Psychographic", "Behavioural", "Customer-centric"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — not a base."]
+    practice:
+      - q: "Which statement is true?"
+        o: ["Geographic segmentation divides the market by home ownership", "Companies sometimes use a combination of more than one segmentation variable", "Demographic features include attitudes and perceptions", "How often and why consumers buy cannot be a basis for segmentation"]
+        a: B
+        e: ["Home ownership is demographic.", "Correct — firms often combine bases.", "Attitudes are psychographic.", "That's behavioural segmentation."]
+      - q: "A firm finds that customers inside each of its segments behave very differently from one another. The problem is that segments are not:"
+        t: app
+        o: ["Homogeneous within", "Heterogeneous between", "Substantial", "Reachable"]
+        a: A
+        e: ["Correct — members should be similar.", "That's about differences between segments.", "Size is a different criterion.", "Reach is a different criterion."]
+      - q: "Why do companies combine multiple segmentation bases?"
+        o: ["To build richer, more actionable customer profiles", "Because law requires it", "To avoid targeting", "To reduce the number of competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Each segment is defined by:"
+        o: ["Shared needs, wants and characteristics", "A single competitor", "The firm's patents", "Random selection"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A gym segments by age AND by fitness goal (weight loss vs strength). It is combining:"
+        t: app
+        o: ["Demographic and behavioural (benefits sought) bases", "Geographic and psychographic bases", "Only geographic bases", "Only demographic bases"]
+        a: A
+        e: ["Correct — age is demographic; goal is a benefit sought.", "Neither base is used.", "No.", "Two bases are used."]
+
+  - id: ch6-geographic
+    title: Geographic segmentation
+    src: "Ch. 6 slides, slides 8, 10–11"
+    explain: >-
+      Geographic segmentation groups customers by where they live — country, region, province, city, neighbourhood, urban vs
+      rural, or climate. Location influences needs, preferences and buying habits, so demand often varies by geography. Firms can
+      offer the same core product nationally while adjusting assortment, messaging or distribution locally. It is most useful
+      for products whose needs vary by region.
+    alt: >-
+      Geographic segmentation is a weather map for demand — winter boots in Winnipeg, rain gear in Vancouver.
+    terms:
+      Geographic segmentation: "Grouping consumers on the basis of where they live."
+    example: "Illustrative (from slides): Wild Lot first concentrated around Prince Edward County, then expanded through LCBO distribution across Ontario; grocers like Sobeys tailor products by neighbourhood."
+    recall:
+      - q: "Geographic segmentation is most useful when needs vary by:"
+        o: ["Region", "Gender", "Age", "Nationality"]
+        a: A
+        e: ["Correct (slide 10–11).", "Demographic.", "Demographic.", "Not the slide answer."]
+      - q: "Which is a geographic variable?"
+        o: ["Climate", "Income", "Lifestyle", "Usage rate"]
+        a: A
+        e: ["Correct.", "Demographic.", "Psychographic.", "Behavioural."]
+    practice:
+      - q: "A snow-tire maker advertises heavily in northern Ontario and Quebec but little in Vancouver. This is:"
+        t: app
+        o: ["Geographic segmentation", "Psychographic segmentation", "Behavioural segmentation", "Undifferentiated targeting"]
+        a: A
+        e: ["Correct — climate/region.", "Not about values.", "Not usage or benefits.", "It's tailored by region."]
+      - q: "Which statement about geographic segmentation is supported by the slides?"
+        o: ["Firms can offer the same core product nationally while adjusting assortment locally", "It cannot be combined with other bases", "It ignores climate", "It is only used outside Canada"]
+        a: A
+        e: ["Correct.", "Geodemographics combines it.", "Climate is listed.", "No."]
+      - q: "A grocery chain stocks different specialty foods depending on the neighbourhood's population. Which base is most directly used?"
+        t: app
+        o: ["Geographic", "Behavioural loyalty", "VALS psychographics", "Benefit segmentation"]
+        a: A
+        e: ["Correct — by neighbourhood/location.", "No.", "No.", "No."]
+      - q: "Which is NOT a geographic variable?"
+        o: ["Province", "Urban/rural", "Family life cycle", "City"]
+        a: C
+        e: ["Geographic.", "Geographic.", "Correct — that's demographic.", "Geographic."]
+      - q: "Geographic information systems (GIS) are mentioned in the notes as helping with:"
+        o: ["Geographic segmentation", "Perceptual mapping", "Brand licensing", "Concept testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch6-demographic
+    title: Demographic segmentation
+    src: "Ch. 6 slides, slide 12"
+    explain: >-
+      Demographic segmentation is the most common method. It groups consumers by easily measured, objective characteristics:
+      gender, age, ethnic group, family life-cycle stage, household type and size, income, occupation, education and religion.
+      Census data from Statistics Canada is an excellent (and free) source of demographic segmentation data. Some groups are
+      easiest to characterise demographically — for children's toys, age is the primary base.
+    alt: >-
+      Demographics are the "census form" facts about a person — the boxes you'd tick on a government survey.
+    terms:
+      Demographic segmentation: "Grouping consumers by objective characteristics such as age, gender, income and education."
+    example: "Illustrative: a toy company segments mainly by children's age (e.g., toddlers vs 8–12-year-olds)."
+    recall:
+      - q: "The most common method of segmentation is:"
+        o: ["Demographic", "Psychographic", "Geodemographic", "Behavioural"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "An excellent source of demographic segmentation data in Canada is:"
+        o: ["Census data from Statistics Canada", "Brand slogans", "Focus groups only", "Perceptual maps"]
+        a: A
+        e: ["Correct.", "No.", "Primary research, not demographic census data.", "No."]
+    practice:
+      - q: "A company studying organic food purchases asks: 'Do you have children under 18 in your household?' This is a ___ question."
+        t: app
+        o: ["Demographic", "Psychographic", "Behavioural", "Geographic"]
+        a: A
+        e: ["Correct — household composition is demographic.", "Not values/lifestyle.", "Not usage/benefit.", "Not location."]
+      - q: "Why is demographic segmentation so common?"
+        o: ["The information is widely available and easy to measure", "It explains why people buy", "It's legally required", "It uses only lifestyle data"]
+        a: A
+        e: ["Correct.", "Psychographics explains why.", "No.", "No."]
+      - q: "Which is a demographic variable?"
+        o: ["Occupation", "Benefits sought", "Personality", "Climate"]
+        a: A
+        e: ["Correct.", "Behavioural.", "Psychographic.", "Geographic."]
+      - q: "For children's toys, the primary segmentation base is usually:"
+        o: ["Age", "Climate", "Loyalty", "VALS type"]
+        a: A
+        e: ["Correct — from slide 16.", "No.", "No.", "No."]
+      - q: "A bank designs a student account for 18–24-year-olds in post-secondary education. Which base is used?"
+        t: app
+        o: ["Demographic", "Psychographic", "Benefit", "Geodemographic"]
+        a: A
+        e: ["Correct — age and education.", "No.", "No.", "No location element."]
+
+  - id: ch6-psychographic
+    title: Psychographic segmentation
+    src: "Ch. 6 slides, slides 7, 13"
+    explain: >-
+      Psychographic segmentation groups consumers by how they live, what they value and how they see themselves — lifestyle
+      (e.g., VALS types such as innovators, thinkers, achievers), personality/self-concept (conservative, adventurous,
+      health-conscious) and socio-economic status. It explains the motivations behind choices — why people buy — not just who
+      they are or where they live. Marketers tailor offerings and messages to match these identities.
+    alt: >-
+      Demographics tell you someone is 25; psychographics tell you they're a weekend adventurer who values sustainability.
+    terms:
+      Psychographic segmentation: "Segmenting by lifestyle, values, personality and self-concept."
+      VALS: "A psychographic system grouping consumers into types such as innovators, thinkers, achievers, experiencers."
+      Self-concept: "How people see themselves — 'I'm like them, so I should buy their products'."
+    example: "Illustrative (from slides): MEC ads appeal to self-concept; Netflix and Indigo appeal to interest-driven communities such as book lovers."
+    recall:
+      - q: "Psychographic segmentation mainly explains:"
+        o: ["Why customers buy", "Where customers live", "How many customers there are", "What price competitors charge"]
+        a: A
+        e: ["Correct — the motivations behind choices.", "Geographic.", "Size.", "No."]
+      - q: "VALS is a system used for:"
+        o: ["Psychographic segmentation", "Geodemographic segmentation", "Brand licensing", "Scanner research"]
+        a: A
+        e: ["Correct.", "That's PRIZM.", "No.", "No."]
+    practice:
+      - q: "An outdoor retailer targets 'adventurous, eco-conscious people who see themselves as explorers'. This is:"
+        t: app
+        o: ["Psychographic segmentation", "Demographic segmentation", "Geographic segmentation", "Usage-rate segmentation"]
+        a: A
+        e: ["Correct — personality and self-concept.", "No objective traits.", "No location.", "No usage data."]
+      - q: "Which is a psychographic variable?"
+        o: ["Personality", "Income", "Province", "Usage rate"]
+        a: A
+        e: ["Correct.", "Demographic.", "Geographic.", "Behavioural."]
+      - q: "Which survey question is psychographic?"
+        t: app
+        o: ["'Which statement describes you: I love trying new experiences'", "'What is your postal code?'", "'How many times a month do you buy coffee?'", "'What is your age?'"]
+        a: A
+        e: ["Correct — lifestyle/personality.", "Geographic.", "Behavioural (usage).", "Demographic."]
+      - q: "MEC wants viewers to think 'I'm like them, so I should buy their products.' This targets:"
+        o: ["Self-concept", "Usage rate", "Climate", "Family size"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Health-conscious buyers targeted with wellness drinks is an example of segmenting by:"
+        t: app
+        o: ["Psychographics (lifestyle/values)", "Geography", "Occasion only", "Census data"]
+        a: A
+        e: ["Correct — from slide 13.", "No.", "No.", "No."]
+
+  - id: ch6-behavioural
+    title: Behavioural segmentation
+    src: "Ch. 6 slides, slides 7, 14"
+    explain: >-
+      Behavioural segmentation groups consumers by how they behave toward a product. The four pillars (slide notes): benefits
+      sought (convenience, economy, prestige, quality, speed, environmental impact), usage rate (heavy, moderate, light, non-user,
+      ex-user, potential, first-time), loyalty (not, somewhat, completely loyal), and occasion. Different motives lead different
+      consumers to buy the same product, and firms encourage loyalty through reward programs.
+    alt: >-
+      Behavioural segmentation looks at what people DO with a product — why they want it, how much they use it, how loyal they
+      are and when they use it.
+    terms:
+      Behavioural segmentation: "Grouping consumers by benefits sought, usage rate, loyalty and occasion."
+      Benefit segmentation: "Grouping by the benefits consumers derive from a product."
+      Usage rate: "Heavy, moderate, light, non-user, etc."
+    example: "Illustrative: airline mileage and hotel points programs target loyal, frequent users."
+    recall:
+      - q: "Segmenting by heavy, moderate and light users is:"
+        o: ["Behavioural (usage rate)", "Demographic", "Psychographic", "Geographic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is one of the four pillars of behavioural segmentation?"
+        o: ["Occasion", "Climate", "Religion", "Personality"]
+        a: A
+        e: ["Correct — benefits, usage, loyalty, occasion.", "Geographic.", "Demographic.", "Psychographic."]
+    practice:
+      - q: "Belco targets young males who make up 75% of customers and calls them 'Jumbo' heavy users, segmenting by usage rate. Belco is using:"
+        t: app
+        o: ["Geographic segmentation", "Behavioural segmentation", "Psychological segmentation", "Geodemographic segmentation"]
+        a: B
+        e: ["No location basis.", "Correct — usage rate is behavioural.", "Not a slide base name.", "No location/lifestyle cluster."]
+      - q: "A toothpaste brand offers one version for whitening and another for sensitivity. It is segmenting by:"
+        t: app
+        o: ["Benefits sought", "Climate", "Age", "Self-concept"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why can the same product appear in multiple behavioural segments?"
+        o: ["Different motives lead different consumers to buy the same product", "Because products have no benefits", "Because loyalty doesn't exist", "Because of census data"]
+        a: A
+        e: ["Correct — from slide 14 notes.", "No.", "No.", "No."]
+      - q: "A bakery promotes special cakes for graduations and weddings. It is segmenting by:"
+        t: app
+        o: ["Occasion", "Income", "Region", "VALS"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A coffee chain gives its most frequent visitors exclusive app rewards. Which behavioural variable is it using?"
+        t: app
+        o: ["Loyalty / usage", "Ethnic background", "Climate", "Education"]
+        a: A
+        e: ["Correct.", "Demographic.", "Geographic.", "Demographic."]
+
+  - id: ch6-geodemographic
+    title: Geodemographic segmentation & PRIZM
+    src: "Ch. 6 slides, slides 9, 15, 17, 19–20"
+    explain: >-
+      Geodemographic segmentation combines geographic, demographic and lifestyle characteristics — "birds of a feather flock
+      together". People in the same neighbourhoods (even the same postal code) tend to buy similar cars, appliances and apparel,
+      shop at similar retailers and respond similarly to media. In Canada, PRIZM (Environics Analytics) groups neighbourhoods into
+      67 lifestyle clusters with descriptive names such as Urban Digerati, Mature & Secure and Keep On Trucking, making targeting
+      practical.
+    alt: >-
+      Geodemographics assumes your postal code says a lot about you — your neighbours probably shop the way you do.
+    terms:
+      Geodemographic segmentation: "Combining geographic, demographic and lifestyle characteristics to segment a market."
+      PRIZM: "Canadian geodemographic system that groups neighbourhoods into 67 lifestyle clusters."
+    example: "Illustrative (from slides): PRIZM's 'Urban Digerati' are younger, tech-savvy singles in downtown Toronto and Montreal high-rises."
+    recall:
+      - q: "Which tool is widely used for geodemographic segmentation?"
+        o: ["PRIZM", "LSAT", "GNP", "LIMRA"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "PRIZM groups Canadian neighbourhoods into how many lifestyle clusters?"
+        o: ["67", "17", "5", "250"]
+        a: A
+        e: ["Correct.", "No (17 is the UN goals).", "No.", "No."]
+    practice:
+      - q: "The phrase 'birds of a feather flock together' summarises the logic of:"
+        o: ["Geodemographic segmentation", "Undifferentiated targeting", "Perceptual mapping", "Brand extension"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A car brand mails offers only to postal codes where PRIZM shows young, affluent tech-savvy singles. This is:"
+        t: app
+        o: ["Geodemographic segmentation", "Pure demographic segmentation", "Benefit segmentation", "Occasion segmentation"]
+        a: A
+        e: ["Correct — location + demographics + lifestyle.", "It also uses location and lifestyle.", "No.", "No."]
+      - q: "Geodemographic segmentation combines:"
+        o: ["Geographic, demographic and lifestyle characteristics", "Price and quality", "Only loyalty data", "Only census age data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why does PRIZM give each cluster a descriptive name like 'Mature & Secure'?"
+        o: ["To make targeting practical and actionable", "Because law requires it", "To hide the data", "For trademark licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "'Urban Digerati' are described as:"
+        o: ["Younger, tech-savvy singles in downtown high-rises", "Rural retirees", "Suburban families with young kids", "Farm owners in the Prairies"]
+        a: A
+        e: ["Correct — from slide 17.", "No.", "No.", "No."]

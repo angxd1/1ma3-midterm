@@ -1,0 +1,702 @@
+chapter: 4
+concepts:
+  - id: ch4-attitude
+    title: Attitude (cognitive, affective, behavioural)
+    src: "Ch. 4 slides, slide 25"
+    explain: >-
+      An attitude is a learned, lasting evaluation that shapes how consumers think, feel and act toward a product or idea. It is
+      usually positive or negative (rarely neutral). Attitudes have three components: cognitive (beliefs — "yoga is relaxing and
+      makes me flexible"), affective (feelings — "yoga makes me feel calm"), and behavioural (actions — enrolling in a class,
+      buying a mat). Ideally the three align; when they don't, it can lead to dissonance. Attitudes are slow to change but can be
+      influenced through persuasive messages, experiences and positive interactions.
+    alt: >-
+      Remember "Think – Feel – Do": what you believe (cognitive), how you feel (affective), and what you do (behavioural).
+    terms:
+      Attitude: "A learned, lasting evaluation of a product or idea that shapes thinking, feeling and acting."
+      Cognitive component: "What we believe to be true."
+      Affective component: "What we feel — like or dislike."
+      Behavioural component: "The actions we take based on what we know and feel."
+    example: "Illustrative (from slides): believing yoga improves health (cognitive), feeling relaxed about it (affective), and regularly attending classes or buying gear (behavioural)."
+    recall:
+      - q: "The affective component of an attitude refers to:"
+        o: ["What we believe", "What we feel", "What we do", "What others think"]
+        a: B
+        e: ["That's cognitive.", "Correct.", "That's behavioural.", "That's social influence."]
+      - q: "Signing up for a gym membership is which attitude component?"
+        o: ["Cognitive", "Affective", "Behavioural", "Perceptual"]
+        a: C
+        e: ["Beliefs are cognitive.", "Feelings are affective.", "Correct — an action.", "Not an attitude component."]
+    practice:
+      - q: "\"I believe electric cars are cheaper to run.\" This statement reflects which component?"
+        t: app
+        o: ["Cognitive", "Affective", "Behavioural", "Situational"]
+        a: A
+        e: ["Correct — a belief.", "No feeling expressed.", "No action taken.", "Not an attitude component."]
+      - q: "\"Driving my EV makes me feel proud.\" This reflects the:"
+        t: app
+        o: ["Affective component", "Cognitive component", "Behavioural component", "Temporal state"]
+        a: A
+        e: ["Correct — a feeling.", "Not a belief.", "Not an action.", "Not situational."]
+      - q: "Which statement about attitudes is supported by the slides?"
+        o: ["Attitudes are usually neutral", "Attitudes are learned and lasting, and can be influenced by marketing", "Attitudes cannot change", "Attitudes have only one component"]
+        a: B
+        e: ["They are usually positive or negative.", "Correct.", "They are slow to change but can be influenced.", "They have three components."]
+      - q: "When a consumer's beliefs, feelings and actions don't align, the slide notes say this can lead to:"
+        o: ["Cognitive dissonance / buyer's remorse", "Higher brand awareness", "Habitual buying", "Market saturation"]
+        a: A
+        e: ["Correct.", "Unrelated.", "Unrelated.", "Ch 8 concept."]
+      - q: "A plant-based burger brand offers free samples so people discover they like the taste. It is mainly trying to shape the:"
+        t: app
+        o: ["Affective component through positive experience", "Retrieval set", "Physiological risk", "Product line breadth"]
+        a: A
+        e: ["Correct — positive experiences shape feelings (attitudes can be changed through experience).", "Not about memory recall sets.", "Not about physical harm.", "Ch 9 concept."]
+
+  - id: ch4-perception
+    title: Perception & selective processes
+    src: "Ch. 4 slides, slide 26"
+    explain: >-
+      Perception is the process by which we select, organise and interpret information to form a meaningful picture of the world.
+      It works through the senses (sight, smell, touch, sound, taste), and experiences and memories shape meaning — so the same
+      brand can be viewed positively by one person and negatively by another. Consumers filter messages through selective
+      exposure, selective attention, selective comprehension and selective retention. Marketers must design packaging, labelling,
+      branding and communications that stand out and reinforce the intended message.
+    alt: >-
+      Your brain is a bouncer: it decides which messages get in (exposure), which get noticed (attention), how they're understood
+      (comprehension), and which are remembered (retention).
+    terms:
+      Perception: "The process by which we select, organise and interpret information to form a meaningful picture of the world."
+      Selective exposure: "Consumers choose which messages they're exposed to."
+      Selective attention: "Consumers notice only some of the messages they're exposed to."
+      Selective comprehension: "Consumers interpret messages in their own way."
+      Selective retention: "Consumers remember only some of what they perceive."
+    example: "Illustrative (from slides): warm lighting, music, aroma and cozy design turn a simple coffee purchase into a premium 'third place' experience; Volvo is perceived as 'safe'."
+    recall:
+      - q: "The four components of perception marketers focus on are selective exposure, attention, comprehension and:"
+        o: ["Retention", "Recognition", "Repetition", "Rejection"]
+        a: A
+        e: ["Correct.", "Not one of the four.", "Not one of the four.", "Not one of the four."]
+      - q: "Perception is the process by which we:"
+        o: ["Select, organise and interpret information", "Weight attributes to choose a brand", "Recognise a need", "Join a reference group"]
+        a: A
+        e: ["Correct.", "That's a compensatory rule.", "That's need recognition.", "Unrelated."]
+    practice:
+      - q: "Two people see the same luxury store with very few products. One sees exclusivity; the other wonders if it's closing down. This shows that:"
+        t: app
+        o: ["Perception depends on experiences and memories, so the same cue can be interpreted differently", "Attitudes have no affective component", "Retrieval sets are identical for all consumers", "Store layout has no effect"]
+        a: A
+        e: ["Correct — the slide uses exactly this sparse-store example.", "Unrelated.", "Unrelated.", "It clearly has an effect."]
+      - q: "A shopper scrolls past dozens of ads but only notices the one for a band she likes. This illustrates selective:"
+        t: app
+        o: ["Attention", "Retention", "Comprehension", "Exposure"]
+        a: A
+        e: ["Correct — she was exposed to many but noticed one.", "Retention is what's remembered later.", "Comprehension is interpretation.", "She was exposed to all of them."]
+      - q: "A week after seeing several car ads, Raj can recall only the Volvo safety ad. This is selective:"
+        t: app
+        o: ["Retention", "Exposure", "Attention", "Comprehension"]
+        a: A
+        e: ["Correct — remembering only some messages.", "Exposure happened for all ads.", "Attention is noticing at the time.", "Comprehension is interpretation."]
+      - q: "Why must marketers design packaging and communications that 'stand out'?"
+        o: ["Consumers filter messages through selective processes", "Government requires bright packaging", "Perception only uses taste", "Consumers process every message equally"]
+        a: A
+        e: ["Correct.", "Not stated.", "Perception uses all senses.", "They don't — they filter."]
+      - q: "A café uses soft music, warm lighting and the smell of fresh coffee to seem premium. It is primarily influencing:"
+        t: app
+        o: ["Perception through the senses", "Locus of control", "Product line depth", "Segment profitability"]
+        a: A
+        e: ["Correct.", "Unrelated.", "Ch 9.", "Ch 6."]
+
+  - id: ch4-learning
+    title: Learning
+    src: "Ch. 4 slides, slide 27"
+    explain: >-
+      Learning is a change in a person's thought process or behaviour that arises from experience, and it takes place throughout
+      the decision process. Information, trials and interactions shape what consumers believe and feel about brands. Positive
+      experiences build habits, preferences and purchase intentions, and learning reinforces attitudes and perceptions — making
+      repeat purchases more likely.
+    alt: >-
+      Learning is the "lesson" a consumer takes from experience: every good (or bad) experience updates their mental rulebook
+      for the next purchase.
+    terms:
+      Learning: "A change in thought process or behaviour that arises from experience."
+    example: "Illustrative (from slides): using the Tide Eco-Box teaches consumers that less packaging can still clean well, reinforcing repeat purchase."
+    recall:
+      - q: "Learning refers to a change in thought or behaviour that arises from:"
+        o: ["Experience", "Income", "Geography", "Government regulation"]
+        a: A
+        e: ["Correct.", "Not the definition.", "Not the definition.", "Not the definition."]
+      - q: "According to the slides, learning affects:"
+        o: ["Attitudes and perceptions", "Only the purchase step", "Only B2B buyers", "Product line breadth"]
+        a: A
+        e: ["Correct — learning reinforces attitudes and perceptions.", "It occurs throughout the process.", "Not limited to B2B.", "Ch 9."]
+    practice:
+      - q: "After three great experiences with a meal-kit brand, Hana now reorders without comparing. This shows:"
+        t: app
+        o: ["Learning building a habit", "Selective exposure", "Need recognition", "Social risk"]
+        a: A
+        e: ["Correct — positive experiences build habits and repeat purchase.", "Unrelated.", "Her need is met routinely.", "No social concern."]
+      - q: "Which statement about learning is accurate?"
+        o: ["It occurs only after purchase", "It takes place throughout the consumer decision process", "It cannot be influenced by marketers", "It only applies to children"]
+        a: B
+        e: ["It occurs throughout.", "Correct — from the slide notes.", "Trials and interactions shape it.", "Not limited to children."]
+      - q: "A brand offers free trial sizes so people form a positive belief through experience. Which psychological factor is it using?"
+        t: app
+        o: ["Learning", "Lifestyle", "Temporal state", "Reference group"]
+        a: A
+        e: ["Correct — trials shape beliefs via experience.", "Not about how people live.", "Situational.", "Social."]
+      - q: "The slide notes say seeing many people diet and work out taught us these behaviours are 'OK'. This shows learning can:"
+        o: ["Change perceptions", "Increase financial risk", "Replace culture", "Reduce product depth"]
+        a: A
+        e: ["Correct — learning changed our perception.", "Unrelated.", "Unrelated.", "Unrelated."]
+      - q: "A bad experience with a phone brand makes Marco avoid it in future. This is best explained by:"
+        t: app
+        o: ["Learning", "Undifferentiated targeting", "Selective exposure", "Need recognition"]
+        a: A
+        e: ["Correct — experience changed his behaviour.", "Ch 6.", "Not about message exposure.", "Not the issue."]
+
+  - id: ch4-lifestyle
+    title: Lifestyle
+    src: "Ch. 4 slides, slide 28"
+    explain: >-
+      Lifestyle reflects how consumers spend their time and money and how they want to live. Purchases often signal identity, not
+      just function, aligning with real or aspirational lifestyles. Some products meet practical needs while others communicate
+      image and self-expression. Brands succeed when they match customers' daily habits, values and personal goals.
+    alt: >-
+      Lifestyle is the "story" of how someone lives — and many purchases are props that help tell that story.
+    terms:
+      Lifestyle: "How consumers spend their time and money and how they want to live."
+    example: "Illustrative (from slides): Tiffany jewellery signals a luxury, milestone-driven lifestyle for consumers who want purchases to reflect status and identity."
+    recall:
+      - q: "Lifestyle reflects how consumers:"
+        o: ["Spend their time and money", "Search memory for brands", "Weight attributes", "Respond to scanners"]
+        a: A
+        e: ["Correct.", "Internal search.", "Compensatory rule.", "Ch 7."]
+      - q: "Lifestyle is classified as which type of factor?"
+        o: ["Psychological", "Social", "Situational", "Macroenvironmental"]
+        a: A
+        e: ["Correct.", "Social = family, reference groups, culture.", "No.", "No."]
+    practice:
+      - q: "Aria buys outdoor gear, plans weekend hikes and follows trail accounts. Marketers would describe this as her:"
+        t: app
+        o: ["Lifestyle", "Temporal state", "Evoked set", "Locus of control"]
+        a: A
+        e: ["Correct — how she spends time and money.", "Momentary state.", "Brands considered.", "Search-related."]
+      - q: "According to the slides, purchases often signal:"
+        o: ["Identity, not just function", "Only practical needs", "Government standards", "Production costs"]
+        a: A
+        e: ["Correct.", "Some do, but many signal identity.", "No.", "No."]
+      - q: "Brands succeed with lifestyle marketing when they:"
+        o: ["Match customers' daily habits, values and personal goals", "Ignore the target market", "Compete only on price", "Avoid self-expression"]
+        a: A
+        e: ["Correct.", "The opposite.", "Not the point.", "The opposite."]
+      - q: "A consumer buys a premium yoga brand partly to feel like the 'wellness person' she wants to become. This is an example of an:"
+        t: app
+        o: ["Aspirational lifestyle", "External locus of control", "Undifferentiated purchase", "Habitual decision"]
+        a: A
+        e: ["Correct — purchases align with real or aspirational lifestyles.", "Unrelated.", "Ch 6.", "Not habit."]
+      - q: "Which product is MOST likely bought mainly for self-expression rather than function?"
+        t: app
+        o: ["A limited-edition designer sneaker", "Table salt", "Dish soap", "A replacement light bulb"]
+        a: A
+        e: ["Correct — communicates image and identity.", "Functional commodity.", "Functional.", "Functional."]
+
+  - id: ch4-family
+    title: Social factor — family
+    src: "Ch. 4 slides, slide 29"
+    explain: >-
+      Many purchases involve the whole family, with members playing different roles — users, influencers and decision makers —
+      at different steps (information search, evaluation, final choice). Children and teens increasingly shape household
+      spending, even on big-ticket items like cars, travel and technology. Marketers often treat the family as one unit and must
+      target the whole family, not just the primary buyer.
+    alt: >-
+      A family purchase is a group project: one person researches, another has opinions, and someone signs the cheque.
+    terms:
+      Influencer (family role): "A family member who shapes the search/evaluation without making the final decision."
+      Decision maker: "The family member who makes the final choice."
+    example: "Illustrative (from slides): a family car purchase where different members search, influence preferences and negotiate the final choice together."
+    recall:
+      - q: "Family is classified as which type of influence?"
+        o: ["Social", "Psychological", "Situational", "Macro"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Family members can act as users, influencers and:"
+        o: ["Decision makers", "Laggards", "Lead users", "Gatekeepers of patents"]
+        a: A
+        e: ["Correct.", "Ch 8 term.", "Ch 8 term.", "Unrelated."]
+    practice:
+      - q: "A 14-year-old persuades her parents to buy a specific laptop brand. Her role is best described as:"
+        t: app
+        o: ["Influencer", "Decision maker", "Innovator", "Corporate partner"]
+        a: A
+        e: ["Correct — she shapes the decision; parents decide.", "Parents make the final choice.", "Ch 8.", "Ch 3."]
+      - q: "According to the slides, marketers should:"
+        o: ["Target the whole family, not just the primary buyer", "Target only the person paying", "Ignore children's influence", "Treat each family member as a separate market only"]
+        a: A
+        e: ["Correct.", "The slides say the opposite.", "Children increasingly shape spending.", "Marketers treat the family as one unit."]
+      - q: "Which statement about children's influence is supported by the slides?"
+        o: ["Children and teens increasingly shape spending, even on big-ticket items", "Children only influence candy purchases", "Children never influence travel decisions", "Children are dissociative groups"]
+        a: A
+        e: ["Correct.", "Too narrow.", "Travel is listed.", "Unrelated."]
+      - q: "A minivan ad shows kids loving the rear entertainment screen while parents value safety ratings. The ad is:"
+        t: app
+        o: ["Targeting multiple family roles in a shared decision", "Using undifferentiated targeting", "Relying on selective retention", "Avoiding social factors"]
+        a: A
+        e: ["Correct.", "Ch 6.", "Not the point.", "It uses them."]
+      - q: "Family is described in the slides as one type of:"
+        o: ["Reference group", "Situational factor", "Segment criterion", "Secondary data"]
+        a: A
+        e: ["Correct — 'Family is actually one of the reference groups'.", "No.", "No.", "No."]
+
+  - id: ch4-reference-groups
+    title: Reference groups (membership, aspirational, dissociative)
+    src: "Ch. 4 slides, slide 30"
+    explain: >-
+      A reference group is any person or group consumers use as a benchmark for beliefs, feelings, behaviours and purchases.
+      Membership groups are groups you currently belong to (your program, McMaster students, your gym). Aspirational groups are
+      groups you aren't part of but want to join (sports teams, celebrities). Dissociative groups are groups you want to distance
+      yourself from. Reference groups influence buying by offering information, rewarding approved behaviour and enhancing
+      self-image; marketers target influential groups to spark adoption and social proof.
+    alt: >-
+      Membership = "I'm one of them." Aspirational = "I want to be one of them." Dissociative = "I don't want to be seen as one
+      of them."
+    terms:
+      Reference group: "One or more persons used as a basis for comparison regarding beliefs, feelings and behaviours."
+      Membership group: "A group you currently belong to."
+      Aspirational group: "A group you are not part of but want to belong to."
+      Dissociative group: "A group you want to distance yourself from."
+    example: "Illustrative (from slides): Birkenstocks signal an 'earthy', casual lifestyle, letting consumers align with the identity of their reference group."
+    recall:
+      - q: "A group you want to distance yourself from is a(n):"
+        o: ["Dissociative group", "Aspirational group", "Membership group", "Evoked set"]
+        a: A
+        e: ["Correct.", "You want to join these.", "You already belong.", "Not a group."]
+      - q: "Your university program is an example of a(n):"
+        o: ["Membership group", "Aspirational group", "Dissociative group", "Generational cohort"]
+        a: A
+        e: ["Correct — you currently belong.", "You're already in it.", "You're not avoiding it.", "Ch 3 term."]
+    practice:
+      - q: "A teen buys the same cleats as a pro soccer team he dreams of playing for. The team is his:"
+        t: app
+        o: ["Aspirational group", "Membership group", "Dissociative group", "Family unit"]
+        a: A
+        e: ["Correct.", "He's not a member.", "He admires them.", "No."]
+      - q: "Mei refuses to wear a brand strongly associated with a group she dislikes. That group is:"
+        t: app
+        o: ["Dissociative", "Aspirational", "Membership", "Primary"]
+        a: A
+        e: ["Correct.", "She doesn't want to join.", "She isn't part of it.", "Not a slide category."]
+      - q: "Which is NOT a way reference groups influence buying, per the slides?"
+        o: ["Sharing information", "Rewarding approval", "Shaping self-image", "Setting product prices"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — reference groups don't set prices."]
+      - q: "A gym chain gives members branded gear and features member stories on Instagram. This mainly leverages:"
+        t: app
+        o: ["Membership reference group influence", "Dissociative group influence", "Temporal state", "Selective exposure"]
+        a: A
+        e: ["Correct — members identify with the group.", "Not avoidance.", "Not situational.", "Not the main mechanism."]
+      - q: "Why do marketers target influential reference groups among young consumers?"
+        o: ["To spark adoption and social proof", "To raise physiological risk", "To avoid word-of-mouth", "To reduce product depth"]
+        a: A
+        e: ["Correct.", "No.", "They want word-of-mouth.", "No."]
+
+  - id: ch4-culture
+    title: Social factor — culture
+    src: "Ch. 4 slides, slide 31"
+    explain: >-
+      Culture shapes consumers' values, beliefs and behaviours, influencing what they buy and how they shop. Strategies must adapt
+      across countries and within diverse subcultures (regional vs country culture). Consumers prefer brands that genuinely
+      understand their cultural needs rather than superficial gestures, so retailers tailor products and assortments to local
+      communities. Organisations (B2B) also have distinct cultures (e.g., people-focused, customer-centric).
+    alt: >-
+      Culture is the "operating system" people grow up with — it decides which apps (products) feel natural to use.
+    terms:
+      Culture (social factor): "Shared values, beliefs and behaviours that shape what people buy and how they shop."
+      Subculture: "A distinct group within a nation with its own values and customs."
+    example: "Illustrative (from slides): stores like FreshCo and Adonis offer halal meats and culturally specific products to build trust with diverse shoppers."
+    recall:
+      - q: "Culture influences consumer behaviour by shaping:"
+        o: ["Values, beliefs and behaviours", "Only the product's price", "Patent law", "Product life cycles"]
+        a: A
+        e: ["Correct.", "Too narrow.", "Unrelated.", "Ch 8."]
+      - q: "According to the slides, consumers prefer brands that:"
+        o: ["Genuinely understand their cultural needs", "Use superficial cultural gestures", "Ignore culture", "Use one global message for everything"]
+        a: A
+        e: ["Correct.", "The slides warn against this.", "No.", "Strategies must adapt."]
+    practice:
+      - q: "A grocery chain stocks different products in neighbourhoods with large South Asian and Middle Eastern communities. This responds mainly to:"
+        t: app
+        o: ["Cultural influences", "Temporal state", "Locus of control", "Selective retention"]
+        a: A
+        e: ["Correct — tailoring assortments to local communities and traditions.", "No.", "No.", "No."]
+      - q: "Which statement about culture in consumer behaviour is supported?"
+        o: ["Strategies that work in Canada most likely will not work unchanged in other regions", "Culture affects only B2C firms", "Subcultures don't exist within Canada", "Culture is a situational factor"]
+        a: A
+        e: ["Correct — from the slide notes.", "B2B organisations have cultures too.", "Subcultures exist within Canada.", "Culture is a social factor."]
+      - q: "Culture is best classified as a:"
+        o: ["Social factor", "Psychological factor", "Situational factor", "Decision rule"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A global snack brand launches a Diwali gift box in Canada with input from community members. This shows:"
+        t: app
+        o: ["Adapting to a subculture authentically", "Undifferentiated targeting", "A non-compensatory rule", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No — it's tailored.", "Unrelated.", "Not shown."]
+      - q: "The slides note that organisations (B2B) also have cultures, such as being:"
+        o: ["People-focused or customer-centric", "Aspirational or dissociative", "Compensatory or non-compensatory", "Innovators or laggards"]
+        a: A
+        e: ["Correct.", "Reference groups.", "Decision rules.", "Adopter categories."]
+
+  - id: ch4-situational
+    title: Situational factors (purchase, shopping, temporal)
+    src: "Ch. 4 slides, slides 32–34"
+    explain: >-
+      Situational factors are specific to the situation and can override, or at least influence, psychological and social
+      issues. Purchase situation: the reason or occasion for buying (a gift, a work event) changes what you buy. Shopping
+      (sensory) situation: the store environment — lighting, displays, aroma, music, staff, customer service — influences the
+      decision. Temporal state: time pressure and mood (a sale ending today, a deadline, a bad day) affect the purchase.
+    alt: >-
+      Ask: WHY am I buying (purchase situation)? WHERE/what's the setting (shopping situation)? WHEN and in what mood (temporal
+      state)?
+    terms:
+      Situational factors: "Factors specific to the situation that override or influence psychological and social issues."
+      Purchase situation: "The occasion/reason for the purchase (e.g., a gift) that changes what is bought."
+      Shopping (sensory) situation: "The store environment — lighting, displays, aroma, music, staff."
+      Temporal state: "Time pressure and mood at the time of purchase."
+    example: "Illustrative (from slides): budget-shopper Priya buys from Tiffany & Co. because it's her best friend's birthday (purchase), the store feels luxurious (sensory), and the sale ends today (temporal)."
+    recall:
+      - q: "Which scenario best illustrates situational factors influencing a jewellery purchase?"
+        o: ["Priya always buys the same brand out of loyalty", "Priya chooses Tiffany over a discount store because it's her friend's birthday, the store feels luxurious, and the sale ends today", "Priya researches reviews for weeks", "Priya buys only after seeing social media ads"]
+        a: B
+        e: ["Loyalty is a learned/psychological pattern.", "Correct (slide 34 answer).", "That's information search.", "That's advertising exposure."]
+      - q: "Time pressure and mood at the time of purchase are part of the:"
+        o: ["Temporal state", "Purchase situation", "Evoked set", "Lifestyle"]
+        a: A
+        e: ["Correct.", "Purchase situation is the occasion.", "No.", "Psychological."]
+    practice:
+      - q: "Sophie, known for being thrifty, buys an expensive bottle of wine as a gift for her boss's retirement. Which situational factor is evident?"
+        t: app
+        o: ["Temporal effects", "Shopping situation", "Purchase situation", "Environmental scanning"]
+        a: C
+        e: ["No time pressure or mood is described.", "The store environment isn't the driver.", "Correct — the occasion (a gift) changes what she buys.", "A Ch 3 analysis activity, not a situational factor."]
+      - q: "Soft lighting, elegant displays and attentive staff encourage a shopper to buy something unplanned. This is the:"
+        t: app
+        o: ["Shopping (sensory) situation", "Purchase situation", "Temporal state", "Reference group"]
+        a: A
+        e: ["Correct.", "The occasion isn't the driver.", "No time pressure.", "No group."]
+      - q: "Priya gets a speeding ticket on her way to the mall and ends up buying less. The slides attribute this to:"
+        t: app
+        o: ["Temporal state (mood)", "Purchase situation", "Membership group", "Selective comprehension"]
+        a: A
+        e: ["Correct — mood is part of temporal state.", "Not about the occasion.", "No.", "No."]
+      - q: "Situational factors can:"
+        o: ["Override or influence psychological and social factors", "Only affect online shopping", "Never change a consumer's usual choices", "Replace the need for marketing"]
+        a: A
+        e: ["Correct — from the slide notes.", "They apply in-store too.", "They often do change choices.", "No."]
+      - q: "A clearance sign says 'Ends at midnight!' and a shopper buys immediately. Which factor is at work?"
+        t: app
+        o: ["Temporal state", "Lifestyle", "Culture", "Compatibility"]
+        a: A
+        e: ["Correct — time pressure.", "No.", "No.", "Ch 8."]
+    examples:
+      - q: "Which example best fits the 'purchase situation' concept?"
+        o: ["Buying a pricier brand of chocolate because it's a gift for a host", "Buying because the store smells of fresh baking", "Buying because the sale ends in an hour", "Buying because your friends all own one"]
+        a: A
+        e: ["Correct — the occasion changes the choice.", "Shopping (sensory) situation.", "Temporal state.", "Reference group (social)."]
+
+  - id: ch4-involvement
+    title: Involvement & the elaboration likelihood model
+    src: "Ch. 4 slides, slide 35"
+    explain: >-
+      Involvement is how much consumers care about a purchase, and it shapes the decision process. High-involvement purchases
+      (expensive, risky, infrequent or expressive) involve extended problem solving and careful research. Low-involvement
+      purchases rely on limited problem solving, habits or impulse. The elaboration likelihood model shows the same ad is
+      processed deeply by highly involved consumers (more research, comparisons, strong attitudes) and superficially by less
+      involved ones (ignored or weak attitudes).
+    alt: >-
+      Involvement is the "care dial". Turned up, you read the fine print; turned down, you skim the headline — even if it's the
+      very same ad.
+    terms:
+      Involvement: "How much consumers care about a purchase."
+      Elaboration likelihood model: "The same message is processed deeply by involved consumers and superficially by uninvolved ones."
+    example: "Illustrative: a first-time car buyer studies every spec in a review video, while someone casually scrolling barely notices the same ad."
+    recall:
+      - q: "High-involvement purchases are typically:"
+        o: ["Expensive, risky, infrequent or expressive", "Cheap and routine", "Always impulsive", "Habitual"]
+        a: A
+        e: ["Correct.", "Low involvement.", "Impulse is low involvement.", "Low involvement."]
+      - q: "The elaboration likelihood model explains that the same ad is:"
+        o: ["Processed deeply by involved buyers and superficially by less involved ones", "Processed equally by everyone", "Only effective for low-involvement products", "Only seen by innovators"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Which purchase is MOST likely high involvement?"
+        t: app
+        o: ["An engagement ring", "A pack of gum", "A carton of milk", "A coffee on the way to class"]
+        a: A
+        e: ["Correct — expensive, infrequent, expressive.", "Low.", "Habitual.", "Habitual."]
+      - q: "According to the slides, consumers in low involvement tend to:"
+        o: ["Ignore messages or form weak attitudes", "Research heavily", "Develop strong feelings about the ad", "Use extended problem solving"]
+        a: A
+        e: ["Correct.", "High involvement.", "High involvement.", "High involvement."]
+      - q: "Two viewers see a mortgage ad: one is house hunting and studies it; the other ignores it. This illustrates:"
+        t: app
+        o: ["The elaboration likelihood model", "Selective retention only", "Undifferentiated targeting", "Postpurchase dissonance"]
+        a: A
+        e: ["Correct.", "Not the full explanation.", "Ch 6.", "No purchase yet."]
+      - q: "High involvement is associated with which problem-solving type?"
+        o: ["Extended problem solving", "Habitual decision making", "Impulse buying", "Limited problem solving"]
+        a: A
+        e: ["Correct.", "Low involvement.", "Low involvement.", "Low involvement."]
+      - q: "Involvement is best defined as:"
+        o: ["How much consumers care about a purchase", "How many brands a consumer recalls", "A firm's market share", "The number of family members involved"]
+        a: A
+        e: ["Correct.", "Retrieval set.", "Unrelated.", "Not the definition."]
+
+  - id: ch4-buying-decision-types
+    title: Types of buying decisions
+    src: "Ch. 4 slides, slides 36–39"
+    explain: >-
+      Extended problem solving: high effort — reading reviews, researching and comparing — for expensive, risky or important
+      purchases (car, house, laptop); common in fashion/apparel for expressive items. Limited problem solving: moderate effort,
+      relying more on past experience than new information (clothing, a backpack). Impulse buying: spontaneous, little thought,
+      often triggered by in-store cues at checkout. Habitual decision making: almost no conscious effort — consumers
+      automatically repurchase familiar brands (milk, coffee); this needs the least time and effort.
+    alt: >-
+      Effort ladder from top to bottom: extended (research mode) → limited (quick check) → impulse (spur of the moment) →
+      habitual (autopilot).
+    terms:
+      Extended problem solving: "High time and effort to analyse alternatives; used when the decision entails a lot of risk."
+      Limited problem solving: "Moderate effort; relies more on past experience than new information."
+      Impulse buying: "A spontaneous purchase with little thought, often triggered by in-store cues."
+      Habitual decision making: "A purchase made with little conscious effort — autopilot repurchasing."
+    example: "Illustrative (from slides): buying a house is extended; grabbing a Coffee Crisp at checkout is impulse; your daily Tim Hortons coffee is habitual."
+    recall:
+      - q: "What type of buying decision requires the least time and effort?"
+        o: ["Extended", "Habitual decision making", "Limited problem solving", "Impulse buying"]
+        a: B
+        e: ["Most effort.", "Correct (slide 39 notes).", "Moderate effort.", "Spontaneous, but habitual involves little conscious effort at all."]
+      - q: "Impulse buying is usually triggered by:"
+        o: ["In-store cues, often at checkout", "Weeks of research", "Census data", "Brand licensing"]
+        a: A
+        e: ["Correct.", "Extended.", "Ch 7.", "Ch 9."]
+    practice:
+      - q: "Jake and Amy are buying their first home; they meet realtors, ask friends and research online extensively. This involves:"
+        t: app
+        o: ["Extended problem solving", "Routine problem solving", "Limited problem solving", "Impulse buying"]
+        a: A
+        e: ["Correct — high effort for a risky, expensive purchase.", "Little effort — not this.", "Moderate effort only.", "Not spontaneous."]
+      - q: "Buying a backpack based mostly on what worked last time, with a quick look at a few options, is:"
+        t: app
+        o: ["Limited problem solving", "Extended problem solving", "Habitual decision making", "A non-compensatory rule"]
+        a: A
+        e: ["Correct — moderate effort, relying on past experience.", "Too little research for extended.", "Some thought is involved.", "Decision rules are separate from decision types."]
+      - q: "Picking up the same brand of milk every week without thinking is:"
+        t: app
+        o: ["Habitual decision making", "Impulse buying", "Extended problem solving", "Limited problem solving"]
+        a: A
+        e: ["Correct — autopilot.", "Not spontaneous/unplanned.", "No research.", "Even less effort than limited."]
+      - q: "The grocery industry is described in the slides as relying mostly on:"
+        o: ["Limited and habitual problem solving", "Extended problem solving", "Test marketing", "Micromarketing"]
+        a: A
+        e: ["Correct.", "That's fashion/high-involvement.", "Ch 8.", "Ch 6."]
+      - q: "A shopper adds a chocolate bar at the checkout counter that she hadn't planned to buy. This is:"
+        t: app
+        o: ["Impulse buying", "Habitual decision making", "Extended problem solving", "Postpurchase dissonance"]
+        a: A
+        e: ["Correct.", "Not routine repurchase.", "No research.", "Not after-purchase regret."]
+    examples:
+      - q: "Which example best fits extended problem solving?"
+        o: ["Comparing laptops for two weeks, reading reviews and visiting stores", "Grabbing gum at the till", "Reordering the usual dish soap", "Buying a T-shirt you liked last time in a new colour"]
+        a: A
+        e: ["Correct.", "Impulse.", "Habitual.", "Limited."]
+
+short_answers:
+  - t: th
+    c: [ch4-decision-process, ch4-need-recognition, ch4-info-search, ch4-alt-evaluation, ch4-purchase-decision, ch4-postpurchase]
+    src: "Ch. 4 slides, slides 4–20"
+    q: "Explain the five steps of the consumer decision process. Provide an example for each step."
+    model: |-
+      The consumer decision process describes the steps consumers go through before, during and after a purchase. It begins with need recognition, when a consumer notices a gap between their current state and a desired state — for example, a student realises their laptop's battery can't last through a day of classes. Needs can be functional (performance) or psychological (status, self-image). Next is information search: the student uses internal search (remembering how their last brand performed) and external search (asking friends, reading reviews). Search effort increases with cost and perceived risk. In alternative evaluation, the student compares a small evoked set of brands on evaluative criteria such as price, battery life and weight, possibly using a compensatory rule or a shortcut such as "known brands are safer".
+
+      In the purchase decision step, intentions must be converted into a purchase; retailers reduce friction with easy checkout, multiple payment options and fast delivery so the student doesn't abandon the cart. Finally, in postpurchase, the student evaluates the purchase. The outcome can be satisfaction, postpurchase dissonance (buyer's remorse, more likely with an expensive item) or loyalty. Marketers support satisfaction by building realistic expectations, demonstrating correct use, offering warranties, encouraging feedback and following up with customers.
+    rubric:
+      - p: "Need recognition — gap between current and desired state (functional/psychological)"
+        k: ["need recognition", "current state|desired state|gap", "functional|psychological"]
+      - p: "Information search — internal vs external"
+        k: ["information search|search", "internal", "external"]
+      - p: "Alternative evaluation — evoked set / evaluative criteria / decision rules"
+        k: ["alternative evaluation|evaluat", "evoked set|criteria|attribute|compensatory|heuristic"]
+      - p: "Purchase decision — converting intention; reducing friction"
+        k: ["purchase decision|purchase", "conversion|checkout|friction|abandon"]
+      - p: "Postpurchase — satisfaction, dissonance, loyalty"
+        k: ["postpurchase|post-purchase", "satisf", "dissonance|remorse|loyal"]
+      - p: "Example given for each step"
+        k: ["example|e.g.|for instance"]
+    mistakes:
+      - "Listing the steps without explaining what happens in each."
+      - "Putting alternative evaluation before information search."
+      - "Forgetting postpurchase — the process doesn't end at the purchase."
+      - "Using one generic example instead of tying an example to each step."
+  - t: app
+    c: [ch4-situational, ch4-influences-overview]
+    src: "Ch. 4 slides, slides 32–34"
+    q: "Maya is usually a careful, budget-conscious shopper. Explain how the three situational factors could lead her to buy an expensive item she didn't plan to buy. Use course concepts."
+    model: |-
+      Situational factors are factors specific to the situation that can override, or at least influence, a consumer's psychological and social tendencies. Even though Maya is normally budget-conscious, the purchase situation could change her choice: if she is buying a gift for her best friend's graduation, the occasion may make a premium brand feel more appropriate than her usual discount option. The shopping (sensory) situation also matters — soft lighting, elegant displays, pleasant music, aroma and attentive sales staff can make products feel more luxurious and encourage her to buy something she hadn't planned.
+
+      Finally, her temporal state — time pressure and mood — can push her to act. If the graduation is tomorrow and a sale ends today, she may buy immediately rather than keep shopping around. Mood matters too: a stressful day could make her spend more or less than usual. Together these three factors explain why Maya's actual purchase can differ from her normal careful behaviour, which is why retailers invest in store atmosphere, occasion-based promotions and time-limited offers.
+    rubric:
+      - p: "Defines situational factors as overriding/influencing psychological & social factors"
+        k: ["situational", "override|influence|specific to the situation"]
+      - p: "Purchase situation — occasion such as a gift"
+        k: ["purchase situation", "gift|occasion|birthday|graduation"]
+      - p: "Shopping (sensory) situation — store environment"
+        k: ["shopping situation|sensory", "lighting|music|display|aroma|staff|atmosphere|environment"]
+      - p: "Temporal state — time pressure / mood"
+        k: ["temporal", "time|deadline|sale ends|mood"]
+      - p: "Applies concepts to Maya's case"
+        k: ["maya"]
+    mistakes:
+      - "Confusing situational factors with psychological factors like lifestyle or attitudes."
+      - "Naming the three factors without applying them to Maya."
+      - "Calling the store environment the 'purchase situation'."
+  - t: th
+    c: [ch4-influences-overview, ch4-motives-maslow, ch4-attitude, ch4-perception, ch4-learning, ch4-lifestyle]
+    src: "Ch. 4 slides, slides 22–28"
+    q: "Explain the psychological factors that influence the consumer decision process and provide examples."
+    model: |-
+      Psychological factors are influences internal to the consumer: motives, attitudes, perception, learning and lifestyle. A motive is a need or want strong enough to drive action; Maslow's hierarchy describes physiological, safety, social, esteem and self-actualization needs — a Subway ad, for example, appeals to the physiological need for food. An attitude is a learned, lasting evaluation with cognitive (beliefs), affective (feelings) and behavioural (actions) components, such as believing yoga is healthy, feeling calm about it and enrolling in classes.
+
+      Perception is how we select, organise and interpret information through our senses; consumers filter messages through selective exposure, attention, comprehension and retention, so marketers design packaging and stores that stand out (e.g., a café's warm lighting and aroma create a premium feel). Learning is a change in thought or behaviour from experience — a positive trial of Tide's Eco-Box can build a repeat-purchase habit. Lifestyle reflects how people spend time and money and how they want to live; a Tiffany purchase may signal a milestone, status-oriented lifestyle. Together these factors shape each step from need recognition to postpurchase.
+    rubric:
+      - p: "Defines psychological factors as internal to the consumer"
+        k: ["psychological", "internal"]
+      - p: "Motives / Maslow's hierarchy"
+        k: ["motive|maslow", "physiological|safety|social|esteem|self-actualization"]
+      - p: "Attitude — cognitive, affective, behavioural"
+        k: ["attitude", "cognitive|affective|behavioural|behavioral"]
+      - p: "Perception — selective exposure/attention/comprehension/retention"
+        k: ["perception", "selective|exposure|attention|retention|comprehension"]
+      - p: "Learning and lifestyle"
+        k: ["learning", "lifestyle"]
+      - p: "Provides examples"
+        k: ["example|e.g.|for instance"]
+    mistakes:
+      - "Mixing in social factors (family, reference groups) as psychological."
+      - "Listing factors without definitions or examples."
+      - "Writing 'psychological needs' (from need recognition) instead of psychological factors."
+  - t: app
+    c: [ch4-reference-groups, ch4-family, ch4-culture]
+    src: "Ch. 4 slides, slides 29–31"
+    q: "A new athletic-wear brand wants to sell to first-year university students. Explain how social factors could influence these students' purchases and how the brand could use them."
+    model: |-
+      Social factors include family, reference groups and culture. For first-year students, reference groups are especially powerful. Their membership groups — their residence floor, program or varsity team — act as benchmarks for what to wear, so the brand could sponsor intramural teams or residence events. Aspirational groups, such as varsity athletes or fitness influencers they admire, could be used in campaigns to make the brand desirable, while the brand should avoid associations with dissociative groups that students want to distance themselves from. Reference groups influence buying by sharing information, rewarding approved behaviour and shaping self-image, which creates social proof.
+
+      Family still matters: parents may act as influencers or even decision makers if they pay, so messaging could address both students (style) and parents (value and durability). Culture also shapes values and shopping behaviour; the brand should show it genuinely understands the diverse cultural backgrounds of students — for example, offering inclusive sizing or modest athletic options — rather than making superficial gestures. Using these social factors lets the brand build adoption among a group that strongly looks to peers for cues.
+    rubric:
+      - p: "Identifies social factors: family, reference groups, culture"
+        k: ["social", "family", "reference group", "culture"]
+      - p: "Membership / aspirational / dissociative groups explained"
+        k: ["membership", "aspirational", "dissociative"]
+      - p: "Family roles (influencer, decision maker)"
+        k: ["influencer|decision maker|parent"]
+      - p: "Culture adapted genuinely"
+        k: ["culture|cultural", "genuine|subculture|tailor|inclusive|adapt"]
+      - p: "Concrete brand actions applied to students"
+        k: ["student", "sponsor|campaign|influencer|event|social proof"]
+    mistakes:
+      - "Describing psychological factors (attitudes, motives) instead of social factors."
+      - "Mixing up aspirational and dissociative groups."
+      - "No specific recommendations for the brand."
+  - t: app
+    c: [ch4-involvement, ch4-buying-decision-types, ch4-perceived-risk]
+    src: "Ch. 4 slides, slides 8, 35–37"
+    q: "Compare how a consumer would make the decision to buy a new car versus a carton of milk. Use the concepts of involvement, perceived risk and types of buying decisions."
+    model: |-
+      Involvement is how much a consumer cares about a purchase. A car is a high-involvement purchase because it is expensive, risky, infrequent and often expressive of identity. It carries significant perceived risk: financial risk (a large monetary outlay plus operating costs), performance risk (the car may be unreliable), physiological risk (safety), and social and psychological risk (how others see the car and how the buyer feels about it). As a result, the buyer engages in extended problem solving: researching reviews, visiting dealers, comparing options on many attributes and perhaps using a compensatory rule. Under the elaboration likelihood model, they would process car ads deeply.
+
+      Milk is a low-involvement, low-risk, frequently bought item. The consumer uses habitual decision making, automatically repurchasing a familiar brand with almost no conscious effort, or at most limited problem solving if their usual brand is out of stock. They spend almost no time searching and would process milk ads superficially. Marketers therefore provide detailed information, test drives and warranties for cars, but focus on shelf presence, availability and reminders for milk.
+    rubric:
+      - p: "Defines involvement; car = high, milk = low"
+        k: ["involvement", "high", "low"]
+      - p: "Perceived risk types for the car"
+        k: ["risk", "financial|performance|social|psychological|physiological"]
+      - p: "Car = extended problem solving"
+        k: ["extended"]
+      - p: "Milk = habitual (or limited) decision making"
+        k: ["habitual|limited|routine"]
+      - p: "Marketing implications or ELM"
+        k: ["elaboration|marketer|test drive|warranty|shelf|availability"]
+    mistakes:
+      - "Calling milk 'impulse buying' — it's planned and routine, i.e., habitual."
+      - "Not naming specific risk types."
+      - "Describing the products without the course terms."
+
+matching:
+  - prompt: "Match each reference group type to its example."
+    c: [ch4-reference-groups]
+    src: "Ch. 4 slides, slide 30"
+    pairs:
+      - ["Membership group", "Your McMaster program"]
+      - ["Aspirational group", "A pro sports team you dream of joining"]
+      - ["Dissociative group", "A group you want to distance yourself from"]
+  - prompt: "Match each buying decision type to its example."
+    c: [ch4-buying-decision-types]
+    src: "Ch. 4 slides, slide 37"
+    pairs:
+      - ["Extended problem solving", "Buying a house"]
+      - ["Limited problem solving", "Buying a backpack based on past experience"]
+      - ["Impulse buying", "A chocolate bar at the checkout"]
+      - ["Habitual decision making", "Your usual weekly milk"]
+  - prompt: "Match each perceived risk to its description."
+    c: [ch4-perceived-risk]
+    src: "Ch. 4 slides, slide 8 (notes)"
+    pairs:
+      - ["Performance risk", "The product may perform poorly"]
+      - ["Financial risk", "The money spent, including cost of use"]
+      - ["Social risk", "Others may not regard the purchase positively"]
+      - ["Physiological risk", "Fear of actual physical harm"]
+      - ["Psychological risk", "It may not convey the right self-image"]
+  - prompt: "Match each attitude component to its yoga example."
+    c: [ch4-attitude]
+    src: "Ch. 4 slides, slide 25"
+    pairs:
+      - ["Cognitive", "Believing yoga makes you more flexible"]
+      - ["Affective", "Feeling calm and positive about yoga"]
+      - ["Behavioural", "Enrolling in yoga classes"]
+
+fill:
+  - text: "The brands a consumer seriously considers form the ___ set."
+    a: "evoked"
+    c: [ch4-alt-evaluation]
+    src: "Ch. 4 slides, slide 11"
+  - text: "Consumers with an ___ locus of control spend more time and effort searching."
+    a: "internal"
+    c: [ch4-search-factors]
+    src: "Ch. 4 slides, slide 7"
+  - text: "Buyer's remorse is also called postpurchase ___."
+    a: "dissonance"
+    accept: ["cognitive dissonance"]
+    c: [ch4-postpurchase]
+    src: "Ch. 4 slides, slide 17"
+  - text: "Decision ___ are mental shortcuts that help consumers narrow down choices."
+    a: "heuristics"
+    accept: ["heuristic"]
+    c: [ch4-decision-heuristics]
+    src: "Ch. 4 slides, slide 13"
+  - text: "A ___ decision rule lets good characteristics make up for bad ones."
+    a: "compensatory"
+    c: [ch4-decision-rules]
+    src: "Ch. 4 slides, slide 12"
+  - text: "Retailers measure how well they turn purchase intentions into purchases with the ___ rate."
+    a: "conversion"
+    c: [ch4-purchase-decision]
+    src: "Ch. 4 slides, slide 16"
+  - text: "Time pressure and mood at purchase make up the ___ state."
+    a: "temporal"
+    c: [ch4-situational]
+    src: "Ch. 4 slides, slide 32"
+  - text: "The highest level of Maslow's hierarchy is self-___."
+    a: "actualization"
+    accept: ["actualisation"]
+    c: [ch4-motives-maslow]
+    src: "Ch. 4 slides, slide 24"

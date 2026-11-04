@@ -24,3 +24,6 @@ __pycache__/
 *.log
 .idea/
 .vscode/
+dist-ssr
+*.local
+npm-debug.log*

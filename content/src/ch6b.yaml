@@ -1,0 +1,477 @@
+chapter: 6
+concepts:
+  - id: ch6-identifiable
+    title: Segment attractiveness — identifiable
+    src: "Ch. 6 slides, slides 21–22"
+    explain: >-
+      Step 3 evaluates segment attractiveness on four criteria: identifiable, reachable, responsive, and substantial & profitable.
+      A segment is identifiable when the firm can tell who is in it, whether the segments are unique, and whether each segment
+      requires a unique marketing mix. Firms must know who is in their market to design offerings for it.
+    alt: >-
+      If you can't describe who's in a group and how they differ from others, you can't build something for them — like trying
+      to buy a gift for a stranger.
+    terms:
+      Segment attractiveness: "Evaluated by whether a segment is identifiable, reachable, responsive, and substantial & profitable."
+      Identifiable: "The firm can determine who is in the segment and that it is unique and needs a distinct marketing mix."
+    example: "Illustrative (from slides): Gap and Gap Kids target identifiable, distinct segments (adults vs kids) with different marketing mixes."
+    recall:
+      - q: "Which is one of the four segment-attractiveness criteria?"
+        o: ["Identifiable", "Compensatory", "Observable", "Aspirational"]
+        a: A
+        e: ["Correct.", "Ch 4 decision rule.", "Ch 8 diffusion factor.", "Ch 4 reference group."]
+      - q: "Asking 'Does each segment require a unique marketing mix?' tests whether segments are:"
+        o: ["Identifiable", "Reachable", "Substantial", "Responsive"]
+        a: A
+        e: ["Correct — from slide 22.", "Reach is about communication/distribution.", "Size/profit.", "Reaction to the offer."]
+    practice:
+      - q: "The four criteria for evaluating segment attractiveness are:"
+        o: ["Identifiable, reachable, responsive, substantial & profitable", "Relative advantage, compatibility, observability, trialability", "Cognitive, affective, behavioural, social", "Value, attributes, symbolism, leadership"]
+        a: A
+        e: ["Correct.", "Ch 8 diffusion factors.", "Attitude components (+social).", "Positioning methods."]
+      - q: "Gap runs Gap, Old Navy and Banana Republic, each for a different audience. This shows segments that are:"
+        t: app
+        o: ["Identifiable and unique, each needing a distinct mix", "Not identifiable", "Undifferentiated", "Not substantial"]
+        a: A
+        e: ["Correct.", "They clearly are.", "The opposite.", "No evidence."]
+      - q: "Mary wants to target women aged 15–50 in a small northern Ontario town who are taller than six feet. The main issue is that the segment is:"
+        t: app
+        o: ["Not responsive", "Not identifiable", "Not substantial and not profitable", "Too broad"]
+        a: C
+        e: ["Nothing suggests they'd reject the offer.", "The group can be identified.", "Correct (official key) — too few people to be profitable.", "It's very narrow."]
+        c: [ch6-substantial-profitable]
+      - q: "Segment attractiveness is evaluated at which STP step?"
+        o: ["Step 3", "Step 1", "Step 2", "Step 5"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm can't find any characteristic that distinguishes 'customers who like our brand' from anyone else. Which criterion is failing?"
+        t: app
+        o: ["Identifiable", "Reachable", "Substantial", "Profitable"]
+        a: A
+        e: ["Correct — it can't tell who's in the segment.", "Not the issue.", "Not the issue.", "Not the issue."]
+
+  - id: ch6-reachable
+    title: Segment attractiveness — reachable
+    src: "Ch. 6 slides, slide 23"
+    explain: >-
+      A segment is reachable when the firm can reach it through persuasive communications and product distribution. Consumers
+      must know the product exists, understand what it can do for them and recognise how to buy it. The internet makes many
+      segments easier to reach, but some areas can't be served because they aren't accessible to marketing messages or lack
+      adequate distribution.
+    alt: >-
+      A great message is useless if it never arrives — reachability asks "Can our ads and our products actually get to them?"
+    terms:
+      Reachable: "The segment can be accessed through communications and distribution."
+    example: "Illustrative (from slides): La Senza must make sure any new segment can be reached, e.g., a younger audience via e-commerce."
+    recall:
+      - q: "A segment is reachable if the firm can access it through:"
+        o: ["Communications and distribution", "Patents", "Price increases", "Census data alone"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "For a segment to be reachable, consumers must:"
+        o: ["Know the product exists, understand it and know how to buy it", "Be loyal already", "Live in one city", "Be heavy users"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A firm wants to target remote communities with no internet and no retail partners. Which criterion is most at risk?"
+        t: app
+        o: ["Reachable", "Identifiable", "Responsive", "Profitable"]
+        a: A
+        e: ["Correct — no communication or distribution path.", "They can be identified.", "Unknown.", "Possibly, but reach is the direct issue."]
+      - q: "The slide notes say some Gen Y customers are hard to reach because they:"
+        o: ["Don't use traditional media and are skeptical of commercial messages", "Don't buy anything", "Live only in rural areas", "Are all laggards"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which development has made more segments reachable?"
+        o: ["The internet", "Brand dilution", "Market saturation", "Fashion cycles"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "La Senza uses e-commerce to connect with a younger audience. Which criterion does this address?"
+        t: app
+        o: ["Reachable", "Substantial", "Identifiable", "Compatible"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Ch 8."]
+      - q: "Which question tests reachability?"
+        o: ["Can we get our message and product to this segment?", "Is the segment big enough?", "Will they like our value proposition?", "Can we tell who's in it?"]
+        a: A
+        e: ["Correct.", "Substantial.", "Responsive.", "Identifiable."]
+
+  - id: ch6-responsive
+    title: Segment attractiveness — responsive
+    src: "Ch. 6 slides, slide 24"
+    explain: >-
+      A segment is responsive when its customers react similarly and positively to the firm's offering, move toward its products
+      and accept its value proposition. Successful segmentation means choosing customers whose needs match what the firm does best
+      — each firm succeeds by serving segments aligned with its strengths, not by chasing every opportunity. Past buyers (e.g.,
+      Gap adult customers for Gap Kids) are often the most responsive "low-hanging fruit".
+    alt: >-
+      Responsiveness asks "Will they say yes?" — would customers believe and want this offer from this particular brand?
+    terms:
+      Responsive: "Customers in the segment react positively to and accept the firm's value proposition."
+    example: "Illustrative (from slide notes): would consumers accept personal-care products like cologne from Nike? If they don't believe the value proposition, the segment isn't responsive."
+    recall:
+      - q: "A segment is responsive if customers:"
+        o: ["React positively and accept the firm's value proposition", "Can be counted", "Live nearby", "Are reachable online"]
+        a: A
+        e: ["Correct.", "Identifiable.", "Geographic.", "Reachable."]
+      - q: "Responsiveness is about the segment's:"
+        o: ["Attitude toward the firm's offering", "Size", "Location", "Age"]
+        a: A
+        e: ["Correct — the slide labels it 'Responsive (attitude)'.", "Substantial.", "No.", "No."]
+    practice:
+      - q: "Nike considers launching toothpaste. Many consumers say they wouldn't trust Nike for oral care. Which criterion fails?"
+        t: app
+        o: ["Responsive", "Reachable", "Identifiable", "Substantial"]
+        a: A
+        e: ["Correct — they won't accept the value proposition.", "Nike can reach them.", "They can be identified.", "The market is large."]
+      - q: "Why are Gap adult customers described as 'low-hanging fruit' for Gap Kids?"
+        o: ["They're already likely to respond positively to the brand", "They're the largest segment in Canada", "They're unreachable", "They're laggards"]
+        a: A
+        e: ["Correct.", "Not stated.", "No.", "No."]
+      - q: "According to the slides, successful segmentation means:"
+        o: ["Choosing customers whose needs match what the firm does best", "Chasing every opportunity", "Targeting everyone", "Ignoring the value proposition"]
+        a: A
+        e: ["Correct.", "The slides warn against this.", "No.", "No."]
+      - q: "Holt Renfrew competes in upscale fashion rather than discount groceries. This reflects targeting segments that are:"
+        t: app
+        o: ["Responsive to what the firm does best", "Undifferentiated", "Unreachable", "Dissociative"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Ch 4."]
+      - q: "Using CRM data on past purchases to send personalised offers mainly helps a firm find customers who are:"
+        t: app
+        o: ["Responsive", "Geographically spread", "Non-users", "Laggards"]
+        a: A
+        e: ["Correct — the slide links responsiveness to customised offers and CRM.", "No.", "No.", "No."]
+
+  - id: ch6-substantial-profitable
+    title: Segment attractiveness — substantial & profitable
+    src: "Ch. 6 slides, slide 25"
+    explain: >-
+      A segment must be substantial and profitable: if it's too small or its buying power insignificant, it won't generate enough
+      profit to support a marketing mix. Growth potential is equally important. Size in number of people is not the only
+      consideration — a small but high-spending segment can be very profitable, and a hot segment may not last long enough to be
+      worth the investment.
+    alt: >-
+      Substantial & profitable asks "Is the prize big enough to be worth the trip?" — counting not just heads but dollars and
+      future growth.
+    terms:
+      Substantial and profitable: "The segment is large enough (in size and buying power) and growing enough to be worth pursuing."
+    example: "Illustrative (from slides): for Mark's, traditional industrial workwear is a larger, more stable segment (driven by safety rules and B2B contracts) than top-line casual apparel."
+    recall:
+      - q: "If a segment is too small or its buying power insignificant, it fails which criterion?"
+        o: ["Substantial & profitable", "Identifiable", "Reachable", "Responsive"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Besides current size, the slides say what is equally important?"
+        o: ["Growth potential", "Brand jingle", "Number of patents", "Packaging colour"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Why might Mark's find industrial workwear more profitable than casual apparel?"
+        t: app
+        o: ["Large, stable demand from safety rules and recurring B2B bulk purchases", "Casual apparel has no customers", "Industrial workwear is unreachable", "Workwear has more competitors"]
+        a: A
+        e: ["Correct — from slide 25.", "No.", "No.", "The slide notes less competition."]
+      - q: "The original Hummer market was small but very profitable. This shows that:"
+        o: ["Size in number of people is not the only consideration", "Small segments are never profitable", "Profit doesn't matter", "Growth is irrelevant"]
+        a: A
+        e: ["Correct — from slide notes.", "The opposite.", "No.", "No."]
+      - q: "Targeting student leaders at Ontario universities (maybe fewer than 150 people) risks failing which criterion?"
+        t: app
+        o: ["Substantial", "Identifiable", "Responsive", "Reachable"]
+        a: A
+        e: ["Correct — the slide uses this as a 'size matters' example.", "They're identifiable.", "Not the issue.", "Not the issue."]
+      - q: "A trend-driven segment is booming now but may vanish within a year. Which concern does this raise?"
+        t: app
+        o: ["Whether it will be substantial long enough to justify investment", "Whether it's identifiable", "Whether it's dissociative", "Whether it's a product category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement best captures 'substantial and profitable'?"
+        o: ["The segment is large enough in size, buying power and growth to support the marketing mix", "The segment likes the brand", "The segment can be reached online", "The segment lives in one region"]
+        a: A
+        e: ["Correct.", "Responsive.", "Reachable.", "Geographic."]
+
+  - id: ch6-segment-profitability
+    title: Segment profitability formula
+    src: "Ch. 6 slides, slides 26–29"
+    explain: >-
+      Segment profitability = (segment size × segment adoption % × purchase behaviour × profit margin %) − fixed costs, where
+      purchase behaviour = purchase price × frequency of purchase. Size alone doesn't determine profitability: higher adoption and
+      repeat purchase frequency can outweigh a smaller base, and business customers often bring larger orders, higher prices and
+      better margins. Key factors in assessing profitability are market growth, market competitiveness and market access.
+    alt: >-
+      Think of it as: how many people × how many of them buy × how much they spend over time × how much you keep − what it costs
+      to play.
+    terms:
+      Segment profitability: "(Size × adoption % × purchase behaviour × profit margin %) − fixed costs."
+      Purchase behaviour: "Purchase price × frequency of purchase."
+    example: "Illustrative (from slides): Camillo's Lawn Service earns $140,000 from 75,000 homeowners but $600,000 from just 1,000 businesses."
+    recall:
+      - q: "In the segment profitability formula, which is subtracted?"
+        o: ["Fixed costs", "Profit margin", "Segment size", "Adoption %"]
+        a: A
+        e: ["Correct.", "Multiplied.", "Multiplied.", "Multiplied."]
+      - q: "For Camillo's Lawn Service, which segment was more profitable?"
+        o: ["Businesses", "Homeowners", "They were equal", "Neither was profitable"]
+        a: A
+        e: ["Correct — $600,000 vs $140,000.", "No.", "No.", "Both were profitable."]
+    practice:
+      - q: "Using the formula, homeowners: 75,000 × 1% × ($100 × 12) × 60% − $400,000 = ?"
+        t: app
+        d: 3
+        o: ["$140,000", "$540,000", "$600,000", "$1,000,000"]
+        a: A
+        e: ["Correct — 750 × $1,200 = $900,000 × 0.6 = $540,000 − $400,000 = $140,000.", "That's before subtracting fixed costs.", "That's the business segment.", "No."]
+      - q: "Businesses: 1,000 × 20% × ($500 × 20) × 80% − $1,000,000 = ?"
+        t: app
+        d: 3
+        o: ["$600,000", "$1,600,000", "$140,000", "$2,000,000"]
+        a: A
+        e: ["Correct — 200 × $10,000 = $2,000,000 × 0.8 = $1,600,000 − $1,000,000.", "Before fixed costs.", "Homeowner segment.", "Revenue before margin."]
+      - q: "Which is NOT one of the key factors listed for assessing segment profitability?"
+        o: ["Market growth", "Market competitiveness", "Purchase behaviour", "Market access"]
+        a: C
+        e: ["Listed.", "Listed.", "Correct per the official slide key (slides 28–29), even though purchase behaviour appears in the formula.", "Listed."]
+      - q: "Why can a smaller segment be more profitable than a larger one?"
+        o: ["Higher adoption, frequency, prices and margins can outweigh size", "Fixed costs are always zero for small segments", "Smaller segments are always more loyal", "Larger segments can't be reached"]
+        a: A
+        e: ["Correct.", "No.", "Not always.", "No."]
+      - q: "Market access, as a profitability factor, refers to:"
+        o: ["Ease of developing or accessing distribution channels and brand familiarity", "The number of competitors", "Expected growth rate", "Segment adoption percentage"]
+        a: A
+        e: ["Correct — from slide 29 notes.", "That's competitiveness.", "That's growth.", "Part of the formula."]
+
+  - id: ch6-select-target
+    title: Step 4 — select target market
+    src: "Ch. 6 slides, slide 30"
+    explain: >-
+      In Step 4 the firm selects its target market. The choice is based on a SWOT analysis that assesses the attractiveness of the
+      opportunity and considers the organisation's competencies. The firm picks the segment(s) most responsive to its value
+      proposition and then chooses a targeting strategy: undifferentiated, differentiated, concentrated (niche) or micromarketing.
+    alt: >-
+      After rating every segment, you pick the ones where the opportunity is attractive AND you're good enough to win.
+    terms:
+      Target market: "The segment(s) a firm selects to pursue."
+      Targeting strategies: "Undifferentiated, differentiated, concentrated (niche), micromarketing."
+    example: "Illustrative (from slide notes): a fashion jean line might target a young woman, while a durable work-jean line might target a male tradesperson."
+    recall:
+      - q: "Selecting the target market is based on:"
+        o: ["A SWOT analysis of opportunity attractiveness and the firm's competencies", "Only the cheapest segment", "The perceptual map alone", "Competitor slogans"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a targeting strategy?"
+        o: ["Undifferentiated", "Concentrated", "Micromarketing", "Compensatory"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — a Ch 4 decision rule."]
+    practice:
+      - q: "A jeans brand designs a durable, functional work jean. According to the slide notes, the best target would be:"
+        t: app
+        o: ["Workers who need durable jeans", "Fashion-focused teens", "Everyone equally", "Laggards"]
+        a: A
+        e: ["Correct — the segment most responsive to that value proposition.", "Better for a fashion jean.", "No.", "Ch 8."]
+      - q: "Step 4 of STP is:"
+        o: ["Select target market", "Evaluate segment attractiveness", "Identify positioning", "Choose segmentation bases"]
+        a: A
+        e: ["Correct.", "Step 3.", "Step 5.", "Step 2."]
+      - q: "A firm finds a segment attractive but lacks the competencies to serve it. Based on the slides it should:"
+        t: app
+        o: ["Reconsider — selection considers both attractiveness and competencies", "Target it anyway", "Use micromarketing", "Skip positioning"]
+        a: A
+        e: ["Correct.", "Ignores competencies.", "Not a fix.", "No."]
+      - q: "Once a target market is chosen, the firm next decides on:"
+        o: ["A targeting strategy, then positioning", "Need recognition", "Idea generation", "Data mining"]
+        a: A
+        e: ["Correct.", "Ch 4.", "Ch 8.", "Ch 7."]
+      - q: "The main question at Step 4 is:"
+        o: ["Which segment(s) will we pursue?", "How big is the market?", "How do customers perceive us?", "What's our mission?"]
+        a: A
+        e: ["Correct.", "Step 3.", "Step 5.", "Step 1."]
+
+  - id: ch6-undifferentiated
+    title: Undifferentiated (mass) targeting
+    src: "Ch. 6 slides, slides 33, 37–38"
+    explain: >-
+      An undifferentiated targeting strategy uses the same product, same message and same market. It's used when most consumers
+      want similar benefits and works best for basic, low-involvement commodities such as salt, sugar, flour, fuel and greeting
+      cards. Cost efficiencies come from scale rather than customisation. It's harder to sustain today because consumers expect
+      differentiation, so even "mass" products add features, branding or convenience.
+    alt: >-
+      Undifferentiated is one-size-fits-all — one recipe, one ad, everyone.
+    terms:
+      Undifferentiated targeting: "Same product and message for the whole market (mass marketing)."
+    example: "Illustrative (from slides): Esso differentiates a commodity (gasoline) through a mobile payment and loyalty app — showing even mass products now add convenience."
+    recall:
+      - q: "Which product is most likely to use an undifferentiated strategy?"
+        o: ["Shoes", "Jewellery", "Cereal", "Sugar"]
+        a: D
+        e: ["Segmented.", "Segmented.", "Segmented.", "Correct (slide 38)."]
+      - q: "Undifferentiated targeting means:"
+        o: ["Same product, same message, same market", "Different offerings for different segments", "One niche segment", "Customised for each individual"]
+        a: A
+        e: ["Correct.", "Differentiated.", "Concentrated.", "Micromarketing."]
+    practice:
+      - q: "Why is undifferentiated targeting harder to sustain today?"
+        o: ["Consumers expect differentiation", "It's illegal", "It costs more than micromarketing", "Commodities no longer exist"]
+        a: A
+        e: ["Correct.", "No.", "It's usually cheaper.", "No."]
+      - q: "Where do cost efficiencies in undifferentiated targeting come from?"
+        o: ["Scale rather than customisation", "Personalised products", "Multiple campaigns", "Higher margins per niche"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A salt producer sells one product with one message to all grocery shoppers. This is:"
+        t: app
+        o: ["Undifferentiated targeting", "Differentiated targeting", "Concentrated targeting", "Micromarketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Undifferentiated targeting works best for products that are:"
+        o: ["Basic, low-involvement commodities", "Luxury and expressive", "Custom-made", "High-tech pioneers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Esso adds a loyalty app to gasoline purchases. This shows that:"
+        t: app
+        o: ["Even 'mass' products now add features or convenience to stand out", "Gasoline is a niche product", "Esso uses micromarketing for fuel itself", "Gasoline isn't a commodity"]
+        a: A
+        e: ["Correct.", "No.", "The fuel is the same; convenience differs.", "It is a commodity."]
+
+  - id: ch6-differentiated
+    title: Differentiated targeting
+    src: "Ch. 6 slides, slide 34"
+    explain: >-
+      A differentiated targeting strategy gives different segments different offerings and marketing mixes, because each segment
+      has distinct needs, interests or lifestyles. It increases total market coverage and sales opportunities and diversifies risk
+      (weak performance in one segment is offset by others), but it brings higher costs from multiple products, campaigns and brand
+      management.
+    alt: >-
+      Differentiated is a restaurant with several menus — kids, vegan, date night — each designed for a different crowd.
+    terms:
+      Differentiated targeting: "Targeting several segments with a different offering and marketing mix for each."
+    example: "Illustrative (from slides): Condé Nast publishes niche magazines for different groups — The New Yorker, GQ, Vogue, Wired."
+    recall:
+      - q: "A key disadvantage of differentiated targeting is:"
+        o: ["Higher costs from multiple products and campaigns", "No market coverage", "Higher risk from one segment", "It's only for commodities"]
+        a: A
+        e: ["Correct.", "It increases coverage.", "It diversifies risk.", "No."]
+      - q: "Condé Nast's many magazines for different readers is an example of:"
+        o: ["Differentiated targeting", "Undifferentiated targeting", "Micromarketing", "Concentrated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Gap Inc. runs Old Navy, Gap and Banana Republic. If a recession hurts Old Navy, Banana Republic's affluent customers may be less affected. This benefit is:"
+        t: app
+        o: ["Diversifying risk", "Lower marketing costs", "Deeper single-segment focus", "Undifferentiated efficiency"]
+        a: A
+        e: ["Correct — from slide 34.", "Costs are higher.", "That's concentrated.", "No."]
+      - q: "Which is a benefit of differentiated targeting?"
+        o: ["Increased total market coverage", "Lowest possible marketing cost", "Simplest brand management", "One message for everyone"]
+        a: A
+        e: ["Correct.", "Costs are higher.", "More complex.", "That's undifferentiated."]
+      - q: "Coca-Cola offers regular, Zero Sugar and flavoured versions marketed to different groups. This is best described as:"
+        t: app
+        o: ["Differentiated targeting", "Undifferentiated targeting", "Concentrated targeting", "Repositioning only"]
+        a: A
+        e: ["Correct — the slide notes cite Vanilla Coca-Cola as differentiated.", "No.", "No.", "No."]
+      - q: "A differentiated strategy requires:"
+        o: ["Different offerings and marketing mixes for different segments", "One product for all", "Focusing on one niche", "Customising for each individual"]
+        a: A
+        e: ["Correct.", "Undifferentiated.", "Concentrated.", "Micromarketing."]
+      - q: "Which firm type is LEAST suited to differentiated targeting?"
+        t: app
+        o: ["A start-up with a very limited budget", "A large firm with multiple brands", "A publisher with many titles", "An automaker with many models"]
+        a: A
+        e: ["Correct — high costs make concentrated targeting more efficient for small firms.", "Well suited.", "Well suited.", "Well suited."]
+
+  - id: ch6-concentrated
+    title: Concentrated (niche) targeting
+    src: "Ch. 6 slides, slide 35"
+    explain: >-
+      A concentrated (niche) targeting strategy focuses on one clearly defined segment rather than the whole market. Resources are
+      concentrated to serve that group exceptionally well, and deep understanding of customer needs creates strong
+      differentiation and loyalty. It's efficient for start-ups and smaller firms with limited budgets, but carries higher risk if
+      the single segment declines or preferences change.
+    alt: >-
+      Concentrated targeting puts all your eggs in one basket — and then watches that basket very carefully.
+    terms:
+      Concentrated (niche) targeting: "Focusing on one clearly defined segment."
+    example: "Illustrative (from slides): Newton Running targets only forefoot runners, while Nike uses a broader differentiated strategy."
+    recall:
+      - q: "The main risk of concentrated targeting is:"
+        o: ["The single segment may decline or change", "Costs are highest of all strategies", "There's no customer loyalty", "It covers too many segments"]
+        a: A
+        e: ["Correct.", "Not the main point.", "It builds loyalty.", "It covers one."]
+      - q: "Newton Running targeting only forefoot runners is:"
+        o: ["Concentrated (niche) targeting", "Differentiated targeting", "Undifferentiated targeting", "Micromarketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Concentrated targeting is especially efficient for:"
+        o: ["Start-ups or smaller firms with limited budgets", "Firms selling commodities", "Firms with dozens of brands", "Firms customising for individuals"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Raven's restaurants serve only breakfast and lunch and close at 3 p.m. According to the notes this is:"
+        t: app
+        o: ["A niche strategy", "Undifferentiated", "Micromarketing", "Differentiated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which outcome is a typical benefit of concentrated targeting?"
+        o: ["Deep understanding of customers that builds loyalty", "Maximum market coverage", "Diversified risk", "Lowest per-customer personalisation cost"]
+        a: A
+        e: ["Correct.", "Differentiated.", "Differentiated.", "No."]
+      - q: "A company makes only gluten-free baked goods for people with celiac disease. Its strategy is:"
+        t: app
+        o: ["Concentrated", "Undifferentiated", "Differentiated", "Mass marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Concentrated vs differentiated: which statement is correct?"
+        o: ["Concentrated focuses on one segment; differentiated serves several with different mixes", "Both focus on one segment", "Concentrated uses one product for everyone", "Differentiated customises for each individual"]
+        a: A
+        e: ["Correct.", "No.", "That's undifferentiated.", "That's micromarketing."]
+
+  - id: ch6-micromarketing
+    title: Micromarketing (one-to-one)
+    src: "Ch. 6 slides, slide 36"
+    explain: >-
+      Micromarketing tailors products or services to individual customer needs and preferences. It creates highly personalised
+      value and stronger relationships, and is enabled by data, AI and digital tools that track behaviour and preferences. It's
+      more feasible online where customisation can scale, but has higher cost and complexity, so firms must balance value gained
+      against expense.
+    alt: >-
+      Micromarketing is the tailor-made suit of targeting — cut for one person.
+    terms:
+      Micromarketing: "Tailoring a product or service to suit an individual customer's wants or needs."
+    example: "Illustrative (from slides): Reebok Impact lets customers design personalised digital shoes; Mars lets shoppers personalise M&M's; Amazon customises recommendations in real time."
+    recall:
+      - q: "Tailoring products to individual customers is:"
+        o: ["Micromarketing", "Concentrated targeting", "Undifferentiated targeting", "Geodemographics"]
+        a: A
+        e: ["Correct.", "One segment, not one person.", "No.", "No."]
+      - q: "Micromarketing is enabled mainly by:"
+        o: ["Data, AI and digital tools", "Census data only", "Mass TV ads", "Lower prices"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A customer designs custom sneakers online choosing colours, materials and text. This is:"
+        t: app
+        o: ["Micromarketing", "Differentiated targeting", "Undifferentiated targeting", "Concentrated targeting"]
+        a: A
+        e: ["Correct.", "No — that's per segment.", "No.", "No."]
+      - q: "Why must firms 'balance value gained vs expense' in micromarketing?"
+        o: ["It has higher cost and complexity", "It is illegal", "It reduces relationships", "It lowers personalisation"]
+        a: A
+        e: ["Correct.", "No.", "It strengthens them.", "No."]
+      - q: "Micromarketing is described as more feasible:"
+        o: ["Online, where customisation can scale", "Only in physical stores", "Only for commodities", "Only in rural areas"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Mariposa builds custom bicycles for individual racers. The notes classify this as:"
+        t: app
+        o: ["Micromarketing", "Differentiated", "Undifferentiated", "Geographic segmentation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a benefit of micromarketing?"
+        o: ["Highly personalised value and stronger relationships", "Lowest cost per unit", "Same message for all", "No data needed"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    examples:
+      - q: "Which example best fits micromarketing?"
+        o: ["Personalised M&M's printed with your own message", "Table salt sold to everyone", "Condé Nast's range of magazines", "Newton Running for forefoot runners"]
+        a: A
+        e: ["Correct.", "Undifferentiated.", "Differentiated.", "Concentrated."]
