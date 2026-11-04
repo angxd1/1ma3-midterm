@@ -1,0 +1,26 @@
+# deps / build
+node_modules/
+dist/
+.vercel/
+coverage/
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+supabase/.temp/
+
+# course source files & raw extracts (copyrighted; kept local only)
+materials/
+content/extracted/
+
+# python
+.venv/
+__pycache__/
+
+# os / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
