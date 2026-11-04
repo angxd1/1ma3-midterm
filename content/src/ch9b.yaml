@@ -1,0 +1,618 @@
+chapter: 9
+concepts:
+  - id: ch9-brand-loyalty
+    title: Brand loyalty
+    src: "Ch. 9 slides, p. 20"
+    explain: >-
+      Brand loyalty brings several benefits: loyal consumers are often less sensitive to price, marketing costs are much lower, loyal
+      customers praise their favourite products and retailers, and a high level of loyalty insulates the firm from competition.
+    alt: >-
+      Loyal customers are a brand's fan club — they pay a bit more, cost less to keep, and recruit their friends.
+    terms:
+      Brand loyalty: "Commitment to repurchase a brand; reduces price sensitivity and marketing costs and insulates from competition."
+    example: "Illustrative (from slides): Dove rewarded loyal consumers with double PC Optimum points at Shoppers Drug Mart."
+    recall:
+      - q: "Loyal customers are often:"
+        o: ["Less sensitive to price", "More sensitive to price", "Unaware of the brand", "Laggards"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A high level of brand loyalty:"
+        o: ["Insulates the firm from competition", "Raises marketing costs", "Reduces word-of-mouth", "Causes brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Dove offering double loyalty points at Shoppers Drug Mart aims to:"
+        t: app
+        o: ["Reward and strengthen brand loyalty", "Create a generic brand", "Reduce awareness", "Increase complexity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why are marketing costs lower with loyal customers?"
+        o: ["They keep buying and praise the brand to others", "They never buy", "Ads become illegal", "They only buy generics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A coffee drinker keeps buying her favourite brand even after a competitor's price cut. This shows:"
+        t: app
+        o: ["Brand loyalty reducing price sensitivity", "Brand dilution", "Low perceived value", "Unsought product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a benefit of brand loyalty from the slides?"
+        o: ["Less price sensitivity", "Lower marketing costs", "Customers praise the brand", "Higher product complexity"]
+        a: D
+        e: ["Benefit.", "Benefit.", "Benefit.", "Correct."]
+      - q: "Brand loyalty is a component of:"
+        o: ["Brand equity", "Brand ownership", "Product category", "Market testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-brand-ownership
+    title: Brand ownership — manufacturer, private-label, generic
+    src: "Ch. 9 slides, pp. 21–22"
+    explain: >-
+      Brand ownership strategies: manufacturer brands are owned and managed by the manufacturer (e.g., Cherry Coke); private-label
+      (store) brands are owned and managed by retailers (e.g., President's Choice Black Cherry); and generics carry no brand name
+      beyond the product description (e.g., "Cherry Cola").
+    alt: >-
+      Who owns the name? The maker (manufacturer), the store (private label), or nobody (generic).
+    terms:
+      Manufacturer brand: "A brand owned and managed by the manufacturer."
+      Private-label (store) brand: "A brand owned and managed by a retailer."
+      Generic: "An unbranded product sold by its product description."
+    example: "Illustrative (from slides): Cherry Coke (manufacturer), President's Choice Black Cherry (private label), plain 'Cherry Cola' (generic)."
+    recall:
+      - q: "Brands owned and managed by retailers are ___ brands."
+        o: ["Public-label", "Generic", "Private-label", "Corporate"]
+        a: C
+        e: ["No.", "No.", "Correct (p.22).", "No."]
+      - q: "Cherry Coke is an example of a:"
+        o: ["Manufacturer brand", "Private-label brand", "Generic", "Cobrand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Loblaw's President's Choice products are:"
+        t: app
+        o: ["Private-label (store) brands", "Manufacturer brands", "Generics", "Licensed brands"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A can simply labelled 'Cherry Cola' with no brand is a:"
+        t: app
+        o: ["Generic", "Manufacturer brand", "Private label", "Family brand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The three brand ownership strategies are:"
+        o: ["Manufacturer, private-label, generic", "Family, individual, cobrand", "Awareness, value, loyalty", "Breadth, depth, category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Walmart's Great Value products are best described as:"
+        t: app
+        o: ["Private-label brands", "Manufacturer brands", "Cobrands", "Licences"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Private labels have grown because of high:"
+        o: ["Perceived value", "Complexity", "Brand dilution", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch9-perceived-value]
+
+  - id: ch9-family-individual
+    title: Family vs individual brands
+    src: "Ch. 9 slides, pp. 23–25"
+    explain: >-
+      Brand name strategies: a family brand uses a combination of the company brand name and an individual brand name to distinguish
+      products, with several product lines sold under one name (e.g., Kellogg's, Kraft). Individual brands use a separate brand name
+      for each product (e.g., Tide; Kraft's Velveeta, Classico, Jell-O, Grey Poupon). A firm can use both.
+    alt: >-
+      Family brand = everyone shares the family surname. Individual brand = each kid gets their own name with no surname on show.
+    terms:
+      Family brand: "Uses the company brand name (with individual names) across products."
+      Individual brands: "Separate brand names for each of a firm's products."
+    example: "Illustrative (from slides): Kellogg's (family brand) vs Tide (individual brand); Kraft uses both."
+    recall:
+      - q: "Using a separate brand name for each product is:"
+        o: ["Individual branding", "Family branding", "Cobranding", "Generic branding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Kellogg's is shown as an example of a:"
+        o: ["Family brand", "Individual brand", "Generic", "Private label"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Kraft sells Velveeta, Classico, Jell-O and Grey Poupon under separate names. This is:"
+        t: app
+        o: ["Individual branding", "Family branding", "Brand dilution", "Licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A company sells 'Heinz Ketchup', 'Heinz Mustard' and 'Heinz Relish'. This is:"
+        t: app
+        o: ["Family branding", "Individual branding", "Generic branding", "Cobranding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Can a firm use both family and individual branding?"
+        o: ["Yes — Kraft does both", "No, it's illegal", "Only private labels can", "Only generics can"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Tide (P&G) not using the P&G name prominently illustrates:"
+        t: app
+        o: ["Individual branding", "Family branding", "Cobranding", "Generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Family vs individual branding are part of which strategy group?"
+        o: ["Brand name strategies", "Brand ownership", "Brand equity", "Packaging"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-brand-naming
+    title: Choosing a brand name
+    src: "Ch. 9 slides, p. 26"
+    explain: >-
+      A good brand name should be descriptive and suggestive of the product's benefits and qualities; easy to pronounce, recognise and
+      remember; registered as a trademark and legally protected; and easy to translate.
+    alt: >-
+      Good names are like good usernames: say what you're about, easy to say and remember, actually yours, and work in other
+      languages.
+    terms:
+      Brand name criteria: "Descriptive/suggestive, easy to pronounce/recognise/remember, trademark-protected, easy to translate."
+    example: "Illustrative (from slides): discussion question — is Tostitos a good brand name? What about Lay's?"
+    recall:
+      - q: "Which is a criterion for a good brand name?"
+        o: ["Easy to translate", "Hard to pronounce", "Unregistered", "Unrelated to benefits always"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand names should be registered as a:"
+        o: ["Trademark", "Census record", "Patent for packaging", "Jingle"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A firm names a product with a word that means something offensive in another language. Which criterion fails?"
+        t: app
+        o: ["Easy to translate", "Descriptive", "Trademark", "Easy to remember"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "'QuickClean' for a fast-drying mop is strong because it is:"
+        t: app
+        o: ["Suggestive of benefits", "Hard to say", "Generic", "Untranslatable"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why register a brand name as a trademark?"
+        o: ["To protect it legally", "To lower prices", "To speed diffusion", "To create a generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a criterion for choosing a brand name?"
+        o: ["Easy to remember", "Descriptive of benefits", "Easy to translate", "As long as possible"]
+        a: D
+        e: ["Criterion.", "Criterion.", "Criterion.", "Correct."]
+      - q: "A name that's easy to pronounce and recognise helps mainly with:"
+        o: ["Remembering the brand", "Inflation", "Product depth", "Licensing fees"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-brand-extension
+    title: Brand extension — benefits
+    src: "Ch. 9 slides, p. 27"
+    explain: >-
+      A brand extension uses the same brand name for new products. Benefits: a well-established name, perceived high quality carries
+      over, lower marketing costs, synergy among complementary products, and a boost to sales of the core brand.
+    alt: >-
+      Brand extension borrows the reputation you've already built — a new product starts with a famous last name.
+    terms:
+      Brand extension: "Using the same brand name for new products."
+    example: "Illustrative (from slides): Ferrari licenses its name to apparel for fans who can't afford the car; Starbucks selling branded mugs and tumblers."
+    recall:
+      - q: "Brand extension means:"
+        o: ["Using the same brand name for new products", "Using a different name for each product", "Combining two brands on one product", "Selling generics"]
+        a: A
+        e: ["Correct.", "Individual branding.", "Cobranding.", "No."]
+      - q: "A benefit of brand extension is:"
+        o: ["Lower marketing costs", "Guaranteed success", "Higher complexity", "No risk"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Which of the following is an example of a brand extension?"
+        o: ["Nestlé introducing a new line of chocolates", "Starbucks selling branded coffee mugs and tumblers", "Apple launching a new iPhone model", "Honda introducing a new line of cars"]
+        a: B
+        e: ["Same category for Nestlé.", "Correct (official key) — the Starbucks name moves to a new product type.", "A new model in the same line.", "Same category for Honda."]
+      - q: "Perception of high quality carrying over to the new product is a:"
+        o: ["Benefit of brand extension", "Risk of brand dilution", "Licensing fee", "Generic feature"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A sports-drink brand launches protein bars under the same name and both sell better together. This is:"
+        t: app
+        o: ["Synergy among complementary products", "Brand dilution", "Individual branding", "Generic branding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand extensions can boost sales of:"
+        o: ["The core brand", "Competitors", "Generics", "Unsought goods"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Ferrari-branded apparel for fans is cited as an example of:"
+        t: app
+        o: ["Extending a brand name to new products", "Individual branding", "A generic", "Reverse innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch9-brand-licensing]
+
+  - id: ch9-brand-dilution
+    title: Brand extension risks & avoiding brand dilution
+    src: "Ch. 9 slides, pp. 28–30, 33"
+    explain: >-
+      Brand extensions can backfire. Too many extensions lead to brand dilution; the core brand and extension may not fit well; and
+      brand associations may not be similar. To avoid dilution: evaluate the fit between the core brand's product class and the
+      extension; evaluate consumer perceptions of the core brand's attributes and seek extensions with similar attributes; refrain
+      from extending the name to too many products; and make sure the extension can be distanced from the core brand if needed.
+    alt: >-
+      Stretch a rubber band too far, or in a weird direction, and it snaps — that's brand dilution.
+    terms:
+      Brand dilution: "Weakening of brand equity when the name is extended too far or to poorly fitting products."
+    example: "Illustrative (from slides): Zippo's women's perfume failed (people don't link lighters with perfume); Kate Spade Saturday stores closed within two years."
+    recall:
+      - q: "Which is NOT a consideration for avoiding brand dilution?"
+        o: ["Extend the brand name to as many products as possible", "Consider whether the extension can be distanced from the core brand", "Ensure fit between product classes", "Ensure consumer perceptions are similar"]
+        a: A
+        e: ["Correct (p.33) — refrain from extending to too many products.", "Valid.", "Valid.", "Valid."]
+      - q: "Zippo's perfume for women is an example of:"
+        o: ["Brand dilution from poor fit", "Successful extension", "Cobranding", "Generic branding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Kate Spade Saturday (lower-priced versions) closed within two years. This shows extensions can fail when:"
+        t: app
+        o: ["The core brand and extension don't fit well", "The firm uses a jingle", "Product depth increases", "The brand is generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Too many brand extensions result in:"
+        o: ["Brand dilution", "Brand intimacy", "Higher awareness only", "Generics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A luxury watch brand considers launching discount sneakers under the same name. The main risk is:"
+        t: app
+        o: ["Poor fit and dissimilar associations diluting the brand", "Too much loyalty", "Lower complexity", "Higher perceived value"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Before extending, firms should evaluate consumer perceptions of the core brand's attributes and seek extensions with:"
+        o: ["Similar attributes", "Opposite attributes", "No attributes", "Generic packaging"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why should an extension be 'distanced enough' from the core brand?"
+        o: ["So problems with the extension don't harm the core brand", "To raise prices", "To remove the logo", "To become generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-cobranding
+    title: Cobranding
+    src: "Ch. 9 slides, p. 31"
+    explain: >-
+      Cobranding markets two or more brands together on one product or promotion. Partnerships can enhance perceived quality and
+      expand target segments, but misaligned customer bases or conflicts can lead to failure.
+    alt: >-
+      Cobranding is a duet — two brands perform together to reach both fan bases.
+    terms:
+      Cobranding: "Marketing two or more brands together on one product or promotion."
+    example: "Illustrative (from slides): Yum! Brands combines KFC and Taco Bell in one location; the GoPro–Red Bull partnership aligns two action-oriented brands."
+    recall:
+      - q: "Marketing two or more brands together on one product or promotion is:"
+        o: ["Cobranding", "Brand extension", "Brand licensing", "Individual branding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A risk of cobranding is:"
+        o: ["Misaligned customer bases or conflicts", "Too much loyalty", "Lower awareness always", "Generic status"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "KFC and Taco Bell sharing one restaurant location is:"
+        t: app
+        o: ["Cobranding", "Brand extension", "Individual branding", "Private labelling"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Cobranding can:"
+        o: ["Enhance perceived quality and expand target segments", "Guarantee success", "Eliminate competition", "Reduce awareness"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "GoPro and Red Bull partner on extreme-sports content. Why does it work?"
+        o: ["Both are action-oriented lifestyle brands", "They're generics", "They're competitors", "They're unrelated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A luxury fashion house cobrands with a discount retailer and loyal customers react badly. This illustrates:"
+        t: app
+        o: ["Misaligned customer bases causing failure", "Successful licensing", "Higher perceived value", "Brand intimacy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Cobranding vs brand extension: cobranding involves:"
+        o: ["Two or more brands together", "One brand on new products", "No brands", "A store brand only"]
+        a: A
+        e: ["Correct.", "That's extension.", "No.", "No."]
+        c: [ch9-brand-extension]
+
+  - id: ch9-brand-licensing
+    title: Brand licensing
+    src: "Ch. 9 slides, p. 32"
+    explain: >-
+      Brand licensing is a contractual agreement in which a licensor grants a licensee the right to use its brand name, logo, symbols
+      or characters in exchange for royalties (lump-sum or percentage of sales). It generates royalty revenue and increases brand
+      visibility, but overexposure or misuse can dilute brand equity. It's common in apparel, toys, entertainment and video games.
+    alt: >-
+      Brand licensing is renting out your brand — someone else makes the product, you collect rent (royalties).
+    terms:
+      Brand licensing: "A licensor lets a licensee use its brand for a fee (royalties)."
+      Licensor / licensee: "The brand owner / the firm paying to use the brand."
+    example: "Illustrative (from slides): Disney licenses Mickey Mouse to partners for toys and apparel (e.g., Herschel)."
+    recall:
+      - q: "Brand licensing allows one firm to use another firm's brand:"
+        o: ["For a fee (royalties)", "For free", "Only in its own country", "Only for packaging"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A risk of brand licensing is:"
+        o: ["Overexposure or misuse diluting equity", "No revenue", "Too little visibility", "Lower awareness always"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A backpack maker pays Disney royalties to print Mickey Mouse on its bags. Disney is the:"
+        t: app
+        o: ["Licensor", "Licensee", "Generic brand", "Cobrander only"]
+        a: A
+        e: ["Correct — it grants the right.", "The backpack maker is the licensee.", "No.", "No."]
+      - q: "Brand licensing is common in:"
+        o: ["Apparel, toys, entertainment and video games", "Only banking", "Only cement", "Only government"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Royalty payments can be structured as:"
+        o: ["Lump-sum fees or a percentage of sales", "Only free samples", "Only stock options", "Only bartering"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A sports team's logo appears on thousands of low-quality products and fans start to see it as cheap. This is:"
+        t: app
+        o: ["Overexposure diluting brand equity through licensing", "Brand intimacy", "Perceived value rising", "Cobranding success"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand licensing (Ch 9) vs licensing in NPD (Ch 8): brand licensing involves:"
+        o: ["Using another firm's brand for a fee", "Buying rights to technology", "Reverse engineering", "Brainstorming"]
+        a: A
+        e: ["Correct.", "Ch 8 licensing.", "No.", "No."]
+        c: [ch8-licensing]
+
+  - id: ch9-packaging
+    title: Packaging
+    src: "Ch. 9 slides, p. 34"
+    explain: >-
+      Packaging attracts attention and differentiates brands, communicates promotions and product benefits, and different sizes target
+      different retail channels and segments. Packaging can drive rebranding, accessibility and sales growth.
+    alt: >-
+      Packaging is the product's outfit and its billboard — it gets noticed, tells you what's inside, and can make the product easier
+      to use.
+    terms:
+      Packaging: "The container/wrapping that attracts attention, differentiates, communicates and can add functional value."
+    example: "Illustrative (from slides): Degree Inclusive by Unilever — easy-grip shape, magnetic closures and one-handed application for people with upper-limb disabilities."
+    recall:
+      - q: "Which is a function of packaging per the slides?"
+        o: ["Attracts attention and differentiates brands", "Sets interest rates", "Replaces branding", "Removes labels"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Degree Inclusive shows packaging can:"
+        o: ["Create functional value and expand accessibility", "Only look pretty", "Reduce sales", "Replace the product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A snack brand sells single-serve packs at gas stations and family-size bags at grocery stores. This uses packaging to:"
+        t: app
+        o: ["Target different retail channels and segments", "Dilute the brand", "Create a generic", "License the brand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Packaging communicates:"
+        o: ["Promotions and product benefits", "Interest rates", "Census data", "Patents only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A redesigned package helps a tired brand feel modern. Packaging is driving:"
+        t: app
+        o: ["Rebranding", "Brand dilution", "Product depth", "Licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Frito-Lay switching from shiny to matte bags (Ch 7) shows packaging affects:"
+        o: ["Consumer perceptions and sales", "Only shipping cost", "Nothing", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch7-ethics]
+      - q: "Easy-grip shapes and magnetic closures for people with disabilities illustrate packaging improving:"
+        o: ["Accessibility", "Complexity", "Brand dilution", "Saturation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-labelling
+    title: Labelling
+    src: "Ch. 9 slides, p. 35"
+    explain: >-
+      Labels provide essential product and regulatory information. Canadian laws require accuracy, bilingual content and transparency.
+      Labels are also powerful promotional tools, and nutritional and benefit claims influence perceived value.
+    alt: >-
+      A label is both a legal ID card (what's required to say) and a mini ad (what you want to brag about).
+    terms:
+      Labelling: "Providing product and regulatory information on packaging; also a promotional tool."
+    example: "Illustrative (from slides): siggi's highlights '18g protein' per serving on the front of the package to signal health benefits."
+    recall:
+      - q: "Canadian labelling laws require:"
+        o: ["Accuracy, bilingual content and transparency", "Only English", "No nutrition info", "Celebrity endorsements"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Besides regulatory information, labels are also:"
+        o: ["Promotional communication tools", "Interest-rate tools", "Census forms", "Patents"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "siggi's putting '18g protein' on the front of its package uses the label to:"
+        t: app
+        o: ["Communicate benefits and support positioning", "Hide information", "Meet only legal rules", "Dilute the brand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A U.S. brand entering Canada must change its labels to include:"
+        t: app
+        o: ["Bilingual content", "Only Spanish", "No ingredients", "A jingle"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch3-political-legal]
+      - q: "Nutritional and benefit claims on labels influence:"
+        o: ["Perceived value", "Interest rates", "Product mix breadth", "Census results"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a role of labelling per the slides?"
+        o: ["Provide regulatory information", "Promotional communication", "Influence perceived value", "Set the product's exchange rate"]
+        a: D
+        e: ["Role.", "Role.", "Role.", "Correct."]
+      - q: "Labelling sits at the intersection of marketing and which macro factor (Ch 3)?"
+        o: ["Political/legal", "Generational cohorts", "Time-poor society", "Robotics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+short_answers:
+  - t: th
+    c: [ch9-brand-equity, ch9-brand-awareness, ch9-perceived-value, ch9-brand-associations, ch9-brand-loyalty, ch9-value-of-branding]
+    src: "Ch. 9 slides, pp. 13–20"
+    q: "Explain the four components of brand equity and why brand equity is valuable to a firm. Provide examples."
+    model: |-
+      Brand equity is built from four components. Brand awareness measures how many consumers are familiar with the brand, know what it stands for and have an opinion of it; some brands are so strong they become synonymous with the product. Perceived value is the relationship between a product's benefits and its costs, often compared with competitors — Apple's design, ecosystem and reliability justify premium prices, while private labels win by offering similar quality for less. Awareness alone doesn't create positive equity.
+
+      Brand associations are the mental links consumers make to attributes, emotions and meanings, including brand personality and brand intimacy — Starbucks ranks at the top of brand-intimacy studies. Brand loyalty means customers are less price sensitive, cost less to market to, praise the brand, and insulate the firm from competition, as when Dove rewards loyal shoppers with bonus points. Strong equity is valuable because brands facilitate purchasing, establish loyalty, protect from competition, reduce marketing costs, are assets and impact the firm's market value.
+    rubric:
+      - p: "Brand awareness"
+        k: ["awareness"]
+      - p: "Perceived value (benefits vs costs)"
+        k: ["perceived value", "benefit|cost"]
+      - p: "Brand associations (personality/intimacy)"
+        k: ["association"]
+      - p: "Brand loyalty"
+        k: ["loyal"]
+      - p: "Value of branding to the firm"
+        k: ["asset|market value|marketing cost|competition|facilitat"]
+      - p: "Examples"
+        k: ["apple|starbucks|dove|tesla|example"]
+    mistakes:
+      - "Listing ownership strategies (private label, generic) as equity components."
+      - "Defining perceived value as just 'low price'."
+  - t: app
+    c: [ch9-brand-extension, ch9-brand-dilution, ch9-cobranding, ch9-brand-licensing]
+    src: "Ch. 9 slides, pp. 27–33"
+    q: "A well-known energy-drink brand wants to grow by putting its name on new products. Explain the benefits and risks of brand extension, and how it could use cobranding or licensing instead."
+    model: |-
+      A brand extension uses the same brand name for new products. For the energy-drink brand, extending into protein bars or sports apparel would benefit from a well-established name, perceived quality carrying over, lower marketing costs, synergy among complementary products, and a possible boost to sales of the core drink. However, extensions carry risks. Too many extensions cause brand dilution, and the extension may not fit the core brand or share similar associations — like Zippo's failed perfume or Kate Spade Saturday's closures. To avoid dilution, the brand should evaluate the fit between product classes, seek extensions with similar attributes, avoid extending to too many products, and make sure the extension can be distanced from the core brand if it fails.
+
+      Alternatively, it could use cobranding — marketing two brands together, like GoPro and Red Bull aligning action-oriented lifestyles — which can raise perceived quality and reach new segments, though misaligned customer bases can cause failure. Or it could use brand licensing, letting other firms use its logo on apparel or games in exchange for royalties, which earns revenue and visibility but risks overexposure that dilutes equity.
+    rubric:
+      - p: "Defines brand extension"
+        k: ["extension", "same brand name|same name"]
+      - p: "Benefits of extension"
+        k: ["established|quality|marketing cost|synergy|boost"]
+      - p: "Risks — dilution, poor fit"
+        k: ["dilution|dilute", "fit|association"]
+      - p: "Ways to avoid dilution"
+        k: ["too many|distance|similar attribute|product class"]
+      - p: "Cobranding and/or licensing explained"
+        k: ["cobrand|co-brand|licens", "royalt|two brands|partner"]
+    mistakes:
+      - "Confusing brand licensing with cobranding."
+      - "Listing benefits without risks."
+  - t: th
+    c: [ch9-product-complexity, ch9-product-mix-lines, ch9-breadth-depth, ch9-product-category]
+    src: "Ch. 9 slides, pp. 2–10"
+    q: "Explain the three levels of a product and the difference between product mix, product line, breadth and depth, using an example."
+    model: |-
+      Products have three levels. Core customer value is the basic benefit customers seek. The actual product turns that value into tangible attributes — brand name, packaging, quality level and features/design. Associated services (the augmented product), such as financing, warranties and product support, add long-term value. For example, a Trek bicycle offers the core value of fast, enjoyable riding; the actual product is the carbon frame, advanced shifting and Trek brand; and associated services include custom fit options, warranty and repairs.
+
+      At the firm level, the product mix is the complete set of products a firm offers, and product lines are groups of associated items consumers use together or see as similar. A product category is an assortment of items customers view as substitutes. Breadth is the number of product lines, and depth is the number of products within a line. Colgate-Palmolive's mix has four lines — oral care, personal care, home care and pet nutrition (its breadth) — and many toothpastes, brushes and whitening products in oral care (its depth). Adding a new line increases breadth; deleting slow sellers within a line decreases depth.
+    rubric:
+      - p: "Core customer value"
+        k: ["core"]
+      - p: "Actual product attributes"
+        k: ["actual", "brand|packaging|quality|feature|design"]
+      - p: "Associated services / augmented"
+        k: ["associated|augmented", "warranty|financing|support|service"]
+      - p: "Product mix vs product line"
+        k: ["product mix", "product line"]
+      - p: "Breadth vs depth"
+        k: ["breadth", "depth"]
+    mistakes:
+      - "Swapping breadth (number of lines) and depth (items per line)."
+      - "Listing levels without an example."
+  - t: app
+    c: [ch9-brand-ownership, ch9-family-individual, ch9-brand-naming, ch9-packaging, ch9-labelling]
+    src: "Ch. 9 slides, pp. 21–26, 34–35"
+    q: "A Canadian grocery chain is launching its own line of organic snacks. Recommend a branding and packaging approach using course concepts."
+    model: |-
+      Because the grocer owns and manages the brand, the snacks would be a private-label (store) brand rather than a manufacturer brand or a generic. Private labels have grown because consumers believe they offer similar quality to national brands at lower prices, which creates high perceived value. The chain must choose a brand name strategy: a family brand would put the store's name on the line (like President's Choice), using its existing reputation, while an individual brand would give the snacks their own name, distancing them from the store if they fail. A good name should suggest the benefits (organic, wholesome), be easy to pronounce, recognise and remember, be registered as a trademark, and be easy to translate — especially important in bilingual Canada.
+
+      Packaging should attract attention and differentiate the snacks on crowded shelves, communicate benefits and promotions, and come in different sizes for different segments (single-serve for lunches, family packs). Labels must meet Canadian requirements for accuracy, bilingual content and transparency, but can also promote the product — like siggi's "18g protein" callout — by highlighting organic certification and nutrition claims that boost perceived value.
+    rubric:
+      - p: "Identifies private-label/store brand"
+        k: ["private label|private-label|store brand"]
+      - p: "Family vs individual brand decision"
+        k: ["family|individual"]
+      - p: "Brand name criteria"
+        k: ["pronounce|remember|trademark|translat|descriptive|suggest"]
+      - p: "Packaging functions"
+        k: ["packag", "attention|differentiat|size|communicat"]
+      - p: "Labelling — bilingual/regulatory + promotional"
+        k: ["label", "bilingual|accura|regulat|claim"]
+    mistakes:
+      - "Calling the grocer's own brand a manufacturer brand."
+      - "Forgetting Canada's bilingual labelling requirement."
+
+matching:
+  - prompt: "Match each brand element to its example."
+    c: [ch9-brand-elements]
+    src: "Ch. 9 slides, p. 12"
+    pairs:
+      - ["Symbol", "Nike swoosh"]
+      - ["Character", "Pillsbury Doughboy"]
+      - ["Slogan", "Tim Hortons' 'Always Fresh'"]
+      - ["Jingle", "Intel's four-note signature"]
+      - ["Brand name (invented)", "Accenture"]
+  - prompt: "Match each ownership strategy to its example."
+    c: [ch9-brand-ownership]
+    src: "Ch. 9 slides, p. 21"
+    pairs:
+      - ["Manufacturer brand", "Cherry Coke"]
+      - ["Private-label brand", "President's Choice Black Cherry"]
+      - ["Generic", "Cherry Cola"]
+  - prompt: "Match each consumer product type to the slides' example."
+    c: [ch9-consumer-product-types]
+    src: "Ch. 9 slides, p. 4"
+    pairs:
+      - ["Convenience", "Soft drinks"]
+      - ["Shopping", "Apparel"]
+      - ["Specialty", "A medical professional"]
+      - ["Unsought", "Insurance"]
+  - prompt: "Match each branding strategy to its example."
+    c: [ch9-brand-extension, ch9-cobranding, ch9-brand-licensing, ch9-family-individual]
+    src: "Ch. 9 slides, pp. 24–32"
+    pairs:
+      - ["Brand extension", "Starbucks branded mugs"]
+      - ["Cobranding", "KFC and Taco Bell in one location"]
+      - ["Brand licensing", "Mickey Mouse on Herschel bags"]
+      - ["Individual branding", "Tide"]
+
+fill:
+  - text: "The number of product lines a firm offers is its product mix ___."
+    a: "breadth"
+    c: [ch9-breadth-depth]
+    src: "Ch. 9 slides, p. 8"
+  - text: "Brands owned and managed by retailers are ___ brands."
+    a: "private-label"
+    accept: ["private label", "store", "private"]
+    c: [ch9-brand-ownership]
+    src: "Ch. 9 slides, p. 22"
+  - text: "The relationship between a product's benefits and its costs is perceived ___."
+    a: "value"
+    c: [ch9-perceived-value]
+    src: "Ch. 9 slides, p. 19"
+  - text: "Extending a brand to too many products can cause brand ___."
+    a: "dilution"
+    c: [ch9-brand-dilution]
+    src: "Ch. 9 slides, p. 28"
+  - text: "Marketing two or more brands together on one product is ___."
+    a: "cobranding"
+    accept: ["co-branding"]
+    c: [ch9-cobranding]
+    src: "Ch. 9 slides, p. 31"
+  - text: "A logo without words is called a ___."
+    a: "symbol"
+    c: [ch9-brand-elements]
+    src: "Ch. 9 slides, p. 12"
+  - text: "Canadian labels must include ___ content."
+    a: "bilingual"
+    c: [ch9-labelling]
+    src: "Ch. 9 slides, p. 35"

@@ -1,0 +1,275 @@
+# Official questions, imported verbatim from:
+#  - "1MA3 Sample Midterm Questions (1).pdf" (sm-*; actual questions from last year's midterm → pastMidterm)
+#  - "Additional Practice Questions.pdf" (ap-*)
+# Answer keys are the official keys. Explanations are ours (grounded in the cited slides).
+# twin: a practice question that closely mirrors this one; the app avoids serving both in one session.
+- id: sm-1
+  ch: 6
+  pastMidterm: true
+  src: "Sample Midterm Q1; Ch. 6 slides, slide 7"
+  c: [ch6-segmentation-bases]
+  q: "Among the options below, which one is not a common method for market segmentation?"
+  o: ["Geographic", "Demographic", "Psychographic", "Behavioural", "Customer-centric"]
+  a: E
+  e: ["A common base (Ch 6 slide 7).", "A common base — the most common.", "A common base.", "A common base.", "Correct — not one of the four segmentation bases."]
+- id: sm-2
+  ch: 3
+  pastMidterm: true
+  src: "Sample Midterm Q2; Ch. 3 slides, slide 10"
+  c: [ch3-competitive-intelligence]
+  twin: ch3-competitive-intelligence-r1
+  q: "When a company collects information about its situation with respect to its rivals, what is this process called?"
+  o: ["Competitive intelligence", "Talent management", "Bid rigging", "Generational cohort", "Micromanaging"]
+  a: A
+  e: ["Correct — CI collects and synthesises information about rivals.", "An HR term, not in the slides.", "Illegal collusion, not information gathering.", "A demographic concept (Ch 3).", "Not a marketing term."]
+- id: sm-3
+  ch: 4
+  pastMidterm: true
+  src: "Sample Midterm Q3; Ch. 4 slides, slides 35–37"
+  c: [ch4-buying-decision-types, ch4-involvement]
+  twin: ch4-buying-decision-types-p1
+  q: "Jake Peralta and Amy Santiago are very excited to buy their new home and have been looking around Toronto. They have met a few realtors, asked their friends and done extensive research online. This type of buying would include one of the following levels of involvement:"
+  o: ["Extended Problem Solving", "Routine Problem Solving", "Limited Problem Solving", "B & C", "None of the above"]
+  a: A
+  e: ["Correct — high-effort research for an expensive, risky purchase.", "Routine (habitual) needs almost no effort.", "Limited problem solving is moderate effort.", "Neither applies.", "A is correct."]
+- id: sm-4
+  ch: 6
+  pastMidterm: true
+  src: "Sample Midterm Q4; Ch. 6 slides, slides 7, 12"
+  c: [ch6-demographic]
+  twin: ch6-demographic-p1
+  q: "A company is interested in understanding the factors that influence consumers' choices when buying organic food products. Which of the following questions would be considered a demographic question?"
+  o: ["\"What motivates you to purchase organic food products?\"", "\"Do you have children under the age of 18 in your household?\"", "\"How often do you shop for groceries in a given month?\"", "\"Describe your experience with organic food products.\"", "\"Which organic brands do you trust the most?\""]
+  a: B
+  e: ["Motivations are psychographic.", "Correct — household composition/family size is demographic.", "Usage frequency is behavioural.", "An open-ended experience question, not demographic.", "Brand trust/loyalty is behavioural/attitudinal."]
+- id: sm-5
+  ch: 4
+  pastMidterm: true
+  src: "Sample Midterm Q5; Ch. 4 slide 32"
+  c: [ch4-situational]
+  twin: ch4-situational-p1
+  q: "Sophie Martin, a Chicagoan known for her thrifty nature, chooses to buy an expensive bottle of wine as a gift for her boss's retirement party instead of her usual wine choices. Which situational factor is evident in this scenario?"
+  o: ["Consumer scanning", "Temporal effects", "Shopping situation", "Purchase situation", "Environmental scanning"]
+  a: D
+  e: ["Not a slide concept.", "No time pressure or mood is described.", "The store environment isn't the driver.", "Correct — the gift occasion changes what she buys.", "An environment-analysis activity, not a situational factor."]
+- id: sm-6
+  ch: 8
+  pastMidterm: true
+  src: "Sample Midterm Q6; Ch. 8 slides, slides 13–14"
+  c: [ch8-adopter-categories]
+  twin: ch8-adopter-categories-p1
+  q: "Dhruv, who owns a restaurant, is still only accepting cash payments, while credit and debit cards are widely accepted in nearby establishments. Dhruv is part of a group of buyers characterized by concerns about the security of electronic transactions. What is this group of buyers called?"
+  o: ["End user", "Early majority", "Laggards", "Fad users", "Mature customers"]
+  a: C
+  e: ["Not an adopter category.", "The early majority would already have adopted cards.", "Correct — laggards resist change after most have adopted.", "Not a slide term.", "Not a slide term."]
+- id: sm-7
+  ch: 9
+  pastMidterm: true
+  src: "Sample Midterm Q7; Ch. 9 slides, p. 27"
+  c: [ch9-brand-extension]
+  twin: ch9-brand-extension-p1
+  q: "Which of the following is an example of a brand extension?"
+  o: ["Nestle introducing a new line of chocolates", "Starbucks selling branded coffee mugs and tumblers", "Apple launching a new iPhone model", "Honda introducing a new line of cars", "All of the above"]
+  a: B
+  e: ["Chocolates are Nestlé's existing category.", "Correct — the Starbucks name extends to a new product type.", "A new model within the same line.", "Cars are Honda's existing category.", "Only B is an extension."]
+- id: sm-8
+  ch: 6
+  pastMidterm: true
+  outOfScope: true
+  src: "Sample Midterm Q8 (value proposition — earlier chapters)"
+  c: []
+  q: "Which of the following describes the 'value proposition of a product' best?"
+  o: ["It communicates the benefits of the product to the customer.", "It explains the reasons for wanting to buy the product.", "The cost incurred in manufacturing the product.", "Both A and B.", "None of the above."]
+  a: D
+  e: ["Part of the answer, but B also applies.", "Part of the answer, but A also applies.", "Cost isn't the value proposition.", "Correct (official key).", "D is correct."]
+- id: sm-9
+  ch: 8
+  pastMidterm: true
+  src: "Sample Midterm Q9; Ch. 8 slides, slide 39"
+  c: [ch8-product-development]
+  twin: ch8-product-development-p2
+  q: "Sarah invites a group of individuals to assess the performance of her energy-efficient air conditioning system within their homes. This test takes place in the actual usage environment. What is the name of this test?"
+  o: ["Concept testing", "Test marketing", "Hypothesis testing", "Beta testing", "Alpha testing"]
+  a: D
+  e: ["Concept testing uses a description, not a working product in homes.", "Test marketing sells the product in a limited area.", "Not an NPD step.", "Correct — potential customers in a real-use setting.", "Alpha testing is internal."]
+
+- id: ap-1
+  ch: 4
+  outOfScope: true
+  src: "Additional Practice Q1 (B2B — Chapter 5, not on midterm)"
+  c: []
+  q: "Rafay works as a sales rep for a firm that makes sound systems custom fitted for automotive vehicles. Rafay promotes his firm's sound systems to various car manufacturers. In this context, what type of sales activity is practiced by Rafay?"
+  o: ["B2C", "B2B", "Modified rebuy", "New buy", "C2B"]
+  a: B
+  e: ["He sells to businesses, not consumers.", "Correct (official key) — selling to car manufacturers is business-to-business.", "A B2B buying situation, not the sales type.", "A B2B buying situation, not the sales type.", "Consumer-to-business is the reverse direction."]
+- id: ap-2
+  ch: 8
+  src: "Additional Practice Q2; Ch. 8 slides, slides 17–18"
+  c: [ch8-relative-advantage]
+  twin: ch8-pioneers-p5
+  q: "Customers are more likely to try a new hot sauce flavor. Therefore, hot sauce flavors diffuse quickly. Which of the following reasons explains the diffusion speed?"
+  o: ["Pioneers", "Relative advantage", "Observability", "Compatibility", "Complexity"]
+  a: B
+  e: ["A new flavour isn't a new-to-the-world product.", "Correct (official key).", "Not the official answer.", "Not the official answer.", "Low complexity helps, but complexity isn't the key."]
+- id: ap-3
+  ch: 8
+  src: "Additional Practice Q3; Ch. 8 slides, slide 39"
+  c: [ch8-product-development]
+  twin: ch8-product-development-p1
+  q: "Realistic Prints Inc. has developed a new, cutting-edge 3D printer and it wants to check whether this printer will perform according to its design. The company asks ten of its employees to try this printer within the firm's R&D facility to provide feedback to its engineers. This testing process is called ____________."
+  o: ["Internal testing", "Premarket testing", "Alpha testing", "Technical testing", "Beta testing"]
+  a: C
+  e: ["Not the course term.", "Premarket tests use potential customers in a controlled setting.", "Correct — internal testing against design.", "Not a course term.", "Beta testing uses potential customers in real settings."]
+- id: ap-4
+  ch: 6
+  src: "Additional Practice Q4; Ch. 6 slides, slides 42, 44"
+  c: [ch6-pos-benefits-symbolism, ch6-pos-leadership]
+  twin: ch6-pos-benefits-symbolism-p1
+  q: "Nike's Swoosh, McDonald's golden arches (Yellow M), are well set in consumers' minds and help them differentiate the brand from the competitors.  These brands are leaders in their respective industries. This type of positioning falls under:"
+  o: ["Competition", "Leadership", "Consumerism", "Symbolism", "Product Attributes"]
+  a: D
+  e: ["No specific rival is targeted.", "Tempting given 'leaders', but the key emphasises the symbols.", "Not a positioning method.", "Correct (official key) — the symbols carry psychological meaning.", "No product attribute is described."]
+- id: ap-5
+  ch: 7
+  outOfScope: true
+  src: "Additional Practice Q5 (service quality / zone of tolerance — not in midterm slides)"
+  c: []
+  q: "McDonalds conducts a survey among its customers to evaluate its service quality through a questionnaire. The analysis of the data collected showed that McDonalds scored below the zone of tolerance on the tangibles dimension. This implies that the customers were not happy with the:"
+  o: ["Knowledge and courteousness of the employees", "Employees' ability in performing a service", "Facilities provided by the restaurant", "Attention provided to them by the employees", "Attitude of the manager"]
+  a: C
+  e: ["That's assurance.", "That's reliability.", "Correct (official key) — tangibles are the physical facilities.", "That's empathy.", "Not the tangibles dimension."]
+- id: ap-6
+  ch: 4
+  src: "Additional Practice Q6; Ch. 4 slides, slide 6"
+  c: [ch4-info-search]
+  twin: ch4-info-search-p1
+  q: "Realizing that a laptop with a functional webcam is needed for university exams, you decide to upgrade your laptop. You think about the experience you had with your previous laptop and you ask your friends too. Then you search online. This is a type of:"
+  o: ["Internal information search", "External information search", "Personal information search", "Internet search", "Both a & b"]
+  a: E
+  e: ["Only part of it.", "Only part of it.", "Not a course term.", "Not a course term.", "Correct — past experience (internal) plus friends and online (external)."]
+- id: ap-7
+  ch: 6
+  src: "Additional Practice Q7; Ch. 6 slides, slides 6–7"
+  c: [ch6-segmentation-bases]
+  twin: ch6-segmentation-bases-p1
+  q: "Which of the following statement is true?"
+  o: ["Geographic segmentation is when we divide the market based upon home ownership by consumers", "Sometimes companies use a combination of more than one segmentation variables.", "Demographic features include the attitudes and perceptions of people.", "How often consumers buy and why they buy cannot be the basis of segmentation.", "None of the above"]
+  a: B
+  e: ["Home ownership is demographic.", "Correct — firms often combine bases.", "Attitudes are psychographic.", "That's behavioural segmentation.", "B is true."]
+- id: ap-8
+  ch: 7
+  src: "Additional Practice Q8; Ch. 7 slides, p. 32"
+  c: [ch7-observation]
+  twin: ch7-observation-p1
+  q: "Chris, one of the store managers at Loblaws wants to study the customers' response to new product launches in the Bay Street Loblaws store. He used a few staff members to monitor the customers' behaviours while they are in the store. Chris is using the ___________ research method."
+  o: ["Observation", "In-depth interviews", "Panel research", "Survey research", "Projective technique"]
+  a: A
+  e: ["Correct — watching behaviour directly.", "No one-on-one questioning.", "No ongoing panel of the same consumers.", "No questionnaire.", "Staff are watching, not using projective methods."]
+- id: ap-9
+  ch: 3
+  src: "Additional Practice Q9; Ch. 3 slides, slides 17–26"
+  c: [ch3-demographics]
+  twin: ch3-demographics-p1
+  q: "Tony Stark aka Iron Man decides to launch a Virtual Assistant named JARVIS in the GTA. His company's marketing research team suggested he target well educated, upper middle-class Gen X homeowners. This segment is a focus on which macroeconomic factor:"
+  o: ["Cultural Factors", "Demographics", "Technological Factors", "Political Factors", "A and B", "None of the above"]
+  a: B
+  e: ["No cultural values are described.", "Correct — education, income class, cohort, home ownership.", "The product is tech, but the segment is demographic.", "No.", "Culture isn't involved.", "B is correct."]
+- id: ap-10
+  ch: 9
+  src: "Additional Practice Q10; Ch. 9 slides, pp. 8–9"
+  c: [ch9-breadth-depth]
+  twin: ch9-product-category-p3
+  q: "Executives at Fashionistas Galore Inc., an apparel company, recently conducted an analysis of their business and noted that they had flat sales and declining profits. As a result, they decided to remove products that were not selling well. In this example, Fashionistas Galore Inc:"
+  o: ["Changed the brand orientation", "Changed the product category", "Changed the number of stock keeping units", "Increased product line breadth", "Decreased product line depth"]
+  a: E
+  e: ["No.", "No.", "Close, but the official key uses line depth.", "Removing products doesn't add lines.", "Correct (official key) — fewer products within its lines."]
+- id: ap-11
+  ch: 3
+  outOfScope: true
+  src: "Additional Practice Q11 (macro strategies — Chapter 2)"
+  c: []
+  q: "Singapore Airlines seeks to differentiate itself from competing airlines, in part through innovative design of its airplane seats and in-flight entertainment systems. Through continuous innovation in these areas, Singapore Airlines is pursuing a(n) ________ macro strategy"
+  o: ["Customer excellence", "Product excellence", "Global excellence", "Locational excellence", "Operational excellence"]
+  a: B
+  e: ["Not the key.", "Correct (official key).", "Not a macro strategy in the course.", "Not the key.", "Not the key."]
+- id: ap-12
+  ch: 3
+  outOfScope: true
+  src: "Additional Practice Q12 (sustainable competitive advantage — Chapter 2)"
+  c: []
+  q: "Zara is a women's clothing retailer headquartered in Spain, with stores located in many countries. Zara has developed a \"quick response\" system that allows store merchandise to be adjusted rapidly to fit changing customer preferences. Every aspect of Zara's operation is optimized for this system, making it difficult for competitors like The Gap to duplicate. Zara has established:"
+  o: ["Customer loyalty", "Locational excellence", "A diversification growth strategy", "A sustainable competitive advantage", "A related diversification opportunity"]
+  a: D
+  e: ["Not the key.", "Not the key.", "Not the key.", "Correct (official key) — hard for rivals to duplicate.", "Not the key."]
+- id: ap-13
+  ch: 3
+  src: "Additional Practice Q13; Ch. 3 slides, slides 15, 40, 44–50"
+  c: [ch3-cdstep, ch3-economic, ch3-social-trends]
+  twin: ch3-cdstep-p1
+  q: "Amir owns a fine Steak House Restaurant north of Toronto with the average cost of a meal at $65 per person. What are the two most influential macroenvironmental factors that Amir has to monitor for his business?"
+  o: ["Corporate partners and the political environment", "Economic situation and competition", "Culture and legal environment", "Economic situation and social trends", "Customers and corporate partners."]
+  a: D
+  e: ["Corporate partners are micro.", "Competition is micro.", "Not the most influential for a premium restaurant.", "Correct (official key).", "Both are micro."]
+- id: ap-14
+  ch: 3
+  src: "Additional Practice Q14; Ch. 3 slides, slide 10"
+  c: [ch3-competition]
+  twin: ch3-competition-p1
+  q: "As Apple works to maintain its dominance and Samsung seeks to gain market share, they keep targeting each other in their advertisements too. After the release of the Galaxy S9, Samsung released a series of advertisements featuring iPhone users who realize that Samsung phones have the same or better features than the latest iPhone release. The microenvironmental factor considered in this example is:"
+  o: ["Corporate Partners", "Competition", "Company Capabilities", "Government Legislation", "Technology"]
+  a: B
+  e: ["They're rivals, not partners.", "Correct — direct competitors.", "Not the focus.", "Macro factor.", "Macro factor."]
+- id: ap-15
+  ch: 3
+  src: "Additional Practice Q15; Ch. 3 slides, slide 16"
+  c: [ch3-culture]
+  twin: ch3-culture-p1
+  q: "Canadian national food includes poutine and butter tarts. Canada is the world's largest producer of maple syrup. The music of Canada reflects the many influences that have shaped the country. The official symbols of Canada include the maple leaf and the beaver. Which of the following best exemplifies the given information?"
+  o: ["Competitive intelligence", "Country culture", "Generational cohort", "Demographics", "Regional subculture"]
+  a: B
+  e: ["No.", "Correct — shared customs and symbols of the nation.", "No.", "No.", "These are national, not regional."]
+- id: ap-16
+  ch: 4
+  src: "Additional Practice Q16; Ch. 4 slides, slide 7"
+  c: [ch4-search-factors]
+  twin: ch4-search-factors-p1
+  q: "Brian believes that he can get a better deal when buying his first bike. This is because he believes that if he conducts an extensive search for information and tries to use this information when negotiating his purchase, he will definitely be able to strike a better deal. This is an example of:"
+  o: ["An external locus of control", "Limited problem solving", "An internal locus of control", "Ritual consumption", "Extended problem solving"]
+  a: C
+  e: ["That's believing fate decides.", "He's putting in lots of effort.", "Correct — he believes he controls the outcome.", "Not a course term here.", "Tempting, but the key focuses on his belief."]
+- id: ap-17
+  ch: 4
+  src: "Additional Practice Q17; Ch. 4 slides, slide 8 (notes)"
+  c: [ch4-perceived-risk]
+  twin: ch4-perceived-risk-p1
+  q: "Which type of risk is less likely to be an influential risk factor when a consumer buys an expensive suit?"
+  o: ["Performance risk", "Financial risk", "Social risk", "Physiological risk", "Psychological"]
+  a: D
+  e: ["The suit could fit or wear poorly.", "It's expensive.", "Others will judge it.", "Correct — a suit is unlikely to cause physical harm.", "It affects self-image."]
+- id: ap-18
+  ch: 4
+  src: "Additional Practice Q18; Ch. 4 slides, slide 13; Ch. 9 slides, p. 4"
+  c: [ch4-decision-heuristics, ch9-consumer-product-types]
+  twin: ch9-consumer-product-types-p3
+  q: "Customers are more likely to use \"decision heuristics\" for which category of products?"
+  o: ["Shopping", "Specialty", "Convenience", "Luxury", "Credence-based"]
+  a: C
+  e: ["Shopping products involve comparison.", "Specialty products involve effortful search.", "Correct (official key) — low-effort buys suit mental shortcuts.", "Not a slide product type.", "Not a course term."]
+- id: ap-19
+  ch: 6
+  src: "Additional Practice Q19; Ch. 6 slides, slides 7, 14"
+  c: [ch6-behavioural]
+  twin: ch6-behavioural-p1
+  q: "Belco, a fast-food chain, targets young males as they account for almost 75 percent of all customers. They are called Jumbo customers. Belco has segmented its customers on the basis of usage rate, with the Jumbo customers being the heavy users. To segment its customers, Belco is using:"
+  o: ["Geographic segmentation", "Behavioural segmentation", "Psychological segmentation", "Geodemographic segmentation", "Partial segmentation"]
+  a: B
+  e: ["No location basis.", "Correct — usage rate is behavioural.", "Not a slide base.", "No location/lifestyle clusters.", "Not a course term."]
+- id: ap-20
+  ch: 6
+  src: "Additional Practice Q20; Ch. 6 slides, slide 25"
+  c: [ch6-substantial-profitable]
+  twin: ch6-identifiable-p3
+  q: "Mary plans to open a store in a small town in northern Ontario to sell apparel, bags, and shoes. She considers the primary target market to be females between the age of 15 and 50 who live close by and are taller than 6 feet (about 2 meters). What is the main issue with this segment?"
+  o: ["The segment is not responsive", "The segment is not identifiable", "The segment is not substantial and not profitable", "The segment is not identifiable", "The segment is too broad"]
+  a: C
+  e: ["Nothing suggests they'd reject her offer.", "They can be identified.", "Correct — too few people in a small town.", "(Duplicate option in the original.) They can be identified.", "It's very narrow."]

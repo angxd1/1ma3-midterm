@@ -1,0 +1,850 @@
+chapter: 8
+concepts:
+  - id: ch8-npd-process
+    title: The new product development process
+    src: "Ch. 8 slides, slides 22, 25"
+    explain: >-
+      The new product development (NPD) process has six steps: idea generation (developing viable ideas), concept testing (testing
+      the idea among potential customers), product development (developing prototypes and the product), market testing (testing the
+      actual product in a few test markets), product launch (full-scale commercialisation), and evaluation of results (analysing
+      performance and making modifications). Diagrams show it as sequential, but in reality it is iterative and cross-functional;
+      teams revisit earlier steps, and firms sometimes skip stages for speed or cost — which increases risk.
+    alt: >-
+      NPD is "idea → test the idea → build it → test the product → launch → check how it did", with plenty of loops back.
+    terms:
+      NPD process: "Idea generation → concept testing → product development → market testing → product launch → evaluation of results."
+    example: "Illustrative: a snack firm brainstorms a flavour, surveys reactions to a description, makes test batches, sells them in one city, launches nationally, then tracks sales and reviews."
+    recall:
+      - q: "What is the first step of the NPD process?"
+        o: ["Idea generation", "Concept testing", "Market testing", "Product launch"]
+        a: A
+        e: ["Correct.", "Step 2.", "Step 4.", "Step 5."]
+      - q: "Which step comes directly after product development?"
+        o: ["Market testing", "Concept testing", "Idea generation", "Evaluation of results"]
+        a: A
+        e: ["Correct.", "Step 2.", "Step 1.", "Step 6."]
+    practice:
+      - q: "Which is the correct NPD order?"
+        o: ["Idea generation → concept testing → product development → market testing → launch → evaluation", "Concept testing → idea generation → market testing → product development → launch → evaluation", "Idea generation → product development → concept testing → launch → market testing → evaluation", "Market testing → idea generation → concept testing → product development → evaluation → launch"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The NPD process in reality is:"
+        o: ["Iterative and cross-functional", "Strictly linear", "Done by one department", "Always skipped"]
+        a: A
+        e: ["Correct.", "Diagrams show it that way, but reality differs.", "No.", "No."]
+      - q: "A firm skips market testing to launch faster. According to the slides, this:"
+        o: ["Increases risk", "Eliminates risk", "Is required", "Has no effect"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Full-scale commercialisation of the product is which step?"
+        o: ["Product launch", "Market testing", "Concept testing", "Evaluation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "After launch, a team finds a design flaw and returns to product development. This shows the process is:"
+        t: app
+        o: ["Iterative", "Linear", "Finished", "Concept testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-internal-rd
+    title: Idea source — internal R&D & reverse innovation
+    src: "Ch. 8 slides, slides 26–27"
+    explain: >-
+      Idea sources include internal R&D, licensing, brainstorming, outsourcing, competitors' products and customer input. Many
+      firms — especially large ones that can afford it — rely on internal R&D; heavy investment can accelerate breakthrough
+      innovation, and a strong innovation culture supports long-term development. Reverse innovation is when products are developed
+      for consumers in developing economies and later introduced into developed countries.
+    alt: >-
+      Internal R&D is a firm's own idea lab; reverse innovation is when that lab's best ideas come from emerging markets first.
+    terms:
+      Internal R&D: "A firm's own research and development used to generate new product ideas."
+      Reverse innovation: "Products developed for developing economies, later introduced into developed countries."
+    example: "Illustrative (from slides): an ECG machine built cheaply for rural clinics in India later used in U.S. ambulances; Fujitsu's business tablets."
+    recall:
+      - q: "Products developed for developing economies and later introduced into developed countries are examples of:"
+        o: ["Reverse innovation", "Reverse engineering", "Licensing", "Outsourcing"]
+        a: A
+        e: ["Correct.", "That's analysing competitors' products.", "No.", "No."]
+      - q: "Internal R&D is most typically used by firms that:"
+        o: ["Can afford it (often large firms)", "Have no budget", "Only sell commodities", "Avoid innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A low-cost medical device designed for clinics in India is later sold to U.S. ambulances. This is:"
+        t: app
+        o: ["Reverse innovation", "Brand extension", "Test marketing", "Licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which firms are named as relying on internal R&D?"
+        o: ["3M, Merck, Apple, Nike", "Bulldog only", "Wild Lot only", "None"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Heavy internal research investment can:"
+        o: ["Accelerate breakthrough innovation", "Guarantee no failures", "Replace customers", "Eliminate competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT one of the idea sources on the slides?"
+        o: ["Internal R&D", "Licensing", "Brainstorming", "Market saturation"]
+        a: D
+        e: ["Source.", "Source.", "Source.", "Correct — a reason to innovate."]
+      - q: "Reverse innovation differs from reverse engineering because it:"
+        o: ["Moves products from developing to developed markets", "Takes apart competitors' products", "Buys tech rights", "Hires design firms"]
+        a: A
+        e: ["Correct.", "That's reverse engineering.", "Licensing.", "Outsourcing."]
+
+  - id: ch8-licensing
+    title: Idea source — licensing
+    src: "Ch. 8 slides, slides 28, 36–37"
+    explain: >-
+      Firms can acquire innovation through licensing instead of internal R&D: they buy the right to use technology or ideas from
+      another (research-intensive) firm through a licensing agreement. Licensing reduces development costs and gives access to
+      cutting-edge technology, but depends on external expertise and banks on a solution that already exists but hasn't been
+      marketed.
+    alt: >-
+      Licensing is renting someone else's invention instead of building your own from scratch.
+    terms:
+      Licensing (NPD): "Buying the right to use technology or ideas from another firm through a licensing agreement."
+    example: "Illustrative (from slides): Qualcomm licenses its 5G technology to Apple; small biotech firms license inventions to large pharma."
+    recall:
+      - q: "Firms buying the rights to use technology from research-intensive firms is called:"
+        o: ["Licensing", "Reverse innovation", "External R&D", "Industrial design"]
+        a: A
+        e: ["Correct (slide 37).", "No.", "No.", "No."]
+      - q: "A benefit of licensing is that it:"
+        o: ["Reduces development costs", "Guarantees uniqueness", "Avoids partners", "Requires internal R&D"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Apple uses Qualcomm's 5G technology under a multi-year agreement. This is:"
+        t: app
+        o: ["Licensing", "Outsourcing", "Brainstorming", "Reverse engineering"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A drawback of licensing is that the firm:"
+        o: ["Depends on external expertise", "Pays nothing", "Owns all the tech", "Can't access new tech"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Small biotech firms license inventions to large pharmaceutical companies. For the pharma firm this is a way to:"
+        t: app
+        o: ["Acquire innovation without in-house R&D costs", "Increase complexity", "Reduce variety", "Avoid regulation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Licensing gives access to:"
+        o: ["Cutting-edge technology", "Census data", "Focus groups", "Lower interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Licensing (Ch 8) is an idea source; brand licensing (Ch 9) is when:"
+        o: ["A firm lets another use its brand for a fee", "A firm buys technology", "A firm takes apart rival products", "A firm brainstorms"]
+        a: A
+        e: ["Correct.", "That's Ch 8 licensing.", "Reverse engineering.", "Brainstorming."]
+        c: [ch9-brand-licensing]
+
+  - id: ch8-brainstorming
+    title: Idea source — brainstorming
+    src: "Ch. 8 slides, slide 31"
+    explain: >-
+      Brainstorming encourages free idea generation without immediate criticism; ideas are evaluated only after the creative phase
+      ends. Entrepreneurial pivots often emerge from structured idea generation, and environmental forces can influence the ideas.
+    alt: >-
+      Brainstorming has one rule: no judging until the idea pile is done.
+    terms:
+      Brainstorming: "Generating ideas freely without immediate criticism; evaluation comes later."
+    example: "Illustrative (from slides): during COVID-19, an aerospace machine shop brainstormed a pivot to Henson Shaving precision safety razors."
+    recall:
+      - q: "In brainstorming, ideas are evaluated:"
+        o: ["Only after the creative phase concludes", "Immediately", "Never", "By customers first"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Henson Shaving emerged from:"
+        o: ["Brainstorming a pivot during COVID-19", "Licensing from Gillette", "Reverse innovation", "Market testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A team lists 50 product ideas in an hour, with a rule that nobody criticises until the end. This is:"
+        t: app
+        o: ["Brainstorming", "Concept testing", "Alpha testing", "Licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why avoid criticism during brainstorming?"
+        o: ["To encourage free idea generation", "To save money", "To skip evaluation entirely", "To satisfy regulators"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Henson Shaving's story shows that environmental forces can:"
+        o: ["Influence brainstorming of new ideas", "Prevent all innovation", "Replace R&D legally", "Only affect pricing"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "Brainstorming belongs to which NPD step?"
+        o: ["Idea generation", "Product launch", "Market testing", "Evaluation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Entrepreneurial pivots often emerge from:"
+        o: ["Structured idea generation", "Price cuts", "Census data", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-outsourcing
+    title: Idea source — outsourcing
+    src: "Ch. 8 slides, slide 32"
+    explain: >-
+      Firms outsource innovation when internal capabilities are limited — lacking resources or expertise. Specialised firms bring
+      fresh perspectives; cross-disciplinary teams (anthropologists, engineers, designers, psychologists) enhance creativity and
+      user-centred design, and external collaboration can significantly increase firm value.
+    alt: >-
+      Outsourcing innovation is hiring a specialist chef when your own kitchen can't make the dish.
+    terms:
+      Outsourcing (innovation): "Hiring external specialist firms to generate or develop new product ideas."
+    example: "Illustrative (from slides): SimpliSafe hired IDEO to redesign all 15 system components, leading to a video doorbell and a $1 billion valuation."
+    recall:
+      - q: "Firms outsource innovation mainly when:"
+        o: ["Internal capabilities are limited", "They have unlimited R&D", "They want to avoid customers", "Laws require it"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "SimpliSafe hired which firm to rethink its system?"
+        o: ["IDEO", "Nielsen", "Qualcomm", "PRIZM"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A small toy company hires a design consultancy with psychologists and engineers to create new toys. This is:"
+        t: app
+        o: ["Outsourcing", "Licensing", "Reverse engineering", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "IDEO's strength comes from:"
+        o: ["Cross-disciplinary teams", "Lowest prices", "Patents only", "Census access"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "SimpliSafe's outcome after outsourcing was:"
+        o: ["A $1 billion valuation", "Bankruptcy", "A recall", "No change"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Outsourcing vs licensing: outsourcing involves:"
+        o: ["Hiring others to develop ideas; licensing buys rights to existing tech", "Both buy rights", "Both take apart rival products", "Neither involves other firms"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch8-licensing]
+      - q: "The slide's message on outsourcing is that a firm:"
+        o: ["Can't be the expert at everything and should leverage others' strengths", "Should do everything in-house", "Should avoid design", "Should only copy competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-competitors-products
+    title: Idea source — competitors' products & reverse engineering
+    src: "Ch. 8 slides, slide 34"
+    explain: >-
+      A competitor's successful launch may signal unmet demand or new technical possibilities. Firms analyse rival offerings through
+      reverse engineering — taking apart a competitor's product, analysing it and creating an improved product that doesn't infringe
+      patents. Copycat strategies are common across consumer and technology markets; reverse-engineered products must be
+      substantively different from the source.
+    alt: >-
+      Reverse engineering is studying a rival's recipe by tasting the dish — then cooking a better, legally different version.
+    terms:
+      Reverse engineering: "Taking apart and analysing a competitor's product to create an improved, non-infringing product."
+    example: "Illustrative: after a rival's wireless earbuds sell well, a firm disassembles them to design longer-lasting batteries."
+    recall:
+      - q: "Taking apart a competitor's product to improve on it is:"
+        o: ["Reverse engineering", "Reverse innovation", "Licensing", "Concept testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Reverse-engineered products must:"
+        o: ["Be substantively different and not infringe patents", "Be identical copies", "Be licensed", "Be sold only abroad"]
+        a: A
+        e: ["Correct.", "Illegal if patented.", "No.", "No."]
+    practice:
+      - q: "A competitor's hit product may signal:"
+        o: ["Unmet demand or new technical possibilities", "Nothing useful", "Market decline", "A recession"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A phone maker disassembles a rival's foldable phone to understand its hinge, then designs a better one. This is:"
+        t: app
+        o: ["Reverse engineering", "Outsourcing", "Brainstorming", "Beta testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Copycat strategies are:"
+        o: ["Common across consumer and technology markets", "Illegal in all cases", "Rare", "Only for services"]
+        a: A
+        e: ["Correct.", "Not if non-infringing.", "No.", "No."]
+      - q: "Why can't firms simply copy patented products?"
+        o: ["Patents protect them from being copied", "Copying is too cheap", "It's a fashion cycle", "It's licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Competitors' products are an idea source in which NPD step?"
+        o: ["Idea generation", "Product launch", "Evaluation of results", "Market testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-customer-input
+    title: Idea source — customer input & lead users
+    src: "Ch. 8 slides, slides 23–24, 35"
+    explain: >-
+      Customer input is essential for idea generation in B2B and B2C markets. Observation and social media reveal expressed and
+      unexpressed needs. Lead users — innovative customers aware of emerging trends — help firms anticipate them, especially in
+      fashion. In B2B markets, firms often work closely with a few customers for frequent feedback and joint development, which
+      increases the likelihood the customer adopts the product.
+    alt: >-
+      Lead users are the customers who are already living in the future — watch what they do and you'll see what's next.
+    terms:
+      Lead users: "Innovative product users who modify products themselves and are aware of emerging trends."
+      Customer input: "Ideas from customers via feedback, observation, social media and co-development."
+    example: "Illustrative (from slides): fashion designers change designs based on trends spotted on the street; healthcare firms co-design with patients."
+    recall:
+      - q: "Innovative customers who help firms anticipate trends are called:"
+        o: ["Lead users", "Laggards", "Late majority", "Corporate partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm using internal R&D, collaboration, licensing, brainstorming, competitor research and consumer research is in which NPD step?"
+        o: ["Product development", "Concept testing", "Idea generation", "Product launch"]
+        a: C
+        e: ["No.", "No.", "Correct (slide 24).", "No."]
+    practice:
+      - q: "Fashion designers adapting designs from trends spotted on the street are learning from:"
+        t: app
+        o: ["Lead users", "Laggards", "Scanner data", "Licensing partners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "In B2B markets, close collaboration with customers on design:"
+        o: ["Increases the likelihood they adopt the product", "Reduces adoption", "Is illegal", "Replaces testing entirely"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A hospital supplier co-designs a device with patients and nurses. This is:"
+        t: app
+        o: ["Customer input / co-design", "Reverse engineering", "Licensing", "Brand extension"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Observation and social media help reveal:"
+        o: ["Expressed and unexpressed needs", "Only prices", "Only patents", "Only competitor costs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "At the end of idea generation, a firm should have:"
+        o: ["Several ideas to take forward to concept testing", "A launched product", "Final sales data", "A brand name only"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+
+  - id: ch8-concept-testing
+    title: Concept testing
+    src: "Ch. 8 slides, slide 38"
+    explain: >-
+      Promising ideas are developed into concepts — brief written and/or visual descriptions of the product, its features, technology,
+      working principles and the need it satisfies. Concept testing presents the concept to potential buyers to gauge their reaction
+      and, most importantly, their purchase intention. It uses marketing research techniques (surveys, interviews). Early testing
+      reduces risk and prevents costly development mistakes; concepts that respondents don't like never move on.
+    alt: >-
+      Concept testing is pitching the idea before building it — "Would you buy this if it existed?"
+    terms:
+      Concept: "A brief written/visual description of a product idea, its features and the need it satisfies."
+      Concept testing: "Presenting the concept to potential buyers to gauge reactions and purchase intentions."
+    example: "Illustrative: a start-up shows students a one-page description and sketch of a reusable smart water bottle and asks whether they'd buy it."
+    recall:
+      - q: "Concept testing presents the idea to:"
+        o: ["Potential buyers", "Only employees", "Only regulators", "Only competitors"]
+        a: A
+        e: ["Correct.", "That's closer to alpha testing.", "No.", "No."]
+      - q: "The most important question in concept testing relates to:"
+        o: ["Purchase intentions", "Packaging colour", "Exchange rates", "Patents"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+    practice:
+      - q: "A firm surveys consumers about a written description of a cocktail machine before building anything. This is:"
+        t: app
+        o: ["Concept testing", "Beta testing", "Test marketing", "Product launch"]
+        a: A
+        e: ["Correct.", "No prototype yet.", "No product sold yet.", "No."]
+      - q: "Why test concepts early?"
+        o: ["To reduce risk and prevent costly development mistakes", "To skip development", "Because it's free", "To launch faster"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Concept testing relies on techniques from:"
+        o: ["Marketing research (Ch 7)", "Brand licensing", "Packaging law", "Economics only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A concept that respondents find uninteresting will most likely:"
+        o: ["Not move to product development", "Launch immediately", "Be test marketed", "Be licensed"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A concept typically includes:"
+        o: ["Features, working principles and the need it satisfies", "Final sales figures", "Scanner data", "A finished prototype"]
+        a: A
+        e: ["Correct.", "No.", "No.", "That's product development."]
+
+  - id: ch8-product-development
+    title: Product development — prototypes, alpha & beta testing
+    src: "Ch. 8 slides, slides 39–40"
+    explain: >-
+      In product development an engineering team builds a prototype — the first physical form of the new product — based on concept
+      testing findings, deciding materials, dimensions and specifications. Prototypes are tested in two ways. Alpha testing: internal
+      teams test whether the product performs according to its design and satisfies the need (internal vetting). Beta testing:
+      potential customers examine the prototype in a real-use setting to assess functionality, performance and problems.
+    alt: >-
+      Alpha = "we test it in-house". Beta = "real customers test it in real life".
+    terms:
+      Prototype: "The first physical form of a new product."
+      Alpha testing: "Internal testing to check the product performs according to design."
+      Beta testing: "Potential customers test the prototype in a real-use setting."
+    example: "Illustrative (from slides): Ben & Jerry's alpha tests flavours with employees; Bartesian went through prototypes P1–P5."
+    recall:
+      - q: "Testing a prototype with the firm's own employees is:"
+        o: ["Alpha testing", "Beta testing", "Test marketing", "Concept testing"]
+        a: A
+        e: ["Correct.", "Uses potential customers.", "No.", "No."]
+      - q: "The first physical form of a new product is a:"
+        o: ["Prototype", "Concept", "Brand", "Product line"]
+        a: A
+        e: ["Correct.", "A concept is a description.", "No.", "No."]
+    practice:
+      - q: "Realistic Prints asks ten employees to try its new 3D printer in its R&D facility. This is:"
+        t: app
+        o: ["Internal testing", "Premarket testing", "Alpha testing", "Beta testing"]
+        a: C
+        e: ["Not the term used.", "Premarket tests use potential customers.", "Correct (official key).", "Beta uses potential customers."]
+      - q: "Sarah invites people to assess her energy-efficient AC in their own homes. This is:"
+        t: app
+        o: ["Concept testing", "Test marketing", "Beta testing", "Alpha testing"]
+        a: C
+        e: ["No.", "No.", "Correct (official key) — real-use setting with potential customers.", "Alpha is internal."]
+      - q: "Ben & Jerry's has employees taste-test new flavours. This is:"
+        o: ["Alpha testing", "Beta testing", "Licensing", "Market testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Bartesian's many prototypes (P1–P5) show that prototyping:"
+        o: ["Is iterative — always be testing", "Is done once", "Is skipped by start-ups", "Happens after launch"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Alpha testing aims to determine whether the product:"
+        o: ["Performs according to its design and satisfies the intended need", "Sells in a test city", "Has a good brand name", "Is legal"]
+        a: A
+        e: ["Correct.", "Test marketing.", "No.", "No."]
+
+  - id: ch8-market-testing
+    title: Market testing — premarket tests vs test marketing
+    src: "Ch. 8 slides, slides 41–43"
+    explain: >-
+      Market testing takes two forms. Premarket tests expose the product to potential customers in a controlled environment (often run
+      by research firms like ACNielsen) to estimate how many will try and keep using it — generating a sales estimate so the firm can
+      decide to introduce or modify the product. Test marketing releases the product in a limited geographic area before national
+      launch; it involves actual production and distribution and can prevent larger losses, but it reveals the product to competitors.
+    alt: >-
+      Premarket test = a dress rehearsal in a controlled room. Test marketing = opening night in one small town before the national tour.
+    terms:
+      Premarket test: "Exposing potential customers to a product in a controlled setting to estimate trial and repeat use."
+      Test marketing: "Introducing the product in a limited geographic area before the national launch."
+    example: "Illustrative (from slides): Ben & Jerry's sampling a new flavour at Costco; a product launched in one part of a city before a national rollout."
+    recall:
+      - q: "Premarket testing lets a firm generate a ___ for the new product."
+        o: ["Sales estimate", "Stockholder report", "Loyal customer base", "Marketing plan"]
+        a: A
+        e: ["Correct (slide 43).", "No.", "No.", "No."]
+      - q: "Releasing a product in a limited geographic area before national launch is:"
+        o: ["Test marketing", "Premarket testing", "Alpha testing", "Concept testing"]
+        a: A
+        e: ["Correct.", "Controlled environment, not real market.", "No.", "No."]
+    practice:
+      - q: "A downside of test marketing is that it:"
+        o: ["Reveals the new product to competitors", "Uses no real distribution", "Is free", "Happens before concept testing"]
+        a: A
+        e: ["Correct.", "It uses actual distribution.", "No.", "No."]
+      - q: "A beverage company sells a new drink only in Halifax for three months before going national. This is:"
+        t: app
+        o: ["Test marketing", "Premarket testing", "Beta testing", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which product is LEAST suited to test marketing per the notes?"
+        t: app
+        o: ["A product that competitors could easily copy", "A risky new-to-market item", "A product needing real sales data", "A product for a broad market"]
+        a: A
+        e: ["Correct — exposure lets rivals copy it.", "No.", "No.", "No."]
+      - q: "Premarket tests are commonly run by:"
+        o: ["Research firms such as ACNielsen", "Competitors", "Governments", "Laggards"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Test marketing involves:"
+        o: ["Actual production and distribution", "Only written descriptions", "Only internal staff", "No customers"]
+        a: A
+        e: ["Correct.", "Concept testing.", "Alpha testing.", "No."]
+
+  - id: ch8-launch
+    title: Product launch
+    src: "Ch. 8 slides, slide 44"
+    explain: >-
+      If market testing is positive, the firm launches the product to the entire market — full-scale commercialisation. Launch
+      involves confirming the target market, deciding the positioning, and finalising the marketing mix, including the first-year
+      budget. The right product must hit the market at the right time and price, and a launch without sufficient resources can fail
+      no matter how good the product is.
+    alt: >-
+      Launch is opening day — the product can be great, but without the right timing, price and budget, nobody shows up.
+    terms:
+      Product launch: "Full-scale commercialisation: confirming target market, positioning and marketing mix."
+    example: "Illustrative: a phone maker coordinates a global release date, pricing, ads and retail stock for launch week."
+    recall:
+      - q: "Product launch involves confirming the target market and deciding:"
+        o: ["How the product will be positioned", "Whether to brainstorm", "Census design", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Product launch is also called:"
+        o: ["Full-scale commercialisation", "Alpha testing", "Concept testing", "Reverse innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A great product fails because the firm spent almost nothing on promotion at launch. Per the notes, the issue is:"
+        t: app
+        o: ["Insufficient launch resources", "Too much testing", "Wrong adopter percentage", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT part of launching a product per the notes?"
+        o: ["Confirming the target market", "Deciding positioning", "Finalising the marketing mix and budget", "Alpha testing with employees"]
+        a: D
+        e: ["Part.", "Part.", "Part.", "Correct — that happens in product development."]
+      - q: "The right product must hit the market at the right:"
+        o: ["Time and price", "Exchange rate", "Census", "Patent"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Launch happens after:"
+        o: ["Market testing returns positive results", "Idea generation only", "Evaluation of results", "Decline stage"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Launch links back to Ch 6 because it requires:"
+        o: ["Confirming target market and positioning", "Census taking", "Reverse innovation", "Data mining only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch6-positioning]
+
+  - id: ch8-evaluation
+    title: Evaluation of results
+    src: "Ch. 8 slides, slide 45"
+    explain: >-
+      After launch, marketers conduct a critical post-launch review to determine whether the product and its launch succeeded, and what
+      resources or marketing-mix changes are needed. They look at quality, functionality, durability, customer satisfaction and KPIs
+      (sales, reviews, ratings, ROI). Understanding why a product fails is as important as why another succeeds; an underperforming
+      product may need further development.
+    alt: >-
+      Evaluation is the post-game review: what worked, what didn't, and what to change before the next play.
+    terms:
+      Evaluation of results: "Post-launch analysis of performance (KPIs, satisfaction) and needed modifications."
+    example: "Illustrative: a snack brand tracks first-quarter sales, reviews and repeat purchases, then tweaks the flavour."
+    recall:
+      - q: "Evaluation of results is the ___ step of NPD."
+        o: ["Last", "First", "Second", "Third"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a KPI used to evaluate a new product?"
+        o: ["Sales, reviews, ratings, ROI", "Census size", "Exchange rates", "Patent count only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Why study a product's failure?"
+        o: ["Understanding why it failed is as important as why others succeed", "To assign blame", "It's legally required", "It isn't useful"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "After launch, poor reviews mention durability issues. The team should:"
+        t: app
+        o: ["Use the evaluation to modify the product or mix", "Ignore it", "Restart idea generation for a new category", "Cancel all products"]
+        a: A
+        e: ["Correct.", "No.", "Not necessarily.", "No."]
+      - q: "Which is NOT typically assessed in evaluation of results?"
+        o: ["Quality and durability", "Customer satisfaction", "ROI", "The founder's personal hobbies"]
+        a: D
+        e: ["Assessed.", "Assessed.", "Assessed.", "Correct."]
+      - q: "An underperforming product may require:"
+        o: ["Further development", "Immediate licensing", "A new country culture", "Nothing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Evaluation determines whether additional ___ are needed."
+        o: ["Resources or marketing mix changes", "Census counts", "Patents", "Generational cohorts"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-plc-stages
+    title: Product life cycle stages
+    src: "Ch. 8 slides, slides 46–49"
+    explain: >-
+      The product life cycle (PLC) defines the stages a product moves through: introduction, growth, maturity and decline.
+      Introduction: low sales and high costs, negative or low profits (initial losses), innovators, one or few competitors. Growth:
+      rising sales as acceptance grows, rapidly rising profits, early adopters and early majority, few but increasing competitors.
+      Maturity: sales peak and growth slows as the market saturates, profits peak then decline, late majority, many competitors.
+      Decline: falling sales and shrinking margins, laggards, few competitors — firms may discontinue, find new uses or innovate.
+    alt: >-
+      The PLC is a product's biography: birth (intro), adolescence (growth), middle age (maturity), retirement (decline).
+    terms:
+      Product life cycle: "Stages a product moves through: introduction, growth, maturity, decline."
+      Introduction stage: "Low sales, high costs, initial losses; innovators buy."
+      Growth stage: "Rising sales and profits; early adopters and early majority."
+      Maturity stage: "Sales peak, market saturates, many competitors; late majority."
+      Decline stage: "Falling sales and profits; laggards; few competitors."
+    example: "Illustrative (from slides): EVs are in growth with increasing competitors; many consumer packaged goods are in maturity."
+    recall:
+      - q: "The introduction stage is often characterised by:"
+        o: ["A spike in revenue", "Consumer complaints", "Initial losses", "Industry shakeout"]
+        a: C
+        e: ["No.", "No.", "Correct (slide 49).", "No."]
+      - q: "In which stage do sales peak and the market become saturated?"
+        o: ["Maturity", "Introduction", "Growth", "Decline"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Which consumers typically buy during the growth stage?"
+        o: ["Early adopters and early majority", "Innovators only", "Laggards", "Late majority only"]
+        a: A
+        e: ["Correct.", "Introduction.", "Decline.", "Maturity."]
+      - q: "Profits are 'rapidly rising' in which stage?"
+        o: ["Growth", "Introduction", "Maturity", "Decline"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A product with many competitors, peak sales and slowing growth is in:"
+        t: app
+        o: ["Maturity", "Introduction", "Growth", "Decline"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why do firms often lose money in the introduction stage?"
+        o: ["High start-up costs and low sales", "Too many competitors", "Market saturation", "Laggards dominate"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Most new products fail at the 'tipping point' between which stages?"
+        o: ["Introduction and growth", "Growth and maturity", "Maturity and decline", "Decline and withdrawal"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+
+  - id: ch8-plc-extend
+    title: Strategies for extending the PLC
+    src: "Ch. 8 slides, slide 50"
+    explain: >-
+      In maturity, firms can extend the life cycle by: developing new uses, modifying the product (quality, performance, packaging),
+      increasing frequency of use, increasing the number of users, finding new users, repositioning the product, and tweaking the
+      marketing strategy.
+    alt: >-
+      When a product plateaus, give it a new job, a makeover, more reasons to use it, or new people to use it.
+    terms:
+      PLC extension strategies: "New uses, modify product, increase frequency, increase users, find new users, reposition, tweak strategy."
+    example: "Illustrative (from slides): Apple cuts prices on older models to reach new segments; Arm & Hammer promotes baking soda in many rooms; Campbell's publishes recipes using soup."
+    recall:
+      - q: "Campbell's publishing recipes that use soup as an ingredient is a strategy to:"
+        o: ["Increase frequency of use", "Develop a pioneer", "Alpha test", "License"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a PLC extension strategy?"
+        o: ["Develop new uses", "Increase complexity", "Stop promotion", "Skip testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Arm & Hammer promoting baking soda for fridges, carpets and laundry is:"
+        t: app
+        o: ["Developing new uses", "Finding new users only", "Alpha testing", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Rollerblade marketing to children and older adults after teen sales levelled off is:"
+        t: app
+        o: ["Finding new users", "Increasing frequency", "Modifying product", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Apple cutting prices on older models when new ones launch aims to:"
+        o: ["Reach new market segments", "Increase complexity", "Exit the market", "Alpha test"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Launching smaller or more colourful versions of a product is:"
+        t: app
+        o: ["Modifying the product", "Reverse innovation", "Licensing", "Concept testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "PLC extension strategies are typically used in which stage?"
+        o: ["Maturity", "Introduction", "Concept testing", "Idea generation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-plc-caveats
+    title: PLC curve variations & caveats
+    src: "Ch. 8 slides, slides 51–52"
+    explain: >-
+      The PLC curve is theoretically bell-shaped, but real markets vary. The slides show high-learning products (slow, long
+      introduction), low-learning products (rapid early growth), fashion products (repeating cycles) and fad products (rapid rise and
+      fall). The PLC is useful but must be applied cautiously: it is hard to know which stage a product is in, and misreading it (e.g.,
+      treating a product as declining) can create a self-fulfilling decline. Data-driven iteration helps avoid premature withdrawal.
+    alt: >-
+      The PLC is a map, not GPS — if you misread where you are and cut support, you can drive the product into decline yourself.
+    terms:
+      High-learning product: "Needs a long introduction while customers learn about it."
+      Low-learning product: "Easy to understand; sales take off quickly."
+      Fashion product: "Sales rise and fall in repeating cycles."
+      Fad product: "Rapid rise and quick fall."
+      Self-fulfilling decline: "Misdiagnosing a product as declining, then withdrawing support so it does decline."
+    example: "Illustrative: a viral toy that sells out for one holiday season and then disappears follows a fad curve."
+    recall:
+      - q: "A product misdiagnosed as being in decline will likely:"
+        o: ["Decline (self-fulfilling)", "Grow", "Stay the same", "Become a pioneer"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "A product with a rapid rise and quick fall follows a:"
+        o: ["Fad curve", "High-learning curve", "Low-learning curve", "Bell curve exactly"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A complex new medical technology that takes years for users to understand likely follows a:"
+        t: app
+        o: ["High-learning curve", "Fad curve", "Low-learning curve", "Fashion curve"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Sales of a clothing style rise, fall and rise again over years. This is a:"
+        t: app
+        o: ["Fashion product curve", "Fad curve", "High-learning curve", "Pioneer curve"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why must the PLC be applied cautiously?"
+        o: ["It's hard to know which stage a product is in", "It has no stages", "It's illegal", "It only applies to services"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A simple, useful product whose sales take off immediately follows a:"
+        t: app
+        o: ["Low-learning curve", "High-learning curve", "Fad curve", "Fashion curve"]
+        a: A
+        e: ["Correct.", "No.", "Fads also fall quickly.", "No."]
+      - q: "The slides recommend which approach to avoid premature withdrawal?"
+        o: ["Data-driven iteration", "Ignoring sales", "Immediate discontinuation", "Undifferentiated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+short_answers:
+  - t: th
+    c: [ch8-npd-process, ch8-concept-testing, ch8-product-development, ch8-market-testing, ch8-launch, ch8-evaluation]
+    src: "Ch. 8 slides, slides 22–45"
+    q: "Explain the steps of the new product development process and give an example for each."
+    model: |-
+      The new product development process starts with idea generation, where firms develop viable ideas through internal R&D, licensing, brainstorming, outsourcing, studying competitors' products or customer input — for example, Henson Shaving brainstormed a pivot from aerospace parts to safety razors. In concept testing, the idea is described in writing or visuals and presented to potential buyers to gauge reactions and purchase intentions, reducing risk before costly development. Product development then turns the concept into a prototype, tested through alpha testing (internal teams, like Ben & Jerry's employees tasting flavours) and beta testing (potential customers in a real-use setting).
+
+      Market testing follows: premarket tests in a controlled environment produce a sales estimate, while test marketing introduces the product in a limited geographic area before national launch (though it exposes the product to competitors). Product launch is full-scale commercialisation — confirming the target market, positioning and marketing mix, with enough resources and the right timing and price. Finally, evaluation of results reviews KPIs such as sales, ratings, satisfaction and ROI to decide on modifications. In practice the process is iterative, and skipping steps increases risk.
+    rubric:
+      - p: "Idea generation with source(s)"
+        k: ["idea generation|ideas", "r&d|licens|brainstorm|outsourc|competitor|customer|lead user"]
+      - p: "Concept testing — potential buyers' reactions"
+        k: ["concept test"]
+      - p: "Product development — prototype, alpha/beta"
+        k: ["prototype|product development", "alpha|beta"]
+      - p: "Market testing — premarket/test marketing"
+        k: ["market test|test market|premarket"]
+      - p: "Launch and evaluation"
+        k: ["launch|commercial", "evaluat|kpi|results"]
+    mistakes:
+      - "Confusing concept testing (description) with beta testing (prototype)."
+      - "Mixing up alpha (internal) and beta (customers)."
+      - "Forgetting evaluation of results."
+  - t: app
+    c: [ch8-adopter-categories, ch8-relative-advantage, ch8-compatibility, ch8-observability, ch8-complexity-trialability]
+    src: "Ch. 8 slides, slides 13–21"
+    q: "A company is launching smart glasses that translate speech in real time. Explain how adoption would spread across adopter categories and which product characteristics could speed up or slow down diffusion."
+    model: |-
+      Diffusion of innovation describes how use of a new product spreads through a market over time. The first buyers would be innovators (2.5%) — risk-takers who want the newest tech regardless of price — followed by early adopters (13.5%), such as travelling professionals who wait for a few reviews but buy early and influence others. To succeed, the glasses must reach the early majority (34%), who buy once bugs are fixed and risks reduced; the late majority (34%) would adopt once the product is established and cheaper, and laggards (16%) may never adopt.
+
+      Diffusion speed depends on product characteristics. Relative advantage would speed adoption if the glasses are clearly better than phone translation apps. Compatibility matters: if wearing glasses or recording speech conflicts with users' habits or cultural values (such as privacy expectations, the issue that hurt Google Glass), adoption slows. Observability could help, since others can see the glasses working, especially through demonstration videos. Complexity could slow diffusion if setup is difficult, while trialability — in-store demos, free trials or generous returns — would reduce uncertainty and speed adoption.
+    rubric:
+      - p: "Names adopter categories with percentages/traits"
+        k: ["innovator", "early adopter", "early majority", "late majority", "laggard"]
+      - p: "Relative advantage"
+        k: ["relative advantage"]
+      - p: "Compatibility"
+        k: ["compatib"]
+      - p: "Observability"
+        k: ["observab"]
+      - p: "Complexity and trialability"
+        k: ["complex", "trial"]
+    mistakes:
+      - "Mixing up early adopters (13.5%) with the early majority (34%)."
+      - "Listing diffusion factors without applying them to the product."
+  - t: th
+    c: [ch8-plc-stages, ch8-plc-extend, ch8-plc-caveats]
+    src: "Ch. 8 slides, slides 46–52"
+    q: "Describe the stages of the product life cycle and explain strategies a firm can use to extend it."
+    model: |-
+      The product life cycle describes the stages a product passes through. In introduction, sales are low and costs high, so profits are negative or low (initial losses); buyers are innovators and there are one or few competitors. In growth, the product gains acceptance, sales and profits rise rapidly, early adopters and the early majority buy, and competitors start to enter. In maturity, sales peak and growth slows as the market saturates; profits peak then decline, the late majority buys and competition is intense. In decline, sales and margins fall, laggards remain and few competitors stay; the firm may discontinue, find new uses or innovate.
+
+      During maturity, firms can extend the life cycle by developing new uses (Arm & Hammer baking soda as a deodoriser), modifying the product (new sizes, colours or packaging), increasing frequency of use (Campbell's recipes using soup), increasing the number of users or finding new users (Rollerblade targeting children and older adults), repositioning the product, or tweaking the marketing strategy (Apple cutting prices on older models). The PLC must be used cautiously, though: real curves vary (high-learning, low-learning, fashion and fad products), and misdiagnosing a stage can cause a self-fulfilling decline.
+    rubric:
+      - p: "Introduction stage traits"
+        k: ["introduction", "loss|low sales|innovator|high cost"]
+      - p: "Growth stage traits"
+        k: ["growth", "rising|early adopter|early majority"]
+      - p: "Maturity stage traits"
+        k: ["maturity|mature", "peak|saturat|late majority"]
+      - p: "Decline stage traits"
+        k: ["decline", "laggard|falling|discontinue"]
+      - p: "Extension strategies with examples"
+        k: ["new uses|modify|frequency|new users|reposition|tweak"]
+    mistakes:
+      - "Putting innovators in the growth stage."
+      - "Listing extension strategies without examples."
+  - t: app
+    c: [ch8-why-innovate, ch8-changing-needs, ch8-market-saturation, ch8-fashion-cycles, ch8-pioneer-failure]
+    src: "Ch. 8 slides, slides 3–12"
+    q: "A long-established cereal company has flat sales in a crowded market. Explain why it should develop new products and what risks it must manage."
+    model: |-
+      Firms create new products because customers' needs change and they get bored with existing offerings; without innovation the company could only sell current products to current customers or take them to similar markets. The cereal market is saturated — many competitors and slowing growth — so continuous innovation is essential. The company could follow changing needs and dietary trends, as General Mills did by labelling Chex gluten-free to attract health-conscious and celiac consumers, or redesign existing products (new flavours, protein formulations, portion packs). Diversifying its portfolio would also manage risk and stabilise performance, and it could strengthen retailer relationships by co-developing products using shared data.
+
+      However, as many as 95% of new consumer goods fail. The main reason is failing to assess the market properly — poor testing, targeting the wrong segment or poor positioning. Products also fail when they offer too few benefits, are too complex, are launched at the wrong time, or don't fit the brand's image and competencies. The company should therefore use the full new-product development process, especially concept and market testing, and choose ideas that align with its brand.
+    rubric:
+      - p: "Reasons to innovate (changing needs/boredom)"
+        k: ["changing|bored|needs"]
+      - p: "Market saturation"
+        k: ["saturat"]
+      - p: "Niche/dietary trend or diversification example"
+        k: ["gluten|niche|diversif|portfolio|chex"]
+      - p: "High failure rate (~95%)"
+        k: ["95|fail"]
+      - p: "Failure causes (market assessment, benefits, complexity, timing, brand fit)"
+        k: ["assess|timing|complex|benefit|brand|position|target"]
+    mistakes:
+      - "Describing the NPD steps only, without the reasons for innovating."
+      - "Ignoring failure risk."
+
+matching:
+  - prompt: "Match each NPD step to its description."
+    c: [ch8-npd-process]
+    src: "Ch. 8 slides, slide 22"
+    pairs:
+      - ["Idea generation", "Development of viable new product ideas"]
+      - ["Concept testing", "Testing the idea among potential customers"]
+      - ["Product development", "Development of prototypes"]
+      - ["Market testing", "Testing the actual product in a few test markets"]
+      - ["Product launch", "Full-scale commercialisation"]
+      - ["Evaluation of results", "Analysing performance and modifying"]
+  - prompt: "Match each adopter category to its share."
+    c: [ch8-adopter-categories]
+    src: "Ch. 8 slides, slides 13–14"
+    pairs:
+      - ["Innovators", "2.5%"]
+      - ["Early adopters", "13.5%"]
+      - ["Early majority", "34% (adopts once risks are reduced)"]
+      - ["Late majority", "34% (adopts once established)"]
+      - ["Laggards", "16%"]
+  - prompt: "Match each idea source to its example."
+    c: [ch8-internal-rd, ch8-licensing, ch8-brainstorming, ch8-outsourcing, ch8-customer-input]
+    src: "Ch. 8 slides, slides 27–35"
+    pairs:
+      - ["Internal R&D / reverse innovation", "ECG machine from India to U.S. ambulances"]
+      - ["Licensing", "Qualcomm 5G for Apple"]
+      - ["Brainstorming", "Henson Shaving pivot"]
+      - ["Outsourcing", "SimpliSafe hiring IDEO"]
+      - ["Customer input", "Lead users in fashion"]
+
+fill:
+  - text: "Internal testing to see if a prototype performs to design is ___ testing."
+    a: "alpha"
+    c: [ch8-product-development]
+    src: "Ch. 8 slides, slide 39"
+  - text: "Testing a prototype with potential customers in a real setting is ___ testing."
+    a: "beta"
+    c: [ch8-product-development]
+    src: "Ch. 8 slides, slide 39"
+  - text: "As many as ___ percent of new consumer goods fail."
+    a: "95"
+    c: [ch8-pioneer-failure]
+    src: "Ch. 8 slides, slide 12"
+  - text: "Innovators make up the first ___ percent of adopters."
+    a: "2.5"
+    c: [ch8-adopter-categories]
+    src: "Ch. 8 slides, slide 13"
+  - text: "Taking apart a competitor's product to improve on it is reverse ___."
+    a: "engineering"
+    c: [ch8-competitors-products]
+    src: "Ch. 8 slides, slide 34"
+  - text: "Releasing a product in a limited area before national launch is test ___."
+    a: "marketing"
+    c: [ch8-market-testing]
+    src: "Ch. 8 slides, slide 41"
+  - text: "The stage of the PLC with initial losses is the ___ stage."
+    a: "introduction"
+    c: [ch8-plc-stages]
+    src: "Ch. 8 slides, slide 49"

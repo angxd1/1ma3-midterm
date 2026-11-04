@@ -1,0 +1,851 @@
+chapter: 7
+concepts:
+  - id: ch7-qualitative
+    title: Qualitative (exploratory) research
+    src: "Ch. 7 slides, pp. 30–31"
+    explain: >-
+      Qualitative research is exploratory — used to understand attitudes, perceptions and motivations rather than to measure them
+      numerically. The slides list its methods as observation, social media, in-depth interviews, focus groups and projective
+      techniques, and flag reliability, validity and sampling as considerations.
+    alt: >-
+      Qualitative research asks "why?" and "how do you feel?" — it explores before quantitative research counts.
+    terms:
+      Qualitative research: "Exploratory research aimed at understanding — via observation, social media, interviews, focus groups, projective techniques."
+    example: "Illustrative: before designing a survey, a brand holds a few interviews to learn what words customers use to describe the product."
+    recall:
+      - q: "Qualitative research is primarily:"
+        o: ["Exploratory", "Experimental", "Numerical hypothesis testing", "Scanner-based"]
+        a: A
+        e: ["Correct.", "Quantitative.", "Quantitative.", "Quantitative."]
+      - q: "Which is a qualitative research method listed on the slides?"
+        o: ["Projective techniques", "Experiments", "Scanner data", "Structured surveys"]
+        a: A
+        e: ["Correct.", "Quantitative.", "Quantitative.", "Quantitative."]
+    practice:
+      - q: "Which list contains only qualitative methods from the slides?"
+        o: ["Observation, social media, in-depth interviews, focus groups, projective techniques", "Surveys, panels, experiments", "Scanner data, panel data", "Census, trade journals"]
+        a: A
+        e: ["Correct.", "Quantitative.", "Quantitative.", "Secondary sources."]
+      - q: "A brand wants to explore why young people feel 'excluded' by beauty ads before designing a survey. It should start with:"
+        t: app
+        o: ["Qualitative research", "An experiment", "Scanner data", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which considerations does the qualitative research slide flag?"
+        o: ["Reliability, validity, sampling", "Volume, velocity, value", "Price, place, promotion", "Breadth, depth, category"]
+        a: A
+        e: ["Correct.", "Big data.", "Marketing mix.", "Ch 9."]
+      - q: "Projective techniques, per the slides, are a:"
+        o: ["Qualitative research method", "Quantitative method", "Secondary data source", "Pricing strategy"]
+        a: A
+        e: ["Correct — named as a qualitative method (no definition given; see CONTENT_NOTES #24).", "No.", "No.", "No."]
+        c: [ch7-projective]
+      - q: "Qualitative vs quantitative: which is correct?"
+        o: ["Qualitative explores; quantitative measures with numbers", "Both only use numbers", "Qualitative tests hypotheses statistically", "Quantitative is always exploratory"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch7-quantitative]
+
+  - id: ch7-observation
+    title: Observation research
+    src: "Ch. 7 slides, p. 32"
+    explain: >-
+      Observation research directly watches consumers' behaviours, in person or through cameras, sensors or eye-tracking. It's
+      especially useful when consumers can't clearly explain their behaviour, revealing real usage patterns, shopping paths and
+      product interactions. Observational and ethnographic insights help improve product design, store layouts, merchandising and
+      promotions.
+    alt: >-
+      Observation is "watch what they do, not what they say" — a heat map never lies about where shoppers walked.
+    terms:
+      Observation research: "Directly watching consumers' behaviour, in person or via technology."
+    example: "Illustrative (from slides): in-store tracking systems and heat maps (Shopperception) show where shoppers look, move and interact with products."
+    recall:
+      - q: "Observation is especially useful when consumers:"
+        o: ["Cannot clearly explain their behaviour", "Are very articulate", "Fill out surveys quickly", "Are not in stores"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Heat maps of shopper movement are a form of:"
+        o: ["Observation research", "Focus groups", "Syndicated data", "Experiments"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Chris, a Loblaws manager, has staff monitor customers' behaviour toward new products in the store. He is using:"
+        t: app
+        o: ["Observation", "In-depth interviews", "Panel research", "Survey research"]
+        a: A
+        e: ["Correct.", "No conversation.", "No ongoing panel.", "No questionnaire."]
+      - q: "Observation insights help firms improve:"
+        o: ["Product design, store layouts and merchandising", "Interest rates", "Census data", "Legislation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Eye-tracking a shopper's gaze across a shelf is:"
+        t: app
+        o: ["Observation through technology", "A projective technique", "Secondary data", "A double-barreled question"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a benefit of observation over asking people?"
+        o: ["It reveals actual behaviour rather than reported behaviour", "It's always cheaper", "It explains motivations directly", "It produces syndicated data"]
+        a: A
+        e: ["Correct.", "Not necessarily.", "It shows what, not always why.", "No."]
+      - q: "Observation is classified as:"
+        o: ["Qualitative research", "Secondary data", "Experimental research", "Big data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-social-media
+    title: Social media research
+    src: "Ch. 7 slides, pp. 33–36"
+    explain: >-
+      Social media provide large volumes of real-time consumer opinions and behaviour. By monitoring and mining conversations, firms
+      identify preferences, track brand sentiment and respond quickly to complaints or trends. Pros: large accessible sample, people
+      of all ages, lots of brand-related data, very current, consumers freely offer opinions (no interviewer bias), data can be
+      searched and filtered. Cons: not statistically representative, feedback may not be well thought out, anonymity can encourage
+      extreme opinions, no depth about the consumer, no chance to probe, and no consent to study data (ethical issues).
+    alt: >-
+      Social media is a giant, noisy town square — easy to overhear lots of honest opinions, but you can't ask follow-ups and the
+      loudest voices aren't representative.
+    terms:
+      Social media research: "Monitoring and mining social media conversations for insights."
+    example: "Illustrative: a restaurant chain tracks negative mentions on X/TikTok in real time to respond to complaints."
+    recall:
+      - q: "Which is a key advantage of social media research?"
+        o: ["Conversations are observed only", "No consent to study data", "Contributors rarely are shy about giving opinions", "Anonymity"]
+        a: C
+        e: ["A con — no chance to probe.", "A con — ethical issue.", "Correct — consumers freely offer opinions.", "A con — encourages extreme comments."]
+      - q: "A limitation of social media data is that it is:"
+        o: ["Not a statistically representative sample", "Always outdated", "Very small", "Expensive to access"]
+        a: A
+        e: ["Correct.", "It's very current.", "It's large.", "It's inexpensive."]
+    practice:
+      - q: "A brand can't ask a tweeter what they meant by a vague complaint. Which con is this?"
+        t: app
+        o: ["No opportunity to probe for more detail", "Large accessible sample", "No interviewer bias", "Very current feedback"]
+        a: A
+        e: ["Correct.", "Pro.", "Pro.", "Pro."]
+      - q: "Why might anonymity reduce reliability?"
+        o: ["It can encourage extreme opinions and comments", "It makes data older", "It reduces sample size", "It increases cost"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a pro of social media research?"
+        o: ["No interviewer bias", "Depth of information about each consumer", "Consent always obtained", "Statistically representative"]
+        a: A
+        e: ["Correct.", "Con — no depth.", "Con — no consent.", "Con."]
+      - q: "A firm studies public posts without users' permission. The slides flag:"
+        o: ["Potential ethical issues", "Higher velocity", "Better representativeness", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch7-ethics]
+      - q: "Social media data are inexpensive and accessible, but researchers must be cautious because:"
+        o: ["Anonymity and lack of validation can reduce reliability", "They're always fake", "They are syndicated", "They're primary experiments"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-in-depth-interview
+    title: In-depth interviews
+    src: "Ch. 7 slides, p. 37"
+    explain: >-
+      In-depth interviews are one-on-one conversations in which trained researchers ask detailed questions and probe further to
+      understand respondents' experiences, attitudes and motivations. They provide rich individual-level insights but are
+      time-consuming and relatively expensive, especially when specialised respondents are required.
+    alt: >-
+      An in-depth interview is a deep conversation with one person — rich detail, but you can only have so many.
+    terms:
+      In-depth interview: "A trained researcher asks detailed one-on-one questions and probes for deeper insight."
+    example: "Illustrative: a medical-device firm interviews 12 surgeons individually about frustrations with current tools."
+    recall:
+      - q: "In-depth interviews are conducted:"
+        o: ["One-on-one", "With large online panels", "Via scanners", "In groups of 8–12"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Focus groups."]
+      - q: "A drawback of in-depth interviews is that they are:"
+        o: ["Time-consuming and relatively expensive", "Too shallow", "Always biased", "Syndicated"]
+        a: A
+        e: ["Correct.", "They're rich.", "Not stated.", "No."]
+    practice:
+      - q: "A researcher sits with one customer for an hour, asking follow-up 'why' questions. This is:"
+        t: app
+        o: ["An in-depth interview", "A focus group", "Observation", "A survey"]
+        a: A
+        e: ["Correct.", "Group.", "No conversation.", "No questionnaire."]
+      - q: "In-depth interviews provide:"
+        o: ["Rich, individual-level insights", "Statistically representative data", "Real-time scanner data", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Interviews become especially costly when:"
+        o: ["Specialised respondents are required", "Respondents are students", "Questions are short", "They're online"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Compared with social media research, in-depth interviews allow researchers to:"
+        o: ["Probe for more detail", "Avoid any cost", "Reach millions", "Avoid trained staff"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which method best uncovers a B2B buyer's detailed motivations?"
+        t: app
+        o: ["In-depth interview", "Scanner data", "Census", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-focus-groups
+    title: Focus groups
+    src: "Ch. 7 slides, p. 38"
+    explain: >-
+      A focus group brings together a small group of participants to discuss a specific topic under the guidance of a trained
+      moderator, generating qualitative insights about attitudes and perceptions. It helps marketers understand reactions to
+      products, advertising, pricing or competitors, often revealing insights surveys miss. Focus groups can now be run online,
+      reducing costs and including participants from different locations.
+    alt: >-
+      A focus group is a guided group chat — a moderator steers, participants spark off each other.
+    terms:
+      Focus group: "A small group discussing a topic under a trained moderator to generate qualitative insights."
+    example: "Illustrative (from slides): A&W focus groups revealed many consumers thought a 1/4-pound burger was bigger than a 1/3-pound burger."
+    recall:
+      - q: "A focus group is led by a:"
+        o: ["Trained moderator", "Scanner", "Census taker", "Sales rep"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "What did A&W's focus groups reveal?"
+        o: ["Consumers thought 1/4 lb was larger than 1/3 lb", "People hate burgers", "Prices were too low", "Nothing useful"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A brand gathers 8 customers with a moderator to discuss reactions to a new ad. This is:"
+        t: app
+        o: ["A focus group", "An in-depth interview", "Panel data", "An experiment"]
+        a: A
+        e: ["Correct.", "One-on-one.", "No.", "No."]
+      - q: "An advantage of online focus groups is:"
+        o: ["Lower costs and participants from different locations", "Statistical representativeness", "No moderator needed", "Scanner accuracy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Focus groups generate what kind of insight?"
+        o: ["Qualitative insights about attitudes and perceptions", "Precise sales forecasts", "Census counts", "Exchange rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The A&W case shows focus groups can reveal:"
+        t: app
+        o: ["Misunderstandings that strongly influence product success", "Exact market share", "Legal requirements", "Supplier costs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Focus groups vs surveys: focus groups often reveal insights that surveys:"
+        o: ["May not capture", "Always capture better", "Measure numerically", "Make syndicated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-projective
+    title: Projective techniques
+    src: "Ch. 7 slides, p. 31"
+    explain: >-
+      Projective techniques are named on the slides as one of the five qualitative research methods (alongside observation, social
+      media, in-depth interviews and focus groups). The slides give no further definition, so for the midterm know it as a
+      qualitative, exploratory method. (Flagged in CONTENT_NOTES — no definition invented.)
+    alt: >-
+      Treat projective techniques as one of the "five qualitative tools" on the slide — recognise the name and its category.
+    terms:
+      Projective techniques: "A qualitative research method listed on the slides (no definition provided)."
+    example: "Illustrative: on an exam, if asked which option is a qualitative method, 'projective techniques' is a valid answer per the slides."
+    recall:
+      - q: "Projective techniques are classified on the slides as:"
+        o: ["A qualitative research method", "A quantitative method", "Secondary data", "A positioning strategy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is listed together with projective techniques as a qualitative method?"
+        o: ["Focus groups", "Experiments", "Scanner data", "Panel data"]
+        a: A
+        e: ["Correct.", "Quantitative.", "Quantitative.", "Quantitative."]
+    practice:
+      - q: "How many qualitative methods appear on the slide that names projective techniques?"
+        o: ["Five", "Two", "Seven", "Three"]
+        a: A
+        e: ["Correct — observation, social media, in-depth interviews, focus groups, projective techniques.", "No.", "No.", "No."]
+      - q: "Which is NOT a qualitative method on the slide?"
+        o: ["Projective techniques", "In-depth interviews", "Observation", "Experiments"]
+        a: D
+        e: ["Qualitative.", "Qualitative.", "Qualitative.", "Correct — quantitative."]
+      - q: "A researcher wants exploratory insight and chooses projective techniques. Which research type is this?"
+        t: app
+        o: ["Qualitative", "Quantitative", "Experimental", "Syndicated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Projective techniques are part of which research approach?"
+        o: ["Exploratory", "Descriptive statistics", "Prescriptive analytics", "Scanner tracking"]
+        a: A
+        e: ["Correct — qualitative = exploratory.", "No.", "No.", "No."]
+      - q: "In the additional practice question about Loblaws staff monitoring customers, why is 'projective technique' wrong?"
+        t: app
+        o: ["The staff are watching behaviour — that's observation", "Projective techniques are quantitative", "It's secondary data", "It's a panel"]
+        a: A
+        e: ["Correct.", "No — it's qualitative.", "No.", "No."]
+        c: [ch7-observation]
+
+  - id: ch7-quantitative
+    title: Quantitative research
+    src: "Ch. 7 slides, p. 39"
+    explain: >-
+      Quantitative research uses numerical data to test hypotheses, measure relationships and support decisions. It can be
+      descriptive (e.g., profiling brand users) or experimental (e.g., testing product formulations in controlled studies). Common
+      methods: surveys, panel data collection and experiments.
+    alt: >-
+      Quantitative research counts and tests — it turns opinions and behaviours into numbers you can compare.
+    terms:
+      Quantitative research: "Research using numerical data to test hypotheses and measure relationships."
+    example: "Illustrative: a survey of 1,000 shoppers measures how many prefer each of three package designs."
+    recall:
+      - q: "Quantitative research uses:"
+        o: ["Numerical data to test hypotheses", "Only open discussion", "Only observation", "Only social media"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a quantitative method?"
+        o: ["Experiments", "Focus groups", "In-depth interviews", "Projective techniques"]
+        a: A
+        e: ["Correct.", "Qualitative.", "Qualitative.", "Qualitative."]
+    practice:
+      - q: "Profiling the average age and income of brand users is:"
+        t: app
+        o: ["Descriptive quantitative research", "Experimental research", "A focus group", "Projective research"]
+        a: A
+        e: ["Correct.", "No manipulation.", "No.", "No."]
+      - q: "Common quantitative methods include:"
+        o: ["Surveys, panel data and experiments", "Focus groups and interviews", "Observation and social listening", "Projective techniques"]
+        a: A
+        e: ["Correct.", "Qualitative.", "Qualitative.", "Qualitative."]
+      - q: "Testing two product formulas in a controlled study is:"
+        t: app
+        o: ["Experimental quantitative research", "Descriptive research", "Secondary data", "Observation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Quantitative research supports managerial decisions by:"
+        o: ["Measuring relationships with numbers", "Telling stories", "Writing slogans", "Licensing brands"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement is correct?"
+        o: ["Quantitative can be descriptive or experimental", "Quantitative is always exploratory", "Quantitative never uses surveys", "Quantitative is the same as qualitative"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-surveys
+    title: Surveys & questionnaire question types
+    src: "Ch. 7 slides, p. 40"
+    explain: >-
+      A survey is a quantitative method that collects information from respondents using a questionnaire designed to meet specific
+      research objectives. Surveys can be administered online, by telephone, mail or in person. Questions may be unstructured
+      (open-ended — respondents answer freely) or structured (closed-ended — predefined response options).
+    alt: >-
+      Structured = multiple choice; unstructured = short answer.
+    terms:
+      Survey: "Collecting information from respondents using a questionnaire designed to meet research objectives."
+      Structured question: "Closed-ended, with predefined response options."
+      Unstructured question: "Open-ended, allowing respondents to answer freely."
+    example: "Illustrative: 'Rate your visit 1–5' is structured; 'Tell us about your visit' is unstructured."
+    recall:
+      - q: "An open-ended question is:"
+        o: ["Unstructured", "Structured", "Leading", "Double-barreled"]
+        a: A
+        e: ["Correct.", "Closed-ended.", "A pitfall.", "A pitfall."]
+      - q: "A survey is an example of which research type?"
+        o: ["Quantitative", "Qualitative", "Secondary", "Projective"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "'How satisfied are you? (Very / Somewhat / Not)' is a(n):"
+        t: app
+        o: ["Structured question", "Unstructured question", "Projective technique", "Observation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "'Describe your experience with organic food products.' is a(n):"
+        t: app
+        o: ["Unstructured question", "Structured question", "Demographic question", "Scanner record"]
+        a: A
+        e: ["Correct — open-ended.", "No.", "No.", "No."]
+      - q: "Surveys can be administered through:"
+        o: ["Online, telephone, mail or in-person", "Only mail", "Only in person", "Scanners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Questionnaires are designed to meet:"
+        o: ["Specific research objectives", "Advertising targets", "Legal quotas", "Brand slogans"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A researcher wants easily comparable numbers across 2,000 respondents. Which question type fits best?"
+        t: app
+        o: ["Structured (closed-ended)", "Unstructured (open-ended)", "Projective", "Observation"]
+        a: A
+        e: ["Correct.", "Harder to compare.", "No.", "No."]
+
+  - id: ch7-questionnaire-pitfalls
+    title: What to avoid when designing a questionnaire
+    src: "Ch. 7 slides, p. 41"
+    explain: >-
+      Avoid: questions respondents can't easily or accurately answer ("How much did you spend on groceries last month?"); sensitive
+      questions unless necessary; double-barreled questions that refer to more than one issue with one set of responses; leading
+      questions that steer respondents ("Volvo is the safest car on the road, right?"); one-sided questions that present only one
+      side; questions with implicit assumptions ("Since caffeine is a stimulant, should children…"); and complex or unfamiliar
+      questions ("Are mechanical watches better than quartz?").
+    alt: >-
+      A good question is one question, neutral, answerable and plain — anything else bends the answers.
+    terms:
+      Double-barreled question: "Refers to more than one issue with only one set of responses."
+      Leading question: "Steers respondents to a particular response regardless of true beliefs."
+      Implicit assumption: "Presumes the same point of reference for all respondents."
+      One-sided question: "Presents only one side of an issue."
+    example: "Illustrative (from slides): 'Do you think Elizabeth May or Justin Trudeau would make a good prime minister?' is double-barreled."
+    recall:
+      - q: "'Volvo is the safest car on the road, right?' is a:"
+        o: ["Leading question", "Double-barreled question", "Structured question", "Fair question"]
+        a: A
+        e: ["Correct.", "One issue only.", "Not the issue.", "No."]
+      - q: "A question covering two issues with one set of answers is:"
+        o: ["Double-barreled", "Leading", "One-sided", "Unstructured"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "'How satisfied are you with our prices and staff friendliness?' is flawed because it is:"
+        t: app
+        o: ["Double-barreled", "Leading", "Sensitive", "Unfamiliar"]
+        a: A
+        e: ["Correct — two issues, one answer.", "No.", "No.", "No."]
+      - q: "'Since caffeine is a stimulant, should children be allowed to drink Coca-Cola in school?' contains:"
+        o: ["An implicit assumption", "A double barrel", "A structured scale", "No problem"]
+        a: A
+        e: ["Correct (slide example).", "No.", "No.", "No."]
+      - q: "'Fast food is responsible for adult obesity: Agree/Disagree' is a:"
+        o: ["One-sided question", "Double-barreled question", "Projective technique", "Good question"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "'How much did you spend on groceries last month?' should be avoided because:"
+        o: ["Respondents can't easily or accurately answer it", "It's leading", "It's double-barreled", "It's open-ended"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is the better question per the slides?"
+        t: app
+        o: ["'Please rate how safe you believe a Volvo is, 1–10'", "'Volvo is the safest car, right?'", "'Do you dye your hair?'", "'Are mechanical watches better than quartz?'"]
+        a: A
+        e: ["Correct — neutral.", "Leading.", "Sensitive.", "Complex/unfamiliar."]
+
+  - id: ch7-panel-scanner
+    title: Panel & scanner-based data
+    src: "Ch. 7 slides, pp. 22, 27–28, 42"
+    explain: >-
+      Panel research collects ongoing purchase and behaviour data from the same group of consumers over time, tracking changes in
+      preferences and responses to marketing. Scanner-based research captures real-time sales data at checkout from UPC codes,
+      measuring how pricing, promotions and placement affect store sales. Both are often syndicated and together evaluate marketing
+      strategies and improve product development.
+    alt: >-
+      Scanner data is the receipt — what sold, when, where. Panel data is the diary — the same people tracked over time.
+    terms:
+      Panel data: "Ongoing data from the same group of consumers over time."
+      Scanner data: "Data from readings of UPC codes at checkout counters."
+    example: "Illustrative (from slides): the New Balance Tester Community panel gives ongoing feedback to refine sneakers."
+    recall:
+      - q: "Quantitative research data obtained from UPC readings at checkout is:"
+        o: ["Panel data", "Syndicated data", "Scanner data", "Primary data"]
+        a: C
+        e: ["Panel = same people over time.", "Scanner data can be syndicated, but the specific term is scanner.", "Correct.", "No."]
+      - q: "Data collected from the same group of consumers over time is:"
+        o: ["Panel data", "Scanner data", "Census data", "Focus group data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "The New Balance Tester Community gives ongoing feedback on sneakers. This is:"
+        t: app
+        o: ["Panel research", "Scanner research", "A one-time survey", "Secondary census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A chain measures how a weekend promotion changed store-level sales from checkout data. This uses:"
+        t: app
+        o: ["Scanner data", "Panel data", "Focus groups", "In-depth interviews"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A key advantage of panel data is the ability to:"
+        o: ["Track changes in the same consumers over time", "Capture opinions with no cost", "Avoid any sampling", "Replace experiments"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Scanner and panel data are typically purchased as:"
+        o: ["Syndicated external secondary data", "Internal secondary data", "Projective data", "Qualitative data"]
+        a: A
+        e: ["Correct (p.22).", "No.", "No.", "No."]
+      - q: "Scanner-based research mainly measures the effect of:"
+        o: ["Pricing, promotions and placement on sales", "Culture on values", "Interest rates on debt", "Employees on R&D"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-experimental
+    title: Experimental research
+    src: "Ch. 7 slides, p. 45"
+    explain: >-
+      Experimental research manipulates one or more variables to determine their causal effect on outcomes such as sales, demand or
+      profitability. Firms test pricing, advertising or product variations across test conditions and compare results to make
+      evidence-based decisions.
+    alt: >-
+      An experiment is an A/B test: change one thing, hold the rest steady, and see what it causes.
+    terms:
+      Experimental research: "Manipulating variables to determine their causal effect on outcomes."
+    example: "Illustrative (from slides): McDonald's tests different prices for a new combo across markets to find the most profitable price."
+    recall:
+      - q: "Experimental research aims to determine:"
+        o: ["Causal effects", "Brand names", "Census totals", "Cultural values"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "McDonald's testing different combo prices across markets is:"
+        o: ["Experimental research", "Observation", "Focus group", "Secondary data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "An online store shows half its visitors a red 'Buy' button and half a green one, then compares sales. This is:"
+        t: app
+        o: ["An experiment", "A focus group", "Panel research", "A projective technique"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Experiments involve:"
+        o: ["Manipulating one or more variables", "Only observing", "Only reading reports", "Only open discussion"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Experiments help marketers by:"
+        o: ["Comparing results across test conditions to make evidence-based decisions", "Avoiding data", "Guaranteeing profit", "Replacing strategy"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Experimental research is a type of:"
+        o: ["Quantitative research", "Qualitative research", "Secondary data", "Social media research"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT typically tested in marketing experiments per the slides?"
+        o: ["Pricing", "Advertising", "Product variations", "The firm's mission statement"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+
+  - id: ch7-analytics
+    title: Marketing analytics & data warehouses
+    src: "Ch. 7 slides, pp. 46, 49–50"
+    explain: >-
+      Firms store massive amounts of customer and transaction information in data warehouses holding billions of data points.
+      Marketing analytics uses advanced models and technologies to transform big data into insights that support better marketing
+      decisions, integrating qualitative and quantitative methods to optimise marketing performance and customer strategies.
+    alt: >-
+      The data warehouse is the library; analytics is the librarian who finds the useful book and reads you the key page.
+    terms:
+      Data warehouse: "A store of massive amounts of customer and transaction data."
+      Marketing analytics: "Using models and technology to turn big data into insights for marketing decisions."
+    example: "Illustrative: a retailer's analytics team uses years of loyalty-card data to decide which stores get which products."
+    recall:
+      - q: "Marketing analytics is primarily used to:"
+        o: ["Transform large datasets into insights that improve marketing decisions", "Eliminate the need for research", "Store data without analysing it", "Reduce the number of segments"]
+        a: A
+        e: ["Correct (p.49).", "No.", "No.", "No."]
+      - q: "Firms store massive customer and transaction data in:"
+        o: ["Data warehouses", "Focus groups", "Projective tests", "Slogans"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Marketing analytics integrates:"
+        o: ["Qualitative and quantitative methods", "Only qualitative", "Only intuition", "Only secondary census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm that collects billions of data points but never analyses them is missing:"
+        t: app
+        o: ["Marketing analytics", "A data warehouse", "Data", "Customers"]
+        a: A
+        e: ["Correct.", "It has one.", "It has data.", "No."]
+      - q: "Data warehouses contain:"
+        o: ["Billions of data points on customers and transactions", "Only product prototypes", "Only slogans", "Only laws"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Analytics supports decisions about:"
+        o: ["Marketing performance and customer strategies", "Only accounting", "Interest rates", "Census design"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Does marketing analytics eliminate the need for marketing research?"
+        o: ["No — it builds on research methods to create insights", "Yes, entirely", "Only for small firms", "Only in Canada"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-analytics-types
+    title: Descriptive, predictive, prescriptive & active analytics
+    src: "Ch. 7 slides, p. 47"
+    explain: >-
+      Descriptive analytics summarises past data; predictive analytics forecasts future outcomes; prescriptive analytics recommends
+      optimal actions. Active analytics uses AI and Internet-of-Things data from connected devices to generate real-time insights.
+      These tools help firms personalise offers, predict churn and improve decisions.
+    alt: >-
+      Descriptive = "what happened?", predictive = "what will happen?", prescriptive = "what should we do?", active = "what's
+      happening right now?"
+    terms:
+      Descriptive analytics: "Summarises past data."
+      Predictive analytics: "Forecasts future outcomes."
+      Prescriptive analytics: "Recommends optimal actions."
+      Active analytics: "Uses AI and IoT data for real-time insights."
+    example: "Illustrative (from slides): Tesco analyses descriptive data on each product across 4,700 stores (up to 45 attributes) to target incentives to household profiles."
+    recall:
+      - q: "Analytics that forecasts future outcomes is:"
+        o: ["Predictive", "Descriptive", "Prescriptive", "Active"]
+        a: A
+        e: ["Correct.", "Past.", "Recommends actions.", "Real-time."]
+      - q: "Analytics that recommends optimal actions is:"
+        o: ["Prescriptive", "Predictive", "Descriptive", "Active"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A report showing last quarter's sales by region is:"
+        t: app
+        o: ["Descriptive analytics", "Predictive analytics", "Prescriptive analytics", "Active analytics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A model estimating which subscribers will cancel next month is:"
+        t: app
+        o: ["Predictive analytics", "Descriptive", "Prescriptive", "Qualitative"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Software that tells a manager the optimal discount to offer each customer is:"
+        t: app
+        o: ["Prescriptive analytics", "Descriptive", "Predictive", "Observation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A smart fridge streams usage data to adjust offers in real time. This is:"
+        t: app
+        o: ["Active analytics", "Descriptive analytics", "Focus group", "Panel data"]
+        a: A
+        e: ["Correct — AI + IoT, real time.", "No.", "No.", "No."]
+        c: [ch3-iot]
+      - q: "Tesco's analysis of product attributes across 4,700 stores is cited as:"
+        o: ["Descriptive analytics", "Prescriptive analytics", "A projective technique", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-analytics-mix
+    title: Marketing mix decisions made by analytics
+    src: "Ch. 7 slides, p. 48"
+    explain: >-
+      Marketing analytics helps firms make marketing mix decisions by analysing customer behaviour across multiple channels. Big data
+      lets firms identify target segments and tailor assortments, promotions and communications to local markets. Loyalty programs
+      and customer tracking provide purchase-pattern data used to personalise strategies.
+    alt: >-
+      Analytics turns "what customers did" into "what we should sell, where, at what price and with which message".
+    terms:
+      Multichannel analytics: "Analysing customer behaviour across many points of contact to guide the marketing mix."
+    example: "Illustrative (from slides): HSN gathers data across TV channels, catalogue and phone sales, and digital links."
+    recall:
+      - q: "Loyalty programs provide what kind of data for analytics?"
+        o: ["Purchase-pattern data", "Census data", "Patent data", "Weather data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "HSN is cited for gathering data across:"
+        o: ["Multiple points of contact (TV, catalogue, phone, digital)", "Only TV", "Only stores", "Only surveys"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A grocer uses loyalty-card data to stock more plant-based foods in certain neighbourhoods. This is analytics guiding:"
+        t: app
+        o: ["Product assortment tailored to local markets", "Government policy", "Brand naming", "Concept testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Big data enables firms to:"
+        o: ["Identify target segments and tailor offers", "Avoid segmentation", "Remove promotions", "End competition"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch7-big-data]
+      - q: "Analytics helps marketing mix decisions by analysing behaviour across:"
+        o: ["Multiple channels", "A single survey", "Only one store", "Only competitor data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Personalised coupons based on a shopper's past purchases rely on:"
+        t: app
+        o: ["Customer tracking/loyalty data", "Focus groups", "Projective tests", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which marketing mix element can analytics tailor to local markets?"
+        o: ["Assortments, promotions and communications", "The national anthem", "Exchange rates", "Interest rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-ethics
+    title: Ethics of using customer information
+    src: "Ch. 7 slides, pp. 51–52"
+    explain: >-
+      Ethical marketing research requires protecting consumer privacy, maintaining confidentiality and using data only for
+      legitimate research purposes. Researchers must avoid misleading practices, misrepresenting results, or disguising selling as
+      research. Laws and professional codes guide responsible collection, transparency and fair treatment. Smart devices can
+      collect sensitive data (e.g., home layouts), so firms must obtain informed consent, disclose data use and protect data.
+    alt: >-
+      Ethical research treats participants' data like a borrowed key — use it only for what you said, and never copy it for others.
+    terms:
+      Informed consent: "Participants agree to data collection knowing how it will be used."
+      Confidentiality: "Keeping participants' data private."
+    example: "Illustrative (from slides): Frito-Lay's neuromarketing found shiny bags evoked guilt, so it switched to matte; a Roomba mapping and selling home layouts raises ethical concerns."
+    recall:
+      - q: "Disguising a sales pitch as research is:"
+        o: ["Unethical", "Required", "A focus group", "Predictive analytics"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Before collecting household data via smart devices, firms must obtain:"
+        o: ["Informed consent", "A patent", "A slogan", "Syndicated data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A robot vacuum maker sells customers' home-layout maps to third parties without disclosure. The main issue is:"
+        t: app
+        o: ["Unauthorised data sharing that damages trust", "Velocity of data", "Too few product lines", "Brand extension"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an ethical research practice?"
+        o: ["Maintaining confidentiality and using data only for legitimate purposes", "Misrepresenting results", "Hiding data use", "Selling data secretly"]
+        a: A
+        e: ["Correct.", "Unethical.", "Unethical.", "Unethical."]
+      - q: "Frito-Lay's neuromarketing finding led it to:"
+        o: ["Switch from shiny to matte chip bags", "Stop selling chips", "Raise prices", "Use focus groups only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "What guides firms toward responsible data collection?"
+        o: ["Laws and professional codes of conduct", "Competitors' ads", "Fashion cycles", "PRIZM"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A survey company inflates positive results to please a client. This violates the rule against:"
+        t: app
+        o: ["Misrepresenting results", "Using structured questions", "Panel research", "Informed consent"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Different principle."]
+
+short_answers:
+  - t: th
+    c: [ch7-research-process, ch7-step1-define, ch7-step2-design, ch7-step3-collect, ch7-step4-analyze, ch7-step5-action]
+    src: "Ch. 7 slides, pp. 7–13"
+    q: "Explain the five steps of the marketing research process."
+    model: |-
+      The marketing research process has five steps. First, the firm defines the research problem and objectives — what information is needed to answer specific questions and how it should be obtained. For example, McDonald's studying its customer experience would also examine competitors like Wendy's. Second, it designs the research plan, identifying the type of data needed and the type of research to collect it; objectives drive these choices. Third, it collects data: secondary data (collected before the project, internal or external, often cheaper) and/or primary data (collected for the specific need through surveys, interviews, focus groups or observation).
+
+      Fourth, it analyses data and develops insights. Raw data have limited value until organised and interpreted to reveal patterns and relationships that lead to changes in product features, pricing or promotion. Finally, it presents (determines) the action plan: a report with an executive summary, body (objectives, methodology, findings), conclusions and appendices, presented briefly, without jargon, suited to the audience and ending with recommendations.
+    rubric:
+      - p: "Step 1 define problem/objectives"
+        k: ["define|problem|objective"]
+      - p: "Step 2 design research plan"
+        k: ["design|plan"]
+      - p: "Step 3 collect data — secondary vs primary"
+        k: ["collect", "secondary|primary"]
+      - p: "Step 4 analyse data, develop insights"
+        k: ["analy", "insight"]
+      - p: "Step 5 action plan / report"
+        k: ["action plan|report|present|recommendation"]
+    mistakes:
+      - "Mixing up the order of design and data collection."
+      - "Not distinguishing primary from secondary data in step 3."
+      - "Ending at analysis without the action plan."
+  - t: th
+    c: [ch7-step3-collect, ch7-primary-data, ch7-external-secondary, ch7-internal-secondary, ch7-secondary-disadvantages]
+    src: "Ch. 7 slides, pp. 11, 16–29"
+    q: "Compare primary and secondary data, including their advantages and disadvantages, with examples."
+    model: |-
+      Secondary data are pieces of information collected before the start of the focal project. They can be internal — invoices, customer lists and reports, often mined for patterns — or external, such as census data, trade journals and syndicated data bought from firms like Nielsen or Léger (including scanner and panel data). Their advantage is that they are free or inexpensive and quick to obtain. Their disadvantages are that they may not be the right data, may be outdated or not specific enough because they were collected for another purpose, and their reliability must be checked when collection methods are unknown.
+
+      Primary data are collected specifically to answer the current research question, through observation, surveys, in-depth interviews or focus groups. Their main advantage is that they are tailored to the firm's specific decision needs; their disadvantages are higher cost and time, and the risk of inaccurate conclusions if samples or questions are biased. For example, a café might read Statistics Canada reports on coffee consumption (secondary) and then survey its own customers about a new drink (primary). Firms typically start with secondary data and collect primary data when needed.
+    rubric:
+      - p: "Defines secondary data"
+        k: ["secondary", "prior|before|already|existing"]
+      - p: "Defines primary data"
+        k: ["primary", "specific|current|tailored"]
+      - p: "Secondary advantages/disadvantages"
+        k: ["cheap|inexpensive|free|quick", "outdated|not specific|reliab|relevan|different purpose"]
+      - p: "Primary advantages/disadvantages"
+        k: ["cost|time-consuming|expensive"]
+      - p: "Examples given"
+        k: ["census|nielsen|survey|focus group|interview|invoice"]
+    mistakes:
+      - "Saying primary data is always better — it's costlier and slower."
+      - "Calling syndicated data primary data."
+  - t: app
+    c: [ch7-qualitative, ch7-focus-groups, ch7-in-depth-interview, ch7-surveys, ch7-questionnaire-pitfalls, ch7-quantitative]
+    src: "Ch. 7 slides, pp. 30–41"
+    q: "A campus bookstore wants to understand why students are buying fewer textbooks. Recommend qualitative and quantitative research methods it should use and explain what to avoid when designing its questionnaire."
+    model: |-
+      The bookstore should begin with qualitative, exploratory research to understand students' attitudes and motivations. A focus group of 8–10 students led by a trained moderator could reveal reasons such as online rentals, sharing PDFs or professors using open resources. In-depth interviews with a few students or professors would allow probing for detail, and observation of how students move through the store could show behaviour they can't explain. Social media monitoring is inexpensive but not representative.
+
+      It should then use quantitative research to measure how widespread each reason is, such as an online survey of a large sample of students with mostly structured (closed-ended) questions, plus a few unstructured ones. When designing the questionnaire, it should avoid double-barreled questions ("Are our prices and hours satisfactory?"), leading questions ("Our prices are fair, right?"), one-sided questions, implicit assumptions, sensitive questions, and questions students can't accurately answer ("How much did you spend on books in 2023?"). Finally, it should analyse the results and present a short, jargon-free action plan.
+    rubric:
+      - p: "Qualitative methods recommended (focus group/interview/observation)"
+        k: ["qualitative|exploratory", "focus group|interview|observation"]
+      - p: "Quantitative method (survey/experiment)"
+        k: ["quantitative|survey|experiment"]
+      - p: "Structured vs unstructured questions"
+        k: ["structured|closed|open"]
+      - p: "Questionnaire pitfalls named"
+        k: ["double-barreled|double barreled|leading|one-sided|implicit|sensitive"]
+      - p: "Applied to the bookstore"
+        k: ["student|textbook|bookstore"]
+    mistakes:
+      - "Recommending only one research type."
+      - "Naming pitfalls without examples."
+  - t: th
+    c: [ch7-analytics, ch7-analytics-types, ch7-big-data, ch7-ethics]
+    src: "Ch. 7 slides, pp. 18, 46–52"
+    q: "Explain marketing analytics, the types of analytics, and the ethical issues firms face when using customer information."
+    model: |-
+      Firms store huge amounts of customer and transaction information in data warehouses, and much of it is big data — data sets too large and complex for conventional software, characterised by volume, variety, velocity, veracity and value. Marketing analytics uses advanced models and technology to transform this data into insights for better marketing decisions. Descriptive analytics summarises past data (Tesco analysing product attributes across its stores), predictive analytics forecasts future outcomes such as customer churn, prescriptive analytics recommends optimal actions, and active analytics uses AI and IoT data for real-time insights. Analytics also guides marketing mix decisions, such as tailoring assortments and promotions with loyalty-program data.
+
+      Using customer information raises ethical issues. Researchers must protect privacy, maintain confidentiality and use data only for legitimate purposes; they must not mislead participants, misrepresent results or disguise selling as research. Smart devices, such as a Roomba mapping home layouts, can collect sensitive data, so firms need informed consent, clear disclosure of data use and strong data protection. Laws and professional codes of conduct guide these practices.
+    rubric:
+      - p: "Defines marketing analytics / data warehouses / big data"
+        k: ["analytics", "big data|data warehouse"]
+      - p: "Descriptive, predictive, prescriptive (and active)"
+        k: ["descriptive", "predictive", "prescriptive"]
+      - p: "Privacy / confidentiality"
+        k: ["privacy|confidential"]
+      - p: "Informed consent / disclosure"
+        k: ["consent|disclos|transparen"]
+      - p: "Misrepresentation / disguised selling"
+        k: ["mislead|misrepresent|disguis"]
+    mistakes:
+      - "Confusing predictive (forecast) with prescriptive (recommend)."
+      - "Discussing ethics only as 'don't break the law' without specific practices."
+
+matching:
+  - prompt: "Match each big data V to its meaning."
+    c: [ch7-big-data]
+    src: "Ch. 7 slides, p. 18"
+    pairs:
+      - ["Volume", "Data in large quantities"]
+      - ["Variety", "Data in many forms"]
+      - ["Velocity", "Data moving quickly"]
+      - ["Veracity", "Data in doubt — trustworthiness"]
+      - ["Value", "Data into money"]
+  - prompt: "Match each questionnaire pitfall to its example."
+    c: [ch7-questionnaire-pitfalls]
+    src: "Ch. 7 slides, p. 41"
+    pairs:
+      - ["Leading", "Volvo is the safest car on the road, right?"]
+      - ["Double-barreled", "Would May or Trudeau make a good PM?"]
+      - ["Implicit assumption", "Since caffeine is a stimulant, should kids drink Coke?"]
+      - ["One-sided", "Fast food is responsible for obesity: Agree/Disagree"]
+  - prompt: "Match each analytics type to what it does."
+    c: [ch7-analytics-types]
+    src: "Ch. 7 slides, p. 47"
+    pairs:
+      - ["Descriptive", "Summarises past data"]
+      - ["Predictive", "Forecasts future outcomes"]
+      - ["Prescriptive", "Recommends optimal actions"]
+      - ["Active", "Real-time insights from AI and IoT"]
+
+fill:
+  - text: "Data collected before the start of the focal project are ___ data."
+    a: "secondary"
+    c: [ch7-step3-collect]
+    src: "Ch. 7 slides, p. 11"
+  - text: "Data obtained from UPC readings at checkout are ___ data."
+    a: "scanner"
+    c: [ch7-panel-scanner]
+    src: "Ch. 7 slides, p. 27"
+  - text: "Using statistical tools to uncover unknown patterns in data is data ___."
+    a: "mining"
+    c: [ch7-internal-secondary]
+    src: "Ch. 7 slides, p. 17"
+  - text: "A question about two issues with one set of answers is ___."
+    a: "double-barreled"
+    accept: ["double barreled", "double-barrelled", "double barrelled"]
+    c: [ch7-questionnaire-pitfalls]
+    src: "Ch. 7 slides, p. 41"
+  - text: "___ analytics recommends optimal actions."
+    a: "prescriptive"
+    c: [ch7-analytics-types]
+    src: "Ch. 7 slides, p. 47"
+  - text: "A small group discussion led by a trained moderator is a ___ group."
+    a: "focus"
+    c: [ch7-focus-groups]
+    src: "Ch. 7 slides, p. 38"
+  - text: "Customer ___ value (CLV) estimates each customer's long-term value."
+    a: "lifetime"
+    c: [ch7-secondary-disadvantages]
+    src: "Ch. 7 slides, p. 26"

@@ -1,0 +1,516 @@
+chapter: 9
+title: Product, Branding & Packaging Decisions
+concepts:
+  - id: ch9-product-complexity
+    title: Complexity of products — core, actual, augmented
+    src: "Ch. 9 slides, pp. 2–3"
+    explain: >-
+      Products have layers. Core customer value is the basic problem-solving benefit consumers seek. Marketers translate it into the
+      actual product — brand name, packaging, quality level, features and design. Associated services (augmented product) add
+      long-term value: financing, product warranty and product support.
+    alt: >-
+      Think of an onion: the core is the benefit you want, the next layer is the physical thing you buy, and the outer layer is the
+      service wrapped around it.
+    terms:
+      Core customer value: "The basic problem-solving benefits consumers seek."
+      Actual product: "Brand name, packaging, quality level, features and design."
+      Associated services (augmented product): "Financing, warranty and product support that add value."
+    example: "Illustrative (from slides): Trek's Madone 9 bike — core value of fast riding, actual product with carbon frame and shifting, plus custom fit options."
+    recall:
+      - q: "A product warranty belongs to which layer?"
+        o: ["Associated services (augmented)", "Core customer value", "Actual product", "Product category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand name, packaging, quality level and features make up the:"
+        o: ["Actual product", "Core customer value", "Associated services", "Product mix"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A bike shop offers financing and free tune-ups for a year. These are:"
+        t: app
+        o: ["Associated services", "Core customer value", "Actual product features", "Product line depth"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "For a mountain-bike buyer, 'getting outdoors and riding fast' is the:"
+        t: app
+        o: ["Core customer value", "Actual product", "Associated service", "Brand element"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Augmented products add services that enhance:"
+        o: ["Long-term value", "Only price", "Only packaging", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Trek's carbon frame and advanced shifting systems are part of the:"
+        t: app
+        o: ["Actual product", "Associated services", "Core value", "Product category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Marketers translate core customer value into:"
+        o: ["Tangible product attributes", "Interest rates", "Laws", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-consumer-product-types
+    title: Types of consumer products
+    src: "Ch. 9 slides, p. 4"
+    explain: >-
+      The slides classify consumer products into four types, illustrated by example: specialty (e.g., a medical professional — a
+      specialty service), shopping (e.g., apparel), convenience (e.g., soft drinks), and unsought (e.g., insurance — an unsought
+      service). The slides don't give longer definitions, so learn the types through these examples.
+    alt: >-
+      Convenience = grab it (pop). Shopping = compare it (clothes). Specialty = seek out a specific one (a particular doctor).
+      Unsought = don't think about it until you must (insurance).
+    terms:
+      Convenience product: "Example from slides: soft drinks."
+      Shopping product: "Example from slides: apparel."
+      Specialty product/service: "Example from slides: a medical professional."
+      Unsought product/service: "Example from slides: insurance."
+    example: "Illustrative (from slides): soft drinks (convenience), apparel (shopping), a medical professional (specialty), insurance (unsought)."
+    recall:
+      - q: "Insurance is given as an example of a(n):"
+        o: ["Unsought service", "Convenience product", "Shopping product", "Specialty service"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Soft drinks are an example of a:"
+        o: ["Convenience product", "Specialty product", "Unsought product", "Shopping product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Apparel is classified in the slides as a:"
+        o: ["Shopping product", "Convenience product", "Unsought product", "Specialty product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A medical professional is classified as a:"
+        o: ["Specialty service", "Convenience service", "Shopping service", "Unsought product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Customers are more likely to use decision heuristics for which product category?"
+        o: ["Shopping", "Specialty", "Convenience", "Luxury"]
+        a: C
+        e: ["Comparison-heavy.", "Effortful search.", "Correct (official practice key).", "Not a slide category."]
+        c: [ch4-decision-heuristics]
+      - q: "A shopper compares jeans across several stores on fit and price. Following the slides' example, jeans are a:"
+        t: app
+        o: ["Shopping product", "Convenience product", "Unsought product", "Generic brand"]
+        a: A
+        e: ["Correct — apparel is the slides' shopping example.", "No.", "No.", "No."]
+      - q: "Which pairing matches the slides?"
+        o: ["Insurance — unsought", "Soft drinks — specialty", "Apparel — convenience", "Medical professional — shopping"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-product-mix-lines
+    title: Product mix & product lines
+    src: "Ch. 9 slides, pp. 5–6"
+    explain: >-
+      The product mix is the complete set of all products offered by a firm. Product lines are groups of associated items, such as
+      those consumers use together or think of as part of a group of similar products. Colgate-Palmolive's mix includes oral care,
+      personal care, home care and pet nutrition lines.
+    alt: >-
+      The product mix is the whole store; product lines are the aisles.
+    terms:
+      Product mix: "The complete set of all products offered by a firm."
+      Product line: "A group of associated items consumers use together or see as similar."
+    example: "Illustrative (from slides): Colgate-Palmolive — Oral Care (Colgate Total), Personal Care (Speed Stick, Irish Spring), Home Care (Palmolive, Ajax), Pet Nutrition (Hill's Science Diet)."
+    recall:
+      - q: "The complete set of all products offered by a firm is the:"
+        o: ["Product mix", "Product line", "Product category", "Brand"]
+        a: A
+        e: ["Correct.", "A group within the mix.", "No.", "No."]
+      - q: "A group of associated items consumers use together is a:"
+        o: ["Product line", "Product mix", "Brand name", "Generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Colgate-Palmolive's Pet Nutrition (Hill's) is best described as a:"
+        t: app
+        o: ["Product line within its product mix", "Product mix by itself", "Brand element", "Generic brand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Speed Stick, Irish Spring and Softsoap fall under which Colgate line?"
+        o: ["Personal care", "Oral care", "Home care", "Pet nutrition"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement is correct?"
+        o: ["A product mix contains one or more product lines", "A product line contains several product mixes", "They are the same", "Product lines are only services"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm sells shampoo, conditioner and styling gel that consumers use together. These form a:"
+        t: app
+        o: ["Product line", "Product mix breadth", "Brand licence", "Cobrand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Palmolive dish liquid and Ajax cleaners belong to Colgate's:"
+        o: ["Home care line", "Oral care line", "Pet line", "Personal care line"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-product-category
+    title: Product category
+    src: "Ch. 9 slides, p. 7"
+    explain: >-
+      A product category is an assortment of items that customers see as reasonable substitutes for one another.
+    alt: >-
+      A product category is the "either one would do" group — like different toothpastes.
+    terms:
+      Product category: "An assortment of items customers see as reasonable substitutes for one another."
+    example: "Illustrative (from slides): within Colgate's oral care line, toothpaste is a category (e.g., Colgate Total) and whitening products another."
+    recall:
+      - q: "Items customers see as reasonable substitutes form a:"
+        o: ["Product category", "Product mix", "Brand", "Product line breadth"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Toothpaste within Colgate's oral care line is an example of a:"
+        o: ["Product category", "Product mix", "Generic brand", "Cobrand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Different brands of bottled water that a shopper would happily swap are in the same:"
+        t: app
+        o: ["Product category", "Product mix", "Brand family", "Licence"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Product category vs product line: a category is defined by:"
+        o: ["Items seen as substitutes", "Items used together across categories", "All products of a firm", "Brand elements"]
+        a: A
+        e: ["Correct.", "Closer to a line.", "Mix.", "No."]
+      - q: "Fashionistas Galore removed products that weren't selling well. In this example the firm:"
+        t: app
+        o: ["Changed the brand orientation", "Changed the product category", "Changed the number of SKUs", "Decreased product line depth"]
+        a: D
+        e: ["No.", "No.", "Close, but the key uses line depth.", "Correct (official key) — fewer products within lines."]
+        c: [ch9-breadth-depth]
+      - q: "Whitening products and floss in Colgate's oral care line are best seen as:"
+        o: ["Different product categories within a line", "Different product mixes", "Generic brands", "Separate firms"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is the best example of a product category?"
+        t: app
+        o: ["Dish soap", "Colgate-Palmolive's entire portfolio", "The Nike swoosh", "Kraft's family brand strategy"]
+        a: A
+        e: ["Correct.", "Product mix.", "Brand element.", "Brand strategy."]
+
+  - id: ch9-breadth-depth
+    title: Product mix breadth & product line depth
+    src: "Ch. 9 slides, pp. 8–10"
+    explain: >-
+      Breadth (variety) is the number of product lines a firm offers. Depth is the number of products within a product line. Firms can
+      increase breadth by adding new product lines or decrease it by deleting entire lines; they can similarly add or cut products
+      within a line to change depth.
+    alt: >-
+      Breadth = how many aisles; depth = how many items on each aisle's shelves.
+    terms:
+      Product mix breadth: "The number of product lines offered by a firm."
+      Product line depth: "The number of products within a product line."
+    example: "Illustrative (from slides): Colgate's four lines (oral, personal, home, pet) show breadth; the many toothpaste and brush products in oral care show depth."
+    recall:
+      - q: "The number of product lines offered by a firm is its:"
+        o: ["Product breadth", "Product assortment", "Product depth", "Product mix"]
+        a: A
+        e: ["Correct (p.10).", "No.", "No.", "Mix is all products."]
+      - q: "The number of products within a product line is:"
+        o: ["Depth", "Breadth", "Category", "Mix"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A snack company adds a new beverage line. It is:"
+        t: app
+        o: ["Increasing breadth", "Increasing depth", "Decreasing breadth", "Cobranding"]
+        a: A
+        e: ["Correct — a new line.", "Depth is within a line.", "No.", "No."]
+      - q: "A shampoo brand adds three new scents to its existing shampoo line. It is:"
+        t: app
+        o: ["Increasing depth", "Increasing breadth", "Decreasing depth", "Licensing"]
+        a: A
+        e: ["Correct.", "No new line.", "No.", "No."]
+      - q: "Deleting an entire product line decreases:"
+        o: ["Breadth", "Depth only", "Brand awareness", "Perceived value"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm cuts weak-selling items within its lines to improve profits. This mainly:"
+        t: app
+        o: ["Decreases product line depth", "Increases breadth", "Creates a cobrand", "Is a brand extension"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Colgate having oral, personal, home and pet lines illustrates:"
+        o: ["Product mix breadth", "Product line depth", "A generic brand", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-brand-elements
+    title: Brands & brand elements
+    src: "Ch. 9 slides, pp. 7, 11–12"
+    explain: >-
+      A brand consists of the terms, designs, symbols or other features that identify one seller's good or service as distinct from
+      others'. Brand elements include: brand name (the spoken component — descriptive, unrelated or invented, e.g., Comfort Inn,
+      Apple, Accenture), URLs/domain names, logos and symbols (symbols are logos without words — the Nike swoosh, the Mercedes star),
+      characters (Pillsbury Doughboy; Snap, Crackle and Pop), slogans (State Farm's "Like a Good Neighbour", Tim Hortons' "Always
+      Fresh"), jingles (Intel's four-note signature), and even distinctive packages.
+    alt: >-
+      Brand elements are the brand's "ID kit" — name, face (logo), mascot, catchphrase and theme song.
+    terms:
+      Brand: "Terms, designs, symbols or features that identify one seller's product as distinct from others'."
+      Brand name: "The spoken component of branding."
+      Symbol: "A logo without words."
+      Slogan: "A short phrase describing or persuading about the brand."
+      Jingle: "An audio message of words or distinctive music."
+    example: "Illustrative (from slides): Under Armour's slogan 'The Only Way Is Through' featuring Tom Brady."
+    recall:
+      - q: "A logo without words is a:"
+        o: ["Symbol", "Slogan", "Jingle", "URL"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Intel's four-note sound signature is a:"
+        o: ["Jingle", "Character", "Slogan", "Symbol"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "The Pillsbury Doughboy is which brand element?"
+        o: ["Character", "Jingle", "Domain name", "Slogan"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Tim Hortons' 'Always Fresh' is a:"
+        o: ["Slogan", "Symbol", "Character", "Jingle"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Accenture is an example of a brand name that is:"
+        o: ["An invented term", "Descriptive of the product", "Unrelated but real word", "A jingle"]
+        a: A
+        e: ["Correct.", "Comfort Inn.", "Apple.", "No."]
+      - q: "Which is NOT a brand element listed in the slides?"
+        o: ["URL/domain name", "Logo", "Character", "Product life cycle"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+      - q: "A brand's main job, per the definition, is to:"
+        o: ["Identify one seller's product as distinct from others", "Set the price", "Track inflation", "Replace packaging"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-value-of-branding
+    title: Value of branding
+    src: "Ch. 9 slides, pp. 13–14"
+    explain: >-
+      Branding creates value in six ways: brands facilitate purchasing, establish loyalty, protect from competition, reduce marketing
+      costs, are assets, and impact market value. The purpose of branding is to help consumers distinguish one company's products from
+      another's.
+    alt: >-
+      A strong brand is a shortcut for customers and a shield and a bank account for the firm.
+    terms:
+      Value of branding: "Facilitates purchasing, establishes loyalty, protects from competition, reduces marketing costs, is an asset, impacts market value."
+    example: "Illustrative: shoppers quickly grab a familiar brand on a crowded shelf — the brand facilitates purchasing."
+    recall:
+      - q: "The purpose of branding is to:"
+        o: ["Help consumers distinguish one company's products from another's", "Let ad agencies make a name for themselves", "Make customers aware of features", "Ensure legal rights"]
+        a: A
+        e: ["Correct (p.14).", "No.", "Not the main purpose.", "Not the main purpose."]
+      - q: "Which is one of the six values of branding?"
+        o: ["Brands reduce marketing costs", "Brands increase inflation", "Brands raise complexity", "Brands remove loyalty"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A company's brand is listed as worth billions on its balance sheet. This reflects that brands:"
+        o: ["Are assets", "Facilitate purchasing", "Reduce complexity", "Are generic"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Loyal customers keep buying despite a cheaper rival. This shows brands:"
+        t: app
+        o: ["Protect from competition", "Increase marketing costs", "Reduce market value", "Are unsought"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT among the six values of branding?"
+        o: ["Facilitate purchasing", "Establish loyalty", "Impact market value", "Guarantee zero competition"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+      - q: "Shoppers recognise a brand on the shelf instantly and buy without comparing. Which value is shown?"
+        t: app
+        o: ["Facilitates purchasing", "Brands are assets", "Impacts market value", "Reduces marketing costs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A well-known brand spends less to launch a new product because people already know it. This shows brands:"
+        t: app
+        o: ["Reduce marketing costs", "Increase complexity", "Protect from regulation", "Are unsought"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch9-brand-equity
+    title: Brand equity (branding framework)
+    src: "Ch. 9 slides, p. 15"
+    explain: >-
+      The branding framework has three parts: brand equity (brand awareness, perceived value, brand associations, brand loyalty),
+      brand ownership strategies (manufacturer brand, store/private label, generic), and brand name strategies (family brand,
+      individual brand). Brand equity is the set of assets built through these four components.
+    alt: >-
+      Brand equity is the brand's "credit score" — built from how well-known it is, how worth-it it seems, what it reminds people of
+      and how loyal they are.
+    terms:
+      Brand equity components: "Brand awareness, perceived value, brand associations, brand loyalty."
+    example: "Illustrative: Apple's equity rests on high awareness, perceived value, strong associations and loyal customers."
+    recall:
+      - q: "Which is NOT a component of brand equity?"
+        o: ["Brand awareness", "Perceived value", "Brand loyalty", "Generic brand"]
+        a: D
+        e: ["Component.", "Component.", "Component.", "Correct — an ownership strategy."]
+      - q: "The branding framework includes brand equity, brand ownership strategies and:"
+        o: ["Brand name strategies", "Pricing strategies", "Research strategies", "Diffusion strategies"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Brand equity consists of:"
+        o: ["Awareness, perceived value, associations, loyalty", "Manufacturer, private-label, generic", "Family and individual", "Volume and velocity"]
+        a: A
+        e: ["Correct.", "Ownership.", "Name strategies.", "Ch 7."]
+      - q: "Manufacturer, private-label and generic brands belong to which part of the framework?"
+        o: ["Brand ownership strategies", "Brand equity", "Brand name strategies", "Product mix"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Family vs individual brands belong to:"
+        o: ["Brand name strategies", "Brand equity", "Brand ownership", "Product category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A brand that's widely known but seen as poor value has high ___ but weak ___."
+        t: app
+        o: ["Awareness; perceived value", "Loyalty; awareness", "Perceived value; awareness", "Depth; breadth"]
+        a: A
+        e: ["Correct — awareness doesn't automatically create equity.", "No.", "No.", "No."]
+      - q: "Which statement about brand equity is supported?"
+        o: ["Awareness alone does not automatically create positive brand equity", "Awareness is all that matters", "Loyalty is irrelevant", "Equity only comes from price"]
+        a: A
+        e: ["Correct (p.17).", "No.", "No.", "No."]
+
+  - id: ch9-brand-awareness
+    title: Brand awareness
+    src: "Ch. 9 slides, p. 16"
+    explain: >-
+      Brand awareness measures how many consumers in a market are familiar with the brand, know what it stands for and have an opinion
+      about it. Some brands are so strong they've become synonymous with the product itself.
+    alt: >-
+      Awareness is name recognition — the strongest brands become the everyday word for the product.
+    terms:
+      Brand awareness: "How many consumers are familiar with the brand and what it stands for, and have an opinion of it."
+    example: "Illustrative: people say 'Kleenex' for tissue or 'Google it' for searching online."
+    recall:
+      - q: "Brand awareness measures:"
+        o: ["How many consumers are familiar with the brand and what it stands for", "The brand's price-quality ratio", "Repeat purchase rate", "Number of product lines"]
+        a: A
+        e: ["Correct.", "Perceived value.", "Loyalty.", "Breadth."]
+      - q: "Brands so strong they become synonymous with the product show very high:"
+        o: ["Brand awareness", "Brand dilution", "Product depth", "Complexity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "People asking for a 'Band-Aid' instead of an adhesive bandage illustrates:"
+        t: app
+        o: ["High brand awareness", "Private-label branding", "Brand dilution", "Cobranding"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A start-up runs ads so more people recognise its name and know what it does. It is building:"
+        t: app
+        o: ["Brand awareness", "Perceived value only", "Product depth", "A generic brand"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand awareness is one component of:"
+        o: ["Brand equity", "Brand ownership", "Product mix", "PLC"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Awareness includes consumers having:"
+        o: ["An opinion about the brand", "Bought it 10 times", "Licensed it", "Patented it"]
+        a: A
+        e: ["Correct.", "Loyalty.", "No.", "No."]
+      - q: "Does high awareness guarantee positive brand equity?"
+        o: ["No — perceived value and associations also matter", "Yes, always", "Only for generics", "Only for B2B"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch9-perceived-value]
+
+  - id: ch9-perceived-value
+    title: Perceived value
+    src: "Ch. 9 slides, pp. 17, 19"
+    explain: >-
+      Perceived value is the relationship between a product's benefits and its costs, often compared with competing products. Value
+      depends on balancing benefits and cost; value-focused brands succeed by aligning quality expectations with price. Private-label
+      brands have grown because consumers believe they offer similar quality to national brands at lower prices.
+    alt: >-
+      Perceived value is the "worth it?" meter — benefits on one side, cost on the other.
+    terms:
+      Perceived value: "The relationship between a product or service's benefits and its costs."
+    example: "Illustrative (from slides): Apple's premium prices are justified for many by design, innovation, ecosystem and reliability; supermarket private labels offer similar quality for less."
+    recall:
+      - q: "The relationship between a product's benefits and its costs is:"
+        o: ["Perceived value", "Brand association", "Quality perception", "Brand awareness"]
+        a: A
+        e: ["Correct (p.19).", "No.", "No.", "No."]
+      - q: "Private labels have grown because consumers believe they offer:"
+        o: ["Similar quality at lower prices", "Higher prices", "More awareness", "Celebrity endorsements"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Customers pay more for Apple because they believe its design and ecosystem justify the price. This reflects strong:"
+        t: app
+        o: ["Perceived value", "Brand dilution", "Generic branding", "Low awareness"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Value-focused brands succeed by:"
+        o: ["Aligning quality expectations with price", "Charging the most", "Ignoring quality", "Avoiding comparisons"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Perceived value is often judged in comparison with:"
+        o: ["Competing products", "Government rules", "Census data", "Suppliers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A shopper buys President's Choice cereal believing it's as good as Kellogg's but cheaper. This shows:"
+        t: app
+        o: ["High perceived value of a private label", "Brand dilution", "Cobranding", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Perceived value (Ch 9) is most closely related to which Ch 6 positioning method?"
+        o: ["Value (price relative to quality)", "Market leadership", "Competition", "Symbolism"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch6-pos-value]
+
+  - id: ch9-brand-associations
+    title: Brand associations, intimacy & personality
+    src: "Ch. 9 slides, p. 18"
+    explain: >-
+      Brand associations are the mental links consumers make between a brand and attributes, emotions and meanings. Brand intimacy
+      reflects deep emotional bonds between consumers and brands, and brand personality gives brands human-like characteristics.
+      Associations go beyond awareness into identity and feeling.
+    alt: >-
+      Associations are what pops into your head when you hear the brand — and how you feel about it.
+    terms:
+      Brand associations: "Mental links consumers make between a brand and attributes, emotions and meanings."
+      Brand intimacy: "Deep emotional bonds between consumers and brands."
+      Brand personality: "Human-like characteristics attributed to a brand."
+    example: "Illustrative (from slides): Starbucks tops fast-food brand-intimacy studies; Tesla built intense emotional connections around innovation."
+    recall:
+      - q: "Giving a brand human-like characteristics is:"
+        o: ["Brand personality", "Brand awareness", "Perceived value", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Deep emotional bonds between consumers and brands are called:"
+        o: ["Brand intimacy", "Brand dilution", "Product depth", "Private labelling"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "When people hear 'Tesla' and think 'innovative and futuristic', these are:"
+        t: app
+        o: ["Brand associations", "Product lines", "Generic brands", "Jingles"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Starbucks ranking at the top of brand-intimacy studies shows:"
+        o: ["Strong emotional bonds with customers", "Low awareness", "Brand dilution", "Generic status"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A brand described as 'rugged, adventurous and dependable' is being given a:"
+        t: app
+        o: ["Brand personality", "Product category", "Licence", "Slogan"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand associations go beyond awareness into:"
+        o: ["Identity and feeling", "Inflation", "Census data", "Distribution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Brand associations are a component of:"
+        o: ["Brand equity", "Brand ownership", "Product mix breadth", "PLC"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]

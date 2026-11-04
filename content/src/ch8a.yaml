@@ -1,0 +1,658 @@
+chapter: 8
+title: Developing New Products
+concepts:
+  - id: ch8-product-definition
+    title: Product — the first P
+    src: "Ch. 8 slides, slide 2"
+    explain: >-
+      Product is the first P of the marketing mix and is essential to creating value for the consumer. Products include not only
+      physical goods and services but also places, ideas, organisations, people and communities that create value through exchange.
+      New products range from minor improvements and new flavours to breakthrough innovations. Product strategy focuses on
+      innovation, new product development, market adoption and managing products through their life cycle.
+    alt: >-
+      "Product" is anything someone would exchange value for — a shampoo, a city to visit, a cause to support, even a celebrity.
+    terms:
+      Product: "Anything — good, service, place, idea, organisation, person — that creates value through exchange."
+    example: "Illustrative (from slides): the Bartesian prototype shows a novel concept (a cocktail machine) becoming a tangible offering."
+    recall:
+      - q: "Product is which P of the marketing mix, according to the slides?"
+        o: ["The first", "The second", "The third", "The last"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which can be a 'product' per the slides?"
+        o: ["Places, ideas, organisations and people", "Only physical goods", "Only services", "Only software"]
+        a: A
+        e: ["Correct.", "Too narrow.", "Too narrow.", "Too narrow."]
+    practice:
+      - q: "A tourism campaign promoting Niagara Falls is marketing which kind of product?"
+        t: app
+        o: ["A place", "A physical good", "A patent", "A data warehouse"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Product strategy focuses on:"
+        o: ["Innovation, NPD, market adoption and life-cycle management", "Only pricing", "Only advertising", "Only distribution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why is product central to the marketing mix?"
+        o: ["It is essential to the creation of value for the consumer", "It's the cheapest P", "It's legally required", "It replaces promotion"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A new flavour of an existing chip is:"
+        t: app
+        o: ["A minor improvement on the continuum of new products", "A breakthrough innovation", "Not a product", "A pioneer"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A charity campaign asking people to support clean water is marketing:"
+        t: app
+        o: ["An idea/cause", "A physical good only", "A pricing strategy", "A retail channel"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-why-innovate
+    title: Why firms create new products
+    src: "Ch. 8 slides, slide 3"
+    explain: >-
+      Innovation is the process of transforming ideas into new products and services that help firms grow and stay competitive.
+      Firms innovate because customers get bored and preferences change — standing still loses money. New products vary along a
+      continuum of newness, from new-to-the-world innovations to redesigned or improved versions of existing products. Despite high
+      failure rates, firms innovate for long-term value, new revenue streams and growth. Reasons covered: changing customer needs,
+      market saturation, managing risk through diversity, fashion cycles and improving business relationships.
+    alt: >-
+      Without innovation a firm is stuck selling the same thing to the same people — and they'll eventually get bored.
+    terms:
+      Innovation: "The process by which ideas are transformed into new products and services that help the firm grow."
+    example: "Illustrative (from slides): the Amazon Echo was new-to-the-world; Toronto Kayaks' clear LED boats are innovative design, not a breakthrough."
+    recall:
+      - q: "Innovation is the process by which:"
+        o: ["Ideas are transformed into new products and services", "Prices are set", "Data are mined", "Segments are evaluated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The Amazon Echo is described as:"
+        o: ["A new-to-the-world innovation", "A minor flavour change", "A laggard product", "A private label"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Without innovation, the notes say firms would only be able to:"
+        o: ["Market current products to current customers or take the same product to similar new markets", "Grow rapidly", "Avoid competition", "Increase prices forever"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why do firms keep innovating despite high failure rates?"
+        o: ["For long-term value, new revenue and growth", "Because failure is free", "Because laws require it", "To reduce product lines"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Toronto Kayaks' clear LED kayaks are best described as:"
+        t: app
+        o: ["Innovative design, not a breakthrough", "A pioneer product", "A generic brand", "A recession product"]
+        a: A
+        e: ["Correct — per slide 3 notes.", "No.", "No.", "No."]
+      - q: "Which is NOT a reason firms create new products per the slides?"
+        o: ["Changing customer needs", "Market saturation", "Fashion cycles", "To increase brand dilution"]
+        a: D
+        e: ["Reason.", "Reason.", "Reason.", "Correct."]
+      - q: "New products vary along a continuum from new-to-the-world innovations to:"
+        o: ["Redesigned or improved versions of existing products", "Brand licences", "Census data", "Price cuts"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-changing-needs
+    title: Changing customer needs
+    src: "Ch. 8 slides, slide 4"
+    explain: >-
+      New products create value by meeting changing customer needs or preventing boredom with existing offerings. Innovation can come
+      from breakthrough ideas, redesigning existing products, aging markets or legislation (which can be opportunities or threats).
+      Firms that anticipate unrecognised needs or regulatory shifts can shape entire markets.
+    alt: >-
+      Customers' needs are a moving target; the winners aim where it's going, not where it was.
+    terms:
+      Changing customer needs: "Shifts in needs/wants that new products can satisfy."
+    example: "Illustrative (from slides): Dyson redesigned the century-old vacuum so it doesn't lose suction."
+    recall:
+      - q: "Dyson's vacuum that doesn't lose suction illustrates:"
+        o: ["Redesigning an existing product to meet changing needs", "Market saturation", "Brand licensing", "Fashion cycles"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Sources of innovation listed include breakthrough ideas, redesigns, aging markets and:"
+        o: ["Legislation", "Inflation targets", "Census taking", "Exchange rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A firm designs easy-grip kitchen tools as the population ages. This responds to:"
+        t: app
+        o: ["Changing customer needs (aging market)", "Fashion cycles", "Brand dilution", "Scanner data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "New legislation banning single-use plastics leads a company to create reusable packaging. Legislation here is:"
+        t: app
+        o: ["A source of innovation (opportunity)", "Irrelevant", "A brand element", "A reference group"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Firms that anticipate unrecognised needs can:"
+        o: ["Shape entire markets", "Avoid all risk", "Skip NPD", "Eliminate competitors legally"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Starbucks adding a new seasonal drink is an example of innovation by:"
+        t: app
+        o: ["Redesigning/extending existing offerings", "A pioneer breakthrough", "Reverse engineering", "Licensing"]
+        a: A
+        e: ["Correct (slide 4 lists 'new drink at Starbucks').", "No.", "No.", "No."]
+      - q: "New products create value by meeting changing needs or by:"
+        o: ["Preventing boredom with existing offerings", "Raising costs", "Reducing variety", "Avoiding customers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-market-saturation
+    title: Market saturation
+    src: "Ch. 8 slides, slide 5"
+    explain: >-
+      As markets mature, there are many competitors and growth slows — market saturation. Saturation makes continuous innovation
+      essential. Firms can find growth in niche markets and dietary trends (e.g., gluten-free) and can diversify their product
+      portfolios to manage risk and stabilise performance.
+    alt: >-
+      A saturated market is a full parking lot; to grow you need a new lot (niche) or a new kind of car (innovation).
+    terms:
+      Market saturation: "A market with many competitors where growth has slowed."
+      Diversifying the portfolio: "Offering varied products to manage risk and stabilise performance."
+    example: "Illustrative (from slides): General Mills reformulated and labelled Chex as gluten-free to capture health-conscious and celiac consumers."
+    recall:
+      - q: "Market saturation makes what essential?"
+        o: ["Continuous innovation", "Higher prices", "Fewer products", "Undifferentiated targeting"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Chex being marketed as gluten-free shows growth via:"
+        o: ["Niche markets and dietary trends", "Fashion cycles", "Licensing", "Alpha testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Diversifying a product portfolio helps firms:"
+        o: ["Manage risk and stabilise performance", "Increase saturation", "Avoid innovation", "Eliminate competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The soft-drink market is crowded with competitors and growth is slowing. A brand launches a low-sugar line for health-conscious buyers. This responds to:"
+        t: app
+        o: ["Market saturation", "Fashion cycles", "Improving business relationships", "Reverse innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Saturated markets offer opportunities for firms willing to:"
+        o: ["Adopt a new process or mentality", "Stop innovating", "Raise prices only", "Exit immediately"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "A sign of market saturation is:"
+        o: ["Many competitors and slowing growth", "No competitors", "Rapidly rising sales", "A new-to-the-world product"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "General Mills found a gap with gluten-free cereal, but that niche later saturated too. The lesson is:"
+        t: app
+        o: ["Innovation must be continuous", "Niches never saturate", "Stop entering niches", "Only lower prices"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-fashion-cycles
+    title: Fashion cycles
+    src: "Ch. 8 slides, slide 6"
+    explain: >-
+      Industries with short product life cycles — fashion, apparel, entertainment, gaming, software — depend heavily on continuous new
+      product introductions. Most revenues in entertainment and software come shortly after release, and consumer demand for novelty
+      drives repeat purchases. Apparel designers produce entirely new selections a few times a year.
+    alt: >-
+      In fashion, the product's shelf life is a season — so the new collection is always already in the works.
+    terms:
+      Fashion cycle: "Short product life cycles driven by demand for novelty, requiring frequent new introductions."
+    example: "Illustrative (from slides): Zara relies on continuous new product introductions."
+    recall:
+      - q: "Industries with short product life cycles depend on:"
+        o: ["Continuous new product introductions", "Undifferentiated targeting", "Few product launches", "Fixed designs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Most revenue in entertainment and software comes:"
+        o: ["Shortly after release", "Years after release", "Before release only", "Evenly over decades"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A video-game publisher releases a new edition each year because most sales occur at launch. This reflects:"
+        t: app
+        o: ["Fashion cycles / short life cycles", "Market leadership positioning", "Brand licensing", "Reverse engineering"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Apparel designers produce entirely new selections:"
+        o: ["A few times a year", "Once a decade", "Never", "Only when sales fall to zero"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which industry is MOST dependent on fashion cycles?"
+        t: app
+        o: ["Fast-fashion clothing", "Table salt", "Insurance", "Industrial cement"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Fashion cycles are driven by consumer demand for:"
+        o: ["Novelty", "Lower interest rates", "Census data", "Durability above all"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Without innovating, firms in fashion-cycle industries would:"
+        o: ["Cease to exist very quickly", "Grow faster", "Be unaffected", "Become market leaders"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+
+  - id: ch8-business-relationships
+    title: Improving business relationships
+    src: "Ch. 8 slides, slide 7"
+    explain: >-
+      New products can strengthen supplier relationships, not just target end consumers. Retailers use supplier data to identify
+      unmet demand and co-develop new offerings. Even successful innovations spread gradually through diffusion.
+    alt: >-
+      New products can be a team project between a retailer and its suppliers — sharing data to spot gaps both can fill.
+    terms:
+      Improving business relationships: "Using new products and shared data to strengthen supplier/retailer partnerships."
+    example: "Illustrative (from slides): Walmart asks suppliers for data on all products they sell, not only those sold at Walmart, to find unmet demand."
+    recall:
+      - q: "Walmart asks suppliers for data on all products they sell in order to:"
+        o: ["Identify unmet demand and co-develop offerings", "Sue them", "Avoid new products", "Set exchange rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "New products can strengthen relationships with:"
+        o: ["Suppliers, not just end consumers", "Only end consumers", "Only governments", "Only competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A grocery chain and a snack supplier jointly develop a new private snack line using shared sales data. This is:"
+        t: app
+        o: ["Improving business relationships through new products", "Fashion cycles", "Market saturation", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement from slide 7 is correct?"
+        o: ["Even successful innovations spread gradually through diffusion", "All innovations are adopted instantly", "Suppliers never share data", "Only consumers matter"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Call of Duty's new versions sell quickly at first, but some gamers wait for reviews or price drops. This illustrates:"
+        t: app
+        o: ["Diffusion of innovation", "Brand licensing", "Market saturation only", "Fashion cycle ending"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+        c: [ch8-diffusion]
+      - q: "Retailers use supplier data mainly to:"
+        o: ["Identify unmet demand", "Raise prices", "Write slogans", "Avoid suppliers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Improving business relationships is a reason firms:"
+        o: ["Create new products", "Reposition brands", "Do census research", "Avoid innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-diffusion
+    title: Diffusion (adoption) of innovation
+    src: "Ch. 8 slides, slides 8, 13, 15–16"
+    explain: >-
+      Diffusion of innovation is the process by which the use of an innovation spreads throughout a market group over time and across
+      categories of adopters. Adoption happens at different rates across consumer groups. The theory helps marketers understand the
+      rate at which consumers are likely to adopt a new product, forecast demand, identify target markets, and design promotion and
+      pricing for each group. The number of users over time generally follows a bell-shaped curve.
+    alt: >-
+      Diffusion is like a new song spreading: a few fans find it first, then their friends, then the radio, then your parents.
+    terms:
+      Diffusion of innovation: "The process by which the use of an innovation spreads through a market over time and across adopter categories."
+    example: "Illustrative (from slides): new Call of Duty versions sell fast early, while others wait for reviews, price drops or peer recommendations."
+    recall:
+      - q: "Diffusion of innovation theory helps marketers understand:"
+        o: ["The likelihood consumers will adopt", "The rate at which consumers are likely to adopt a new product", "The failure rate", "The motivation to adopt"]
+        a: B
+        e: ["Close, but the slide answer is about rate.", "Correct (slides 15–16).", "No.", "No."]
+      - q: "The number of adopters over time generally follows a:"
+        o: ["Bell-shaped curve", "Straight line", "Flat line", "U-shape"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A company uses diffusion theory to plan different promotions for early buyers vs later buyers. This shows diffusion helps:"
+        t: app
+        o: ["Develop effective promotion and pricing for each adopter group", "Eliminate risk", "Avoid segmentation", "Skip testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Diffusion helps marketers:"
+        o: ["Forecast demand and identify target markets", "Set interest rates", "Write labels", "License brands"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Adoption occurs:"
+        o: ["Across different consumer categories at different rates", "At the same time for everyone", "Only among innovators", "Only among laggards"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which best defines diffusion of innovation?"
+        o: ["The spread of an innovation's use through a market over time", "A firm's R&D budget", "A product's packaging", "The PLC decline stage"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A streaming service that was niche 10 years ago is now used by most households. This movement through the market is:"
+        t: app
+        o: ["Diffusion of innovation", "Brand dilution", "Repositioning only", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-pioneers
+    title: Pioneers, first-mover advantage & disruptive innovation
+    src: "Ch. 8 slides, slide 9"
+    explain: >-
+      Pioneers (breakthroughs) are new-to-the-world products that create new markets or radically alter existing ones. Being first
+      brings first-mover advantage: strong brand recognition and early market share, and research shows pioneers can keep larger
+      shares longer than later entrants. Disruptive innovations are simpler, lower-cost alternatives that change industries.
+    alt: >-
+      A pioneer clears a new trail; whoever walks it first gets their name on the map.
+    terms:
+      Pioneers / breakthroughs: "New-to-the-world products that create new markets or radically alter existing ones."
+      First-mover advantage: "Benefits of being first — brand recognition and early market share."
+      Disruptive innovation: "A simpler, lower-cost alternative that changes an industry."
+    example: "Illustrative (from slides): Apple's iPod sparked an accessory ecosystem; Netflix disrupted video rental, contributing to Blockbuster's decline."
+    recall:
+      - q: "Truly new-to-the-world products are called:"
+        o: ["Pioneers or breakthroughs", "Laggards", "Private labels", "Line extensions"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Disruptive innovations are typically:"
+        o: ["Simpler and lower-cost alternatives", "More complex and expensive", "Always luxury", "Always copies"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Netflix's streaming contributed to Blockbuster's decline. Netflix is an example of:"
+        t: app
+        o: ["Disruptive innovation", "Brand dilution", "Market saturation", "Alpha testing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A key benefit of being a pioneer is:"
+        o: ["Strong brand recognition and early market share", "Guaranteed success", "No competitors ever", "Lower R&D costs"]
+        a: A
+        e: ["Correct.", "Not guaranteed.", "No.", "No."]
+      - q: "The iPod creating demand for cases, speakers and docks shows pioneers can:"
+        t: app
+        o: ["Create new markets and reshape competition", "Only replace old products", "Avoid accessories", "Reduce variety"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Research cited in the notes shows pioneers can:"
+        o: ["Maintain larger shares longer than later entrants", "Never keep share", "Always lose to copycats", "Avoid diffusion"]
+        a: A
+        e: ["Correct.", "No.", "Not always.", "No."]
+      - q: "Customers are more likely to try a new hot sauce flavour, so flavours diffuse quickly. Which explains the speed?"
+        t: app
+        o: ["Pioneers", "Relative advantage", "Observability", "Complexity"]
+        a: B
+        e: ["A flavour isn't a new-to-the-world product.", "Correct (official key) — perceived benefit over existing options speeds diffusion.", "Not the official key.", "Complexity slows diffusion."]
+        c: [ch8-relative-advantage]
+
+  - id: ch8-pioneer-failure
+    title: Pioneer challenges & why new products fail
+    src: "Ch. 8 slides, slides 10–12"
+    explain: >-
+      Not all pioneers succeed: followers (copycats) can improve on early weaknesses, and pioneers pave the way for new entrants. As
+      many as 95% of new consumer goods fail. The main cause is failing to assess the market properly (poor testing, wrong target,
+      poor positioning). Other causes: too few benefits, too much complexity or learning, bad timing, and brand misalignment
+      (venturing beyond the firm's competencies or image).
+    alt: >-
+      Being first is a head start, not a guarantee — the second runner can draft behind you and sprint past.
+    terms:
+      New product failure: "As many as 95% of new consumer goods fail."
+    example: "Illustrative (from slides): Google Glass failed over privacy concerns, bugs and public bans; Vine paved the way for TikTok."
+    recall:
+      - q: "As many as what percent of new consumer goods fail?"
+        o: ["95", "75", "50", "30"]
+        a: A
+        e: ["Correct (slide 12 notes).", "No.", "Slide 11's key said 50, but the notes say 95 (CONTENT_NOTES #12).", "No."]
+      - q: "Google Glass failed mainly because of:"
+        o: ["Privacy concerns, bugs and bans", "Low price", "Too much demand", "Brand licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Vine pioneered short video, but TikTok later dominated. This illustrates:"
+        t: app
+        o: ["Followers improving on pioneers' weaknesses", "Pioneers always win", "Market leadership positioning", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "The most common reason new products fail is:"
+        o: ["Failure to assess the market properly", "Too many benefits", "Being too simple", "Perfect timing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A complicated smart device that requires hours of learning is likely to fail because of:"
+        t: app
+        o: ["Complexity / substantial learning required", "Too much observability", "Low price", "Good timing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a reason for new product failure in the slides?"
+        o: ["Too few benefits", "Bad timing", "Brand misalignment", "Strong relative advantage"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct — that speeds adoption."]
+      - q: "Why can followers spend less marketing effort than pioneers?"
+        o: ["Pioneers already created demand for the category", "Followers have no costs", "Laws favour followers", "Followers are always bigger"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+
+  - id: ch8-adopter-categories
+    title: Adopter categories
+    src: "Ch. 8 slides, slides 13–14"
+    explain: >-
+      Purchasers are divided into five groups by how soon they adopt: innovators (first 2.5%, risk-takers, not price sensitive),
+      early adopters (13.5%, wait for reviews but still buy early and influence others), early majority (34%, want bugs resolved; drive
+      profitability — a product must "cross the chasm" to reach them), late majority (34%, adopt once the product is established,
+      often price sensitive), and laggards (16%, resist change and may never adopt). Innovators and early adopters generate early
+      momentum and word-of-mouth.
+    alt: >-
+      Picture a phone launch: innovators camp overnight, early adopters buy after a few reviews, the early majority waits for bugs to
+      be fixed, the late majority buys last year's model, and laggards keep the flip phone.
+    terms:
+      Innovators: "First 2.5% — risk-takers who love newness."
+      Early adopters: "Next 13.5% — wait for reviews but buy early and influence others."
+      Early majority: "34% — adopt once risks are reduced; drive profitability."
+      Late majority: "34% — adopt after the product is established."
+      Laggards: "16% — resist change; may never adopt."
+    example: "Illustrative (from slides): innovators line up overnight for a new iPhone; laggards still use flip phones."
+    recall:
+      - q: "Innovators make up what share of adopters?"
+        o: ["2.5%", "13.5%", "34%", "16%"]
+        a: A
+        e: ["Correct.", "Early adopters.", "Early/late majority.", "Laggards."]
+      - q: "Consumers who resist change and may never adopt are:"
+        o: ["Laggards", "Innovators", "Early adopters", "Early majority"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Dhruv's restaurant still only accepts cash, worried about electronic transaction security, while nearby shops take cards. Dhruv is part of which group?"
+        t: app
+        o: ["End user", "Early majority", "Laggards", "Mature customers"]
+        a: C
+        e: ["Not an adopter category.", "They'd have adopted already.", "Correct (official key) — resisting a widely adopted innovation.", "Not a slide term."]
+      - q: "Which group drives profitability once risks are reduced?"
+        o: ["Early majority", "Innovators", "Laggards", "Early adopters"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Professionals who wait for a few reviews but buy relatively early and influence others are:"
+        t: app
+        o: ["Early adopters", "Innovators", "Late majority", "Laggards"]
+        a: A
+        e: ["Correct.", "Innovators don't wait for reviews.", "No.", "No."]
+      - q: "Which percentages are correct?"
+        o: ["Early adopters 13.5%, laggards 16%", "Innovators 34%, laggards 2.5%", "Early majority 13.5%, late majority 16%", "Innovators 16%, early adopters 34%"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A price-sensitive buyer who gets a smartphone only after it's been widely adopted is in the:"
+        t: app
+        o: ["Late majority", "Innovators", "Early adopters", "Early majority"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Early majority adopts before it's fully established."]
+    examples:
+      - q: "Which example best fits 'innovators'?"
+        o: ["Camping outside a store overnight to buy a new device on launch day", "Buying after the third software update", "Buying a two-year-old model on sale", "Refusing to switch from a flip phone"]
+        a: A
+        e: ["Correct.", "Early majority.", "Late majority.", "Laggard."]
+
+  - id: ch8-relative-advantage
+    title: Diffusion factor — relative advantage
+    src: "Ch. 8 slides, slides 17–18"
+    explain: >-
+      The speed of diffusion depends on product characteristics: relative advantage, compatibility, observability, complexity and
+      trialability. Relative advantage: if a product is perceived to be better than substitutes, diffusion is relatively quick. Clear
+      functional benefits make adoption easier and faster, and advertising can demonstrate value across user situations.
+    alt: >-
+      Relative advantage answers "Why switch?" — the clearer the upgrade, the faster people jump.
+    terms:
+      Relative advantage: "The degree to which a product is perceived as better than substitutes."
+    example: "Illustrative (from slides): the Swiffer makes cleaning faster and easier, especially for seniors; the telephone replaced the telegraph by transmitting voices."
+    recall:
+      - q: "If a product is perceived as better than substitutes, diffusion is:"
+        o: ["Relatively quick", "Slower", "Unaffected", "Stopped"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a factor affecting diffusion?"
+        o: ["Relative advantage", "Brand dilution", "Inflation", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "The Swiffer is lightweight, uses pre-moistened pads and swivels 360°. Its fast adoption is mainly due to:"
+        t: app
+        o: ["Relative advantage", "Compatibility", "Observability", "Complexity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Complexity slows diffusion."]
+      - q: "The telephone replaced the telegraph because it:"
+        o: ["Offered a clear benefit (transmitting voices)", "Was more complex", "Was less observable", "Was cheaper to license"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which list correctly gives the diffusion factors?"
+        o: ["Relative advantage, compatibility, observability, complexity & trialability", "Identifiable, reachable, responsive, substantial", "Volume, variety, velocity, veracity", "Cognitive, affective, behavioural"]
+        a: A
+        e: ["Correct.", "Ch 6.", "Ch 7.", "Ch 4."]
+      - q: "A new app that saves users two hours a week over existing tools spreads quickly. This is:"
+        t: app
+        o: ["Relative advantage", "Compatibility", "Trialability", "Low observability"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Advertising helps relative advantage by:"
+        o: ["Demonstrating value across diverse user situations", "Hiding benefits", "Increasing complexity", "Reducing trial"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-compatibility
+    title: Diffusion factor — compatibility
+    src: "Ch. 8 slides, slide 19"
+    explain: >-
+      Compatibility: when an innovation aligns with existing values, lifestyles and behaviours, diffusion accelerates; when it
+      conflicts, it slows. Cultural differences influence diffusion speed, so firms adapt product features to fit regional needs.
+    alt: >-
+      Compatibility asks "Does it fit how I already live?" — a product that slots into habits spreads faster.
+    terms:
+      Compatibility: "The degree to which an innovation fits consumers' existing values, lifestyles and behaviours."
+    example: "Illustrative (from slides): Starbucks expanded quickly in coffee-loving Canada but more slowly in tea-dominant China and Japan; Swiffer must be smaller for Japanese homes."
+    recall:
+      - q: "Starbucks spreading more slowly in tea-drinking China and Japan illustrates:"
+        o: ["Compatibility", "Relative advantage", "Observability", "Trialability"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "When an innovation conflicts with existing values, diffusion:"
+        o: ["Slows", "Accelerates", "Is unaffected", "Stops permanently"]
+        a: A
+        e: ["Correct.", "No.", "No.", "Not necessarily."]
+    practice:
+      - q: "Swiffer designs a smaller model for Japan's smaller homes. This addresses:"
+        t: app
+        o: ["Compatibility with local lifestyles", "Observability", "Brand licensing", "Reverse engineering"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Compatibility is strongly influenced by:"
+        o: ["Cultural differences", "Interest rates", "Patents", "Census size"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A halal-certified version of a snack spreads faster in Muslim communities. Which factor?"
+        t: app
+        o: ["Compatibility", "Complexity", "Relative advantage only", "Observability"]
+        a: A
+        e: ["Correct — fits existing values.", "No.", "Not the main factor.", "No."]
+      - q: "Firms improve compatibility by:"
+        o: ["Adapting product features to regional needs", "Ignoring culture", "Raising prices", "Removing trials"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Coffee is deeply embedded in Canadian routines, so Starbucks expanded quickly. This shows high:"
+        o: ["Compatibility", "Complexity", "Laggard share", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-observability
+    title: Diffusion factor — observability
+    src: "Ch. 8 slides, slide 20"
+    explain: >-
+      Observability: when people see others using and loving a product, it serves as social proof. Visible, shareable benefits
+      accelerate diffusion; demonstrations and viral content reduce uncertainty. Low observability can slow diffusion, especially for
+      personal-use products.
+    alt: >-
+      Observability is "seeing is believing" — if everyone can see it working, more people try it.
+    terms:
+      Observability: "The degree to which a product's benefits are visible to others."
+    example: "Illustrative (from slides): Blendtec's 'Will It Blend?' videos blended iPads and baseballs, going viral and boosting awareness."
+    recall:
+      - q: "Blendtec's 'Will It Blend?' campaign leveraged:"
+        o: ["Observability", "Compatibility", "Complexity", "Licensing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Low observability tends to slow diffusion especially for:"
+        o: ["Personal-use products", "Visible fashion items", "Cars", "Viral gadgets"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Seeing classmates wear a new brand of earbuds encourages others to buy them. This is:"
+        t: app
+        o: ["Observability (social proof)", "Complexity", "Trialability", "Reverse innovation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Demonstrations and viral content help diffusion by:"
+        o: ["Reducing uncertainty about performance", "Raising complexity", "Lowering compatibility", "Hiding benefits"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which product likely has LOW observability?"
+        t: app
+        o: ["A new vitamin supplement", "A new sneaker colourway", "A new car design", "A new phone colour"]
+        a: A
+        e: ["Correct — personal use, benefits not visible.", "Visible.", "Visible.", "Visible."]
+      - q: "Observability accelerates diffusion because benefits are:"
+        o: ["Visible and shareable", "Secret", "Complex", "Expensive"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A makeup brand encourages before-and-after posts on social media. It is boosting:"
+        t: app
+        o: ["Observability", "Compatibility", "Licensing", "Market saturation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch8-complexity-trialability
+    title: Diffusion factors — complexity & trialability
+    src: "Ch. 8 slides, slide 21"
+    explain: >-
+      Complexity is how hard an innovation is to understand, learn or use; lower complexity speeds diffusion. Trialability is the
+      degree to which an innovation can be experimented with; easier trial reduces uncertainty and increases adoption (free trials,
+      returns, in-store demos). Less complex products are usually easier to try, so they diffuse faster.
+    alt: >-
+      Simple + easy to test-drive = fast adoption. Confusing + no way to try = slow adoption.
+    terms:
+      Complexity: "How hard an innovation is to understand, learn or use."
+      Trialability: "The degree to which an innovation can be experimented with before committing."
+    example: "Illustrative (from slides): Dyson's interactive in-store displays let shoppers try the vacuum and see dirt pickup; a 30-day free trial of software."
+    recall:
+      - q: "Trialability is the degree to which an innovation:"
+        o: ["Can be experimented with", "Is visible to others", "Fits existing values", "Is better than substitutes"]
+        a: A
+        e: ["Correct.", "Observability.", "Compatibility.", "Relative advantage."]
+      - q: "Higher complexity tends to:"
+        o: ["Slow diffusion", "Speed diffusion", "Have no effect", "Guarantee success"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A software company offers a 30-day free trial. This increases:"
+        t: app
+        o: ["Trialability", "Complexity", "Brand dilution", "Saturation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Dyson letting shoppers use vacuums at in-store displays aims to:"
+        t: app
+        o: ["Reduce complexity and encourage trial", "Increase complexity", "Lower observability", "Reduce compatibility"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Older consumers put off by complicated new phones reflects:"
+        t: app
+        o: ["Complexity slowing adoption", "High trialability", "Relative advantage", "Compatibility increasing adoption"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "Complicated contracts make which factor difficult?"
+        o: ["Trialability", "Observability", "Relative advantage", "Licensing"]
+        a: A
+        e: ["Correct — from notes.", "No.", "No.", "No."]
+      - q: "Generous return policies support diffusion by improving:"
+        o: ["Trialability", "Complexity", "Market saturation", "Fashion cycles"]
+        a: A
+        e: ["Correct — returns are listed under trialability.", "No.", "No.", "No."]

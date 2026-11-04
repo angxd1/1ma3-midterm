@@ -1,0 +1,560 @@
+chapter: 7
+title: Marketing Research
+concepts:
+  - id: ch7-research-value
+    title: Why marketing research is valuable
+    src: "Ch. 7 slides, pp. 3–6"
+    explain: >-
+      Marketing research reduces uncertainty in decision making by systematically collecting and analysing data that helps
+      managers decide on segmentation, positioning, pricing, promotion, product and distribution. It links organisations to
+      customers and competitors through continuous feedback on customer needs, monitoring competitive actions and spotting
+      environmental changes that create new opportunities. Research skills are valuable across businesses, governments,
+      non-profits and political organisations.
+    alt: >-
+      Research is a flashlight in a dark room — it doesn't make decisions for managers, but it shows them where they're stepping.
+    terms:
+      Marketing research: "Systematically collecting and analysing data to reduce uncertainty in marketing decisions."
+    example: "Illustrative (from slides): Unilever surveyed 10,000 consumers on beauty standards, then dropped the word 'normal' and redesigned products and messaging to be more inclusive."
+    recall:
+      - q: "The main purpose of marketing research is to:"
+        o: ["Reduce uncertainty in decision making", "Eliminate competition", "Set interest rates", "Replace managers"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which statement is NOT correct regarding why marketers find research valuable?"
+        o: ["It helps reduce uncertainty", "It provides a marginal link between firms and their environments", "It can identify emerging opportunities", "Firms can anticipate competitive moves"]
+        a: B
+        e: ["Correct statement.", "Correct answer — research provides a strong, continuous link, not a marginal one.", "Correct statement.", "Correct statement."]
+    practice:
+      - q: "Unilever changed products and packaging after a 10,000-person survey on inclusion. This shows research can:"
+        t: app
+        o: ["Guide long-term corporate action", "Only measure sales", "Replace product development", "Eliminate risk entirely"]
+        a: A
+        e: ["Correct.", "No.", "No.", "It reduces, not eliminates, uncertainty."]
+      - q: "Marketing research links organisations to customers and competitors by:"
+        o: ["Providing continuous feedback and monitoring competitive actions", "Setting prices automatically", "Writing legislation", "Replacing advertising"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which organisations use marketing research, per the slides?"
+        o: ["Businesses, governments, non-profits and political organisations", "Only large corporations", "Only non-profits", "Only governments"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A political party surveys voters to tailor its messages to different groups. This is:"
+        t: app
+        o: ["Marketing research used by a non-business organisation", "Competitive intelligence only", "Brand licensing", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Research helps managers make informed decisions about all of the following EXCEPT:"
+        o: ["Segmentation and positioning", "Pricing and promotion", "Product and distribution", "Guaranteeing zero competition"]
+        a: D
+        e: ["Listed.", "Listed.", "Listed.", "Correct."]
+
+  - id: ch7-research-process
+    title: The five-step marketing research process
+    src: "Ch. 7 slides, p. 7"
+    explain: >-
+      The marketing research process has five steps: (1) define the research problem and objectives, (2) design the research plan,
+      (3) collect data, (4) analyse data and develop insights, and (5) determine/present the action plan.
+    alt: >-
+      Research works like a science project: question → plan → gather → analyse → report what to do.
+    terms:
+      Marketing research process: "Define problem & objectives → design plan → collect data → analyse & develop insights → action plan."
+    example: "Illustrative: a café asks why sales dropped (1), plans a customer survey (2), runs it (3), finds slow service is the issue (4), and recommends a mobile-order system (5)."
+    recall:
+      - q: "What is the first step of the marketing research process?"
+        o: ["Define the research problem and objectives", "Collect data", "Design the research plan", "Present the action plan"]
+        a: A
+        e: ["Correct.", "Step 3.", "Step 2.", "Step 5."]
+      - q: "Which step comes right after collecting data?"
+        o: ["Analyse data and develop insights", "Define objectives", "Design the plan", "Concept testing"]
+        a: A
+        e: ["Correct.", "Step 1.", "Step 2.", "Ch 8."]
+    practice:
+      - q: "Which is the correct order?"
+        o: ["Define problem → design plan → collect data → analyse → action plan", "Collect data → define problem → analyse → design plan → action plan", "Design plan → define problem → analyse → collect → action plan", "Define problem → collect data → design plan → action plan → analyse"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A team has finished a survey and is now turning the numbers into recommendations for management. It is moving from step ___ to step ___."
+        t: app
+        o: ["4 to 5", "1 to 2", "2 to 3", "3 to 1"]
+        a: A
+        e: ["Correct — analysis to action plan.", "No.", "No.", "No."]
+      - q: "How many steps are in the marketing research process?"
+        o: ["Five", "Three", "Six", "Four"]
+        a: A
+        e: ["Correct.", "No.", "Six is the NPD process (Ch 8).", "No."]
+      - q: "Choosing between a survey and focus groups happens in which step?"
+        t: app
+        o: ["Design the research plan", "Define the problem", "Analyse data", "Action plan"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT a step of the marketing research process?"
+        o: ["Collect data", "Analyse data", "Beta testing", "Design the research plan"]
+        a: C
+        e: ["Step.", "Step.", "Correct — Ch 8 product development.", "Step."]
+
+  - id: ch7-step1-define
+    title: Step 1 — define the research problem & objectives
+    src: "Ch. 7 slides, pp. 8–9"
+    explain: >-
+      Step 1 identifies what information is needed to answer specific research questions and how that information should be
+      obtained. Clear objectives keep the project focused — for example, studying both the firm's own customer experience and its
+      major competitors'.
+    alt: >-
+      A research project without a defined problem is a road trip with no destination — you'll collect plenty of scenery and no
+      answers.
+    terms:
+      Research problem & objectives: "What information is needed to answer specific questions, and how it should be obtained."
+    example: "Illustrative (from slides): to understand its customers' experience, McDonald's would study its own experience and that of competitors like Wendy's."
+    recall:
+      - q: "Step 1 asks what information is needed and:"
+        o: ["How that information should be obtained", "How to price the product", "Who the laggards are", "What the slogan is"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Defining objectives happens before:"
+        o: ["Designing the plan and collecting data", "Nothing — it's the last step", "Only presenting results", "Need recognition"]
+        a: A
+        e: ["Correct.", "It's first.", "No.", "Ch 4."]
+    practice:
+      - q: "McDonald's wants to understand customer experience. Per the slides, it should study:"
+        t: app
+        o: ["Its own experience and competitors' like Wendy's", "Only its own stores", "Only government data", "Only its suppliers"]
+        a: A
+        e: ["Correct.", "Too narrow.", "No.", "No."]
+      - q: "Which is a well-defined research objective?"
+        t: app
+        o: ["'Determine why repeat visits by students fell 15% this term'", "'Learn everything about customers'", "'Make more money'", "'Do a survey'"]
+        a: A
+        e: ["Correct — specific and answerable.", "Too vague.", "A business goal, not a research objective.", "A method, not an objective."]
+      - q: "Step 1 is important because it:"
+        o: ["Focuses what data is needed", "Analyses the data", "Writes the executive summary", "Chooses the brand name"]
+        a: A
+        e: ["Correct.", "Step 4.", "Step 5.", "Ch 9."]
+      - q: "A manager says 'Let's run a survey' before deciding what question it should answer. Which step has been skipped?"
+        t: app
+        o: ["Define the research problem and objectives", "Analyse data", "Present results", "Collect data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "That's what they want to do."]
+      - q: "The slides frame step 1 around two questions: what information is needed, and:"
+        o: ["How should that information be obtained?", "Who will pay for it?", "Which slogan to use?", "When to launch?"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-step2-design
+    title: Step 2 — design the research plan
+    src: "Ch. 7 slides, p. 10"
+    explain: >-
+      Step 2 identifies the type of data needed and determines the type of research necessary to collect it. Project objectives
+      drive the type of data needed (e.g., existing secondary data first, then primary data from customers).
+    alt: >-
+      Designing the plan is choosing your tools before you build: which data, and which method gets it.
+    terms:
+      Research plan: "Identifies the data needed and the type of research to collect it."
+    example: "Illustrative (from slides): McDonald's examines available data, then asks customers about their experience with products like Value Meals."
+    recall:
+      - q: "In step 2, what drives the type of data needed?"
+        o: ["Project objectives", "Brand slogans", "The product life cycle", "Exchange rates"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Step 2 identifies the type of data needed and determines:"
+        o: ["The type of research necessary to collect it", "The final price", "The positioning", "The adopter category"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "McDonald's reviews existing data, then plans to ask customers about Value Meals. This planning is part of:"
+        t: app
+        o: ["Designing the research plan", "Defining objectives", "Analysing data", "Product launch"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm decides it needs numerical data on purchase frequency, so it plans a structured survey. Which step?"
+        t: app
+        o: ["Step 2 — design the research plan", "Step 1", "Step 4", "Step 5"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which choice is made in step 2?"
+        o: ["Secondary vs primary data, qualitative vs quantitative methods", "Executive summary wording", "Brand name", "Interest rate"]
+        a: A
+        e: ["Correct.", "Step 5.", "No.", "No."]
+      - q: "Why do objectives come before the research plan?"
+        o: ["Objectives determine what data and research type are needed", "Plans don't need objectives", "Objectives are written after analysis", "They're the same thing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A plan that skips checking existing data and goes straight to costly interviews may:"
+        t: app
+        o: ["Waste resources if secondary data could answer the question", "Always be best", "Be required by law", "Eliminate bias"]
+        a: A
+        e: ["Correct — secondary data is cheaper.", "No.", "No.", "No."]
+
+  - id: ch7-step3-collect
+    title: Step 3 — collect data (secondary vs primary)
+    src: "Ch. 7 slides, pp. 11, 14–15, 20–21"
+    explain: >-
+      Step 3 collects data. Secondary data are pieces of information collected prior to the start of the focal project; they can be
+      internal or external. Primary data are collected to address specific research needs — focus groups, interviews, surveys.
+    alt: >-
+      Secondary data is leftovers already in the fridge; primary data is cooking a fresh meal for exactly tonight's guests.
+    terms:
+      Secondary data: "Information collected prior to the start of the focal research project."
+      Primary data: "Data collected to address specific research needs."
+    example: "Illustrative: a gym checks Statistics Canada fitness reports (secondary) and then surveys its own members (primary)."
+    recall:
+      - q: "Information collected prior to the start of the focal research project is:"
+        o: ["Panel data", "Syndicated data", "Scanner data", "Secondary data"]
+        a: D
+        e: ["A type of data source, not the definition.", "Purchased secondary data.", "A UPC-based source.", "Correct."]
+      - q: "All of the following about primary data are true EXCEPT:"
+        o: ["It is collected prior to the start of the project", "It addresses specific research needs", "It can include surveys", "It includes focus groups"]
+        a: A
+        e: ["Correct answer — that describes secondary data.", "True.", "True.", "True."]
+    practice:
+      - q: "A shoe brand runs focus groups to test reactions to a new design. This produces:"
+        t: app
+        o: ["Primary data", "Secondary data", "Syndicated data", "Census data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A start-up reads an industry report published last year. This is:"
+        t: app
+        o: ["Secondary data", "Primary data", "Experimental data", "Observation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Secondary data can be:"
+        o: ["Internal or external", "Only internal", "Only external", "Only qualitative"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an example of primary data collection?"
+        o: ["Interviewing customers about a new menu", "Reading census tables", "Buying Nielsen reports", "Reviewing past invoices"]
+        a: A
+        e: ["Correct.", "Secondary.", "Secondary (syndicated).", "Internal secondary."]
+      - q: "Politicians and non-profits doing research to understand constituents shows that data collection:"
+        o: ["Is used beyond businesses", "Is only for retailers", "Is illegal for non-profits", "Requires scanners"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-step4-analyze
+    title: Step 4 — analyse data & develop insights
+    src: "Ch. 7 slides, p. 12"
+    explain: >-
+      Data analysis and interpretation transform raw data into meaningful information for decisions. Data alone have limited value;
+      organised, analysed and interpreted, they reveal patterns, relationships and insights that help firms adjust strategies —
+      changing product features, pricing or promotional tactics.
+    alt: >-
+      Raw data is a pile of puzzle pieces; analysis assembles them so you can see the picture.
+    terms:
+      Data analysis: "Organising and interpreting raw data to reveal patterns, relationships and insights."
+    example: "Illustrative: survey analysis shows students rate price as most important, so a café introduces a student discount."
+    recall:
+      - q: "According to the slides, data alone have:"
+        o: ["Limited value", "Unlimited value", "No cost", "Legal protection"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Step 4 transforms raw data into:"
+        o: ["Meaningful information for decisions", "Brand names", "Patents", "Product prototypes"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "After analysis, a brand discovers buyers care more about eco-packaging than price and changes its packaging. This shows:"
+        t: app
+        o: ["Insights leading to strategy adjustment", "Data collection", "Problem definition", "Concept testing"]
+        a: A
+        e: ["Correct.", "Already done.", "Already done.", "Ch 8."]
+      - q: "Analysis reveals:"
+        o: ["Patterns, relationships and insights", "Only raw numbers", "Laws", "Generational cohorts only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is an example of acting on an insight?"
+        t: app
+        o: ["Changing promotional tactics after finding which ads drive sales", "Storing data without reading it", "Collecting more data forever", "Ignoring results"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Insights from analysis can lead firms to change:"
+        o: ["Product features, pricing or promotion", "Only the logo", "Government policy", "Competitors' strategies"]
+        a: A
+        e: ["Correct.", "Too narrow.", "No.", "No."]
+      - q: "Step 4 directly precedes:"
+        o: ["Presenting the action plan", "Defining objectives", "Designing the plan", "Collecting data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-step5-action
+    title: Step 5 — present/determine the action plan
+    src: "Ch. 7 slides, pp. 7, 13"
+    explain: >-
+      Step 5 prepares and presents the results. The report includes an executive summary, the body (objectives, methodology,
+      findings), conclusions, and supplemental tables/appendices. The presentation should be short and to the point, interesting
+      and suited to the audience's style, free of technical jargon, and include recommendations.
+    alt: >-
+      The action plan is the "so what?" — turning findings into a clear, jargon-free story with next steps.
+    terms:
+      Action plan / research report: "Executive summary, body (objectives, methodology, findings), conclusions, appendices; recommendations."
+    example: "Illustrative: a 5-slide deck to executives summarising key findings and three recommended actions, with detailed tables in the appendix."
+    recall:
+      - q: "Which is NOT recommended when presenting research results?"
+        o: ["Keep it short and to the point", "Use technical jargon", "Make it appropriate to the audience", "Include recommendations"]
+        a: B
+        e: ["Recommended.", "Correct — the slides say no technical jargon.", "Recommended.", "Recommended."]
+      - q: "The body of a research report includes objectives, methodology and:"
+        o: ["Findings", "Slogans", "Prices", "Patents"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "Where should detailed statistical tables go in the report?"
+        o: ["Supplemental tables/appendices", "Executive summary", "Title only", "Nowhere"]
+        a: A
+        e: ["Correct.", "Should be brief.", "No.", "No."]
+      - q: "A researcher fills a presentation to executives with regression coefficients and jargon. What's wrong?"
+        t: app
+        o: ["It should be short, audience-appropriate and jargon-free", "Nothing", "It needs more jargon", "It should skip recommendations"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a component of the research report?"
+        o: ["Executive summary", "Product prototype", "Brand jingle", "Scanner hardware"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Step 5 is labelled in the process diagram as:"
+        o: ["Determine action plan", "Concept testing", "Market testing", "Evaluate segment attractiveness"]
+        a: A
+        e: ["Correct (p.13 calls it 'Present action plan').", "No.", "No.", "No."]
+      - q: "The final element of a good presentation should be:"
+        o: ["Recommendations", "Raw data dumps", "Jargon", "Competitor secrets"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-internal-secondary
+    title: Internal secondary data & data mining
+    src: "Ch. 7 slides, pp. 16–17"
+    explain: >-
+      Internal secondary data come from the firm itself — invoices, customer lists and other reports — and can be free or very
+      inexpensive. The downside is that it may not be the right data. Firms use data mining — statistical tools that uncover
+      previously unknown patterns or relationships in large data sets — to generate customer-based analytics, reduce customer
+      churn, and improve the customer experience.
+    alt: >-
+      Data mining is panning for gold in your own river of records — finding patterns nobody noticed.
+    terms:
+      Internal secondary data: "Data from the firm itself, such as invoices, customer lists and reports."
+      Data mining: "Using statistical tools to uncover previously unknown patterns or relationships in data."
+      Churn: "Customers leaving/defecting; data mining can help reduce it."
+    example: "Illustrative (from slides): insurers like TD MyAdvantage analyse driving data to predict risk and personalise pricing; retailers find items bought together to display them side by side."
+    recall:
+      - q: "Invoices and customer lists are examples of:"
+        o: ["Internal secondary data", "External secondary data", "Primary data", "Syndicated data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Data mining uses statistical tools to:"
+        o: ["Uncover previously unknown patterns in data", "Collect new survey responses", "Write laws", "Create brand names"]
+        a: A
+        e: ["Correct.", "Primary research.", "No.", "No."]
+    practice:
+      - q: "A grocer analyses receipts and finds chips and salsa are often bought together, so it displays them together. This is:"
+        t: app
+        o: ["Data mining internal data", "A focus group", "Concept testing", "Test marketing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A key downside of internal secondary data is that:"
+        o: ["It may not be the data you need", "It's always very expensive", "It's illegal", "It's always outdated by years"]
+        a: A
+        e: ["Correct.", "It's often free/cheap.", "No.", "Not stated."]
+      - q: "An insurer analysing driving data to price policies individually uses data mining to:"
+        t: app
+        o: ["Predict risk and personalise pricing", "Create a jingle", "Run a focus group", "Define culture"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Data mining can help reduce:"
+        o: ["Customer churn", "Inflation", "Immigration", "Patents"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Internal secondary data are often:"
+        o: ["Free or very inexpensive", "The most expensive data", "Unavailable", "Primary data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-big-data
+    title: Big data & the five Vs
+    src: "Ch. 7 slides, p. 18"
+    explain: >-
+      Big data are data sets too large and complex to analyse with conventional data management software; they're analysed with
+      data mining tools. The five Vs: Volume (data in large quantities), Variety (data in many forms — qualitative and
+      quantitative), Velocity (data moving quickly — streaming), Veracity (data in doubt — trustworthiness/accuracy), and Value
+      (data into money — usefulness compared to cost).
+    alt: >-
+      Big data is a firehose: huge (volume), mixed (variety), fast (velocity), sometimes muddy (veracity), and only worth it if you
+      can drink from it (value).
+    terms:
+      Big data: "Data sets too large and complex for conventional data management software."
+      Volume: "Data in large quantities."
+      Variety: "Data in many forms."
+      Velocity: "Data moving quickly."
+      Veracity: "Trustworthiness of data — accuracy and reliability."
+      Value: "Usefulness of data compared to its cost."
+    example: "Illustrative: a streaming platform processes billions of real-time viewing events (volume, velocity) across text, video and ratings (variety)."
+    recall:
+      - q: "Which V refers to the trustworthiness of data?"
+        o: ["Veracity", "Velocity", "Volume", "Variety"]
+        a: A
+        e: ["Correct.", "Speed.", "Quantity.", "Forms."]
+      - q: "Big data are defined as data sets that are:"
+        o: ["Too large and complex for conventional software", "Collected by hand", "Always qualitative", "Always free"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A retailer processes streaming checkout data needing responses in milliseconds. Which V is emphasised?"
+        t: app
+        o: ["Velocity", "Veracity", "Value", "Variety"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm combines tweets, videos, survey scores and sales numbers. Which V is this?"
+        t: app
+        o: ["Variety", "Volume", "Velocity", "Value"]
+        a: A
+        e: ["Correct — many forms.", "No.", "No.", "No."]
+      - q: "'Data into money — usefulness compared to cost' describes:"
+        o: ["Value", "Veracity", "Volume", "Velocity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Big data sets are analysed using:"
+        o: ["Data mining tools", "Focus groups", "Brand jingles", "Projective techniques"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is NOT one of the five Vs?"
+        o: ["Volume", "Velocity", "Visibility", "Veracity"]
+        a: C
+        e: ["V.", "V.", "Correct.", "V."]
+
+  - id: ch7-external-secondary
+    title: External secondary data & syndicated data
+    src: "Ch. 7 slides, pp. 19, 22–25"
+    explain: >-
+      External secondary data come from outside the firm: census data, trade journals, books, articles, reports, websites — and can
+      be purchased from specialised research firms. The downside: they may not be specific or timely enough, and may be outdated or
+      not fully relevant because they were collected for another purpose. When existing data are insufficient, firms purchase
+      syndicated data from companies such as Nielsen or Léger Marketing; scanner and panel data are syndicated sources giving
+      ongoing insight into purchasing behaviour.
+    alt: >-
+      External secondary data are someone else's research you borrow or buy — handy, but tailored to their question, not yours.
+    terms:
+      External secondary data: "Data from outside the firm — census, trade journals, reports, websites, purchased research."
+      Syndicated data: "Data available for a fee from commercial research firms (e.g., Nielsen, Léger)."
+    example: "Illustrative (from slides): Sephora uses industry sales reports and consumer trend data to plan assortments and promotions."
+    recall:
+      - q: "Data purchased from firms like Nielsen or Léger are called:"
+        o: ["Syndicated data", "Primary data", "Internal data", "Experimental data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A downside of external secondary data is that it may be:"
+        o: ["Not specific or timely enough", "Too tailored to the firm", "Always free", "Collected by the firm itself"]
+        a: A
+        e: ["Correct.", "No.", "No.", "That's internal."]
+    practice:
+      - q: "Sephora uses industry sales reports and trend data to plan assortments. This is:"
+        t: app
+        o: ["External secondary data", "Primary data", "Internal secondary data", "Observation"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Why might secondary data be outdated or irrelevant?"
+        o: ["It was originally collected for a different purpose", "It's always fake", "It's collected after the project", "It's always primary"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Statistics Canada census data used by a retailer is:"
+        t: app
+        o: ["External secondary data", "Internal secondary data", "Primary data", "Experimental data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a syndicated data provider listed in the slides?"
+        o: ["J.D. Power and Associates", "Huron Canvas", "Bartesian", "Wild Lot"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Wikipedia appears on the online sources list with what caution?"
+        o: ["Always validate data from here", "Never use it", "It's syndicated data", "It's primary data"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+
+  - id: ch7-secondary-disadvantages
+    title: Disadvantages of secondary data
+    src: "Ch. 7 slides, p. 26"
+    explain: >-
+      Marketers must evaluate how secondary data were collected to ensure the information is reliable and relevant. Easy access to
+      online data doesn't guarantee trustworthiness, especially when details about research design and sampling are unknown. Data
+      mining of large digital sources also lets firms estimate metrics such as customer lifetime value (CLV) — the estimated
+      long-term value of each customer to the firm.
+    alt: >-
+      Secondary data is a second-hand car: check its history (how it was collected) before you trust it.
+    terms:
+      Customer lifetime value (CLV): "A metric estimating the long-term value of each customer to the firm."
+    example: "Illustrative: a blog statistic with no stated sample size or method shouldn't drive a major pricing decision."
+    recall:
+      - q: "Before using secondary data, marketers should evaluate:"
+        o: ["How the data were collected", "The colour of the report", "The author's age", "Nothing"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Customer lifetime value (CLV) estimates:"
+        o: ["The long-term value of each customer to the firm", "The cost of a survey", "Inflation", "Segment size"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A firm finds an online statistic but can't learn the sampling method. The concern is:"
+        t: app
+        o: ["Trustworthiness/reliability", "Velocity", "Trialability", "Brand dilution"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Easy access to online data:"
+        o: ["Doesn't guarantee trustworthiness", "Guarantees accuracy", "Makes it primary data", "Removes the need for analysis"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A bank uses its transaction data to estimate how much each client will be worth over 20 years. It is estimating:"
+        t: app
+        o: ["CLV", "Conversion rate", "Segment adoption", "Market share"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Secondary data must be evaluated for being:"
+        o: ["Reliable and relevant", "Expensive", "Primary", "Qualitative only"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which is a disadvantage of secondary data compared with primary data?"
+        o: ["It may not fit the specific research question", "It's always more expensive", "It takes longer", "It can't be found online"]
+        a: A
+        e: ["Correct.", "It's usually cheaper.", "Usually faster.", "No."]
+
+  - id: ch7-primary-data
+    title: Primary data — advantages & disadvantages
+    src: "Ch. 7 slides, p. 29"
+    explain: >-
+      Primary data are collected specifically to answer the current research question, using observation, surveys, interviews or
+      focus groups. The main advantage: they can be tailored to the firm's specific decision needs. The disadvantages: they're
+      typically more costly and time-consuming than secondary data. Proper design and unbiased collection are essential — poorly
+      designed samples, biased questions or unrepresentative respondents lead to inaccurate conclusions.
+    alt: >-
+      Primary data is a custom-tailored suit — fits perfectly, but costs more and takes longer than buying off the rack.
+    terms:
+      Primary data advantage: "Tailored to the firm's specific decision needs."
+      Primary data disadvantage: "More costly and time-consuming than secondary data."
+    example: "Illustrative: a phone maker runs its own survey of 2,000 Canadian students about camera features it's considering."
+    recall:
+      - q: "The main advantage of primary research is that it is:"
+        o: ["Tailored to the firm's specific needs", "Always free", "Faster than secondary", "Collected by competitors"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Primary research is typically:"
+        o: ["More costly and time-consuming than secondary", "Cheaper than secondary", "Already collected", "Syndicated"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+    practice:
+      - q: "A survey only of a brand's most loyal fans would risk:"
+        t: app
+        o: ["Unrepresentative respondents and inaccurate conclusions", "Too much veracity", "Brand extension", "Lower costs"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "Which methods collect primary data?"
+        o: ["Observation, surveys, interviews, focus groups", "Census reports", "Trade journals", "Nielsen reports"]
+        a: A
+        e: ["Correct.", "Secondary.", "Secondary.", "Secondary (syndicated)."]
+      - q: "Why is unbiased data collection essential?"
+        o: ["Biased questions or samples lead to inaccurate conclusions", "It's cheaper", "It's legally required for all research", "It increases velocity"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]
+      - q: "A firm needs to know how its exact new flavour is received — no existing data covers it. It should use:"
+        t: app
+        o: ["Primary data", "Census data", "Old trade journals", "Wikipedia"]
+        a: A
+        e: ["Correct — tailored to the specific need.", "No.", "No.", "No."]
+      - q: "Primary vs secondary: which statement is correct?"
+        o: ["Primary is collected for the current question; secondary existed beforehand", "Both are collected beforehand", "Secondary is always tailored", "Primary is always free"]
+        a: A
+        e: ["Correct.", "No.", "No.", "No."]

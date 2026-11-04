@@ -39,6 +39,7 @@ export interface Mcq {
   official?: boolean;
   pastMidterm?: boolean;
   outOfScope?: boolean;
+  twin?: string; // near-duplicate question; never serve both in one session
 }
 
 export interface RubricPoint {

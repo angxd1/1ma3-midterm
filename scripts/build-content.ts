@@ -113,6 +113,7 @@ if (fs.existsSync(officialPath)) {
   const list: any[] = (yaml.load(fs.readFileSync(officialPath, 'utf8')) as any[]) ?? [];
   for (const o of list) {
     const q = mcq({ ...o, official: true }, o.id, 'official', o.ch, [], o.src);
+    if (o.twin) q.twin = o.twin;
     mcqs.push(q);
   }
 }
@@ -134,6 +135,14 @@ if (fs.existsSync(confPath)) {
       rows: (cf.rows ?? []).map((r: string[]) => ({ aspect: r[0], cells: r.slice(1) })), tip: cf.tip ?? '', questionIds: ids,
     });
   }
+}
+
+// Twins are symmetric.
+for (const q of mcqs) {
+  if (!q.twin) continue;
+  const t = mcqs.find((o) => o.id === q.twin);
+  if (!t) err(`${q.id}: twin ${q.twin} not found`);
+  else t.twin = q.id;
 }
 
 // Siblings: other practice/example questions on the same primary concept.
@@ -168,9 +177,9 @@ for (const q of mcqs) {
     if (q.options.length !== 4) err(`${q.id}: must have 4 options (has ${q.options.length})`);
   }
   if (q.explanations.length !== q.options.length) err(`${q.id}: ${q.explanations.length} explanations for ${q.options.length} options`);
-  if (new Set(q.options).size !== q.options.length) err(`${q.id}: duplicate options`);
+  if (q.kind !== 'official' && new Set(q.options).size !== q.options.length) err(`${q.id}: duplicate options`);
   if (!q.src) err(`${q.id}: missing src`);
-  if (!CHAPTERS.includes(q.chapter)) err(`${q.id}: chapter ${q.chapter} not on midterm`);
+  if (!q.outOfScope && !CHAPTERS.includes(q.chapter)) err(`${q.id}: chapter ${q.chapter} not on midterm`);
   if (q.concepts.length === 0 && !q.outOfScope) err(`${q.id}: not mapped to any concept`);
   for (const c of q.concepts) if (!conceptIds.has(c)) err(`${q.id}: unknown concept ${c}`);
 }

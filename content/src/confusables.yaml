@@ -1,0 +1,500 @@
+# Commonly confused concept groups: side-by-side comparison cards + quick questions.
+- id: cf-stp
+  title: Segmentation vs targeting vs positioning
+  c: [ch6-segmentation-bases, ch6-select-target, ch6-positioning]
+  src: "Ch. 6 slides, slides 3–4, 39"
+  cols: [Segmentation, Targeting, Positioning]
+  rows:
+    - [Question it answers, "How can we divide the market?", "Which segments do we pursue?", "How do we want them to see us vs rivals?"]
+    - [STP steps, "Steps 1–2", "Steps 3–4", "Step 5"]
+    - [Tools, "Geographic, demographic, psychographic, behavioural bases", "Attractiveness criteria; profitability formula; targeting strategies", "Value, attributes, benefits & symbolism, competition, leadership; perceptual maps"]
+  tip: "S divides, T chooses, P shapes perception — always in that order."
+  questions:
+    - q: "A firm decides to focus on health-conscious young professionals rather than students. This is:"
+      t: app
+      o: ["Targeting", "Segmentation", "Positioning", "Repositioning"]
+      a: A
+      e: ["Correct — choosing which segment to pursue.", "Segments already exist.", "Not about perception yet.", "No existing image is being changed."]
+    - q: "A firm wants customers to see its brand as 'the most natural option on the shelf'. This is:"
+      t: app
+      o: ["Positioning", "Segmentation", "Targeting", "Market testing"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-micro-macro
+  title: Microenvironment vs macroenvironment
+  c: [ch3-env-framework, ch3-cdstep]
+  src: "Ch. 3 slides, slides 6–15"
+  cols: [Microenvironment, Macroenvironment]
+  rows:
+    - [Factors, "Company capabilities, competition, corporate partners", "Culture, demographics, social trends, technology, economy, political/legal (CDSTEP)"]
+    - [Closeness to firm, "Immediate environment", "Broad external forces"]
+  tip: "Micro = 3 C-ish things near the firm (Company, Competition, Corporate partners). Macro = CDSTEP."
+  questions:
+    - q: "Which is a macroenvironmental factor?"
+      o: ["Interest rates", "A key supplier", "A direct competitor", "The firm's patents"]
+      a: A
+      e: ["Correct — economic (CDSTEP).", "Micro (partner).", "Micro (competition).", "Micro (capabilities)."]
+    - q: "A firm's new partnership with a delivery app affects which environment?"
+      t: app
+      o: ["Microenvironment", "Macroenvironment", "Political environment", "Demographics"]
+      a: A
+      e: ["Correct — corporate partners.", "No.", "No.", "No."]
+- id: cf-direct-indirect
+  title: Direct vs indirect competitors
+  c: [ch3-competition]
+  src: "Ch. 3 slides, slide 10"
+  cols: [Direct competitors, Indirect competitors]
+  rows:
+    - [Definition, "Similar products in the same market", "Different products, same share of wallet"]
+    - [Example, "Apple vs Samsung", "Starbucks vs Booster Juice / Red Bull"]
+  tip: "Direct = same product; indirect = same customer dollar."
+  questions:
+    - q: "For a gym, which is an indirect competitor?"
+      t: app
+      o: ["A home-workout app", "Another gym chain", "Its equipment supplier", "Its landlord"]
+      a: A
+      e: ["Correct.", "Direct.", "Partner.", "Partner."]
+    - q: "Coca-Cola vs Pepsi are:"
+      o: ["Direct competitors", "Indirect competitors", "Corporate partners", "Cobrands"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-culture
+  title: Country culture vs regional subculture
+  c: [ch3-culture]
+  src: "Ch. 3 slides, slide 16"
+  cols: [Country culture, Regional subculture]
+  rows:
+    - [Scope, "A nation as a whole", "A distinct group within a nation"]
+    - [Example, "Canada vs Japan", "Ontario vs Quebec; 'pop' vs 'soda'"]
+  tip: "If the comparison crosses a border, it's country culture; if it stays inside one country, it's regional."
+  questions:
+    - q: "Quebec families being more likely to cook from scratch than Ontario families illustrates:"
+      t: app
+      o: ["Regional subculture", "Country culture", "Demographics", "Economic situation"]
+      a: A
+      e: ["Correct.", "Same country.", "No.", "No."]
+    - q: "Maple syrup and the beaver as national symbols illustrate:"
+      o: ["Country culture", "Regional subculture", "Generational cohort", "Competitive intelligence"]
+      a: A
+      e: ["Correct.", "National, not regional.", "No.", "No."]
+- id: cf-search
+  title: Internal vs external search; internal vs external locus of control
+  c: [ch4-info-search, ch4-search-factors]
+  src: "Ch. 4 slides, slides 6–7"
+  cols: [Internal, External]
+  rows:
+    - [Information search, "Your own memory/past experience", "Friends, reviews, influencers, online"]
+    - [Locus of control, "'I control outcomes' → MORE search", "'Fate decides' → LESS search"]
+  tip: "Same words, two different concepts: search type is WHERE info comes from; locus is WHO you think controls outcomes."
+  questions:
+    - q: "Reading Reddit reviews before buying headphones is:"
+      t: app
+      o: ["External search", "Internal search", "Internal locus of control", "External locus of control"]
+      a: A
+      e: ["Correct.", "No.", "That's a belief, not a source.", "That's a belief."]
+    - q: "Someone who searches little because 'it's all luck anyway' has:"
+      t: app
+      o: ["An external locus of control", "An internal locus of control", "An internal search", "An evoked set"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-needs
+  title: Functional vs psychological needs
+  c: [ch4-need-recognition]
+  src: "Ch. 4 slides, slide 5"
+  cols: [Functional, Psychological]
+  rows:
+    - [About, "Performance/utility", "Personal gratification — status, emotion, self-image"]
+    - [Example, "Waterproof boots keep feet dry", "A designer clutch signals prestige"]
+  tip: "Ask: is it about what the product DOES or how it makes me FEEL/LOOK?"
+  questions:
+    - q: "Buying Evian instead of tap water mainly for the image is a:"
+      t: app
+      o: ["Psychological need", "Functional need", "Physiological risk", "Habitual decision"]
+      a: A
+      e: ["Correct.", "Water itself is functional; the brand choice is psychological.", "No.", "No."]
+    - q: "Buying a car mainly for fuel efficiency and reliability is a:"
+      t: app
+      o: ["Functional need", "Psychological need", "Social risk", "Dissociative group"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-sets
+  title: Retrieval set vs evoked set
+  c: [ch4-alt-evaluation]
+  src: "Ch. 4 slides, slide 11"
+  cols: [Retrieval set, Evoked set]
+  rows:
+    - [Definition, "Brands you can recall from memory", "Brands you seriously consider"]
+    - [Size, "Larger", "Smaller subset"]
+  tip: "Remembering ≠ considering."
+  questions:
+    - q: "You can name eight airlines but would only fly two. The two are your:"
+      t: app
+      o: ["Evoked set", "Retrieval set", "Reference group", "Product line"]
+      a: A
+      e: ["Correct.", "The eight.", "No.", "No."]
+    - q: "Macy's is in many women's ___ set for business apparel, while Banana Republic is in young women's ___ set."
+      o: ["retrieval; evoked", "evoked; retrieval", "evoked; evoked", "retrieval; retrieval"]
+      a: A
+      e: ["Correct (slide 11).", "Reversed.", "No.", "No."]
+- id: cf-rules
+  title: Compensatory vs non-compensatory vs heuristics
+  c: [ch4-decision-rules, ch4-decision-heuristics]
+  src: "Ch. 4 slides, slides 12–13"
+  cols: [Compensatory, Non-compensatory, Heuristics]
+  rows:
+    - [How it works, "Weigh many attributes; strengths offset weaknesses", "One factor prevails, non-negotiable", "Mental shortcut (price, brand, presentation)"]
+    - [Example, "Toyota wins on weighted score 8.2", "Nissan wins on price alone", "'Expensive = better quality'"]
+  tip: "Compensatory = spreadsheet; non-compensatory = deal-breaker; heuristic = gut shortcut."
+  questions:
+    - q: "'I'll only buy a phone under $500, period.' This is:"
+      t: app
+      o: ["Non-compensatory", "Compensatory", "A price heuristic of quality", "Habitual"]
+      a: A
+      e: ["Correct — a deal-breaker rule.", "No trade-offs.", "Not assuming quality.", "No."]
+    - q: "Choosing the middle-priced option as a 'safe compromise' is:"
+      t: app
+      o: ["A decision heuristic", "A compensatory rule", "A non-compensatory rule", "An evoked set"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-refgroups
+  title: Membership vs aspirational vs dissociative groups
+  c: [ch4-reference-groups]
+  src: "Ch. 4 slides, slide 30"
+  cols: [Membership, Aspirational, Dissociative]
+  rows:
+    - [Relationship, "You belong", "You want to belong", "You want distance"]
+    - [Example, "Your program, your gym", "Pro teams, celebrities", "Groups you avoid being linked to"]
+  tip: "Am I in it (membership), do I want in (aspirational), or do I want out (dissociative)?"
+  questions:
+    - q: "A first-year who copies the style of varsity athletes she admires is influenced by a(n):"
+      t: app
+      o: ["Aspirational group", "Membership group", "Dissociative group", "Corporate partner"]
+      a: A
+      e: ["Correct.", "She's not on the team.", "She admires them.", "No."]
+    - q: "Your residence floor is a(n):"
+      o: ["Membership group", "Aspirational group", "Dissociative group", "Generational cohort"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-situational
+  title: Purchase situation vs shopping situation vs temporal state
+  c: [ch4-situational]
+  src: "Ch. 4 slides, slide 32"
+  cols: [Purchase situation, Shopping (sensory) situation, Temporal state]
+  rows:
+    - [Ask, "WHY/for what occasion?", "WHERE — what's the store like?", "WHEN — time pressure and mood"]
+    - [Priya example, "Best friend's birthday", "Soft lighting, elegant displays", "Sale ends today"]
+  tip: "Occasion → purchase. Atmosphere → shopping. Clock or mood → temporal."
+  questions:
+    - q: "Buying a pricier wine because it's a gift for your boss is the:"
+      t: app
+      o: ["Purchase situation", "Shopping situation", "Temporal state", "Lifestyle"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "A bad mood after a parking ticket changing what you buy is the:"
+      t: app
+      o: ["Temporal state", "Purchase situation", "Shopping situation", "Reference group"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-buying-types
+  title: Extended vs limited vs impulse vs habitual
+  c: [ch4-buying-decision-types, ch4-involvement]
+  src: "Ch. 4 slides, slides 35–37"
+  cols: [Extended, Limited, Impulse, Habitual]
+  rows:
+    - [Effort, "High", "Moderate", "Little thought, spontaneous", "Almost none — autopilot"]
+    - [Example, "House, car", "Backpack, clothing", "Chocolate at checkout", "Weekly milk"]
+  tip: "Habitual needs the LEAST effort; impulse is unplanned; limited leans on past experience."
+  questions:
+    - q: "Which requires the least time and effort?"
+      o: ["Habitual decision making", "Impulse buying", "Limited problem solving", "Extended problem solving"]
+      a: A
+      e: ["Correct (slide 39).", "Unplanned, but habitual is the slide answer.", "Moderate.", "Most effort."]
+    - q: "Grabbing gum at the till that you hadn't planned to buy is:"
+      t: app
+      o: ["Impulse buying", "Habitual", "Limited", "Extended"]
+      a: A
+      e: ["Correct.", "Not routine.", "No.", "No."]
+- id: cf-seg-bases
+  title: Geographic vs geodemographic; psychographic vs behavioural
+  c: [ch6-geographic, ch6-geodemographic, ch6-psychographic, ch6-behavioural]
+  src: "Ch. 6 slides, slides 7–15"
+  cols: [Geographic, Geodemographic, Psychographic, Behavioural]
+  rows:
+    - [Based on, "Where people live", "Where + who + lifestyle (PRIZM)", "Values, personality, lifestyle — WHY they buy", "Benefits, usage, loyalty, occasion — WHAT they do"]
+    - [Example, "Snow tires in the north", "'Urban Digerati' postal codes", "Adventurous self-concept (MEC)", "Heavy users (Belco 'Jumbo')"]
+  tip: "Psychographic = who they ARE inside; behavioural = how they ACT toward the product."
+  questions:
+    - q: "Segmenting by how often people buy is:"
+      o: ["Behavioural", "Psychographic", "Geographic", "Geodemographic"]
+      a: A
+      e: ["Correct — usage rate.", "No.", "No.", "No."]
+    - q: "Segmenting neighbourhoods into named lifestyle clusters with PRIZM is:"
+      o: ["Geodemographic", "Geographic only", "Psychographic only", "Behavioural"]
+      a: A
+      e: ["Correct.", "It also uses demographics and lifestyle.", "It also uses location.", "No."]
+- id: cf-targeting
+  title: Undifferentiated vs differentiated vs concentrated vs micromarketing
+  c: [ch6-undifferentiated, ch6-differentiated, ch6-concentrated, ch6-micromarketing]
+  src: "Ch. 6 slides, slides 31–36"
+  cols: [Undifferentiated, Differentiated, Concentrated, Micromarketing]
+  rows:
+    - [Who, "Everyone, one offer", "Several segments, different mixes", "One niche segment", "Individuals"]
+    - [Example, "Sugar, salt", "Condé Nast magazines", "Newton Running", "Personalised M&M's"]
+    - [Trade-off, "Cheap but hard to sustain", "Coverage & diversified risk vs higher cost", "Deep loyalty vs single-segment risk", "Personal value vs cost/complexity"]
+  tip: "Count the targets: all (undiff.), several (diff.), one segment (conc.), one person (micro)."
+  questions:
+    - q: "A start-up making shoes only for forefoot runners uses:"
+      t: app
+      o: ["Concentrated targeting", "Differentiated targeting", "Micromarketing", "Undifferentiated targeting"]
+      a: A
+      e: ["Correct.", "One segment only.", "Not per individual.", "No."]
+    - q: "Gap Inc. running Old Navy, Gap and Banana Republic uses:"
+      t: app
+      o: ["Differentiated targeting", "Concentrated targeting", "Undifferentiated targeting", "Micromarketing"]
+      a: A
+      e: ["Correct.", "Several segments.", "No.", "No."]
+- id: cf-positioning
+  title: Positioning methods
+  c: [ch6-pos-value, ch6-pos-attributes, ch6-pos-benefits-symbolism, ch6-pos-competition, ch6-pos-leadership]
+  src: "Ch. 6 slides, slides 40–44"
+  cols: [Value, Product attributes, Benefits & symbolism, Competition, Market leadership]
+  rows:
+    - [Emphasises, "Price relative to quality", "Specific features important to target", "Benefits + psychological meaning", "Head-to-head vs a rival or a class", "Dominance and credibility"]
+    - [Example, "KIND vs PowerBar", "Audi Quattro", "SoCIAL LITE; Nike swoosh", "Avis vs Hertz", "Royal Bank of Canada"]
+  tip: "Named rival → competition. 'We're #1' → leadership. A feature → attributes. Meaning/symbol → symbolism. Price-for-quality → value."
+  questions:
+    - q: "'We're number two. We try harder.' is:"
+      o: ["Competition positioning", "Market leadership", "Value", "Symbolism"]
+      a: A
+      e: ["Correct.", "Avis isn't the leader.", "No.", "No."]
+    - q: "'Our laptop has a 20-hour battery' is:"
+      t: app
+      o: ["Product attributes positioning", "Value", "Market leadership", "Competition"]
+      a: A
+      e: ["Correct.", "No price.", "No.", "No rival named."]
+- id: cf-data
+  title: Primary vs secondary; internal vs external; syndicated
+  c: [ch7-step3-collect, ch7-internal-secondary, ch7-external-secondary, ch7-primary-data]
+  src: "Ch. 7 slides, pp. 11–29"
+  cols: [Primary, Internal secondary, External secondary, Syndicated]
+  rows:
+    - [Definition, "Collected now for this question", "Firm's own existing records", "Existing outside sources", "Purchased from research firms"]
+    - [Example, "Focus group on a new flavour", "Invoices, customer lists", "Census, trade journals", "Nielsen scanner data"]
+    - [Trade-off, "Tailored but costly/slow", "Cheap but may not be the right data", "May be outdated/not specific", "Ongoing detail, costs money"]
+  tip: "Ask: did WE collect it for THIS project? Yes → primary. Otherwise secondary (inside or outside the firm)."
+  questions:
+    - q: "A retailer buying Nielsen sales-tracking data is using:"
+      o: ["Syndicated external secondary data", "Primary data", "Internal secondary data", "Qualitative data"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "A firm analysing its own past invoices uses:"
+      o: ["Internal secondary data", "External secondary data", "Primary data", "Syndicated data"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-qual-quant
+  title: Qualitative vs quantitative; panel vs scanner
+  c: [ch7-qualitative, ch7-quantitative, ch7-panel-scanner]
+  src: "Ch. 7 slides, pp. 30–42"
+  cols: [Qualitative, Quantitative, Panel data, Scanner data]
+  rows:
+    - [Purpose, "Explore attitudes and motives", "Measure and test with numbers", "Same consumers over time", "UPC reads at checkout"]
+    - [Methods/example, "Focus groups, interviews, observation", "Surveys, experiments", "New Balance Tester Community", "Store sales after a promotion"]
+  tip: "Panel = diary of the same people; scanner = receipt from the till."
+  questions:
+    - q: "Tracking the same 5,000 households' purchases for a year is:"
+      o: ["Panel data", "Scanner data", "A focus group", "Concept testing"]
+      a: A
+      e: ["Correct.", "Scanner is checkout UPC data.", "No.", "No."]
+    - q: "An A/B test of two prices is:"
+      o: ["Quantitative (experimental)", "Qualitative", "Projective", "Observation"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-analytics
+  title: Descriptive vs predictive vs prescriptive analytics
+  c: [ch7-analytics-types]
+  src: "Ch. 7 slides, p. 47"
+  cols: [Descriptive, Predictive, Prescriptive]
+  rows:
+    - [Question, "What happened?", "What will happen?", "What should we do?"]
+    - [Example, "Last quarter's sales by store", "Who will churn next month", "Optimal offer per customer"]
+  tip: "Describe the past → predict the future → prescribe the action."
+  questions:
+    - q: "A model forecasting next month's demand is:"
+      o: ["Predictive", "Descriptive", "Prescriptive", "Qualitative"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "A dashboard summarising last year's sales is:"
+      o: ["Descriptive", "Predictive", "Prescriptive", "Active"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-testing
+  title: Concept testing vs alpha vs beta vs premarket vs test marketing
+  c: [ch8-concept-testing, ch8-product-development, ch8-market-testing]
+  src: "Ch. 8 slides, slides 38–43"
+  cols: [Concept testing, Alpha testing, Beta testing, Premarket test, Test marketing]
+  rows:
+    - [What is tested, "A description of the idea", "Prototype, internally", "Prototype, by potential customers in real use", "Product, controlled environment", "Product, real sales in a limited area"]
+    - [Example, "Survey on a product description", "Ben & Jerry's employees", "AC tested in customers' homes", "Ben & Jerry's at Costco", "Launch in one city first"]
+  tip: "Idea → prototype in-house (alpha) → prototype with customers (beta) → product in lab (premarket) → product in a real market (test marketing)."
+  questions:
+    - q: "Employees try a new 3D printer in the firm's R&D facility. This is:"
+      t: app
+      o: ["Alpha testing", "Beta testing", "Premarket testing", "Concept testing"]
+      a: A
+      e: ["Correct.", "Beta uses customers.", "No.", "No prototype in concept testing."]
+    - q: "A new soda is sold only in Winnipeg before a national rollout. This is:"
+      t: app
+      o: ["Test marketing", "Premarket testing", "Beta testing", "Concept testing"]
+      a: A
+      e: ["Correct.", "No — that's a controlled setting.", "No.", "No."]
+- id: cf-adopters
+  title: Innovators vs early adopters; early vs late majority
+  c: [ch8-adopter-categories]
+  src: "Ch. 8 slides, slides 13–14"
+  cols: [Innovators, Early adopters, Early majority, Late majority]
+  rows:
+    - [Share, "2.5%", "13.5%", "34%", "34%"]
+    - [Behaviour, "Risk-takers, buy first", "Wait for reviews, still early; influence others", "Want bugs fixed; drive profit", "Adopt once established; price sensitive"]
+  tip: "Innovators don't wait for reviews; early adopters do. Early majority waits for bugs fixed; late majority waits for it to be standard."
+  questions:
+    - q: "Buyers who wait for reviews but still buy early and influence others are:"
+      o: ["Early adopters", "Innovators", "Early majority", "Late majority"]
+      a: A
+      e: ["Correct.", "Innovators don't wait.", "They wait longer.", "No."]
+    - q: "Which group's adoption drives profitability once risks are reduced?"
+      o: ["Early majority", "Innovators", "Laggards", "Early adopters"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-diffusion
+  title: Relative advantage vs compatibility vs observability vs trialability
+  c: [ch8-relative-advantage, ch8-compatibility, ch8-observability, ch8-complexity-trialability]
+  src: "Ch. 8 slides, slides 17–21"
+  cols: [Relative advantage, Compatibility, Observability, Complexity & trialability]
+  rows:
+    - [Question, "Is it better than substitutes?", "Does it fit how I live/my values?", "Can I see others using it?", "Is it easy to understand and try?"]
+    - [Example, "Swiffer vs mop", "Starbucks in tea cultures", "Blendtec 'Will It Blend?'", "Dyson in-store demo; free trial"]
+  tip: "Better? Fits? Visible? Easy to try? — yes speeds diffusion (complexity: yes slows it)."
+  questions:
+    - q: "A product that clashes with local cultural habits will diffuse slowly due to low:"
+      o: ["Compatibility", "Observability", "Relative advantage", "Trialability"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "Free 30-day trials increase:"
+      o: ["Trialability", "Compatibility", "Observability", "Complexity"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-licensing
+  title: Licensing (Ch 8) vs brand licensing (Ch 9)
+  c: [ch8-licensing, ch9-brand-licensing]
+  src: "Ch. 8 slides, slide 28; Ch. 9 slides, p. 32"
+  cols: [Licensing (NPD idea source), Brand licensing]
+  rows:
+    - [What is licensed, "Technology or ideas", "Brand name, logo, characters"]
+    - [Who benefits how, "Buyer gets tech without R&D cost", "Brand owner earns royalties + visibility"]
+    - [Example, "Qualcomm 5G → Apple", "Mickey Mouse on Herschel bags"]
+  tip: "Ch 8 licensing buys INNOVATION; Ch 9 brand licensing rents out a NAME."
+  questions:
+    - q: "A toy maker pays Disney to put Elsa on dolls. This is:"
+      t: app
+      o: ["Brand licensing", "Licensing technology for NPD", "Cobranding", "Brand extension"]
+      a: A
+      e: ["Correct.", "No tech involved.", "One brand is rented, not co-marketed.", "Disney isn't making the product."]
+    - q: "A pharma firm buys rights to a biotech start-up's patented compound. This is:"
+      t: app
+      o: ["Licensing (NPD idea source)", "Brand licensing", "Cobranding", "Reverse engineering"]
+      a: A
+      e: ["Correct.", "No brand involved.", "No.", "No."]
+- id: cf-mix
+  title: Product mix vs line vs category; breadth vs depth
+  c: [ch9-product-mix-lines, ch9-product-category, ch9-breadth-depth]
+  src: "Ch. 9 slides, pp. 5–10"
+  cols: [Product mix, Product line, Product category, Breadth, Depth]
+  rows:
+    - [Meaning, "All products a firm sells", "Group of associated items", "Items seen as substitutes", "Number of lines", "Products within a line"]
+    - [Colgate example, "Everything Colgate-Palmolive sells", "Oral care", "Toothpaste", "4 lines", "Many oral-care items"]
+  tip: "Breadth = how many aisles; depth = how full each aisle is."
+  questions:
+    - q: "Adding a pet-food line to a toothpaste company's offerings increases:"
+      t: app
+      o: ["Breadth", "Depth", "Category", "Brand dilution only"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "Adding a new toothpaste flavour increases:"
+      t: app
+      o: ["Depth", "Breadth", "Product mix lines", "Generic branding"]
+      a: A
+      e: ["Correct.", "No new line.", "No.", "No."]
+- id: cf-brand-strategies
+  title: Brand extension vs cobranding vs brand licensing
+  c: [ch9-brand-extension, ch9-cobranding, ch9-brand-licensing]
+  src: "Ch. 9 slides, pp. 27–32"
+  cols: [Brand extension, Cobranding, Brand licensing]
+  rows:
+    - [Definition, "Same brand on new products", "Two+ brands together", "Another firm uses your brand for a fee"]
+    - [Example, "Starbucks mugs", "KFC + Taco Bell", "Disney characters on toys"]
+    - [Main risk, "Dilution / poor fit", "Misaligned customers", "Overexposure dilutes equity"]
+  tip: "One brand, new product (extension); two brands, one offer (cobrand); your brand, their product (licensing)."
+  questions:
+    - q: "GoPro and Red Bull running a joint campaign is:"
+      o: ["Cobranding", "Brand extension", "Brand licensing", "Private labelling"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "Dyson launching a hair dryer under the Dyson name is:"
+      t: app
+      o: ["Brand extension", "Cobranding", "Brand licensing", "Generic branding"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-ownership
+  title: Manufacturer vs private-label vs generic; family vs individual
+  c: [ch9-brand-ownership, ch9-family-individual]
+  src: "Ch. 9 slides, pp. 21–25"
+  cols: [Manufacturer, Private label, Generic, Family brand, Individual brand]
+  rows:
+    - [Meaning, "Owned by the maker", "Owned by the retailer", "No brand name", "Company name across products", "Separate name per product"]
+    - [Example, "Cherry Coke", "President's Choice", "'Cherry Cola'", "Kellogg's", "Tide"]
+  tip: "Ownership = WHO owns the name; name strategy = HOW names are used across products."
+  questions:
+    - q: "No Name products at Loblaws (yellow packaging) are closest to:"
+      t: app
+      o: ["Generic / store products", "Manufacturer brands", "Cobrands", "Family brands of a manufacturer"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "Kraft marketing Jell-O and Classico under separate names is:"
+      o: ["Individual branding", "Family branding", "Private labelling", "Generic"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-product-levels
+  title: Core vs actual vs augmented product
+  c: [ch9-product-complexity]
+  src: "Ch. 9 slides, pp. 2–3"
+  cols: [Core customer value, Actual product, Associated services]
+  rows:
+    - [Meaning, "Basic benefit sought", "Brand, packaging, quality, features/design", "Financing, warranty, support"]
+    - [Bike example, "Fast, fun riding", "Carbon frame, Trek brand", "Warranty, tune-ups, custom fit"]
+  tip: "Benefit → thing → service around the thing."
+  questions:
+    - q: "Free installation and a 3-year warranty on a TV are part of the:"
+      o: ["Associated services (augmented)", "Actual product", "Core customer value", "Product category"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "A TV's 4K screen and brand name are part of the:"
+      o: ["Actual product", "Core value", "Associated services", "Product mix"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+- id: cf-product-types
+  title: Convenience vs shopping vs specialty vs unsought
+  c: [ch9-consumer-product-types]
+  src: "Ch. 9 slides, p. 4"
+  cols: [Convenience, Shopping, Specialty, Unsought]
+  rows:
+    - [Slide example, "Soft drinks", "Apparel", "Medical professional", "Insurance"]
+  tip: "Grab it / compare it / seek a specific one / don't think about it until needed."
+  questions:
+    - q: "Per the slides, insurance is a(n):"
+      o: ["Unsought service", "Convenience product", "Shopping product", "Specialty service"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
+    - q: "Per the slides, apparel is a:"
+      o: ["Shopping product", "Convenience product", "Unsought product", "Specialty product"]
+      a: A
+      e: ["Correct.", "No.", "No.", "No."]
