@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# 1MA3 Midterm Prep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A gamified study app for COMMERCE 1MA3 (Intro to Marketing, Prof. Suri) — midterm chapters 3, 4, 6, 7, 8 and 9.
 
-Currently, two official plugins are available:
+- **Learn**: a Duolingo-style path per chapter (one node per concept): lesson → recall questions. Each chapter card shows Coverage % and Mastery %.
+- **Practice (Version A)**: endless adaptive stream (weakness weighting + SM-2 spaced repetition), confidence tagging, wrong-answer panel that explains every option, "Explore concept", combo multiplier, short answers with keyword assist.
+- **Mock (Version B)**: 60 MCQ + 2 short answers, 2-hour timer with auto-submit, scantron navigator, flags, results report by chapter/concept/time.
+- **Sync**: Supabase magic-link login; offline-first IndexedDB cache.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All content is generated from the course slides into `content/src/*.yaml` → `src/data/content.json`, with a source citation on every concept and question. See [CONCEPT_INVENTORY.md](CONCEPT_INVENTORY.md), [CONTENT_NOTES.md](CONTENT_NOTES.md) and [SETUP.md](SETUP.md).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install && npm run dev   # local
+npm test                     # scheduler, mastery, mock composition, sync merge, keyword assist
+npm run build                # validates content, then builds
 ```
