@@ -152,9 +152,16 @@ export function syncNow(): Promise<void> {
 }
 
 /* ---------- auth ---------- */
+// Per-deployment *.vercel.app URLs sit behind Vercel's login wall, so magic links
+// must always land on the public production domain (localhost stays local for dev).
+const PROD_URL = import.meta.env.VITE_SITE_URL || 'https://1ma3-midterm.vercel.app';
+function redirectUrl() {
+  const { hostname, origin } = window.location;
+  return hostname === 'localhost' || hostname === '127.0.0.1' ? origin : PROD_URL;
+}
 export async function sendMagicLink(email: string) {
   if (!supabase) throw new Error('Sync is not configured (missing Supabase env vars).');
-  const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.origin } });
+  const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: redirectUrl() } });
   if (error) throw error;
 }
 export async function signOut() {

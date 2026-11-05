@@ -8,7 +8,7 @@ The app works without any setup: progress is saved in this browser (IndexedDB). 
 2. When it's ready, open **SQL Editor → New query**, paste the contents of [`supabase/schema.sql`](supabase/schema.sql) and click **Run**. This creates the `attempts` (append-only log) and `kv` (settings / in-progress mock) tables with row-level security so only your signed-in account can read or write your rows.
 3. **Authentication → Sign In / Providers → Email**: make sure Email is enabled. (Magic links work out of the box; you can turn off "Confirm email" if you like.)
 4. **Authentication → URL Configuration**:
-   - **Site URL**: your Vercel URL (e.g. `https://1ma3-midterm-prep.vercel.app`) — set this after step 3 below.
+   - **Site URL**: your Vercel URL (e.g. `https://1ma3-midterm.vercel.app`) — the public production domain, **not** a per-deployment `…-xxxx-angxd1s-projects.vercel.app` URL (those are behind Vercel login).
    - **Redirect URLs**: add `http://localhost:5173` and your Vercel URL (plus `https://*-angxd1.vercel.app` if you want preview deploys to work).
 5. **Project Settings → API**: copy the **Project URL** and the **anon / publishable key**. (The anon key is designed to be public in browser apps — RLS is what protects your data. Never use the `service_role` key here.)
 
