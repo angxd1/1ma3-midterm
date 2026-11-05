@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { CHAPTERS, type ChapterId } from '../content/types';
-import { content, conceptById, CHAPTER_SHORT } from '../lib/content';
+import type { ChapterId } from '../content/types';
+import { content, conceptById } from '../lib/content';
 import { useAttempts } from '../lib/hooks';
 import { record } from '../lib/store';
 import { seenConcepts } from '../lib/stats';
+import { ChapterChip, ChapterTabs, TAB } from '../components/ui';
 import { cardId, cardQueue, cardStates, type CardRating } from '../lib/drills';
 
 interface Card {
@@ -65,18 +66,12 @@ export default function Flashcards() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-4">
-      <div className="card space-y-3">
+      <div className="space-y-4">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
-          <h1 className="text-xl font-bold">🃏 Flashcards</h1>
-          <p className="text-xs text-slate-500">{deck.length} cards · {dueCount} due · {learned} learned · {sessionCount} reviewed now</p>
+          <h1 className="text-[26px] font-extrabold leading-tight">Flashcards</h1>
+          <p className="text-[13px] text-pencil">{deck.length} cards, {dueCount} due now, {learned} learned{sessionCount ? `, ${sessionCount} reviewed this session` : ''}</p>
         </div>
-        <div className="flex gap-2 overflow-x-auto pb-1">
-          {(['all', ...CHAPTERS] as const).map((c) => (
-            <button key={c} onClick={() => { setChapter(c); setSkip([]); }} className={`chip shrink-0 border px-3 py-1 ${chapter === c ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`}>
-              {c === 'all' ? 'All chapters' : `Ch ${c} · ${CHAPTER_SHORT[c]}`}
-            </button>
-          ))}
-        </div>
+        <ChapterTabs all active={chapter} onSelect={(c) => { setChapter(c); setSkip([]); }} />
         <div className="flex flex-wrap gap-4 text-sm">
           <label className="flex items-center gap-2"><input type="checkbox" checked={seenOnly} onChange={(e) => { setSeenOnly(e.target.checked); setSkip([]); }} /> Only concepts I've seen</label>
           <label className="flex items-center gap-2"><input type="checkbox" checked={reverse} onChange={(e) => setReverse(e.target.checked)} /> Definition first</label>
@@ -87,7 +82,7 @@ export default function Flashcards() {
         <div className="card space-y-2 text-center">
           <p className="text-4xl">🎉</p>
           <p className="font-semibold">{deck.length ? 'Nothing due right now.' : 'No cards here yet.'}</p>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-pencil">
             {deck.length ? 'Cards you rated come back on their schedule (Again: 10 min, Good: ½–8 days).' : seenOnly ? 'Finish a lesson first, or untick “Only concepts I’ve seen”.' : ''}
           </p>
           {skip.length > 0 && <button className="btn-ghost" onClick={() => setSkip([])}>Keep going with rated cards</button>}
@@ -96,23 +91,24 @@ export default function Flashcards() {
         <>
           <button
             onClick={() => setFlipped((f) => !f)}
-            className={`card flex min-h-[14rem] w-full flex-col items-center justify-center gap-3 text-center transition ${flipped ? 'bg-brand-50 dark:bg-brand-700/10' : ''}`}
-            aria-label={flipped ? 'Card back' : 'Card front — tap to flip'}
+            className="flex min-h-[15rem] w-full flex-col items-center justify-center gap-4 rounded-md border border-rule bg-sheet p-6 text-center shadow-[0_10px_24px_-18px_rgb(0_0_0/0.45)]"
+            style={concept ? { borderTop: `8px solid ${TAB[concept.chapter]}` } : undefined}
+            aria-label={flipped ? 'Card back' : 'Card front, tap to flip'}
           >
-            <span className="text-xs text-slate-500">Ch {concept?.chapter} · {concept?.title}</span>
-            <span className={`${reverse && !flipped ? 'text-base' : 'text-xl font-bold'} leading-relaxed`}>{front}</span>
-            {flipped ? <span className={`${reverse ? 'text-xl font-bold' : 'text-base'} border-t border-slate-200 pt-3 text-slate-700 dark:border-slate-700 dark:text-slate-200`}>{back}</span> : <span className="text-xs text-slate-400">Tap or press Space to flip</span>}
+            {concept && <ChapterChip ch={concept.chapter} title={concept.title} />}
+            <span className={reverse && !flipped ? 'max-w-[52ch] font-serif text-[17px] leading-relaxed' : 'text-[26px] font-extrabold leading-tight'}>{reverse ? front : <span className={flipped ? 'hl' : ''}>{front}</span>}</span>
+            {flipped ? <span className={`${reverse ? 'text-[26px] font-extrabold leading-tight' : 'max-w-[52ch] font-serif text-[17px] leading-relaxed'} w-full border-t border-dashed border-rule pt-4`}>{back}</span> : <span className="text-[13px] text-pencil">Tap or press Space to flip</span>}
           </button>
           {flipped ? (
             <div className="grid grid-cols-3 gap-2">
-              <button className="btn bg-rose-600 text-white hover:bg-rose-700" onClick={() => rate('again')}>Again <span className="hidden opacity-70 sm:inline">(1)</span></button>
-              <button className="btn bg-brand-600 text-white hover:bg-brand-700" onClick={() => rate('good')}>Good <span className="hidden opacity-70 sm:inline">(2)</span></button>
-              <button className="btn bg-emerald-600 text-white hover:bg-emerald-700" onClick={() => rate('easy')}>Easy <span className="hidden opacity-70 sm:inline">(3)</span></button>
+              <button className="btn-ghost text-redpen" onClick={() => rate('again')}>Again <kbd className="hidden sm:inline">1</kbd></button>
+              <button className="btn-primary" onClick={() => rate('good')}>Good <kbd className="hidden border-transparent bg-transparent text-sheet/70 sm:inline">2</kbd></button>
+              <button className="btn-ghost text-tick" onClick={() => rate('easy')}>Easy <kbd className="hidden sm:inline">3</kbd></button>
             </div>
           ) : (
             <button className="btn-primary w-full" onClick={() => setFlipped(true)}>Show answer</button>
           )}
-          {concept && <p className="text-center text-xs"><Link className="text-brand-600 hover:underline" to={`/lesson/${concept.id}`}>Open the full lesson</Link> · {concept.src}</p>}
+          {concept && <p className="text-center text-xs"><Link className="text-[15px] text-pencil hover:text-ink" to={`/lesson/${concept.id}`}>Open the full lesson</Link> · {concept.src}</p>}
         </>
       )}
     </div>

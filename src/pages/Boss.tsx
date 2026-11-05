@@ -7,6 +7,7 @@ import { getState, record, visibleAttempts } from '../lib/store';
 import { BOSS_HEARTS, BOSS_PASS, bossLength, bossOutcome, composeBoss, type BossPaper } from '../lib/drills';
 import { McqCard } from '../components/McqCard';
 import { FillCard, MatchingCard } from '../components/Drills';
+import { HlBar, tabStyle } from '../components/ui';
 
 type Step = { kind: 'mcq'; id: string } | { kind: 'match'; id: string } | { kind: 'fill'; id: string };
 
@@ -69,24 +70,24 @@ export default function Boss() {
   if (!paper || over) {
     return (
       <div className="mx-auto max-w-xl space-y-4">
-        <Link to={`/learn/${chapter}`} className="text-sm text-brand-600 hover:underline">← Ch {chapter} path</Link>
-        <div className="card space-y-4 text-center">
+        <Link to={`/learn/${chapter}`} className="text-[15px] text-pencil hover:text-ink">Ch {chapter} path</Link>
+        <div className="sheet space-y-4 text-center" style={tabStyle(chapter)}>
           <p className="text-6xl">{over ? (over.won ? '🏆' : '💀') : '👑'}</p>
           {over ? (
             <>
               <h1 className="text-2xl font-extrabold">{over.won ? 'Boss defeated!' : over.hearts === 0 ? 'Out of hearts' : 'The boss survives'}</h1>
-              <p className="text-slate-600 dark:text-slate-300">
-                {score.right}/{paper ? bossLength(paper) : score.total} correct ({Math.round(over.pct * 100)}%) · {'❤️'.repeat(over.hearts)}{'🖤'.repeat(BOSS_HEARTS - over.hearts)}
+              <p className="text-ink/85">
+                {score.right}/{paper ? bossLength(paper) : score.total} correct ({Math.round(over.pct * 100)}%) {'❤️'.repeat(over.hearts)}{'🖤'.repeat(BOSS_HEARTS - over.hearts)}
               </p>
-              {!over.won && <p className="text-sm text-slate-500">You need {Math.round(BOSS_PASS * 100)}% with at least one heart left. Misses are in your mistake notebook.</p>}
+              {!over.won && <p className="text-sm text-pencil">You need {Math.round(BOSS_PASS * 100)}% with at least one heart left. Misses are in your mistake notebook.</p>}
             </>
           ) : (
             <>
               <h1 className="text-2xl font-extrabold">Ch {chapter} boss: {CHAPTER_SHORT[chapter]}</h1>
-              <p className="text-sm text-slate-600 dark:text-slate-300">
-                15 challenges from across the chapter — 12 MCQs aimed at your weakest concepts, 2 fill-in-the-blanks and a matching set to finish. You have {BOSS_HEARTS} hearts; every miss costs one. Win with {Math.round(BOSS_PASS * 100)}%+ and a heart left.
+              <p className="text-sm text-ink/85">
+                15 challenges from across the chapter: 12 MCQs aimed at your weakest concepts, 2 fill-in-the-blanks and a matching set to finish. You have {BOSS_HEARTS} hearts; every miss costs one. Win with {Math.round(BOSS_PASS * 100)}%+ and a heart left.
               </p>
-              {best.tries > 0 && <p className="text-sm">{best.won ? '✅ Already beaten' : 'Not beaten yet'} · best {Math.round(best.best * 100)}% · {best.tries} attempt{best.tries === 1 ? '' : 's'}</p>}
+              {best.tries > 0 && <p className="text-sm">{best.won ? 'Already beaten' : 'Not beaten yet'}. Best score {Math.round(best.best * 100)}% over {best.tries} attempt{best.tries === 1 ? '' : 's'}.</p>}
             </>
           )}
           <div className="flex flex-wrap justify-center gap-2">
@@ -102,19 +103,17 @@ export default function Boss() {
   return (
     <div className="mx-auto max-w-2xl space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
-        <button className="text-brand-600 hover:underline" onClick={() => confirm('Retreat? This attempt won’t count.') && setPaper(null)}>← Retreat</button>
+        <button className="text-[15px] text-pencil hover:text-ink" onClick={() => confirm('Retreat? This attempt won’t count.') && setPaper(null)}>Retreat</button>
         <span className="text-lg" aria-label={`${hearts} hearts left`}>{'❤️'.repeat(Math.max(0, hearts))}{'🖤'.repeat(BOSS_HEARTS - Math.max(0, hearts))}</span>
         <span className="tabular-nums">{pos + 1}/{plan.length}</span>
       </div>
-      <div className="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-        <div className="h-full bg-gradient-to-r from-amber-400 to-rose-500 transition-all" style={{ width: `${(pos / plan.length) * 100}%` }} />
-      </div>
+      <HlBar value={pos / plan.length} label="Boss battle progress" />
       {step.kind === 'mcq' && (
         <McqCard
           key={step.id}
           q={mcqById.get(step.id)!}
           askConfidence={false}
-          header={<span className="chip bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-200">👑 Boss</span>}
+          header={<span className="text-xs font-semibold text-ink">Boss battle</span>}
           onAnswered={(r) => {
             const q = mcqById.get(step.id)!;
             record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: null, mode: 'boss', meta: { ms: r.ms, chosen: r.chosen } });

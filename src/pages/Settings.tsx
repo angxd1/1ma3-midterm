@@ -14,21 +14,21 @@ export default function SettingsPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-4">
-      <h1 className="text-xl font-bold">Settings</h1>
+      <h1 className="text-[26px] font-extrabold leading-tight">Settings</h1>
 
       <section className="card space-y-3">
         <h2 className="font-semibold">Account & sync</h2>
         {!syncConfigured ? (
-          <p className="text-sm text-slate-500">Cloud sync isn't configured for this build (Supabase env vars missing). Progress is saved on this device. See SETUP.md.</p>
+          <p className="text-sm text-pencil">Cloud sync isn't configured for this build (Supabase env vars missing). Progress is saved on this device. See SETUP.md.</p>
         ) : user ? (
           <div className="space-y-2 text-sm">
-            <p>Signed in as <b>{user.email}</b> · status: {sync}{lastSync ? ` · last synced ${new Date(lastSync).toLocaleTimeString()}` : ''}</p>
-            {syncError && <p className="text-rose-600">{syncError}</p>}
+            <p>Signed in as <b>{user.email}</b>. Sync status: {sync}{lastSync ? `, last synced at ${new Date(lastSync).toLocaleTimeString()}` : ''}.</p>
+            {syncError && <p className="text-redpen">{syncError}</p>}
             <div className="flex gap-2">
               <button className="btn-ghost" onClick={() => void syncNow()}>Sync now</button>
               <button className="btn-ghost" onClick={() => void signOut()}>Sign out</button>
             </div>
-            <p className="text-xs text-slate-500">Signing out keeps a local copy; signing in on another device pulls your full history.</p>
+            <p className="text-xs text-pencil">Signing out keeps a local copy; signing in on another device pulls your full history.</p>
           </div>
         ) : (
           <form
@@ -64,16 +64,16 @@ export default function SettingsPage() {
           Daily XP goal
           <div className="mt-1 flex flex-wrap gap-2">
             {[100, 150, 250, 400].map((g) => (
-              <button key={g} className={`chip border px-3 py-1.5 ${s.dailyGoal === g ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`} onClick={() => updateSettings({ dailyGoal: g })}>{g} XP</button>
+              <button key={g} className={`chip border px-3 py-1.5 ${s.dailyGoal === g ? 'on' : 'off'}`} onClick={() => updateSettings({ dailyGoal: g })}>{g} XP</button>
             ))}
           </div>
-          <p className="mt-1 text-xs text-slate-500">About 10 XP per correct answer, 20 per lesson, 100 for finishing a mock.</p>
+          <p className="mt-1 text-xs text-pencil">About 10 XP per correct answer, 20 per lesson, 100 for finishing a mock.</p>
         </div>
         <div className="text-sm">
           Theme
           <div className="mt-1 flex gap-2">
             {(['system', 'light', 'dark'] as const).map((t) => (
-              <button key={t} className={`chip border px-3 py-1.5 capitalize ${s.theme === t ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`} onClick={() => updateSettings({ theme: t })}>{t}</button>
+              <button key={t} className={`chip border px-3 py-1.5 capitalize ${s.theme === t ? 'on' : 'off'}`} onClick={() => updateSettings({ theme: t })}>{t}</button>
             ))}
           </div>
         </div>
@@ -117,9 +117,9 @@ export default function SettingsPage() {
         </div>
       </section>
 
-      <section className="card space-y-2 border-rose-200 dark:border-rose-900">
-        <h2 className="font-semibold text-rose-700 dark:text-rose-300">Danger zone</h2>
-        <p className="text-sm text-slate-500">Deletes all attempts on this device and in the cloud. Export a backup first.</p>
+      <section className="card space-y-2 border-redpen/40">
+        <h2 className="font-semibold text-redpen">Danger zone</h2>
+        <p className="text-sm text-pencil">Deletes all attempts on this device and in the cloud. Export a backup first.</p>
         <button
           className="btn-danger"
           onClick={async () => {

@@ -18,10 +18,10 @@ export const GO_KEYS: [string, string, string][] = [
 const SCREENS: [string, string][] = [
   ['1–5', 'Choose an answer'],
   ['S / U / G', 'Confidence: sure, unsure, guessing'],
-  ['Enter', 'Check · next'],
+  ['Enter', 'Check, then next'],
   ['E', 'Explore the concept after a wrong answer'],
-  ['F · ← →', 'Mock: flag · previous/next question'],
-  ['Space · 1/2/3', 'Flashcards: flip · again/good/easy'],
+  ['F, ← →', 'Mock: flag, previous or next question'],
+  ['Space, 1 2 3', 'Flashcards: flip, then again, good or easy'],
 ];
 
 /** Global keyboard shortcuts: "g" then a letter to jump anywhere, "?" for help, Esc to close. */
@@ -68,17 +68,17 @@ export function Shortcuts() {
       <div className="card max-h-[90vh] w-full max-w-lg space-y-4 overflow-y-auto" onClick={(e) => e.stopPropagation()} role="dialog" aria-label="Keyboard shortcuts">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-bold">Keyboard shortcuts</h2>
-          <button className="text-sm text-slate-500" onClick={() => setOpen(false)}>Esc</button>
+          <button className="text-sm text-pencil" onClick={() => setOpen(false)}>Esc</button>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
-            <p className="mb-1 text-xs font-semibold uppercase text-slate-500">Go to (press g, then…)</p>
-            <ul className="space-y-1 text-sm">{GO_KEYS.map(([k, , label]) => <li key={k}><kbd className="mr-2 rounded bg-slate-200 px-1.5 font-mono text-xs dark:bg-slate-800">g {k}</kbd>{label}</li>)}</ul>
+            <p className="mb-1 text-xs font-semibold uppercase text-pencil">Go to (press g, then…)</p>
+            <ul className="space-y-1 text-sm">{GO_KEYS.map(([k, , label]) => <li key={k}><kbd className="mr-2 mr-2">g {k}</kbd>{label}</li>)}</ul>
           </div>
           <div>
-            <p className="mb-1 text-xs font-semibold uppercase text-slate-500">On a question</p>
-            <ul className="space-y-1 text-sm">{SCREENS.map(([k, label]) => <li key={k}><kbd className="mr-2 rounded bg-slate-200 px-1.5 font-mono text-xs dark:bg-slate-800">{k}</kbd>{label}</li>)}</ul>
-            <p className="mt-3 text-xs text-slate-500">Press ? anywhere to toggle this panel.</p>
+            <p className="mb-1 text-xs font-semibold uppercase text-pencil">On a question</p>
+            <ul className="space-y-1 text-sm">{SCREENS.map(([k, label]) => <li key={k}><kbd className="mr-2 mr-2">{k}</kbd>{label}</li>)}</ul>
+            <p className="mt-3 text-xs text-pencil">Press ? anywhere to toggle this panel.</p>
           </div>
         </div>
       </div>

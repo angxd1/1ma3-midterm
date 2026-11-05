@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import type { ShortAnswer } from '../content/types';
 import { checkRubric } from '../lib/keywords';
 import { Source } from './ConceptPanel';
+import { ChapterChip, tabStyle } from './ui';
 
 /**
  * Short-answer practice: type → Check → keyword assist highlights detected/missing
@@ -34,15 +35,16 @@ export function ShortAnswerCard({
 
   const words = text.trim() ? text.trim().split(/\s+/).length : 0;
   return (
-    <div className="card space-y-3">
-      <div className="flex flex-wrap gap-2 text-xs">
-        <span className="chip bg-slate-100 dark:bg-slate-800">Short answer · Ch {sa.chapter}</span>
-        <span className="chip bg-teal-100 text-teal-700 dark:bg-teal-900/40 dark:text-teal-200">{sa.type === 'application' ? 'Application' : 'Theory'}</span>
+    <div className="sheet space-y-4" style={tabStyle(sa.chapter)}>
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+        <ChapterChip ch={sa.chapter} />
+        <span className="text-xs font-semibold text-ink">Short answer</span>
+        <span className="text-xs text-pencil">{sa.type === 'application' ? 'Application' : 'Theory'}</span>
       </div>
-      <p className="font-medium leading-relaxed">{sa.q}</p>
-      <p className="text-xs text-slate-500">Aim for about 2 paragraphs. Point form is OK if written in full sentences.</p>
+      <p className="max-w-[68ch] font-serif text-[19px] leading-relaxed sm:text-[21px]">{sa.q}</p>
+      <p className="text-[13px] text-pencil">Aim for about 2 paragraphs. Point form is fine if you write full sentences.</p>
       <textarea
-        className="input min-h-48 leading-relaxed"
+        className="input min-h-48 font-serif text-[16px] leading-relaxed"
         value={text}
         disabled={checked}
         onChange={(e) => {
@@ -51,18 +53,18 @@ export function ShortAnswerCard({
         }}
         placeholder="Write your answer…"
       />
-      <div className="flex items-center justify-between text-xs text-slate-500">
-        <span>{words} words</span>
-        {checkable && !checked && <button className="btn-primary" disabled={words < 5} onClick={startCheck}>Check</button>}
+      <div className="flex items-center justify-between text-[13px] text-pencil">
+        <span className="tabular-nums">{words} words</span>
+        {checkable && !checked && <button className="btn-primary" disabled={words < 5} onClick={startCheck}>Check my answer</button>}
       </div>
 
       {checked && marks && (
         <div className="space-y-4">
           <div>
-            <h4 className="mb-2 font-semibold">Keyword assist — rubric points</h4>
+            <h4 className="mb-2 font-semibold">Rubric points the keyword check found</h4>
             <ul className="space-y-2">
               {result.map((r, i) => (
-                <li key={r.point} className={`rounded-xl border p-3 text-sm ${r.detected ? 'border-emerald-300 bg-emerald-50 dark:border-emerald-800 dark:bg-emerald-950/30' : 'border-amber-300 bg-amber-50 dark:border-amber-800 dark:bg-amber-950/30'}`}>
+                <li key={r.point} className={`border-l-2 py-1 pl-3 text-[15px] ${r.detected ? 'border-tick' : 'border-hl'}`}>
                   <label className="flex items-start gap-3">
                     <input
                       type="checkbox"
@@ -72,24 +74,24 @@ export function ShortAnswerCard({
                       onChange={(e) => setMarks((m) => m!.map((v, j) => (j === i ? e.target.checked : v)))}
                     />
                     <span>
-                      <b>{r.detected ? 'Detected' : 'Seems missing'}:</b> {r.point}
-                      {r.hits.length > 0 && <span className="block text-xs text-slate-500">found: {r.hits.join(', ')}</span>}
-                      {r.missing.length > 0 && <span className="block text-xs text-slate-500">look for: {r.missing.join(', ')}</span>}
+                      <b className={r.detected ? 'text-tick' : 'text-ink'}>{r.detected ? 'Found' : 'Looks missing'}:</b> {r.point}
+                      {r.hits.length > 0 && <span className="block text-[13px] text-pencil">Matched: {r.hits.join(', ')}</span>}
+                      {r.missing.length > 0 && <span className="block text-[13px] text-pencil">Look for: {r.missing.join(', ')}</span>}
                     </span>
                   </label>
                 </li>
               ))}
             </ul>
-            <p className="mt-2 text-xs text-slate-500">Tick the points you think you earned. The keyword assist is only a hint, so you decide the final mark.</p>
+            <p className="mt-2 text-[13px] text-pencil">Tick the points you think you earned. The keyword assist is only a hint, so you decide the final mark.</p>
           </div>
-          <details open className="rounded-xl bg-slate-50 p-3 dark:bg-slate-800/50">
+          <details open className="rounded-md bg-paper p-4">
             <summary className="cursor-pointer font-semibold">Model answer</summary>
-            <div className="mt-2 space-y-2 text-sm leading-relaxed">
+            <div className="mt-2 max-w-[68ch] space-y-2 font-serif text-[16px] leading-relaxed">
               {sa.model.split(/\n\s*\n/).map((p, i) => <p key={i}>{p}</p>)}
             </div>
           </details>
-          <div className="rounded-xl bg-rose-50 p-3 text-sm dark:bg-rose-950/30">
-            <b>Common mistakes</b>
+          <div className="border-l-2 border-redpen pl-3 text-[15px]">
+            <b className="text-redpen">Common mistakes</b>
             <ul className="mt-1 list-disc pl-5">{sa.mistakes.map((m) => <li key={m}>{m}</li>)}</ul>
           </div>
           <Source src={sa.src} />
@@ -104,7 +106,7 @@ export function ShortAnswerCard({
               Confirm my mark: {marks.filter(Boolean).length} / {marks.length}
             </button>
           ) : (
-            <p className="text-center text-sm font-semibold text-emerald-700 dark:text-emerald-300">Saved: {marks.filter(Boolean).length} / {marks.length}</p>
+            <p className="text-center text-[15px] font-semibold text-tick">Mark saved: {marks.filter(Boolean).length} / {marks.length}</p>
           )}
         </div>
       )}

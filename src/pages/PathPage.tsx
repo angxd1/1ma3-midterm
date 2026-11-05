@@ -1,10 +1,11 @@
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useMemo } from 'react';
-import { content, conceptById, CHAPTER_SHORT } from '../lib/content';
+import { content, conceptById } from '../lib/content';
 import type { ChapterId } from '../content/types';
 import { useAttempts, useSettings } from '../lib/hooks';
 import { chapterProgress, masteryCounts, seenConcepts } from '../lib/stats';
 import { ProgressBar } from '../components/ProgressBar';
+import { ChapterTabs, TAB, tabStyle } from '../components/ui';
 import { bestBoss } from './Boss';
 
 const ROW_H = 112;
@@ -30,26 +31,23 @@ export default function PathPage() {
   const pathD = pts.map((pt, i) => `${i ? 'L' : 'M'} ${pt.x} ${pt.y}`).join(' ');
 
   return (
-    <div className="space-y-4">
-      <div className="flex gap-2 overflow-x-auto pb-1">
-        {content.chapters.map((c) => (
-          <Link key={c.id} to={`/learn/${c.id}`} ref={c.id === chapter.id ? (el) => el?.scrollIntoView({ block: 'nearest', inline: 'center' }) : undefined} className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium ${c.id === chapter.id ? 'bg-brand-600 text-white' : 'bg-white ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800'}`}>
-            Ch {c.id} · {CHAPTER_SHORT[c.id]}
-          </Link>
-        ))}
-      </div>
-      <div className="card space-y-3">
-        <h1 className="text-xl font-bold">Chapter {chapter.id}: {chapter.title}</h1>
-        <div className="grid gap-3 sm:grid-cols-2">
-          <ProgressBar label={`Coverage (${p.seen}/${p.total})`} value={p.coverage} />
-          <ProgressBar label={`Mastery (${p.mastered}/${p.total})`} value={p.mastery} color="bg-emerald-500" />
+    <div className="space-y-6">
+      <ChapterTabs active={chapter.id} to={(c) => `/learn/${c}`} />
+      <div className="space-y-4">
+        <div>
+          <p className="text-[15px] text-pencil">Chapter {chapter.id}</p>
+          <h1 className="text-[33px] font-extrabold leading-tight tracking-tight">{chapter.title}</h1>
         </div>
-        <p className="text-xs text-slate-500">Nodes unlock in order, but you can tap a locked node to jump ahead.</p>
+        <div className="grid max-w-2xl gap-4 sm:grid-cols-2">
+          <ProgressBar label={`Seen ${p.seen} of ${p.total}`} value={p.coverage} tone="faint" />
+          <ProgressBar label={`Mastered ${p.mastered} of ${p.total}`} value={p.mastery} tone="tick" />
+        </div>
+        <p className="text-[13px] text-pencil">Work down the path in order. You can still open a later concept early.</p>
       </div>
 
-      <div className="relative mx-auto w-full max-w-md" style={{ height: nodes.length * ROW_H + 20 }}>
+      <div className="relative mx-auto w-full max-w-md" style={{ height: nodes.length * ROW_H + 20, ...tabStyle(chapter.id) }}>
         <svg className="absolute inset-0 h-full w-full" viewBox={`0 0 100 ${nodes.length * ROW_H + 20}`} preserveAspectRatio="none" aria-hidden>
-          <path d={pathD} fill="none" stroke="currentColor" strokeWidth="6" vectorEffect="non-scaling-stroke" className="text-slate-200 dark:text-slate-800" strokeLinejoin="round" strokeDasharray="2 10" strokeLinecap="round" />
+          <path d={pathD} fill="none" stroke="currentColor" strokeWidth="2" vectorEffect="non-scaling-stroke" className="text-pencil/40" strokeLinejoin="round" strokeDasharray="1 7" strokeLinecap="round" />
         </svg>
         {nodes.map((id, i) => {
           const pt = pts[i];
@@ -60,11 +58,15 @@ export default function PathPage() {
               <button
                 key="boss"
                 onClick={() => (allDone || b.tries || confirm('The boss is meant for after every lesson in this chapter. Fight it anyway?')) && nav(`/boss/${chapter.id}`)}
-                className="absolute -translate-x-1/2 -translate-y-1/2 text-center"
+                className="group absolute -translate-x-1/2 -translate-y-1/2 text-center"
                 style={{ left: `${pt.x}%`, top: pt.y }}
               >
-                <div className={`mx-auto flex h-20 w-20 items-center justify-center rounded-full text-3xl shadow-lg transition hover:scale-105 ${b.won ? 'bg-gradient-to-br from-emerald-400 to-teal-500' : allDone ? 'bg-gradient-to-br from-amber-400 to-rose-500 animate-pulse' : 'bg-slate-300 dark:bg-slate-700'}`}>{b.won ? '🏆' : '👑'}</div>
-                <p className="mt-1 w-36 text-xs font-semibold">Boss battle<br /><span className="font-normal text-slate-500">{b.won ? `Beaten · best ${Math.round(b.best * 100)}%` : b.tries ? `Best ${Math.round(b.best * 100)}% · try again` : allDone ? 'Ready!' : 'Finish the lessons first'}</span></p>
+                <span className="relative mx-auto flex h-20 w-20 items-center justify-center rounded-full border-2 border-ink text-3xl transition group-hover:-translate-y-0.5" style={{ background: TAB[chapter.id] }}>
+                  {b.won ? '🏆' : '👑'}
+                  {b.won && <span className="absolute -right-7 -top-1 rotate-[-8deg] animate-stamp rounded border-2 border-redpen bg-sheet px-1.5 text-[12px] font-extrabold text-redpen">Beaten</span>}
+                </span>
+                <span className="mt-1.5 block w-40 text-[15px] font-extrabold">Boss battle</span>
+                <span className="block w-40 text-[12px] text-pencil">{b.won ? `Best score ${Math.round(b.best * 100)}%` : b.tries ? `Best ${Math.round(b.best * 100)}%, try again` : allDone ? 'Ready when you are' : 'After the lessons'}</span>
               </button>
             );
           }
@@ -72,34 +74,37 @@ export default function PathPage() {
           const mastered = (counts.get(id) ?? 0) >= masteryN;
           const done = lessonsDone.has(id);
           const isCurrent = i === currentIdx;
+          const isSeen = done || seen.has(id);
           const locked = currentIdx !== -1 && i > currentIdx && !seen.has(id);
           const cls = mastered
-            ? 'bg-emerald-500 text-white ring-emerald-200 dark:ring-emerald-900'
-            : done || seen.has(id)
-              ? 'bg-brand-500 text-white ring-brand-200 dark:ring-brand-900'
+            ? 'border-ink bg-ink text-sheet'
+            : isSeen
+              ? 'border-ink bg-sheet text-ink'
               : isCurrent
-                ? 'bg-white text-brand-700 ring-brand-500 animate-pulse dark:bg-slate-900'
-                : 'bg-slate-200 text-slate-500 ring-slate-100 dark:bg-slate-800 dark:ring-slate-900';
+                ? 'border-ink bg-hl text-slate-900'
+                : 'border-dashed border-pencil/50 bg-paper text-pencil';
           return (
             <button
               key={id}
               onClick={() => {
-                if (locked && !confirm(`"${c.title}" is locked. Jump ahead anyway?`)) return;
+                if (locked && !confirm(`"${c.title}" comes later in the path. Open it anyway?`)) return;
                 nav(`/lesson/${id}`);
               }}
-              className="absolute -translate-x-1/2 -translate-y-1/2 text-center"
+              className="group absolute -translate-x-1/2 -translate-y-1/2 text-center"
               style={{ left: `${pt.x}%`, top: pt.y }}
-              aria-label={`${c.title}${mastered ? ' (mastered)' : done ? ' (lesson done)' : locked ? ' (locked)' : ''}`}
+              aria-label={`${c.title}${mastered ? ', mastered' : done ? ', lesson done' : isCurrent ? ', next up' : locked ? ', later in the path' : ''}`}
             >
-              <div className={`mx-auto flex h-14 w-14 items-center justify-center rounded-full text-lg font-bold shadow ring-4 transition hover:scale-105 ${cls}`}>
-                {mastered ? '★' : done ? '✓' : locked ? '🔒' : i + 1}
-              </div>
-              <p className="mt-1 w-32 text-[11px] font-medium leading-tight sm:w-40 sm:text-xs">{c.title}</p>
-              <div className="mx-auto mt-0.5 flex w-fit gap-0.5">
+              <span className={`relative mx-auto flex h-14 w-14 items-center justify-center rounded-full border-2 text-[17px] font-extrabold transition group-hover:-translate-y-0.5 ${cls}`}>
+                {mastered ? '✓' : i + 1}
+                {mastered && <span className="absolute inset-[-6px] rounded-full ring-[3px] ring-hl" aria-hidden />}
+                {isCurrent && !isSeen && <span className="absolute -inset-2 rounded-full border-2 border-ink/70" style={{ borderRadius: '52% 48% 55% 45%' }} aria-hidden />}
+              </span>
+              <span className={`mt-1.5 block w-32 text-[12px] leading-tight sm:w-40 sm:text-[13px] ${isSeen || isCurrent ? 'font-semibold text-ink' : 'text-pencil'}`}>{c.title}</span>
+              <span className="mx-auto mt-1 flex w-fit gap-0.5" aria-label={`${Math.min(counts.get(id) ?? 0, masteryN)} of ${masteryN} correct towards mastery`}>
                 {Array.from({ length: masteryN }, (_, k) => (
-                  <span key={k} className={`h-1.5 w-1.5 rounded-full ${k < (counts.get(id) ?? 0) ? 'bg-emerald-500' : 'bg-slate-300 dark:bg-slate-700'}`} />
+                  <span key={k} className={`h-1.5 w-3 rounded-sm ${k < (counts.get(id) ?? 0) ? 'bg-tick' : 'bg-rule'}`} />
                 ))}
-              </div>
+              </span>
             </button>
           );
         })}

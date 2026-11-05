@@ -7,6 +7,7 @@ import { record } from '../lib/store';
 import { seenConcepts } from '../lib/stats';
 import { LIGHTNING_PENALTY_S, LIGHTNING_SECONDS, lightningPool, shuffle } from '../lib/drills';
 import { Source } from '../components/ConceptPanel';
+import { ChapterChip, HlBar, TAB, tabStyle } from '../components/ui';
 
 interface Run {
   id: string;
@@ -73,14 +74,14 @@ export default function Lightning() {
     return (
       <div className="mx-auto max-w-2xl space-y-4">
         <div className="card space-y-4">
-          <h1 className="text-xl font-bold">⚡ Lightning round</h1>
+          <h1 className="text-[26px] font-extrabold leading-tight">Lightning round</h1>
           {run && done ? (
             <div className="text-center">
               <p className="text-5xl font-extrabold tabular-nums">{run.right}</p>
-              <p className="text-sm text-slate-500">correct in {LIGHTNING_SECONDS}s · {run.log.length} answered{run.right > 0 && run.right >= best ? ' · 🎉 personal best!' : ` · best ${best}`}</p>
+              <p className="text-sm text-pencil">right in {LIGHTNING_SECONDS} seconds, out of {run.log.length} answered{run.right > 0 && run.right >= best ? ' · 🎉 personal best!' : ` · best ${best}`}</p>
             </div>
           ) : (
-            <p className="text-sm text-slate-600 dark:text-slate-300">
+            <p className="text-sm text-ink/85">
               {LIGHTNING_SECONDS} seconds. Answer as many quick questions as you can — tap or press 1–4. A wrong answer costs {LIGHTNING_PENALTY_S} seconds. Questions come from concepts you've already seen
               {seenCount < 10 ? ' (or the whole chapter set until you’ve seen a few)' : ''}. Personal best: <b>{best}</b>.
             </p>
@@ -89,8 +90,8 @@ export default function Lightning() {
             {CHAPTERS.map((c) => {
               const on = chapters.includes(c);
               return (
-                <button key={c} onClick={() => setChapters((cs) => (on ? cs.filter((x) => x !== c) : [...cs, c]))} className={`chip border px-3 py-1.5 text-sm ${on ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`}>
-                  Ch {c} · {CHAPTER_SHORT[c]}
+                <button key={c} onClick={() => setChapters((cs) => (on ? cs.filter((x) => x !== c) : [...cs, c]))} className={`chip border px-3 py-1.5 text-sm ${on ? 'on' : 'off'}`}>
+                  <span className="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm" style={{ background: TAB[c] }} />Ch {c} {CHAPTER_SHORT[c]}
                 </button>
               );
             })}
@@ -98,13 +99,13 @@ export default function Lightning() {
           <button className="btn-primary w-full" disabled={!chapters.length} onClick={start}>{run ? 'Go again' : 'Start'}</button>
         </div>
         {misses.length > 0 && (
-          <div className="card space-y-3">
-            <h2 className="font-bold">Missed ({misses.length})</h2>
+          <div className="space-y-2">
+            <h2 className="text-[21px] font-extrabold">Missed <span className="text-pencil">{misses.length}</span></h2>
             {misses.map(({ q, chosen }, i) => (
-              <div key={i} className="space-y-1 border-t border-slate-200 pt-2 text-sm first:border-0 first:pt-0 dark:border-slate-800">
-                <p className="font-medium">{q.q}</p>
-                <p className="text-rose-700 dark:text-rose-300">✗ {q.options[chosen]}</p>
-                <p className="text-emerald-700 dark:text-emerald-300">✓ {q.options[q.answer]} — {q.explanations[q.answer]}</p>
+              <div key={i} className="space-y-1 border-t border-rule py-3 text-[15px]">
+                <p className="font-serif text-[17px]">{q.q}</p>
+                <p><span className="text-pencil">You picked </span><span className="strike">{q.options[chosen]}</span></p>
+                <p><span className="text-pencil">Answer </span><span className="hl font-semibold">{q.options[q.answer]}</span> <span className="text-ink/85">{q.explanations[q.answer]}</span></p>
                 <Source src={q.src} />
               </div>
             ))}
@@ -118,20 +119,18 @@ export default function Lightning() {
   const frac = left / (LIGHTNING_SECONDS * 1000);
   return (
     <div className="mx-auto max-w-2xl space-y-3">
-      <div className="flex items-center justify-between text-sm">
-        <span className="text-2xl font-extrabold tabular-nums">{Math.ceil(left / 1000)}s</span>
-        <span className="text-lg font-bold tabular-nums">⚡ {run.right}</span>
+      <div className="flex items-baseline justify-between">
+        <span className={`text-[33px] font-extrabold tabular-nums ${frac < 0.25 ? 'text-redpen' : ''}`} aria-label="Seconds left">{Math.ceil(left / 1000)}s</span>
+        <span className="text-[21px] font-extrabold tabular-nums"><span key={run.right} className="hl animate-swipe">{run.right}</span> <span className="text-[15px] font-normal text-pencil">right</span></span>
       </div>
-      <div className="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-        <div className={`h-full ${frac < 0.25 ? 'bg-rose-500' : 'bg-amber-400'}`} style={{ width: `${frac * 100}%` }} />
-      </div>
-      <div key={run.log.length} className={`card space-y-3 ring-2 ${run.flash === 'ok' ? 'ring-emerald-400' : run.flash === 'bad' ? 'ring-rose-400' : 'ring-transparent'}`}>
-        <p className="text-xs text-slate-500">Ch {q.chapter}</p>
-        <p className="font-medium sm:text-lg">{q.q}</p>
+      <HlBar value={frac} tone={frac < 0.25 ? 'redpen' : 'hl'} thick label="Time left" />
+      <div key={run.log.length} className={`sheet space-y-4 ${run.flash === 'ok' ? 'outline outline-2 outline-tick' : run.flash === 'bad' ? 'outline outline-2 outline-redpen' : ''}`} style={tabStyle(q.chapter)}>
+        <ChapterChip ch={q.chapter} />
+        <p className="font-serif text-[19px] leading-relaxed">{q.q}</p>
         <div className="grid gap-2">
           {run.order.map((orig, i) => (
-            <button key={orig} onClick={() => answer(orig)} className="flex items-start gap-3 rounded-xl border-2 border-slate-200 p-3 text-left text-sm hover:border-brand-400 active:bg-brand-50 dark:border-slate-700 dark:active:bg-brand-700/20 sm:text-base">
-              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-slate-100 text-xs font-bold dark:bg-slate-800">{i + 1}</span>
+            <button key={orig} onClick={() => answer(orig)} className="flex items-start gap-3 rounded-md border border-rule p-3 text-left text-[15px] hover:border-pencil/60 active:bg-brand-50 sm:text-base">
+              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded border border-rule text-xs font-bold text-pencil">{i + 1}</span>
               <span>{q.options[orig]}</span>
             </button>
           ))}

@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { content, conceptById } from '../lib/content';
+import { content, conceptById, CHAPTER_SHORT } from '../lib/content';
 import { ConceptPanel } from '../components/ConceptPanel';
+import { ChapterChip, HlBar, tabStyle } from '../components/ui';
 import { McqCard } from '../components/McqCard';
 import { record } from '../lib/store';
 
@@ -25,19 +26,15 @@ export default function Lesson() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-4">
-      <div className="flex items-center justify-between text-sm">
-        <Link to={`/learn/${concept.chapter}`} className="text-brand-600 hover:underline">← Chapter {concept.chapter} path</Link>
-        <span className="text-slate-500">Concept {idx + 1} of {chapter.conceptIds.length}</span>
+      <div className="flex items-center justify-between text-[15px]">
+        <Link to={`/learn/${concept.chapter}`} className="text-pencil hover:text-ink">Back to the Ch {concept.chapter} path</Link>
+        <span className="text-pencil">Concept {idx + 1} of {chapter.conceptIds.length}</span>
       </div>
-      <div className="flex gap-1">
-        {Array.from({ length: recall.length + 1 }, (_, i) => (
-          <div key={i} className={`h-1.5 flex-1 rounded-full ${i < step ? 'bg-brand-500' : 'bg-slate-200 dark:bg-slate-800'}`} />
-        ))}
-      </div>
+      <HlBar value={step / (recall.length + 1)} label="Lesson progress" />
 
       {step === 0 && (
-        <div className="card space-y-4">
-          <p className="text-xs font-semibold uppercase tracking-wide text-brand-600">Lesson</p>
+        <div className="sheet space-y-5" style={tabStyle(concept.chapter)}>
+          <ChapterChip ch={concept.chapter} title={CHAPTER_SHORT[concept.chapter]} />
           <ConceptPanel concept={concept} />
           <button className="btn-primary w-full" onClick={() => setStep(1)}>Test my recall ({recall.length} questions)</button>
         </div>
@@ -47,28 +44,28 @@ export default function Lesson() {
         <McqCard
           key={recall[step - 1].id}
           q={recall[step - 1]}
-          header={<span className="chip bg-brand-100 text-brand-700 dark:bg-brand-700/30 dark:text-brand-100">Recall {step}/{recall.length}</span>}
+          header={<span className="text-xs font-semibold text-ink">Recall question {step} of {recall.length}</span>}
           onAnswered={(r) => {
             if (r.correct) setScore((s) => s + 1);
             const q = recall[step - 1];
             record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'path', meta: { ms: r.ms, chosen: r.chosen } });
           }}
           onNext={() => (step === recall.length ? finish() : setStep(step + 1))}
-          nextLabel={step === recall.length ? 'Finish lesson' : 'Next'}
+          nextLabel={step === recall.length ? 'Finish lesson' : 'Next question'}
         />
       )}
 
       {step === recall.length + 1 && (
-        <div className="card animate-pop space-y-4 text-center">
-          <p className="text-4xl">{score === recall.length ? '🎉' : '👍'}</p>
-          <p className="text-lg font-bold">Lesson complete — {score}/{recall.length} on recall</p>
-          <p className="text-sm text-slate-500">This concept now counts toward your coverage. Keep answering its questions to master it.</p>
+        <div className="sheet space-y-4 text-center" style={tabStyle(concept.chapter)}>
+          <p className="text-[26px] font-extrabold leading-tight">Lesson done</p>
+          <p className="text-[17px]">You got <span className="hl font-semibold">{score} of {recall.length}</span> recall questions right.</p>
+          <p className="text-[15px] text-pencil">This concept now counts as seen. Answer {recall.length > 0 ? 'more of its questions' : 'its questions'} in practice to master it.</p>
           <div className="flex flex-wrap justify-center gap-2">
             <button className="btn-ghost" onClick={() => { setStep(0); setScore(0); }}>Review again</button>
             {nextId ? (
-              <button className="btn-primary" onClick={() => { setStep(0); setScore(0); nav(`/lesson/${nextId}`); }}>Next concept →</button>
+              <button className="btn-primary" onClick={() => { setStep(0); setScore(0); nav(`/lesson/${nextId}`); }}>Next concept</button>
             ) : (
-              <Link className="btn-primary" to={`/learn/${concept.chapter}`}>Back to path</Link>
+              <Link className="btn-primary" to={`/learn/${concept.chapter}`}>Back to the path</Link>
             )}
           </div>
         </div>

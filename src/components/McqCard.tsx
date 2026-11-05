@@ -3,6 +3,7 @@ import type { Mcq } from '../content/types';
 import type { Confidence } from '../lib/types';
 import { canShuffle, conceptById, CHAPTER_SHORT } from '../lib/content';
 import { ConceptPanel, Source } from './ConceptPanel';
+import { ChapterChip, tabStyle } from './ui';
 
 export interface McqResult {
   correct: boolean;
@@ -12,6 +13,8 @@ export interface McqResult {
 }
 
 const LETTERS = 'ABCDEF';
+/** Explanations often open with "Correct —"; the card already says that. */
+const clean = (e: string) => e.replace(/^(correct|incorrect|wrong|no)\s*[—–:.,-]\s*/i, '').replace(/^./, (c) => c.toUpperCase());
 const CONF: { key: Confidence; label: string }[] = [
   { key: 'sure', label: 'Sure' },
   { key: 'unsure', label: 'Unsure' },
@@ -40,7 +43,7 @@ export function McqCard({
   onAnswered,
   onNext,
   askConfidence = true,
-  nextLabel = 'Next',
+  nextLabel = 'Next question',
   header,
 }: {
   q: Mcq;
@@ -98,93 +101,106 @@ export function McqCard({
   });
 
   return (
-    <div className="card animate-pop space-y-4">
-      <div className="flex flex-wrap items-center gap-2 text-xs">
+    <div className="sheet space-y-5" style={tabStyle(q.chapter)}>
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+        <ChapterChip ch={q.chapter} title={CHAPTER_SHORT[q.chapter]} />
+        {q.official && <span className="text-xs font-semibold text-ink">{q.pastMidterm ? 'Past midterm question' : 'Official practice question'}</span>}
+        {q.type === 'application' && <span className="text-xs text-pencil">Application</span>}
         {header}
-        <span className="chip bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Ch {q.chapter} · {CHAPTER_SHORT[q.chapter]}</span>
-        {q.official && <span className="chip bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-200">{q.pastMidterm ? 'Past midterm' : 'Official practice'}</span>}
-        {q.type === 'application' && <span className="chip bg-teal-100 text-teal-700 dark:bg-teal-900/40 dark:text-teal-200">Application</span>}
       </div>
-      <p className="text-base font-medium leading-relaxed sm:text-lg">{q.q}</p>
-      <div className="grid gap-2">
+      <p className="max-w-[68ch] font-serif text-[19px] leading-relaxed sm:text-[21px]">{q.q}</p>
+      <ol className="grid gap-2">
         {order.map((orig, i) => {
           const chosen = sel === i;
-          let cls = 'border-slate-200 hover:border-brand-400 dark:border-slate-700';
-          if (!done && chosen) cls = 'border-brand-500 bg-brand-50 dark:bg-brand-700/20';
-          if (done && i === correctDisplay) cls = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30';
-          else if (done && chosen) cls = 'border-rose-500 bg-rose-50 animate-shake dark:bg-rose-900/30';
-          else if (done) cls = 'border-slate-200 opacity-70 dark:border-slate-800';
+          const right = done && i === correctDisplay;
+          const wrong = done && chosen && !right;
+          let cls = 'border-rule hover:border-pencil/60';
+          if (!done && chosen) cls = 'border-ink bg-brand-50';
+          else if (done && !right && !wrong) cls = 'border-rule opacity-55';
+          else if (done) cls = 'border-rule';
           return (
-            <button
-              key={orig}
-              disabled={done}
-              onClick={() => setSel(i)}
-              className={`flex items-start gap-3 rounded-xl border-2 p-3 text-left text-sm transition sm:text-base ${cls}`}
-            >
-              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-slate-100 text-xs font-bold dark:bg-slate-800">{i + 1}</span>
-              <span>{q.options[orig]}</span>
-            </button>
+            <li key={orig}>
+              <button
+                disabled={done}
+                onClick={() => setSel(i)}
+                aria-pressed={chosen}
+                className={`flex w-full items-start gap-3 rounded-md border p-3 text-left text-[15px] transition-colors sm:text-base ${cls}`}
+              >
+                <span className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded border text-xs font-bold ${!done && chosen ? 'border-ink bg-ink text-sheet' : 'border-rule text-pencil'}`}>{i + 1}</span>
+                <span className="flex-1">
+                  <span className={right ? 'hl animate-swipe' : wrong ? 'strike animate-strike' : ''}>{q.options[orig]}</span>
+                </span>
+                {right && <span className="font-bold text-tick" aria-label="Correct answer">✓</span>}
+                {wrong && <span className="font-bold text-redpen" aria-label="Your answer, wrong">✗</span>}
+              </button>
+            </li>
           );
         })}
-      </div>
+      </ol>
 
       {!done && (
         <div className="flex flex-wrap items-center justify-between gap-3">
           {askConfidence ? (
-            <div className="flex gap-1" role="radiogroup" aria-label="Confidence">
-              {CONF.map((c) => (
-                <button
-                  key={c.key}
-                  role="radio"
-                  aria-checked={conf === c.key}
-                  onClick={() => setConf(c.key)}
-                  className={`chip border px-3 py-1 ${conf === c.key ? 'border-brand-500 bg-brand-500 text-white' : 'border-slate-300 dark:border-slate-700'}`}
-                >
-                  {c.label}
-                </button>
-              ))}
+            <div className="flex items-center gap-2">
+              <span className="text-[13px] text-pencil">How sure?</span>
+              <div className="flex overflow-hidden rounded-[10px] border border-rule" role="radiogroup" aria-label="Confidence">
+                {CONF.map((c) => (
+                  <button
+                    key={c.key}
+                    role="radio"
+                    aria-checked={conf === c.key}
+                    onClick={() => setConf(c.key)}
+                    className={`px-3 py-1.5 text-[13px] font-semibold ${conf === c.key ? 'bg-ink text-sheet' : 'text-ink/80 hover:bg-brand-50'}`}
+                  >
+                    {c.label}
+                  </button>
+                ))}
+              </div>
             </div>
           ) : <span />}
-          <button className="btn-primary" disabled={sel === null} onClick={submit}>Check</button>
+          <button className="btn-primary" disabled={sel === null} onClick={submit}>Check answer</button>
         </div>
       )}
 
       {done && (
-        <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-start">
+        <div className="space-y-4">
           {isCorrect ? (
-            <div className="rounded-xl bg-emerald-50 p-3 text-sm text-emerald-900 dark:bg-emerald-900/30 dark:text-emerald-100">
-              <b>Correct!</b> {q.explanations[q.answer]}
-              <div className="mt-2"><Source src={q.src} /></div>
+            <div className="border-l-2 border-tick pl-3 text-[15px]">
+              <p><b className="text-tick">Correct.</b> {clean(q.explanations[q.answer])}</p>
+              <p className="mt-1"><Source src={q.src} /></p>
             </div>
           ) : (
-            <div className="space-y-2 rounded-xl border border-rose-200 bg-rose-50/60 p-3 text-sm dark:border-rose-900/50 dark:bg-rose-950/30">
-              <p className="font-semibold text-rose-800 dark:text-rose-200">Not quite — here's why each option is right or wrong:</p>
-              <ul className="space-y-1.5">
+            <div className="space-y-2 border-l-2 border-redpen pl-3 text-[15px]">
+              <p className="font-semibold text-redpen">Not quite. Here's why each option is right or wrong:</p>
+              <ol className="space-y-1.5">
                 {order.map((orig, i) => (
-                  <li key={orig} className={orig === q.answer ? 'font-medium text-emerald-800 dark:text-emerald-200' : i === sel ? 'text-rose-800 dark:text-rose-200' : 'text-slate-600 dark:text-slate-300'}>
-                    <span className="font-bold">{i + 1}.</span> {orig === q.answer ? '✓ ' : i === sel ? '✗ Your answer: ' : ''}{q.explanations[orig]}
+                  <li key={orig} className={orig === q.answer ? 'text-ink' : i === sel ? 'text-ink' : 'text-pencil'}>
+                    <span className="mr-1 font-bold">{i + 1}.</span>
+                    {orig === q.answer ? <span className="hl font-semibold">Answer:</span> : i === sel ? <span className="font-semibold text-redpen">Your pick:</span> : null} {clean(q.explanations[orig])}
                   </li>
                 ))}
-              </ul>
-              <div className="flex flex-wrap items-center gap-2 pt-1">
+              </ol>
+              <div className="flex flex-wrap items-center gap-3 pt-1">
                 <Source src={q.src} />
                 {concept && (
-                  <button className="chip bg-brand-600 px-3 py-1 text-white hover:bg-brand-700" onClick={() => setExplore((v) => !v)}>
-                    {explore ? 'Hide concept' : 'Explore concept (E)'}
+                  <button className="text-[13px] font-semibold text-ink underline decoration-hl decoration-[3px] underline-offset-4" onClick={() => setExplore((v) => !v)}>
+                    {explore ? 'Hide the concept' : 'Explore the concept (E)'}
                   </button>
                 )}
               </div>
               {explore && concept && (
-                <div className="mt-2 rounded-xl bg-white p-3 dark:bg-slate-900">
+                <div className="mt-2 rounded-md bg-paper p-4">
                   <ConceptPanel concept={concept} />
                 </div>
               )}
             </div>
           )}
-          <button ref={nextBtn} className="btn-primary md:min-w-28" onClick={onNext}>{nextLabel} ↵</button>
+          <div className="flex justify-end">
+            <button ref={nextBtn} className="btn-primary min-w-36" onClick={onNext}>{nextLabel}</button>
+          </div>
         </div>
       )}
-      <p className="hidden text-[11px] text-slate-400 sm:block">Keys: 1–{q.options.length} choose · S/U/G confidence · Enter check/next · E explore</p>
+      <p className="hidden text-xs text-pencil sm:block">Keys: <kbd>1</kbd>–<kbd>{q.options.length}</kbd> choose, <kbd>S</kbd> <kbd>U</kbd> <kbd>G</kbd> confidence, <kbd>Enter</kbd> check or next, <kbd>E</kbd> explore</p>
     </div>
   );
 }

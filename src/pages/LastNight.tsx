@@ -47,34 +47,34 @@ export default function LastNight() {
     <div className="mx-auto max-w-4xl space-y-5 print:max-w-none print:space-y-3 print:text-[10.5pt]">
       <div className="card flex flex-wrap items-center justify-between gap-3 print:hidden">
         <div>
-          <h1 className="text-xl font-bold">🌙 Last-night review sheet</h1>
-          <p className="text-sm text-slate-500">Personalised from your progress. Use “Save as PDF” in the print dialog to keep a copy on your phone.</p>
+          <h1 className="text-[26px] font-extrabold leading-tight">Last-night review sheet</h1>
+          <p className="text-sm text-pencil">Personalised from your progress. Use “Save as PDF” in the print dialog to keep a copy on your phone.</p>
         </div>
         <button className="btn-primary" onClick={() => window.print()}>Download PDF / print</button>
       </div>
 
       <section className="space-y-1">
-        <h1 className="text-2xl font-extrabold">COMMERCE 1MA3 midterm · {date}</h1>
-        <p className="text-sm">60 multiple-choice + 2 short-answer questions · 2 hours · Chapters 3, 4, 6, 7, 8, 9 · one short answer is guaranteed from Ch 4; the other is never from Ch 7.</p>
+        <h1 className="text-2xl font-extrabold">COMMERCE 1MA3 midterm, {date}</h1>
+        <p className="text-sm">60 multiple-choice and 2 short-answer questions in 2 hours, on chapters 3, 4, 6, 7, 8 and 9. One short answer is guaranteed from Ch 4; the other is never from Ch 7.</p>
         <p className="text-sm">
           <b>Short answers:</b> about 2 paragraphs; point form is fine if you use full sentences (a “list” question can just be a list). <b>Bring:</b> pencil + a spare, eraser, student card or government ID.
           <b> Scantron:</b> questions 51–60 are on the back, and there's no extra time to fill it in. Doors close 30 minutes after the start.
         </p>
-        <p className="text-xs text-slate-500">Format and logistics: midterm-information slides (pp. 3–7); the Ch 4 / not-Ch 7 short-answer rule is from your course notes. Everything below comes from the course slides; brand examples are illustrative.</p>
+        <p className="text-xs text-pencil">Format and logistics: midterm-information slides (pp. 3–7); the Ch 4 / not-Ch 7 short-answer rule is from your course notes. Everything below comes from the course slides; brand examples are illustrative.</p>
       </section>
 
       <section className="space-y-2">
-        <h2 className="border-b-2 border-brand-500 text-lg font-bold">1 · Your weakest concepts</h2>
-        {weak.length === 0 && <p className="text-sm text-slate-500">Not enough answers yet to rank — practise a little first.</p>}
+        <h2 className="border-b-2 border-ink pb-1 text-[21px] font-extrabold">Your weakest concepts</h2>
+        {weak.length === 0 && <p className="text-sm text-pencil">Not enough answers yet to rank — practise a little first.</p>}
         <div className="grid gap-3 md:grid-cols-2 print:grid-cols-2">
           {weak.map((id) => {
             const c = conceptById.get(id)!;
             return (
-              <div key={id} className="break-inside-avoid rounded-xl border border-slate-200 p-3 text-sm dark:border-slate-800">
-                <p className="font-bold">{c.title} <span className="font-normal text-slate-500">· Ch {c.chapter}</span></p>
+              <div key={id} className="break-inside-avoid border-l-2 border-hl py-1 pl-3 text-[15px]">
+                <p className="font-bold">{c.title} <span className="font-normal text-pencil">· Ch {c.chapter}</span></p>
                 <p className="mt-1">{c.explain}</p>
                 <ul className="mt-1 list-disc pl-4 text-xs">{c.terms.map((t) => <li key={t.term}><b>{t.term}:</b> {t.def}</li>)}</ul>
-                <p className="mt-1 text-[10px] text-slate-500">{c.src}</p>
+                <p className="mt-1 text-[10px] text-pencil">{c.src}</p>
               </div>
             );
           })}
@@ -88,14 +88,14 @@ export default function LastNight() {
 
       {owed.length > 0 && (
         <section className="space-y-2">
-          <h2 className="border-b-2 border-brand-500 text-lg font-bold">2 · Mistakes still owed</h2>
+          <h2 className="border-b-2 border-ink pb-1 text-[21px] font-extrabold">Mistakes still owed</h2>
           <ol className="list-decimal space-y-1.5 pl-5 text-sm">
             {owed.map((id) => {
               const q = mcqById.get(id)!;
               return (
                 <li key={id} className="break-inside-avoid">
-                  {q.q} <b className="text-emerald-700 dark:text-emerald-300">→ {q.options[q.answer]}</b>
-                  <span className="text-xs text-slate-500"> ({q.src})</span>
+                  {q.q} <b className="text-tick">→ {q.options[q.answer]}</b>
+                  <span className="text-xs text-pencil"> ({q.src})</span>
                 </li>
               );
             })}
@@ -104,7 +104,7 @@ export default function LastNight() {
       )}
 
       <section className="space-y-2">
-        <h2 className="border-b-2 border-brand-500 text-lg font-bold">3 · Don't mix these up</h2>
+        <h2 className="border-b-2 border-ink pb-1 text-[21px] font-extrabold">Don't mix these up</h2>
         <ul className="grid gap-1.5 text-sm md:grid-cols-2 print:grid-cols-2">
           {content.confusables.map((c) => (
             <li key={c.id} className="break-inside-avoid"><b>{c.title}:</b> {c.tip}</li>
@@ -113,21 +113,21 @@ export default function LastNight() {
       </section>
 
       <section className="space-y-2">
-        <h2 className="border-b-2 border-brand-500 text-lg font-bold">4 · Ch 4 short answers (one is guaranteed)</h2>
+        <h2 className="border-b-2 border-ink pb-1 text-[21px] font-extrabold">Ch 4 short answers (one is guaranteed)</h2>
         {ch4Sas.map((s) => (
           <div key={s.id} className="break-inside-avoid text-sm">
             <p className="font-semibold">{s.q}</p>
             <ul className="list-disc pl-5">{s.rubric.map((r) => <li key={r.point}>{r.point}</li>)}</ul>
-            <p className="text-[10px] text-slate-500">{s.src}</p>
+            <p className="text-[10px] text-pencil">{s.src}</p>
           </div>
         ))}
       </section>
 
       <section className="space-y-3">
-        <h2 className="border-b-2 border-brand-500 text-lg font-bold">5 · Key terms by chapter</h2>
+        <h2 className="border-b-2 border-ink pb-1 text-[21px] font-extrabold">Key terms by chapter</h2>
         {content.chapters.map((ch) => (
           <div key={ch.id} className="space-y-1">
-            <h3 className="font-bold">Ch {ch.id} · {CHAPTER_SHORT[ch.id]}</h3>
+            <h3 className="font-bold">Ch {ch.id} {CHAPTER_SHORT[ch.id]}</h3>
             <div className="columns-1 gap-6 text-xs md:columns-2 print:columns-2">
               {ch.conceptIds.flatMap((cid) => conceptById.get(cid)!.terms.map((t) => (
                 <p key={`${cid}-${t.term}`} className="mb-1 break-inside-avoid"><b>{t.term}</b> — {t.def}</p>

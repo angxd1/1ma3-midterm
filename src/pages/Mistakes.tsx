@@ -1,14 +1,14 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { ChapterId } from '../content/types';
-import { CHAPTERS } from '../content/types';
-import { conceptById, mcqById, relatedIds, CHAPTER_SHORT } from '../lib/content';
+import { conceptById, mcqById, relatedIds } from '../lib/content';
 import { useAttempts } from '../lib/hooks';
 import { pendingMistakes } from '../lib/stats';
 import { getKv, record, setKv, useStore } from '../lib/store';
 import type { Attempt } from '../lib/types';
 import { McqCard } from '../components/McqCard';
 import { Source } from '../components/ConceptPanel';
+import { ChapterChip, ChapterTabs } from '../components/ui';
 
 type Filter = 'owed' | 'fixed' | 'all';
 
@@ -26,8 +26,8 @@ function Note({ qid }: { qid: string }) {
   const [text, setText] = useState(saved);
   return (
     <textarea
-      className="input min-h-[2.5rem] text-xs"
-      placeholder="Your note — why you got it wrong, a memory hook…"
+      className="input min-h-[5rem] border-dashed bg-transparent font-serif text-[15px]"
+      placeholder="Why you got it wrong, or a memory hook"
       value={text}
       onChange={(e) => setText(e.target.value)}
       onBlur={() => text !== (getKv<string>(key) ?? '') && setKv(key, text)}
@@ -41,35 +41,40 @@ function MistakeCard({ e, onRetry }: { e: Entry; onRetry: () => void }) {
   const chosen = typeof e.lastWrong.meta?.chosen === 'number' ? (e.lastWrong.meta.chosen as number) : undefined;
   const [open, setOpen] = useState(false);
   return (
-    <div className="card space-y-3">
-      <div className="flex flex-wrap items-center gap-2 text-xs">
-        <span className={`chip ${e.owed ? 'bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-200' : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-200'}`}>{e.owed ? 'Still owed' : 'Fixed ✓'}</span>
-        {e.sureWrong && <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200" title="You marked “Sure” and got it wrong: a misconception, not a gap">⚠️ You were sure</span>}
-        <span className="chip bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Ch {q.chapter} · {concept?.title}</span>
-        <span className="text-slate-500">missed {e.misses}× · last {new Date(e.lastWrong.ts).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</span>
+    <li className="grid gap-x-6 gap-y-3 py-5 md:grid-cols-[minmax(0,1fr)_15rem]">
+      <div className="space-y-3">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px]">
+          <ChapterChip ch={q.chapter} title={concept?.title} />
+          <span className={e.owed ? 'font-semibold text-redpen' : 'font-semibold text-tick'}>{e.owed ? 'Still owed' : 'Fixed'}</span>
+          {e.sureWrong && <span className="font-semibold text-ink" title="You marked “Sure” and got it wrong, which points to a misunderstanding rather than a gap"><span className="hl">You were sure</span></span>}
+          <span className="text-pencil">Missed {e.misses === 1 ? 'once' : `${e.misses} times`}, last on {new Date(e.lastWrong.ts).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}</span>
+        </div>
+        <p className="max-w-[68ch] font-serif text-[17px] leading-relaxed">{q.q}</p>
+        <div className="space-y-1 text-[15px]">
+          {chosen !== undefined && chosen !== q.answer && <p><span className="text-pencil">You picked </span><span className="strike">{q.options[chosen]}</span></p>}
+          <p><span className="text-pencil">Answer </span><span className="hl font-semibold">{q.options[q.answer]}</span></p>
+        </div>
+        {open && (
+          <ul className="space-y-1.5 border-l-2 border-rule pl-3 text-[15px]">
+            {q.options.map((opt, i) => (
+              <li key={i} className={i === q.answer ? 'text-ink' : 'text-pencil'}>
+                <b className={i === q.answer ? 'text-tick' : ''}>{opt}:</b> {q.explanations[i]}
+              </li>
+            ))}
+            <li className="pt-1"><Source src={q.src} /></li>
+          </ul>
+        )}
+        <div className="flex flex-wrap gap-2">
+          <button className="btn-primary px-3 py-1.5" onClick={onRetry}>Retry this question</button>
+          <button className="btn-ghost px-3 py-1.5" onClick={() => setOpen((v) => !v)}>{open ? 'Hide reasons' : 'Why each option'}</button>
+          {concept && <Link className="btn-ghost px-3 py-1.5" to={`/lesson/${concept.id}`}>Relearn the concept</Link>}
+        </div>
       </div>
-      <p className="font-medium">{q.q}</p>
-      <div className="space-y-1 text-sm">
-        {chosen !== undefined && chosen !== q.answer && <p className="text-rose-700 dark:text-rose-300">✗ You chose: {q.options[chosen]}</p>}
-        <p className="text-emerald-700 dark:text-emerald-300">✓ Answer: {q.options[q.answer]}</p>
+      <div className="md:border-l md:border-dashed md:border-rule md:pl-4">
+        <p className="mb-1 text-[13px] text-pencil">Margin note</p>
+        <Note qid={e.qid} />
       </div>
-      {open && (
-        <ul className="space-y-1.5 rounded-xl bg-slate-50 p-3 text-sm dark:bg-slate-800/50">
-          {q.options.map((_, i) => (
-            <li key={i} className={i === q.answer ? 'font-medium text-emerald-800 dark:text-emerald-200' : 'text-slate-600 dark:text-slate-300'}>
-              {i === q.answer ? '✓ ' : '✗ '}{q.explanations[i]}
-            </li>
-          ))}
-          <li className="pt-1"><Source src={q.src} /></li>
-        </ul>
-      )}
-      <Note qid={e.qid} />
-      <div className="flex flex-wrap gap-2">
-        <button className="btn-primary px-3 py-1.5" onClick={onRetry}>Retry</button>
-        <button className="btn-ghost px-3 py-1.5" onClick={() => setOpen((v) => !v)}>{open ? 'Hide' : 'Why'} each option</button>
-        {concept && <Link className="btn-ghost px-3 py-1.5" to={`/lesson/${concept.id}`}>Relearn concept</Link>}
-      </div>
-    </div>
+    </li>
   );
 }
 
@@ -105,31 +110,31 @@ export default function Mistakes() {
     const qid = queue[pos];
     if (!qid) {
       return (
-        <div className="card mx-auto max-w-2xl space-y-3 text-center">
-          <p className="text-4xl">🩹</p>
-          <p className="text-xl font-bold">Review done: {right}/{queue.length} fixed</p>
-          <p className="text-sm text-slate-500">Anything you missed again stays in the notebook and comes back in practice.</p>
-          <button className="btn-primary" onClick={() => setQueue(null)}>Back to notebook</button>
+        <div className="card mx-auto max-w-2xl space-y-3 text-center sm:p-6">
+          <p className="text-[26px] font-extrabold leading-tight">Review done</p>
+          <p className="text-[17px]">You fixed <span className="hl font-semibold">{right} of {queue.length}</span>.</p>
+          <p className="text-[15px] text-pencil">Anything you missed again stays in the notebook and comes back in practice.</p>
+          <button className="btn-primary" onClick={() => setQueue(null)}>Back to the notebook</button>
         </div>
       );
     }
     const q = mcqById.get(qid)!;
     return (
       <div className="mx-auto max-w-2xl space-y-3">
-        <div className="flex items-center justify-between text-sm">
-          <button className="text-brand-600 hover:underline" onClick={() => setQueue(null)}>← Notebook</button>
-          <span className="tabular-nums">{pos + 1} / {queue.length} · {right} fixed</span>
+        <div className="flex items-center justify-between text-[15px]">
+          <button className="text-pencil hover:text-ink" onClick={() => setQueue(null)}>Back to the notebook</button>
+          <span className="tabular-nums text-pencil">Question {pos + 1} of {queue.length}, {right} fixed</span>
         </div>
         <McqCard
           key={`${qid}-${pos}`}
           q={q}
-          header={<span className="chip bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-200">Mistake review</span>}
+          header={<span className="text-xs font-semibold text-redpen">Mistake review</span>}
           onAnswered={(r) => {
             record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'review', meta: { ms: r.ms, chosen: r.chosen } });
             if (r.correct) setRight((n) => n + 1);
           }}
           onNext={() => setPos((p) => p + 1)}
-          nextLabel={pos + 1 < queue.length ? 'Next' : 'Finish'}
+          nextLabel={pos + 1 < queue.length ? 'Next question' : 'Finish review'}
         />
       </div>
     );
@@ -142,12 +147,12 @@ export default function Mistakes() {
   };
 
   return (
-    <div className="mx-auto max-w-3xl space-y-4">
-      <div className="card space-y-3">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+    <div className="mx-auto max-w-4xl space-y-4">
+      <div className="space-y-4">
+        <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <h1 className="text-xl font-bold">🩹 Mistake notebook</h1>
-            <p className="text-sm text-slate-500">Every question you've missed. “Still owed” clears once you get it (or a sibling question) right.</p>
+            <h1 className="text-[33px] font-extrabold leading-tight tracking-tight">Mistake notebook</h1>
+            <p className="max-w-[60ch] text-[15px] text-pencil">Every question you've missed. A mistake stops being owed once you get it, or a closely related question, right.</p>
           </div>
           <button className="btn-primary" disabled={!owedCount} onClick={() => startReview(inChapter.filter((e) => e.owed).map((e) => e.qid))}>
             Review {owedCount} owed
@@ -155,27 +160,20 @@ export default function Mistakes() {
         </div>
         <div className="flex flex-wrap gap-2">
           {(['owed', 'fixed', 'all'] as const).map((f) => (
-            <button key={f} onClick={() => setFilter(f)} className={`chip border px-3 py-1.5 text-sm ${filter === f ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`}>
+            <button key={f} onClick={() => setFilter(f)} className={`chip border px-3 py-1.5 text-sm ${filter === f ? 'on' : 'off'}`}>
               {f === 'owed' ? `Still owed (${owedCount})` : f === 'fixed' ? `Fixed (${inChapter.length - owedCount})` : `All (${inChapter.length})`}
             </button>
           ))}
         </div>
-        <div className="flex gap-2 overflow-x-auto pb-1">
-          <button onClick={() => setChapter(null)} className={`chip shrink-0 border px-3 py-1 ${!chapter ? 'border-slate-700 bg-slate-700 text-white dark:border-slate-300 dark:bg-slate-300 dark:text-slate-900' : 'border-slate-300 dark:border-slate-700'}`}>All chapters</button>
-          {CHAPTERS.map((c) => (
-            <button key={c} onClick={() => setChapter(c)} className={`chip shrink-0 border px-3 py-1 ${chapter === c ? 'border-slate-700 bg-slate-700 text-white dark:border-slate-300 dark:bg-slate-300 dark:text-slate-900' : 'border-slate-300 dark:border-slate-700'}`}>
-              Ch {c} · {CHAPTER_SHORT[c]}
-            </button>
-          ))}
-        </div>
+        <ChapterTabs all active={chapter ?? 'all'} onSelect={(c) => setChapter(c === 'all' ? null : c)} />
       </div>
 
       {!entries.length ? (
-        <div className="card text-center text-sm text-slate-500">No mistakes yet. Anything you get wrong in lessons, practice or a mock lands here.</div>
+        <p className="py-10 text-center text-[15px] text-pencil">No mistakes yet. Anything you get wrong in lessons, practice or a mock lands here.</p>
       ) : !shown.length ? (
-        <div className="card text-center text-sm text-slate-500">{filter === 'owed' ? 'Nothing owed here — nice work. 🎉' : 'Nothing in this view.'}</div>
+        <p className="py-10 text-center text-[15px] text-pencil">{filter === 'owed' ? 'Nothing owed in this view. Switch to “Fixed” to look back over old mistakes.' : 'Nothing in this view yet.'}</p>
       ) : (
-        shown.map((e) => <MistakeCard key={e.qid} e={e} onRetry={() => startReview([e.qid])} />)
+        <ul className="divide-y divide-rule border-t border-rule">{shown.map((e) => <MistakeCard key={e.qid} e={e} onRetry={() => startReview([e.qid])} />)}</ul>
       )}
     </div>
   );

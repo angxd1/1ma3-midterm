@@ -22,7 +22,7 @@ export function Celebrations() {
     if (Date.now() - latest > 15_000) return;
     const fresh: Toast[] = [];
     for (const b of BADGES) if (badges.has(b.id) && !before.badges.has(b.id)) fresh.push({ id: Math.random(), icon: b.icon, title: `Badge unlocked: ${b.name}`, body: b.desc });
-    if (level.level > before.level) fresh.push({ id: Math.random(), icon: '⬆️', title: `Level ${level.level}!`, body: `You're now a ${level.title}.` });
+    if (level.level > before.level) fresh.push({ id: Math.random(), icon: '⬆️', title: `Level ${level.level}`, body: `You're now a ${level.title}.` });
     if (!fresh.length) return;
     setToasts((t) => [...t, ...fresh]);
     for (const f of fresh) setTimeout(() => setToasts((t) => t.filter((x) => x.id !== f.id)), 5000);
@@ -31,11 +31,11 @@ export function Celebrations() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-20 z-50 flex flex-col items-center gap-2 px-4 sm:bottom-6" aria-live="polite">
       {toasts.map((t) => (
-        <div key={t.id} className="pointer-events-auto flex w-full max-w-sm animate-pop items-center gap-3 rounded-2xl bg-slate-900 p-3 text-white shadow-xl dark:bg-white dark:text-slate-900">
-          <span className="text-3xl">{t.icon}</span>
-          <div className="text-sm">
-            <p className="font-bold">{t.title}</p>
-            <p className="opacity-80">{t.body}</p>
+        <div key={t.id} className="pointer-events-auto flex w-full max-w-sm animate-slidein items-center gap-3 rounded-md border border-rule bg-sheet p-3 text-ink shadow-[0_8px_24px_-12px_rgb(0_0_0/0.35)]">
+          <span className="text-3xl" aria-hidden>{t.icon}</span>
+          <div className="text-[15px]">
+            <p className="font-extrabold"><span className="hl animate-swipe">{t.title}</span></p>
+            <p className="text-pencil">{t.body}</p>
           </div>
         </div>
       ))}

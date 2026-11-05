@@ -1,34 +1,39 @@
 import { BADGES, levelThreshold } from '../lib/gamify';
 import { useProgress } from '../lib/hooks';
-import { LevelStrip, PlanCard, ReadinessCard } from '../components/ProgressWidgets';
+import { LevelLine, PlanCard, ReadinessDetail } from '../components/ProgressWidgets';
 
 export default function Progress() {
   const { badges, level, xp, streak } = useProgress();
   return (
-    <div className="mx-auto max-w-3xl space-y-4">
-      <h1 className="text-xl font-bold">Progress</h1>
-      <LevelStrip />
-      <ReadinessCard detailed />
+    <div className="mx-auto max-w-3xl space-y-8">
+      <h1 className="text-[33px] font-extrabold leading-tight tracking-tight">Progress</h1>
+      <LevelLine />
+      <ReadinessDetail />
       <PlanCard all />
-      <section className="card space-y-3">
+      <section className="space-y-3">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 className="font-bold">Badges · {badges.size}/{BADGES.length}</h2>
-          <p className="text-xs text-slate-500">{xp} XP total · next level at {levelThreshold(level.level + 1)} · best streak {streak.best} day{streak.best === 1 ? '' : 's'}</p>
+          <h2 className="text-[21px] font-extrabold">Badges <span className="text-pencil">{badges.size} of {BADGES.length}</span></h2>
+          <p className="text-[13px] text-pencil">{xp} XP in total. Next level at {levelThreshold(level.level + 1)}. Best streak: {streak.best} day{streak.best === 1 ? '' : 's'}.</p>
         </div>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {BADGES.map((b) => {
             const got = badges.has(b.id);
             return (
-              <div key={b.id} className={`flex items-center gap-3 rounded-xl border p-3 ${got ? 'border-amber-300 bg-amber-50 dark:border-amber-700/60 dark:bg-amber-900/20' : 'border-slate-200 opacity-60 dark:border-slate-800'}`}>
-                <span className={`text-2xl ${got ? '' : 'grayscale'}`}>{got ? b.icon : '🔒'}</span>
-                <div className="min-w-0">
-                  <p className="text-sm font-semibold leading-tight">{b.name}</p>
-                  <p className="text-[11px] leading-tight text-slate-500">{b.desc}</p>
-                </div>
-              </div>
+              <li key={b.id} className={`flex items-center gap-3 rounded-md p-2.5 ${got ? 'bg-sheet' : ''}`}>
+                <span
+                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-xl ${got ? 'bg-hl/70 ring-2 ring-ink/80 ring-offset-2 ring-offset-sheet' : 'border-2 border-dashed border-pencil/40 grayscale opacity-50'}`}
+                  aria-hidden
+                >
+                  {b.icon}
+                </span>
+                <span className="min-w-0">
+                  <span className={`block text-[15px] font-semibold leading-tight ${got ? '' : 'text-pencil'}`}>{b.name}</span>
+                  <span className="block text-[12px] leading-tight text-pencil">{got ? b.desc : `Locked: ${b.desc.charAt(0).toLowerCase()}${b.desc.slice(1)}`}</span>
+                </span>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </section>
     </div>
   );
