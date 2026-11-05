@@ -35,7 +35,23 @@ Then go back to Supabase step 4 and set the Site URL / Redirect URL to the Verce
 
 CLI alternative: `npx vercel login`, then `npx vercel --prod` from the repo (and add the two env vars with `npx vercel env add`).
 
-## 4. Sign in on each device
+## 4. Let other people sign in (custom email sender)
+
+Supabase's built-in email sender is for testing only: it sends sign-in links only to members of your Supabase project (you) and only a few per hour. To share the app with classmates, connect a real email service (free tiers are plenty):
+
+1. Make a free account with an email provider that offers SMTP, e.g. **Resend** (resend.com) or **Brevo** (brevo.com).
+2. Verify a sender. Resend needs a domain you own (add the DNS records it shows); Brevo can verify a single sender email address instead, which is easier if you don't have a domain.
+3. Create SMTP credentials in that provider and note the **host**, **port** (usually 465 or 587), **username** and **password/API key**.
+   - Resend: host `smtp.resend.com`, port `465`, username `resend`, password = an API key.
+   - Brevo: host `smtp-relay.brevo.com`, port `587`, username and password from *SMTP & API → SMTP*.
+4. In Supabase: **Authentication → Emails → SMTP Settings** → turn on **Enable custom SMTP** and fill in sender email (the verified one), sender name (e.g. `1MA3 Midterm Prep`), host, port, username and password → **Save**.
+5. **Authentication → Rate Limits**: raise *Emails sent per hour* (e.g. to 100) so a class can sign in on the same evening.
+6. **Authentication → Sign In / Providers**: make sure **Allow new users to sign up** is on.
+7. Test: open the app in a private window, enter a different email address than your own, and check the link arrives (look in spam the first time) and signs you in.
+
+The SMTP password lives only in Supabase's dashboard; nothing changes in the repo or in Vercel. Each person's progress is private to their own account (row-level security), and the app still works without signing in — progress just stays on that one device.
+
+## 5. Sign in on each device
 
 Settings → enter your email → click the magic link in your inbox. Your full history downloads; new answers upload automatically (and queue offline until you're back online).
 
