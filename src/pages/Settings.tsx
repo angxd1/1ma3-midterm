@@ -61,6 +61,15 @@ export default function SettingsPage() {
           <input className="mt-2 w-full" type="range" min={3} max={5} step={1} value={s.masteryN} onChange={(e) => updateSettings({ masteryN: Number(e.target.value) })} />
         </label>
         <div className="text-sm">
+          Daily XP goal
+          <div className="mt-1 flex flex-wrap gap-2">
+            {[100, 150, 250, 400].map((g) => (
+              <button key={g} className={`chip border px-3 py-1.5 ${s.dailyGoal === g ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-700'}`} onClick={() => updateSettings({ dailyGoal: g })}>{g} XP</button>
+            ))}
+          </div>
+          <p className="mt-1 text-xs text-slate-500">About 10 XP per correct answer, 20 per lesson, 100 for finishing a mock.</p>
+        </div>
+        <div className="text-sm">
           Theme
           <div className="mt-1 flex gap-2">
             {(['system', 'light', 'dark'] as const).map((t) => (

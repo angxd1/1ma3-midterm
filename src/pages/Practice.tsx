@@ -8,6 +8,7 @@ import { comboMultiplier, newSession, pickNext, requeueWrong, type PracticeSessi
 import { McqCard } from '../components/McqCard';
 import { ShortAnswerCard } from '../components/ShortAnswerCard';
 import { pendingMistakes } from '../lib/stats';
+import { xpFor } from '../lib/gamify';
 
 const PRACTICE_POOL = scopedMcqs.filter((q) => q.kind !== 'recall');
 const SA_EVERY = 9;
@@ -83,7 +84,7 @@ export default function Practice() {
         <div className="flex items-center gap-3 tabular-nums">
           <span>{stats.right}/{stats.total} correct</span>
           <span className={`chip ${stats.streak >= 3 ? 'bg-orange-500 text-white' : 'bg-slate-200 dark:bg-slate-800'}`}>🔥 {stats.streak} · ×{mult}</span>
-          <span className="font-semibold">{stats.points} pts</span>
+          <span className="font-semibold text-amber-600 dark:text-amber-400">+{stats.points} XP</span>
         </div>
       </div>
 
@@ -94,10 +95,10 @@ export default function Practice() {
           header={item.reason !== 'adaptive' ? <span className="chip bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-200">Review: you missed this</span> : undefined}
           onAnswered={(r) => {
             const q = mcqById.get(item.id)!;
-            record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'mastery', meta: { ms: r.ms } });
+            const a = record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'mastery', meta: { ms: r.ms, chosen: r.chosen, mult: comboMultiplier(stats.streak) } });
             setStats((st) => {
               const streak = r.correct ? st.streak + 1 : 0;
-              const gained = r.correct ? Math.round(10 * comboMultiplier(st.streak) * (r.confidence === 'guess' ? 0.5 : 1)) : 0;
+              const gained = xpFor(a);
               return { right: st.right + (r.correct ? 1 : 0), total: st.total + 1, streak, best: Math.max(st.best, streak), points: st.points + gained };
             });
             if (!r.correct || r.confidence === 'guess') setSession((s) => (s ? requeueWrong(s, q) : s));
@@ -111,7 +112,8 @@ export default function Practice() {
             sa={content.shortAnswers.find((x) => x.id === item.id)!}
             onMarked={(score, outOf, text) => {
               const sa = content.shortAnswers.find((x) => x.id === item.id)!;
-              record({ questionId: sa.id, conceptIds: sa.concepts, correct: score / outOf >= 0.6, confidence: null, mode: 'mastery', meta: { score, outOf, words: text.split(/\s+/).length } });
+              const a = record({ questionId: sa.id, conceptIds: sa.concepts, correct: score / outOf >= 0.6, confidence: null, mode: 'mastery', meta: { score, outOf, words: text.split(/\s+/).length } });
+              setStats((st) => ({ ...st, points: st.points + xpFor(a) }));
             }}
           />
           <button className="btn-primary w-full" onClick={() => next(session)}>Next question →</button>

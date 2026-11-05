@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useStore, getSettings } from './store';
 import type { Attempt, Settings } from './types';
+import { content, relatedIds } from './content';
+import { dayKey, earnedBadges, levelInfo, streakInfo, totalXp, xpByDay } from './gamify';
 
 export function useAttempts(): Attempt[] {
   const attempts = useStore((s) => s.attempts);
@@ -44,4 +46,24 @@ export function daysUntil(dateStr: string, now = Date.now()) {
   const [y, m, d] = dateStr.split('-').map(Number);
   const target = new Date(y, m - 1, d).getTime();
   return Math.ceil((target - now) / 86_400_000);
+}
+
+/** XP, level, streak, today's XP and earned badges (recomputed when the log or the day changes). */
+export function useProgress() {
+  const attempts = useAttempts();
+  const { masteryN, dailyGoal } = useSettings();
+  const now = useNow(60_000);
+  const today = dayKey(now);
+  return useMemo(() => {
+    const xp = totalXp(attempts);
+    return {
+      xp,
+      level: levelInfo(xp),
+      streak: streakInfo(attempts, now),
+      todayXp: xpByDay(attempts).get(today) ?? 0,
+      dailyGoal,
+      badges: earnedBadges({ attempts, chapters: content.chapters, totalConcepts: content.concepts.length, masteryN, related: relatedIds, now }),
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [attempts, masteryN, dailyGoal, today]);
 }

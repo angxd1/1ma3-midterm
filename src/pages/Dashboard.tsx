@@ -5,6 +5,8 @@ import { chapterProgress, pendingMistakes } from '../lib/stats';
 import { useAttempts, useSettings, daysUntil, useNow } from '../lib/hooks';
 import { ProgressBar } from '../components/ProgressBar';
 import { getKv, useStore } from '../lib/store';
+import { LevelStrip, PlanCard, ReadinessCard } from '../components/ProgressWidgets';
+import { isQuestion } from '../lib/gamify';
 
 export default function Dashboard() {
   const attempts = useAttempts();
@@ -13,7 +15,7 @@ export default function Dashboard() {
   useStore((s) => s.kv['mock']);
   const days = daysUntil(settings.examDate, now);
   const owed = useMemo(() => pendingMistakes(attempts, relatedIds).length, [attempts]);
-  const answered = attempts.filter((a) => !a.questionId.startsWith('lesson:')).length;
+  const answered = attempts.filter(isQuestion).length;
   const mockInProgress = !!getKv<{ submitted?: boolean }>('mock') && !getKv<{ submitted?: boolean }>('mock')?.submitted;
 
   return (
@@ -22,13 +24,19 @@ export default function Dashboard() {
         <div>
           <p className="text-sm opacity-90">Midterm · {new Date(settings.examDate + 'T00:00').toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' })}</p>
           <p className="text-3xl font-extrabold">{days > 0 ? `${days} day${days === 1 ? '' : 's'} to go` : days === 0 ? 'Exam day — you’ve got this!' : 'Exam date passed'}</p>
-          <p className="text-sm opacity-90">{answered} questions answered · {owed} mistakes queued for review</p>
+          <p className="text-sm opacity-90">{answered} questions answered · <Link to="/mistakes" className="underline decoration-white/50 underline-offset-2">{owed} mistakes queued for review</Link></p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Link to="/practice" className="btn bg-white text-brand-700 hover:bg-brand-50">⚡ Mastery practice</Link>
           <Link to="/mock" className="btn bg-white/15 text-white ring-1 ring-white/40 hover:bg-white/25">⏱️ {mockInProgress ? 'Resume mock' : 'Mock midterm'}</Link>
         </div>
       </section>
+
+      <LevelStrip />
+      <div className="grid gap-5 lg:grid-cols-2">
+        <PlanCard />
+        <ReadinessCard />
+      </div>
 
       <section>
         <h2 className="mb-3 text-lg font-bold">Chapters</h2>

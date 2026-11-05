@@ -76,7 +76,7 @@ export default function Mock() {
     for (const id of final.paper.mcqIds) {
       const q = mcqById.get(id)!;
       const ans = final.answers[id];
-      record({ questionId: id, conceptIds: q.concepts, correct: ans === q.answer, confidence: null, mode: 'mock', meta: { mockId: final.paper.id, ms: final.timeMs[id] ?? 0, skipped: ans === undefined } });
+      record({ questionId: id, conceptIds: q.concepts, correct: ans === q.answer, confidence: null, mode: 'mock', meta: { mockId: final.paper.id, ms: final.timeMs[id] ?? 0, skipped: ans === undefined, chosen: ans } });
     }
     record({ questionId: `mock:${final.paper.id}`, conceptIds: [], correct: true, confidence: null, mode: 'mock', meta: { score: final.paper.mcqIds.filter((id) => final.answers[id] === mcqById.get(id)!.answer).length, of: final.paper.mcqIds.length } });
     save(final);

@@ -51,7 +51,7 @@ export default function Lesson() {
           onAnswered={(r) => {
             if (r.correct) setScore((s) => s + 1);
             const q = recall[step - 1];
-            record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'path', meta: { ms: r.ms } });
+            record({ questionId: q.id, conceptIds: q.concepts, correct: r.correct, confidence: r.confidence, mode: 'path', meta: { ms: r.ms, chosen: r.chosen } });
           }}
           onNext={() => (step === recall.length ? finish() : setStep(step + 1))}
           nextLabel={step === recall.length ? 'Finish lesson' : 'Next'}
