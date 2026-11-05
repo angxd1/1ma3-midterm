@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { content, mcqById, saById, conceptById, relatedIds, canShuffle, CHAPTER_SHORT } from '../lib/content';
 import { composeMock, MOCK_MINUTES, type MockPaper } from '../lib/mock';
 import { record, setKv, useStore, getState, visibleAttempts } from '../lib/store';
-import { useNow } from '../lib/hooks';
+import { useAttempts, useNow } from '../lib/hooks';
 import { ShortAnswerCard } from '../components/ShortAnswerCard';
 import { Source } from '../components/ConceptPanel';
 import { CHAPTERS } from '../content/types';
@@ -234,6 +234,17 @@ function Results({ m, onMark, onNew }: { m: MockState; onMark: (saId: string, sc
   const flaggedWrong = rows.filter((r) => r.flagged && !r.correct);
   const [showAll, setShowAll] = useState(false);
   const used = (m.submitted ?? m.deadline) - m.startedAt;
+  const attempts = useAttempts();
+  const history = attempts
+    .filter((a) => a.questionId.startsWith('mock:'))
+    .map((a) => ({ id: a.questionId.slice(5), ts: a.ts, pct: Number(a.meta?.score ?? 0) / (Number(a.meta?.of ?? 60) || 60) }))
+    .sort((a, b) => a.ts - b.ts);
+  const prev = history.filter((h) => h.id !== p.id).pop();
+  const mcqMs = rows.reduce((s, r) => s + r.ms, 0);
+  const avgS = Math.round(mcqMs / 1000 / rows.length);
+  const slowest = [...rows].sort((a, b) => b.ms - a.ms).slice(0, 5);
+  // Leaving ~20 minutes for the two short answers gives ~100 s per MCQ.
+  const PACE_S = Math.round(((MOCK_MINUTES - 20) * 60) / p.mcqIds.length);
 
   return (
     <div className="mx-auto max-w-3xl space-y-4">
@@ -241,6 +252,11 @@ function Results({ m, onMark, onNew }: { m: MockState; onMark: (saId: string, sc
         <p className="text-sm text-slate-500">Mock midterm results · time used {fmt(used)}</p>
         <p className="text-5xl font-extrabold">{score}<span className="text-2xl text-slate-400">/60</span></p>
         <p className="font-semibold">{Math.round((score / 60) * 100)}% on multiple choice</p>
+        {prev && (
+          <p className={`text-sm font-semibold ${score / 60 >= prev.pct ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`}>
+            {score / 60 >= prev.pct ? '▲' : '▼'} {Math.abs(Math.round((score / 60 - prev.pct) * 100))} points vs your previous mock ({Math.round(prev.pct * 100)}%)
+          </p>
+        )}
         {m.saMarks && Object.keys(m.saMarks).length === 2 && (
           <p className="text-sm text-slate-500">Short answers self-marked: {Object.values(m.saMarks).map((x) => `${x.score}/${x.outOf}`).join(' and ')}</p>
         )}
@@ -258,8 +274,37 @@ function Results({ m, onMark, onNew }: { m: MockState; onMark: (saId: string, sc
         </div>
       </div>
 
+      <div className="card space-y-3">
+        <h2 className="font-bold">Pace</h2>
+        <p className="text-sm">
+          Average <b>{avgS}s</b> per MCQ (target ≈ {PACE_S}s to leave 20 min for the short answers) ·{' '}
+          {avgS <= PACE_S ? <span className="text-emerald-700 dark:text-emerald-300">on pace</span> : <span className="text-rose-700 dark:text-rose-300">too slow — skip and flag, come back later</span>}
+        </p>
+        <div>
+          <p className="mb-1 text-xs font-semibold text-slate-500">Slowest questions</p>
+          <ul className="space-y-1 text-sm">
+            {slowest.map((r) => (
+              <li key={r.id} className="flex justify-between gap-3"><span className="truncate">Q{p.mcqIds.indexOf(r.id) + 1} · {r.q.q}</span><span className={`shrink-0 tabular-nums ${r.correct ? '' : 'text-rose-600 dark:text-rose-400'}`}>{Math.round(r.ms / 1000)}s {r.correct ? '✓' : '✗'}</span></li>
+            ))}
+          </ul>
+        </div>
+        {history.length > 1 && (
+          <div>
+            <p className="mb-1 text-xs font-semibold text-slate-500">All mocks</p>
+            <div className="flex h-16 items-end gap-1">
+              {history.map((h) => (
+                <div key={h.id} title={`${new Date(h.ts).toLocaleDateString()} · ${Math.round(h.pct * 100)}%`} className={`w-6 rounded-t ${h.id === p.id ? 'bg-brand-600' : 'bg-slate-300 dark:bg-slate-700'}`} style={{ height: `${Math.max(4, h.pct * 100)}%` }} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
       <div className="card space-y-2">
-        <h2 className="font-bold">Concepts to review</h2>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="font-bold">Concepts to review</h2>
+          {review.length > 0 && <Link to="/mistakes" className="chip bg-rose-100 px-3 py-1 text-rose-700 dark:bg-rose-900/40 dark:text-rose-200">Retry misses in the notebook →</Link>}
+        </div>
         {review.length === 0 ? <p className="text-sm">Nothing missed. 🎉</p> : (
           <ul className="grid gap-1 sm:grid-cols-2">
             {review.map(([c, v]) => (

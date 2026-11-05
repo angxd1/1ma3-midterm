@@ -5,6 +5,7 @@ import type { ChapterId } from '../content/types';
 import { useAttempts, useSettings } from '../lib/hooks';
 import { chapterProgress, masteryCounts, seenConcepts } from '../lib/stats';
 import { ProgressBar } from '../components/ProgressBar';
+import { bestBoss } from './Boss';
 
 const ROW_H = 112;
 const XS = [50, 72, 80, 64, 36, 20, 28];
@@ -54,11 +55,17 @@ export default function PathPage() {
           const pt = pts[i];
           if (id === 'boss') {
             const allDone = currentIdx === -1;
+            const b = bestBoss(attempts, chapter.id);
             return (
-              <div key="boss" className="absolute -translate-x-1/2 -translate-y-1/2 text-center" style={{ left: `${pt.x}%`, top: pt.y }}>
-                <div className={`mx-auto flex h-20 w-20 items-center justify-center rounded-full text-3xl shadow-lg ${allDone ? 'bg-gradient-to-br from-amber-400 to-rose-500' : 'bg-slate-300 dark:bg-slate-700'}`}>👑</div>
-                <p className="mt-1 w-36 text-xs font-semibold">Boss battle<br /><span className="font-normal text-slate-500">coming in Phase 3</span></p>
-              </div>
+              <button
+                key="boss"
+                onClick={() => (allDone || b.tries || confirm('The boss is meant for after every lesson in this chapter. Fight it anyway?')) && nav(`/boss/${chapter.id}`)}
+                className="absolute -translate-x-1/2 -translate-y-1/2 text-center"
+                style={{ left: `${pt.x}%`, top: pt.y }}
+              >
+                <div className={`mx-auto flex h-20 w-20 items-center justify-center rounded-full text-3xl shadow-lg transition hover:scale-105 ${b.won ? 'bg-gradient-to-br from-emerald-400 to-teal-500' : allDone ? 'bg-gradient-to-br from-amber-400 to-rose-500 animate-pulse' : 'bg-slate-300 dark:bg-slate-700'}`}>{b.won ? '🏆' : '👑'}</div>
+                <p className="mt-1 w-36 text-xs font-semibold">Boss battle<br /><span className="font-normal text-slate-500">{b.won ? `Beaten · best ${Math.round(b.best * 100)}%` : b.tries ? `Best ${Math.round(b.best * 100)}% · try again` : allDone ? 'Ready!' : 'Finish the lessons first'}</span></p>
+              </button>
             );
           }
           const c = conceptById.get(id)!;

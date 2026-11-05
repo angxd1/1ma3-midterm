@@ -11,6 +11,12 @@ import SettingsPage from './pages/Settings';
 import Mistakes from './pages/Mistakes';
 import Progress from './pages/Progress';
 import { Celebrations } from './components/Celebrations';
+import { Shortcuts } from './components/Shortcuts';
+import Boss from './pages/Boss';
+import Lightning from './pages/Lightning';
+import Flashcards from './pages/Flashcards';
+import Confusables from './pages/Confusables';
+import LastNight from './pages/LastNight';
 
 const NAV = [
   { to: '/', label: 'Home', icon: '🏠' },
@@ -43,7 +49,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col">
-        <header className="sticky top-0 z-20 flex items-center justify-between gap-3 border-b border-slate-200 bg-slate-50/90 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
+        <header className="sticky top-0 z-20 print:hidden flex items-center justify-between gap-3 border-b border-slate-200 bg-slate-50/90 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
           <NavLink to="/" className="font-extrabold tracking-tight">1MA3 <span className="text-brand-600">Midterm Prep</span></NavLink>
           <nav className="hidden gap-1 sm:flex">
             {NAV.map((n) => (
@@ -57,7 +63,7 @@ export default function App() {
             <NavLink to="/settings" aria-label="Settings" className={({ isActive }) => `rounded-lg p-1.5 text-lg leading-none ${isActive ? 'bg-brand-600' : 'hover:bg-slate-200 dark:hover:bg-slate-800'}`}>⚙️</NavLink>
           </div>
         </header>
-        <main className="flex-1 px-4 pb-24 pt-4 sm:pb-10">
+        <main className="flex-1 px-4 pb-24 pt-4 sm:pb-10 print:p-0">
           {!ready ? (
             <p className="p-8 text-center text-slate-500">Loading your progress…</p>
           ) : (
@@ -71,11 +77,16 @@ export default function App() {
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/mistakes" element={<Mistakes />} />
               <Route path="/progress" element={<Progress />} />
+              <Route path="/boss/:ch" element={<Boss />} />
+              <Route path="/lightning" element={<Lightning />} />
+              <Route path="/flashcards" element={<Flashcards />} />
+              <Route path="/confusables" element={<Confusables />} />
+              <Route path="/last-night" element={<LastNight />} />
               <Route path="*" element={<Dashboard />} />
             </Routes>
           )}
         </main>
-        <nav className="fixed inset-x-0 bottom-0 z-20 grid grid-cols-6 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden dark:border-slate-800 dark:bg-slate-950/95">
+        <nav className="fixed inset-x-0 bottom-0 z-20 print:hidden grid grid-cols-6 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden dark:border-slate-800 dark:bg-slate-950/95">
           {NAV.map((n) => (
             <NavLink key={n.to} to={n.to} end={n.to === '/'} className={({ isActive }) => `flex flex-col items-center py-2 text-[11px] ${isActive ? 'text-brand-600 font-semibold' : 'text-slate-500'}`}>
               <span className="text-lg leading-none">{n.icon}</span>
@@ -84,6 +95,7 @@ export default function App() {
           ))}
         </nav>
         {ready && <Celebrations />}
+        <Shortcuts />
       </div>
     </BrowserRouter>
   );

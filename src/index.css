@@ -17,4 +17,9 @@ body { @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text
   .src { @apply chip bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300; }
   .input { @apply w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-900; }
 }
+@media print {
+  body { background: white !important; color: black !important; }
+  .card { box-shadow: none; }
+  @page { margin: 12mm; }
+}
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
