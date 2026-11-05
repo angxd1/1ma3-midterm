@@ -20,6 +20,7 @@ export interface Settings {
   examDate: string; // YYYY-MM-DD
   masteryN: number; // 3..5
   theme: 'system' | 'light' | 'dark';
+  dailyGoal: number; // XP per day
 }
 
-export const DEFAULT_SETTINGS: Settings = { examDate: '2026-11-09', masteryN: 3, theme: 'system' };
+export const DEFAULT_SETTINGS: Settings = { examDate: '2026-11-09', masteryN: 3, theme: 'system', dailyGoal: 150 };
