@@ -1,16 +1,16 @@
 import { useMemo, useState } from 'react';
 import type { ChapterId } from '../content/types';
 import { CHAPTERS } from '../content/types';
-import { content, mcqById, relatedIds, CHAPTER_SHORT, scopedMcqs } from '../lib/content';
+import { content, mcqById, relatedIds, CHAPTER_SHORT, scopedMcqs, owedMcqs } from '../lib/content';
 import { useAttempts } from '../lib/hooks';
 import { getState, record, visibleAttempts } from '../lib/store';
 import { comboMultiplier, newSession, pickNext, requeueWrong, type PracticeSession } from '../lib/practice';
 import { McqCard } from '../components/McqCard';
 import { ShortAnswerCard } from '../components/ShortAnswerCard';
-import { pendingMistakes } from '../lib/stats';
 import { xpFor } from '../lib/gamify';
 
 const PRACTICE_POOL = scopedMcqs.filter((q) => q.kind !== 'recall');
+const PRACTICE_IDS = new Set(PRACTICE_POOL.map((q) => q.id));
 const SA_EVERY = 9;
 
 type Item = { kind: 'mcq'; id: string; reason: string } | { kind: 'sa'; id: string };
@@ -21,7 +21,7 @@ export default function Practice() {
   const [session, setSession] = useState<PracticeSession | null>(null);
   const [item, setItem] = useState<Item | null>(null);
   const [stats, setStats] = useState({ right: 0, total: 0, streak: 0, best: 0, points: 0 });
-  const owedCount = useMemo(() => pendingMistakes(attempts, relatedIds).length, [attempts]);
+  const owedCount = useMemo(() => owedMcqs(attempts).filter((id) => PRACTICE_IDS.has(id)).length, [attempts]);
 
   const next = (s: PracticeSession) => {
     if (s.count > 0 && s.count % SA_EVERY === 0 && item?.kind !== 'sa') {

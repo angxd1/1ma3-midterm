@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useMemo } from 'react';
-import { content, conceptById, relatedIds, CHAPTER_SHORT } from '../lib/content';
+import { content, conceptById, mcqById, relatedIds, CHAPTER_SHORT } from '../lib/content';
 import { useAttempts, useNow, useProgress, useSettings } from '../lib/hooks';
 import { buildPlan, taskComplete, type PlanDay, type PlanTask } from '../lib/plan';
 import { readiness } from '../lib/readiness';
@@ -15,7 +15,7 @@ export function usePlan(): PlanDay[] {
   const now = useNow(60_000);
   const today = dayKey(now);
   return useMemo(
-    () => buildPlan({ attempts, conceptOrder: CONCEPT_ORDER, masteryN, examDate, now, related: relatedIds }),
+    () => buildPlan({ attempts, conceptOrder: CONCEPT_ORDER, masteryN, examDate, now, related: relatedIds, reviewable: (id) => mcqById.has(id) }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [attempts, masteryN, examDate, today],
   );
@@ -149,8 +149,8 @@ function TaskRow({ t, today }: { t: PlanTask; today: boolean }) {
       to = '/mock';
       break;
     case 'final':
-      body = <>Light day: skim your notebook notes, confusable pairs and Ch 4 short answers, then sleep early</>;
-      to = '/mistakes';
+      body = <>Light day: read your last-night sheet (notebook, confusable pairs, Ch 4 short answers), then sleep early</>;
+      to = '/last-night';
       break;
   }
   return (

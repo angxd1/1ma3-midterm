@@ -1,4 +1,6 @@
 import raw from '../data/content.json';
+import { pendingMistakes } from './stats';
+import type { Attempt } from './types';
 import type { ChapterId, Concept, ContentBundle, Mcq, ShortAnswer } from '../content/types';
 
 export const content = raw as unknown as ContentBundle;
@@ -23,6 +25,9 @@ export function relatedIds(qid: string): string[] {
   if (!q) return [];
   return [...q.siblings, ...(q.twin ? [q.twin] : [])];
 }
+
+/** Owed mistakes that the MCQ review flows can serve (excludes short answers, matching and fill-ins). */
+export const owedMcqs = (attempts: Attempt[]) => pendingMistakes(attempts, relatedIds).filter((id) => mcqById.has(id));
 
 /** MCQs eligible for practice/mock (excludes out-of-scope officials). */
 export const scopedMcqs = content.mcqs.filter((q) => !q.outOfScope);

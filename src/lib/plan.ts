@@ -29,6 +29,8 @@ export interface PlanInput {
   examDate: string; // YYYY-MM-DD
   now: number;
   related: (qid: string) => string[];
+  /** Which owed ids count as reviewable mistakes (default: all). */
+  reviewable?: (qid: string) => boolean;
 }
 
 const PER_CONCEPT_FACTOR = 1.4; // misses mean ~1.4 questions per mastery point
@@ -56,7 +58,8 @@ export function buildPlan(p: PlanInput): PlanDay[] {
   const unseen = p.conceptOrder.filter((c) => !seenBefore.has(c));
   const counts = masteryCounts(before, p.masteryN);
   const masteryNeed = p.conceptOrder.reduce((s, c) => s + Math.max(0, p.masteryN - (counts.get(c) ?? 0)), 0);
-  const owedMorning = pendingMistakes(before, p.related);
+  const keep = p.reviewable ?? (() => true);
+  const owedMorning = pendingMistakes(before, p.related).filter(keep);
   const mockBefore = before.some(isMockMarker);
 
   // Lessons go in the first n−1 days so the final day is pure review.

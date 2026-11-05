@@ -85,6 +85,7 @@ export interface Confusable {
   columns: string[]; // concept names, one per column
   rows: { aspect: string; cells: string[] }[];
   tip: string;
+  src: string;
   questionIds: string[];
 }
 

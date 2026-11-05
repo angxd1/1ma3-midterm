@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useMemo } from 'react';
-import { content, CHAPTER_SHORT, relatedIds } from '../lib/content';
-import { chapterProgress, pendingMistakes } from '../lib/stats';
+import { content, CHAPTER_SHORT, owedMcqs } from '../lib/content';
+import { chapterProgress } from '../lib/stats';
 import { useAttempts, useSettings, daysUntil, useNow } from '../lib/hooks';
 import { ProgressBar } from '../components/ProgressBar';
 import { getKv, useStore } from '../lib/store';
@@ -14,7 +14,7 @@ export default function Dashboard() {
   const now = useNow(60_000);
   useStore((s) => s.kv['mock']);
   const days = daysUntil(settings.examDate, now);
-  const owed = useMemo(() => pendingMistakes(attempts, relatedIds).length, [attempts]);
+  const owed = useMemo(() => owedMcqs(attempts).length, [attempts]);
   const answered = attempts.filter(isQuestion).length;
   const mockInProgress = !!getKv<{ submitted?: boolean }>('mock') && !getKv<{ submitted?: boolean }>('mock')?.submitted;
 
@@ -39,6 +39,25 @@ export default function Dashboard() {
       </div>
 
       <section>
+        <h2 className="mb-3 text-lg font-bold">Drills</h2>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
+          {[
+            ['/lightning', '⚡', 'Lightning round', '60-second speed run'],
+            ['/flashcards', '🃏', 'Flashcards', 'Key terms, spaced'],
+            ['/confusables', '🔀', 'Confusable pairs', 'Side-by-side + drill'],
+            [`/learn/${content.chapters[0].id}`, '👑', 'Boss battles', 'End of each chapter path'],
+            ['/last-night', '🌙', 'Last-night sheet', 'Printable PDF review'],
+          ].map(([to, icon, title, sub]) => (
+            <Link key={to} to={to} className="card space-y-1 transition hover:-translate-y-0.5 hover:shadow-md">
+              <p className="text-2xl">{icon}</p>
+              <p className="text-sm font-bold">{title}</p>
+              <p className="text-xs text-slate-500">{sub}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section>
         <h2 className="mb-3 text-lg font-bold">Chapters</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {content.chapters.map((ch) => {
@@ -61,7 +80,7 @@ export default function Dashboard() {
       <section className="card text-sm text-slate-600 dark:text-slate-300">
         <p>
           <b>How progress works:</b> a concept is <i>seen</i> once you finish its lesson or answer any question on it. It's <i>mastered</i> after {settings.masteryN} correct
-          answers (correct guesses don't count). A wrong answer after mastery knocks it back down. Chapters: {Object.entries(CHAPTER_SHORT).map(([k, v]) => `${k} ${v}`).join(' · ')}.
+          answers (correct guesses don't count). A wrong answer after mastery knocks it back down. Press <kbd>?</kbd> for keyboard shortcuts. Chapters: {Object.entries(CHAPTER_SHORT).map(([k, v]) => `${k} ${v}`).join(' · ')}.
         </p>
       </section>
     </div>

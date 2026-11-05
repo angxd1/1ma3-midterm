@@ -132,7 +132,7 @@ if (fs.existsSync(confPath)) {
     });
     confusables.push({
       id: cf.id, title: cf.title, concepts: cf.c, columns: cf.cols,
-      rows: (cf.rows ?? []).map((r: string[]) => ({ aspect: r[0], cells: r.slice(1) })), tip: cf.tip ?? '', questionIds: ids,
+      rows: (cf.rows ?? []).map((r: string[]) => ({ aspect: r[0], cells: r.slice(1) })), tip: cf.tip ?? '', src: cf.src ?? '', questionIds: ids,
     });
   }
 }

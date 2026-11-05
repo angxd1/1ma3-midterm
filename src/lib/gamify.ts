@@ -7,8 +7,11 @@ import { isLesson, masteredConcepts, pendingMistakes, everWrong, seenConcepts } 
  */
 
 export const isMockMarker = (a: Attempt) => a.questionId.startsWith('mock:');
-/** A real answered question (not a lesson completion or a mock-finished marker). */
-export const isQuestion = (a: Attempt) => !isLesson(a) && !isMockMarker(a);
+export const isBossMarker = (a: Attempt) => a.questionId.startsWith('boss:');
+export const isLightningMarker = (a: Attempt) => a.questionId.startsWith('lightning:');
+export const isCard = (a: Attempt) => a.questionId.startsWith('card:');
+/** A real answered question — not a lesson, flashcard, or a mock/boss/lightning result marker. */
+export const isQuestion = (a: Attempt) => !isLesson(a) && !/^(mock|boss|lightning|card):/.test(a.questionId);
 
 const isShortAnswer = (a: Attempt) => typeof a.meta?.outOf === 'number';
 
@@ -16,6 +19,9 @@ const isShortAnswer = (a: Attempt) => typeof a.meta?.outOf === 'number';
 export function xpFor(a: Attempt): number {
   if (isLesson(a)) return 20;
   if (isMockMarker(a)) return 100;
+  if (isBossMarker(a)) return a.meta?.won ? 150 : 25;
+  if (isLightningMarker(a)) return 0; // each answer already earned XP
+  if (isCard(a)) return 2;
   if (isShortAnswer(a)) {
     const score = Number(a.meta?.score ?? 0);
     const outOf = Number(a.meta?.outOf ?? 1) || 1;
@@ -134,6 +140,8 @@ interface BadgeStats {
   streakBest: number;
   saFull: boolean;
   sure: { right: number; total: number };
+  bossWins: number;
+  lightningBest: number;
 }
 
 export function badgeStats(c: BadgeCtx): BadgeStats {
@@ -156,6 +164,8 @@ export function badgeStats(c: BadgeCtx): BadgeStats {
     streakBest: streakInfo(c.attempts, c.now).best,
     saFull: qs.some((a) => isShortAnswer(a) && Number(a.meta?.score) >= Number(a.meta?.outOf) && Number(a.meta?.outOf) > 0),
     sure: { right: sure.filter((a) => a.correct).length, total: sure.length },
+    bossWins: new Set(c.attempts.filter((a) => isBossMarker(a) && a.meta?.won).map((a) => a.questionId.split(':')[1])).size,
+    lightningBest: Math.max(0, ...c.attempts.filter(isLightningMarker).map((a) => Number(a.meta?.score ?? 0))),
   };
 }
 
@@ -178,6 +188,9 @@ export const BADGES: Badge[] = [
   { id: 'streak-3', icon: '📅', name: 'Three-peat', desc: 'Study 3 days in a row', earned: (s) => s.streakBest >= 3 },
   { id: 'streak-5', icon: '🗓️', name: 'Five alive', desc: 'Study 5 days in a row', earned: (s) => s.streakBest >= 5 },
   { id: 'wordsmith', icon: '✍️', name: 'Wordsmith', desc: 'Full marks on a short answer', earned: (s) => s.saFull },
+  { id: 'boss-slayer', icon: '👑', name: 'Boss slayer', desc: 'Beat a chapter boss', earned: (s) => s.bossWins >= 1 },
+  { id: 'boss-sweep', icon: '🐉', name: 'Clean sweep', desc: 'Beat all six chapter bosses', earned: (s) => s.bossWins >= 6 },
+  { id: 'lightning', icon: '⚡', name: 'Lightning reflexes', desc: 'Score 15+ in a lightning round', earned: (s) => s.lightningBest >= 15 },
   { id: 'calibrated', icon: '🧠', name: 'Self-aware', desc: '20+ answers marked “Sure”, 90%+ of them right', earned: (s) => s.sure.total >= 20 && s.sure.right / s.sure.total >= 0.9 },
 ];
 
